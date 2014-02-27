@@ -115,10 +115,10 @@
 						<style>
 							#adContainer {
 								position: absolute;								
-								top: 255px;
+								top: 0px;
 								left: 0px;
 								width: 630px;				
-								height: 80px;				
+								height: 360px;				
 							}
 						</style>	
 						<div class="player-box" style="width:630px; height:360px;" data-engine="flash">
@@ -580,7 +580,7 @@
 
 				try {
 					// Initialize the ads manager. Ad rules playlist will start at this time.
-					adsManager.init(630, 80, google.ima.ViewMode.NORMAL);					
+					adsManager.init(630, 360, google.ima.ViewMode.NORMAL);					
 					// Call play to start showing the ad. Single video and overlay ads will
 					// start at this time; the call will be ignored for ad rules.
 					adsManager.start();
