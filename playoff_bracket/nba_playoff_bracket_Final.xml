@@ -1,0 +1,628 @@
+<PlayoffBracket LeagueID="00" League="NBA" Season="2009-10" SeasonType="Playoffs">
+  <Round ID="1" Description="1st Round">
+    <Conference Name="East">
+      <Series Index="1" Description="1 vs. 8" Team1_city="Cleveland" Team1_name="Cavaliers" Team1ID="1610612739" Team1Abbreviation="CLE" Team1Seed="1" Team1Wins="4" Team2_city="Chicago" Team2_name="Bulls" Team2ID="1610612741" Team2Abbreviation="CHI" Team2Seed="8" Team2Wins="1" SeriesText="CLE Wins series 4-1">
+        <Msg_game_info>
+          <Game_info Game_id="0040900101" Game_date="04/17/2010" Game_time="3:00 PM" Game_date_UTC="2010-04-17" Game_time_UTC="19:00" Game_time_Home="3:00 PM" Game_Date_Home="04/17/2010" Game_time_Away="2:00 PM" Game_Date_Away="04/17/2010" Arena_name="Quicken Loans Arena" Location="Cleveland, OH" Home_Team_Pts="96" Visitor_Team_Pts="83" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612739" Team_city="Cleveland" Team_name="Cavaliers" Team_abr="CLE" />
+          <Visitor_team Team_id="1610612741" Team_city="Chicago" Team_name="Bulls" Team_abr="CHI" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900102" Game_date="04/19/2010" Game_time="8:00 PM" Game_date_UTC="2010-04-20" Game_time_UTC="00:00" Game_time_Home="8:00 PM" Game_Date_Home="04/19/2010" Game_time_Away="7:00 PM" Game_Date_Away="04/19/2010" Arena_name="Quicken Loans Arena" Location="Cleveland, OH" Home_Team_Pts="112" Visitor_Team_Pts="102" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612739" Team_city="Cleveland" Team_name="Cavaliers" Team_abr="CLE" />
+          <Visitor_team Team_id="1610612741" Team_city="Chicago" Team_name="Bulls" Team_abr="CHI" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900103" Game_date="04/22/2010" Game_time="7:00 PM" Game_date_UTC="2010-04-22" Game_time_UTC="23:00" Game_time_Home="6:00 PM" Game_Date_Home="04/22/2010" Game_time_Away="7:00 PM" Game_Date_Away="04/22/2010" Arena_name="United Center" Location="Chicago, IL" Home_Team_Pts="108" Visitor_Team_Pts="106" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612741" Team_city="Chicago" Team_name="Bulls" Team_abr="CHI" />
+          <Visitor_team Team_id="1610612739" Team_city="Cleveland" Team_name="Cavaliers" Team_abr="CLE" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900104" Game_date="04/25/2010" Game_time="3:30 PM" Game_date_UTC="2010-04-25" Game_time_UTC="19:30" Game_time_Home="2:30 PM" Game_Date_Home="04/25/2010" Game_time_Away="3:30 PM" Game_Date_Away="04/25/2010" Arena_name="United Center" Location="Chicago, IL" Home_Team_Pts="98" Visitor_Team_Pts="121" Game_Status="3" Game_Sequence="2" Period="4" />
+          <Home_team Team_id="1610612741" Team_city="Chicago" Team_name="Bulls" Team_abr="CHI" />
+          <Visitor_team Team_id="1610612739" Team_city="Cleveland" Team_name="Cavaliers" Team_abr="CLE" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900105" Game_date="04/27/2010" Game_time="8:00 PM" Game_date_UTC="2010-04-28" Game_time_UTC="00:00" Game_time_Home="8:00 PM" Game_Date_Home="04/27/2010" Game_time_Away="7:00 PM" Game_Date_Away="04/27/2010" Arena_name="Quicken Loans Arena" Location="Cleveland, OH" Home_Team_Pts="96" Visitor_Team_Pts="94" Game_Status="3" Game_Sequence="2" Period="4" />
+          <Home_team Team_id="1610612739" Team_city="Cleveland" Team_name="Cavaliers" Team_abr="CLE" />
+          <Visitor_team Team_id="1610612741" Team_city="Chicago" Team_name="Bulls" Team_abr="CHI" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+      </Series>
+      <Series Index="2" Description="4 vs. 5" Team1_city="Boston" Team1_name="Celtics" Team1ID="1610612738" Team1Abbreviation="BOS" Team1Seed="4" Team1Wins="4" Team2_city="Miami" Team2_name="Heat" Team2ID="1610612748" Team2Abbreviation="MIA" Team2Seed="5" Team2Wins="1" SeriesText="BOS Wins series 4-1">
+        <Msg_game_info>
+          <Game_info Game_id="0040900131" Game_date="04/17/2010" Game_time="8:00 PM" Game_date_UTC="2010-04-18" Game_time_UTC="00:00" Game_time_Home="8:00 PM" Game_Date_Home="04/17/2010" Game_time_Away="8:00 PM" Game_Date_Away="04/17/2010" Arena_name="TD Banknorth Garden" Location="Boston, MA" Home_Team_Pts="85" Visitor_Team_Pts="76" Game_Status="3" Game_Sequence="3" Period="4" />
+          <Home_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <Visitor_team Team_id="1610612748" Team_city="Miami" Team_name="Heat" Team_abr="MIA" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900132" Game_date="04/20/2010" Game_time="8:00 PM" Game_date_UTC="2010-04-21" Game_time_UTC="00:00" Game_time_Home="8:00 PM" Game_Date_Home="04/20/2010" Game_time_Away="8:00 PM" Game_Date_Away="04/20/2010" Arena_name="TD Banknorth Garden" Location="Boston, MA" Home_Team_Pts="106" Visitor_Team_Pts="77" Game_Status="3" Game_Sequence="2" Period="4" />
+          <Home_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <Visitor_team Team_id="1610612748" Team_city="Miami" Team_name="Heat" Team_abr="MIA" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900133" Game_date="04/23/2010" Game_time="7:00 PM" Game_date_UTC="2010-04-23" Game_time_UTC="23:00" Game_time_Home="7:00 PM" Game_Date_Home="04/23/2010" Game_time_Away="7:00 PM" Game_Date_Away="04/23/2010" Arena_name="American Airlines Arena" Location="Miami, FL" Home_Team_Pts="98" Visitor_Team_Pts="100" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612748" Team_city="Miami" Team_name="Heat" Team_abr="MIA" />
+          <Visitor_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900134" Game_date="04/25/2010" Game_time="1:00 PM" Game_date_UTC="2010-04-25" Game_time_UTC="17:00" Game_time_Home="1:00 PM" Game_Date_Home="04/25/2010" Game_time_Away="1:00 PM" Game_Date_Away="04/25/2010" Arena_name="American Airlines Arena" Location="Miami, FL" Home_Team_Pts="101" Visitor_Team_Pts="92" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612748" Team_city="Miami" Team_name="Heat" Team_abr="MIA" />
+          <Visitor_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900135" Game_date="04/27/2010" Game_time="7:00 PM" Game_date_UTC="2010-04-27" Game_time_UTC="23:00" Game_time_Home="7:00 PM" Game_Date_Home="04/27/2010" Game_time_Away="7:00 PM" Game_Date_Away="04/27/2010" Arena_name="TD Banknorth Garden" Location="Boston, MA" Home_Team_Pts="96" Visitor_Team_Pts="86" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <Visitor_team Team_id="1610612748" Team_city="Miami" Team_name="Heat" Team_abr="MIA" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+      </Series>
+      <Series Index="3" Description="3 vs. 6" Team1_city="Atlanta" Team1_name="Hawks" Team1ID="1610612737" Team1Abbreviation="ATL" Team1Seed="3" Team1Wins="4" Team2_city="Milwaukee" Team2_name="Bucks" Team2ID="1610612749" Team2Abbreviation="MIL" Team2Seed="6" Team2Wins="3" SeriesText="ATL Wins series 4-3">
+        <Msg_game_info>
+          <Game_info Game_id="0040900121" Game_date="04/17/2010" Game_time="5:30 PM" Game_date_UTC="2010-04-17" Game_time_UTC="21:30" Game_time_Home="5:30 PM" Game_Date_Home="04/17/2010" Game_time_Away="4:30 PM" Game_Date_Away="04/17/2010" Arena_name="Philips Arena" Location="Atlanta, GA" Home_Team_Pts="102" Visitor_Team_Pts="92" Game_Status="3" Game_Sequence="2" Period="4" />
+          <Home_team Team_id="1610612737" Team_city="Atlanta" Team_name="Hawks" Team_abr="ATL" />
+          <Visitor_team Team_id="1610612749" Team_city="Milwaukee" Team_name="Bucks" Team_abr="MIL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900122" Game_date="04/20/2010" Game_time="7:00 PM" Game_date_UTC="2010-04-20" Game_time_UTC="23:00" Game_time_Home="7:00 PM" Game_Date_Home="04/20/2010" Game_time_Away="6:00 PM" Game_Date_Away="04/20/2010" Arena_name="Philips Arena" Location="Atlanta, GA" Home_Team_Pts="96" Visitor_Team_Pts="86" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612737" Team_city="Atlanta" Team_name="Hawks" Team_abr="ATL" />
+          <Visitor_team Team_id="1610612749" Team_city="Milwaukee" Team_name="Bucks" Team_abr="MIL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900123" Game_date="04/24/2010" Game_time="7:00 PM" Game_date_UTC="2010-04-24" Game_time_UTC="23:00" Game_time_Home="6:00 PM" Game_Date_Home="04/24/2010" Game_time_Away="7:00 PM" Game_Date_Away="04/24/2010" Arena_name="Bradley Center" Location="Milwaukee, WI" Home_Team_Pts="107" Visitor_Team_Pts="89" Game_Status="3" Game_Sequence="3" Period="4" />
+          <Home_team Team_id="1610612749" Team_city="Milwaukee" Team_name="Bucks" Team_abr="MIL" />
+          <Visitor_team Team_id="1610612737" Team_city="Atlanta" Team_name="Hawks" Team_abr="ATL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900124" Game_date="04/26/2010" Game_time="8:30 PM" Game_date_UTC="2010-04-27" Game_time_UTC="00:30" Game_time_Home="7:30 PM" Game_Date_Home="04/26/2010" Game_time_Away="8:30 PM" Game_Date_Away="04/26/2010" Arena_name="Bradley Center" Location="Milwaukee, WI" Home_Team_Pts="111" Visitor_Team_Pts="104" Game_Status="3" Game_Sequence="2" Period="4" />
+          <Home_team Team_id="1610612749" Team_city="Milwaukee" Team_name="Bucks" Team_abr="MIL" />
+          <Visitor_team Team_id="1610612737" Team_city="Atlanta" Team_name="Hawks" Team_abr="ATL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900125" Game_date="04/28/2010" Game_time="8:00 PM" Game_date_UTC="2010-04-29" Game_time_UTC="00:00" Game_time_Home="8:00 PM" Game_Date_Home="04/28/2010" Game_time_Away="7:00 PM" Game_Date_Away="04/28/2010" Arena_name="Philips Arena" Location="Atlanta, GA" Home_Team_Pts="87" Visitor_Team_Pts="91" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612737" Team_city="Atlanta" Team_name="Hawks" Team_abr="ATL" />
+          <Visitor_team Team_id="1610612749" Team_city="Milwaukee" Team_name="Bucks" Team_abr="MIL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900126" Game_date="04/30/2010" Game_time="7:00 PM" Game_date_UTC="2010-04-30" Game_time_UTC="23:00" Game_time_Home="6:00 PM" Game_Date_Home="04/30/2010" Game_time_Away="7:00 PM" Game_Date_Away="04/30/2010" Arena_name="Bradley Center" Location="Milwaukee, WI" Home_Team_Pts="69" Visitor_Team_Pts="83" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612749" Team_city="Milwaukee" Team_name="Bucks" Team_abr="MIL" />
+          <Visitor_team Team_id="1610612737" Team_city="Atlanta" Team_name="Hawks" Team_abr="ATL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900127" Game_date="05/02/2010" Game_time="1:00 PM" Game_date_UTC="2010-05-02" Game_time_UTC="17:00" Game_time_Home="1:00 PM" Game_Date_Home="05/02/2010" Game_time_Away="12:00 PM" Game_Date_Away="05/02/2010" Arena_name="Philips Arena" Location="Atlanta, GA" Home_Team_Pts="95" Visitor_Team_Pts="74" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612737" Team_city="Atlanta" Team_name="Hawks" Team_abr="ATL" />
+          <Visitor_team Team_id="1610612749" Team_city="Milwaukee" Team_name="Bucks" Team_abr="MIL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+      </Series>
+      <Series Index="4" Description="2 vs. 7" Team1_city="Orlando" Team1_name="Magic" Team1ID="1610612753" Team1Abbreviation="ORL" Team1Seed="2" Team1Wins="4" Team2_city="Charlotte" Team2_name="Bobcats" Team2ID="1610612766" Team2Abbreviation="CHA" Team2Seed="7" Team2Wins="0" SeriesText="ORL Wins series 4-0">
+        <Msg_game_info>
+          <Game_info Game_id="0040900111" Game_date="04/18/2010" Game_time="5:30 PM" Game_date_UTC="2010-04-18" Game_time_UTC="21:30" Game_time_Home="5:30 PM" Game_Date_Home="04/18/2010" Game_time_Away="5:30 PM" Game_Date_Away="04/18/2010" Arena_name="Amway Arena" Location="Orlando, FL" Home_Team_Pts="98" Visitor_Team_Pts="89" Game_Status="3" Game_Sequence="2" Period="4" />
+          <Home_team Team_id="1610612753" Team_city="Orlando" Team_name="Magic" Team_abr="ORL" />
+          <Visitor_team Team_id="1610612766" Team_city="Charlotte" Team_name="Bobcats" Team_abr="CHA" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900112" Game_date="04/21/2010" Game_time="7:00 PM" Game_date_UTC="2010-04-21" Game_time_UTC="23:00" Game_time_Home="7:00 PM" Game_Date_Home="04/21/2010" Game_time_Away="7:00 PM" Game_Date_Away="04/21/2010" Arena_name="Amway Arena" Location="Orlando, FL" Home_Team_Pts="92" Visitor_Team_Pts="77" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612753" Team_city="Orlando" Team_name="Magic" Team_abr="ORL" />
+          <Visitor_team Team_id="1610612766" Team_city="Charlotte" Team_name="Bobcats" Team_abr="CHA" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900113" Game_date="04/24/2010" Game_time="2:00 PM" Game_date_UTC="2010-04-24" Game_time_UTC="18:00" Game_time_Home="2:00 PM" Game_Date_Home="04/24/2010" Game_time_Away="2:00 PM" Game_Date_Away="04/24/2010" Arena_name="Charlotte Bobcats Arena" Location="Charlotte, NC" Home_Team_Pts="86" Visitor_Team_Pts="90" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612766" Team_city="Charlotte" Team_name="Bobcats" Team_abr="CHA" />
+          <Visitor_team Team_id="1610612753" Team_city="Orlando" Team_name="Magic" Team_abr="ORL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900114" Game_date="04/26/2010" Game_time="8:00 PM" Game_date_UTC="2010-04-27" Game_time_UTC="00:00" Game_time_Home="8:00 PM" Game_Date_Home="04/26/2010" Game_time_Away="8:00 PM" Game_Date_Away="04/26/2010" Arena_name="Charlotte Bobcats Arena" Location="Charlotte, NC" Home_Team_Pts="90" Visitor_Team_Pts="99" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612766" Team_city="Charlotte" Team_name="Bobcats" Team_abr="CHA" />
+          <Visitor_team Team_id="1610612753" Team_city="Orlando" Team_name="Magic" Team_abr="ORL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+      </Series>
+    </Conference>
+    <Conference Name="West">
+      <Series Index="1" Description="1 vs. 8" Team1_city="Los Angeles" Team1_name="Lakers" Team1ID="1610612747" Team1Abbreviation="LAL" Team1Seed="1" Team1Wins="4" Team2_city="Oklahoma City" Team2_name="Thunder" Team2ID="1610612760" Team2Abbreviation="OKC" Team2Seed="8" Team2Wins="2" SeriesText="LAL Wins series 4-2">
+        <Msg_game_info>
+          <Game_info Game_id="0040900141" Game_date="04/18/2010" Game_time="3:00 PM" Game_date_UTC="2010-04-18" Game_time_UTC="19:00" Game_time_Home="12:00 PM" Game_Date_Home="04/18/2010" Game_time_Away="2:00 PM" Game_Date_Away="04/18/2010" Arena_name="Staples Center" Location="Los Angeles, CA" Home_Team_Pts="87" Visitor_Team_Pts="79" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <Visitor_team Team_id="1610612760" Team_city="Oklahoma City" Team_name="Thunder" Team_abr="OKC" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900142" Game_date="04/20/2010" Game_time="10:30 PM" Game_date_UTC="2010-04-21" Game_time_UTC="02:30" Game_time_Home="7:30 PM" Game_Date_Home="04/20/2010" Game_time_Away="9:30 PM" Game_Date_Away="04/20/2010" Arena_name="Staples Center" Location="Los Angeles, CA" Home_Team_Pts="95" Visitor_Team_Pts="92" Game_Status="3" Game_Sequence="4" Period="4" />
+          <Home_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <Visitor_team Team_id="1610612760" Team_city="Oklahoma City" Team_name="Thunder" Team_abr="OKC" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900143" Game_date="04/22/2010" Game_time="9:30 PM" Game_date_UTC="2010-04-23" Game_time_UTC="01:30" Game_time_Home="8:30 PM" Game_Date_Home="04/22/2010" Game_time_Away="6:30 PM" Game_Date_Away="04/22/2010" Arena_name="Ford Center" Location="Oklahoma City, OK" Home_Team_Pts="101" Visitor_Team_Pts="96" Game_Status="3" Game_Sequence="2" Period="4" />
+          <Home_team Team_id="1610612760" Team_city="Oklahoma City" Team_name="Thunder" Team_abr="OKC" />
+          <Visitor_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900144" Game_date="04/24/2010" Game_time="9:30 PM" Game_date_UTC="2010-04-25" Game_time_UTC="01:30" Game_time_Home="8:30 PM" Game_Date_Home="04/24/2010" Game_time_Away="6:30 PM" Game_Date_Away="04/24/2010" Arena_name="Ford Center" Location="Oklahoma City, OK" Home_Team_Pts="110" Visitor_Team_Pts="89" Game_Status="3" Game_Sequence="4" Period="4" />
+          <Home_team Team_id="1610612760" Team_city="Oklahoma City" Team_name="Thunder" Team_abr="OKC" />
+          <Visitor_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900145" Game_date="04/27/2010" Game_time="10:30 PM" Game_date_UTC="2010-04-28" Game_time_UTC="02:30" Game_time_Home="7:30 PM" Game_Date_Home="04/27/2010" Game_time_Away="9:30 PM" Game_Date_Away="04/27/2010" Arena_name="Staples Center" Location="Los Angeles, CA" Home_Team_Pts="111" Visitor_Team_Pts="87" Game_Status="3" Game_Sequence="4" Period="4" />
+          <Home_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <Visitor_team Team_id="1610612760" Team_city="Oklahoma City" Team_name="Thunder" Team_abr="OKC" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900146" Game_date="04/30/2010" Game_time="9:30 PM" Game_date_UTC="2010-05-01" Game_time_UTC="01:30" Game_time_Home="8:30 PM" Game_Date_Home="04/30/2010" Game_time_Away="6:30 PM" Game_Date_Away="04/30/2010" Arena_name="Ford Center" Location="Oklahoma City, OK" Home_Team_Pts="94" Visitor_Team_Pts="95" Game_Status="3" Game_Sequence="2" Period="4" />
+          <Home_team Team_id="1610612760" Team_city="Oklahoma City" Team_name="Thunder" Team_abr="OKC" />
+          <Visitor_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+      </Series>
+      <Series Index="2" Description="4 vs. 5" Team1_city="Denver" Team1_name="Nuggets" Team1ID="1610612743" Team1Abbreviation="DEN" Team1Seed="4" Team1Wins="2" Team2_city="Utah" Team2_name="Jazz" Team2ID="1610612762" Team2Abbreviation="UTA" Team2Seed="5" Team2Wins="4" SeriesText="UTA Wins series 4-2">
+        <Msg_game_info>
+          <Game_info Game_id="0040900171" Game_date="04/17/2010" Game_time="10:30 PM" Game_date_UTC="2010-04-18" Game_time_UTC="02:30" Game_time_Home="8:30 PM" Game_Date_Home="04/17/2010" Game_time_Away="8:30 PM" Game_Date_Away="04/17/2010" Arena_name="Pepsi Center" Location="Denver, CO" Home_Team_Pts="126" Visitor_Team_Pts="113" Game_Status="3" Game_Sequence="4" Period="4" />
+          <Home_team Team_id="1610612743" Team_city="Denver" Team_name="Nuggets" Team_abr="DEN" />
+          <Visitor_team Team_id="1610612762" Team_city="Utah" Team_name="Jazz" Team_abr="UTA" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900172" Game_date="04/19/2010" Game_time="10:30 PM" Game_date_UTC="2010-04-20" Game_time_UTC="02:30" Game_time_Home="8:30 PM" Game_Date_Home="04/19/2010" Game_time_Away="8:30 PM" Game_Date_Away="04/19/2010" Arena_name="Pepsi Center" Location="Denver, CO" Home_Team_Pts="111" Visitor_Team_Pts="114" Game_Status="3" Game_Sequence="2" Period="4" />
+          <Home_team Team_id="1610612743" Team_city="Denver" Team_name="Nuggets" Team_abr="DEN" />
+          <Visitor_team Team_id="1610612762" Team_city="Utah" Team_name="Jazz" Team_abr="UTA" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900173" Game_date="04/23/2010" Game_time="10:30 PM" Game_date_UTC="2010-04-24" Game_time_UTC="02:30" Game_time_Home="8:30 PM" Game_Date_Home="04/23/2010" Game_time_Away="8:30 PM" Game_Date_Away="04/23/2010" Arena_name="EnergySolutions Arena" Location="Salt Lake City, UT" Home_Team_Pts="105" Visitor_Team_Pts="93" Game_Status="3" Game_Sequence="3" Period="4" />
+          <Home_team Team_id="1610612762" Team_city="Utah" Team_name="Jazz" Team_abr="UTA" />
+          <Visitor_team Team_id="1610612743" Team_city="Denver" Team_name="Nuggets" Team_abr="DEN" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900174" Game_date="04/25/2010" Game_time="9:30 PM" Game_date_UTC="2010-04-26" Game_time_UTC="01:30" Game_time_Home="7:30 PM" Game_Date_Home="04/25/2010" Game_time_Away="7:30 PM" Game_Date_Away="04/25/2010" Arena_name="EnergySolutions Arena" Location="Salt Lake City, UT" Home_Team_Pts="117" Visitor_Team_Pts="106" Game_Status="3" Game_Sequence="4" Period="4" />
+          <Home_team Team_id="1610612762" Team_city="Utah" Team_name="Jazz" Team_abr="UTA" />
+          <Visitor_team Team_id="1610612743" Team_city="Denver" Team_name="Nuggets" Team_abr="DEN" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900175" Game_date="04/28/2010" Game_time="10:30 PM" Game_date_UTC="2010-04-29" Game_time_UTC="02:30" Game_time_Home="8:30 PM" Game_Date_Home="04/28/2010" Game_time_Away="8:30 PM" Game_Date_Away="04/28/2010" Arena_name="Pepsi Center" Location="Denver, CO" Home_Team_Pts="116" Visitor_Team_Pts="102" Game_Status="3" Game_Sequence="2" Period="4" />
+          <Home_team Team_id="1610612743" Team_city="Denver" Team_name="Nuggets" Team_abr="DEN" />
+          <Visitor_team Team_id="1610612762" Team_city="Utah" Team_name="Jazz" Team_abr="UTA" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900176" Game_date="04/30/2010" Game_time="10:00 PM" Game_date_UTC="2010-05-01" Game_time_UTC="02:00" Game_time_Home="8:00 PM" Game_Date_Home="04/30/2010" Game_time_Away="8:00 PM" Game_Date_Away="04/30/2010" Arena_name="EnergySolutions Arena" Location="Salt Lake City, UT" Home_Team_Pts="112" Visitor_Team_Pts="104" Game_Status="3" Game_Sequence="3" Period="4" />
+          <Home_team Team_id="1610612762" Team_city="Utah" Team_name="Jazz" Team_abr="UTA" />
+          <Visitor_team Team_id="1610612743" Team_city="Denver" Team_name="Nuggets" Team_abr="DEN" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+      </Series>
+      <Series Index="3" Description="3 vs. 6" Team1_city="Phoenix" Team1_name="Suns" Team1ID="1610612756" Team1Abbreviation="PHX" Team1Seed="3" Team1Wins="4" Team2_city="Portland" Team2_name="Trail Blazers" Team2ID="1610612757" Team2Abbreviation="POR" Team2Seed="6" Team2Wins="2" SeriesText="PHX Wins series 4-2">
+        <Msg_game_info>
+          <Game_info Game_id="0040900161" Game_date="04/18/2010" Game_time="10:30 PM" Game_date_UTC="2010-04-19" Game_time_UTC="02:30" Game_time_Home="7:30 PM" Game_Date_Home="04/18/2010" Game_time_Away="7:30 PM" Game_Date_Away="04/18/2010" Arena_name="US Airways Center" Location="Phoenix, AZ" Home_Team_Pts="100" Visitor_Team_Pts="105" Game_Status="3" Game_Sequence="4" Period="4" />
+          <Home_team Team_id="1610612756" Team_city="Phoenix" Team_name="Suns" Team_abr="PHX" />
+          <Visitor_team Team_id="1610612757" Team_city="Portland" Team_name="Trail Blazers" Team_abr="POR" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900162" Game_date="04/20/2010" Game_time="10:00 PM" Game_date_UTC="2010-04-21" Game_time_UTC="02:00" Game_time_Home="7:00 PM" Game_Date_Home="04/20/2010" Game_time_Away="7:00 PM" Game_Date_Away="04/20/2010" Arena_name="US Airways Center" Location="Phoenix, AZ" Home_Team_Pts="119" Visitor_Team_Pts="90" Game_Status="3" Game_Sequence="3" Period="4" />
+          <Home_team Team_id="1610612756" Team_city="Phoenix" Team_name="Suns" Team_abr="PHX" />
+          <Visitor_team Team_id="1610612757" Team_city="Portland" Team_name="Trail Blazers" Team_abr="POR" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900163" Game_date="04/22/2010" Game_time="10:00 PM" Game_date_UTC="2010-04-23" Game_time_UTC="02:00" Game_time_Home="7:00 PM" Game_Date_Home="04/22/2010" Game_time_Away="7:00 PM" Game_Date_Away="04/22/2010" Arena_name="Rose Garden" Location="Portland, OR" Home_Team_Pts="89" Visitor_Team_Pts="108" Game_Status="3" Game_Sequence="3" Period="4" />
+          <Home_team Team_id="1610612757" Team_city="Portland" Team_name="Trail Blazers" Team_abr="POR" />
+          <Visitor_team Team_id="1610612756" Team_city="Phoenix" Team_name="Suns" Team_abr="PHX" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900164" Game_date="04/24/2010" Game_time="4:30 PM" Game_date_UTC="2010-04-24" Game_time_UTC="20:30" Game_time_Home="1:30 PM" Game_Date_Home="04/24/2010" Game_time_Away="1:30 PM" Game_Date_Away="04/24/2010" Arena_name="Rose Garden" Location="Portland, OR" Home_Team_Pts="96" Visitor_Team_Pts="87" Game_Status="3" Game_Sequence="2" Period="4" />
+          <Home_team Team_id="1610612757" Team_city="Portland" Team_name="Trail Blazers" Team_abr="POR" />
+          <Visitor_team Team_id="1610612756" Team_city="Phoenix" Team_name="Suns" Team_abr="PHX" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900165" Game_date="04/26/2010" Game_time="10:30 PM" Game_date_UTC="2010-04-27" Game_time_UTC="02:30" Game_time_Home="7:30 PM" Game_Date_Home="04/26/2010" Game_time_Away="7:30 PM" Game_Date_Away="04/26/2010" Arena_name="US Airways Center" Location="Phoenix, AZ" Home_Team_Pts="107" Visitor_Team_Pts="88" Game_Status="3" Game_Sequence="3" Period="4" />
+          <Home_team Team_id="1610612756" Team_city="Phoenix" Team_name="Suns" Team_abr="PHX" />
+          <Visitor_team Team_id="1610612757" Team_city="Portland" Team_name="Trail Blazers" Team_abr="POR" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900166" Game_date="04/29/2010" Game_time="10:30 PM" Game_date_UTC="2010-04-30" Game_time_UTC="02:30" Game_time_Home="7:30 PM" Game_Date_Home="04/29/2010" Game_time_Away="7:30 PM" Game_Date_Away="04/29/2010" Arena_name="Rose Garden" Location="Portland, OR" Home_Team_Pts="90" Visitor_Team_Pts="99" Game_Status="3" Game_Sequence="2" Period="4" />
+          <Home_team Team_id="1610612757" Team_city="Portland" Team_name="Trail Blazers" Team_abr="POR" />
+          <Visitor_team Team_id="1610612756" Team_city="Phoenix" Team_name="Suns" Team_abr="PHX" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+      </Series>
+      <Series Index="4" Description="2 vs. 7" Team1_city="Dallas" Team1_name="Mavericks" Team1ID="1610612742" Team1Abbreviation="DAL" Team1Seed="2" Team1Wins="2" Team2_city="San Antonio" Team2_name="Spurs" Team2ID="1610612759" Team2Abbreviation="SAS" Team2Seed="7" Team2Wins="4" SeriesText="SAS Wins series 4-2">
+        <Msg_game_info>
+          <Game_info Game_id="0040900151" Game_date="04/18/2010" Game_time="8:00 PM" Game_date_UTC="2010-04-19" Game_time_UTC="00:00" Game_time_Home="7:00 PM" Game_Date_Home="04/18/2010" Game_time_Away="7:00 PM" Game_Date_Away="04/18/2010" Arena_name="American Airlines Center" Location="Dallas, TX" Home_Team_Pts="100" Visitor_Team_Pts="94" Game_Status="3" Game_Sequence="3" Period="4" />
+          <Home_team Team_id="1610612742" Team_city="Dallas" Team_name="Mavericks" Team_abr="DAL" />
+          <Visitor_team Team_id="1610612759" Team_city="San Antonio" Team_name="Spurs" Team_abr="SAS" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900152" Game_date="04/21/2010" Game_time="9:30 PM" Game_date_UTC="2010-04-22" Game_time_UTC="01:30" Game_time_Home="8:30 PM" Game_Date_Home="04/21/2010" Game_time_Away="8:30 PM" Game_Date_Away="04/21/2010" Arena_name="American Airlines Center" Location="Dallas, TX" Home_Team_Pts="88" Visitor_Team_Pts="102" Game_Status="3" Game_Sequence="2" Period="4" />
+          <Home_team Team_id="1610612742" Team_city="Dallas" Team_name="Mavericks" Team_abr="DAL" />
+          <Visitor_team Team_id="1610612759" Team_city="San Antonio" Team_name="Spurs" Team_abr="SAS" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900153" Game_date="04/23/2010" Game_time="9:30 PM" Game_date_UTC="2010-04-24" Game_time_UTC="01:30" Game_time_Home="8:30 PM" Game_Date_Home="04/23/2010" Game_time_Away="8:30 PM" Game_Date_Away="04/23/2010" Arena_name="AT&amp;T Center" Location="San Antonio, TX" Home_Team_Pts="94" Visitor_Team_Pts="90" Game_Status="3" Game_Sequence="2" Period="4" />
+          <Home_team Team_id="1610612759" Team_city="San Antonio" Team_name="Spurs" Team_abr="SAS" />
+          <Visitor_team Team_id="1610612742" Team_city="Dallas" Team_name="Mavericks" Team_abr="DAL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900154" Game_date="04/25/2010" Game_time="7:00 PM" Game_date_UTC="2010-04-25" Game_time_UTC="23:00" Game_time_Home="6:00 PM" Game_Date_Home="04/25/2010" Game_time_Away="6:00 PM" Game_Date_Away="04/25/2010" Arena_name="AT&amp;T Center" Location="San Antonio, TX" Home_Team_Pts="92" Visitor_Team_Pts="89" Game_Status="3" Game_Sequence="3" Period="4" />
+          <Home_team Team_id="1610612759" Team_city="San Antonio" Team_name="Spurs" Team_abr="SAS" />
+          <Visitor_team Team_id="1610612742" Team_city="Dallas" Team_name="Mavericks" Team_abr="DAL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900155" Game_date="04/27/2010" Game_time="9:30 PM" Game_date_UTC="2010-04-28" Game_time_UTC="01:30" Game_time_Home="8:30 PM" Game_Date_Home="04/27/2010" Game_time_Away="8:30 PM" Game_Date_Away="04/27/2010" Arena_name="American Airlines Center" Location="Dallas, TX" Home_Team_Pts="103" Visitor_Team_Pts="81" Game_Status="3" Game_Sequence="3" Period="4" />
+          <Home_team Team_id="1610612742" Team_city="Dallas" Team_name="Mavericks" Team_abr="DAL" />
+          <Visitor_team Team_id="1610612759" Team_city="San Antonio" Team_name="Spurs" Team_abr="SAS" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900156" Game_date="04/29/2010" Game_time="8:00 PM" Game_date_UTC="2010-04-30" Game_time_UTC="00:00" Game_time_Home="7:00 PM" Game_Date_Home="04/29/2010" Game_time_Away="7:00 PM" Game_Date_Away="04/29/2010" Arena_name="AT&amp;T Center" Location="San Antonio, TX" Home_Team_Pts="97" Visitor_Team_Pts="87" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612759" Team_city="San Antonio" Team_name="Spurs" Team_abr="SAS" />
+          <Visitor_team Team_id="1610612742" Team_city="Dallas" Team_name="Mavericks" Team_abr="DAL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+      </Series>
+    </Conference>
+  </Round>
+  <Round ID="2" Description="Conf. Semi Finals">
+    <Conference Name="East">
+      <Series Index="1" Description="1 vs. 4" Team1_city="Cleveland" Team1_name="Cavaliers" Team1ID="1610612739" Team1Abbreviation="CLE" Team1Seed="1" Team1Wins="2" Team2_city="Boston" Team2_name="Celtics" Team2ID="1610612738" Team2Abbreviation="BOS" Team2Seed="4" Team2Wins="4" SeriesText="BOS Wins series 4-2">
+        <Msg_game_info>
+          <Game_info Game_id="0040900201" Game_date="05/01/2010" Game_time="8:00 PM" Game_date_UTC="2010-05-02" Game_time_UTC="00:00" Game_time_Home="8:00 PM" Game_Date_Home="05/01/2010" Game_time_Away="8:00 PM" Game_Date_Away="05/01/2010" Arena_name="Quicken Loans Arena" Location="Cleveland, OH" Home_Team_Pts="101" Visitor_Team_Pts="93" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612739" Team_city="Cleveland" Team_name="Cavaliers" Team_abr="CLE" />
+          <Visitor_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900202" Game_date="05/03/2010" Game_time="8:00 PM" Game_date_UTC="2010-05-04" Game_time_UTC="00:00" Game_time_Home="8:00 PM" Game_Date_Home="05/03/2010" Game_time_Away="8:00 PM" Game_Date_Away="05/03/2010" Arena_name="Quicken Loans Arena" Location="Cleveland, OH" Home_Team_Pts="86" Visitor_Team_Pts="104" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612739" Team_city="Cleveland" Team_name="Cavaliers" Team_abr="CLE" />
+          <Visitor_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900203" Game_date="05/07/2010" Game_time="7:00 PM" Game_date_UTC="2010-05-07" Game_time_UTC="23:00" Game_time_Home="7:00 PM" Game_Date_Home="05/07/2010" Game_time_Away="7:00 PM" Game_Date_Away="05/07/2010" Arena_name="TD Banknorth Garden" Location="Boston, MA" Home_Team_Pts="95" Visitor_Team_Pts="124" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <Visitor_team Team_id="1610612739" Team_city="Cleveland" Team_name="Cavaliers" Team_abr="CLE" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900204" Game_date="05/09/2010" Game_time="3:30 PM" Game_date_UTC="2010-05-09" Game_time_UTC="19:30" Game_time_Home="3:30 PM" Game_Date_Home="05/09/2010" Game_time_Away="3:30 PM" Game_Date_Away="05/09/2010" Arena_name="TD Banknorth Garden" Location="Boston, MA" Home_Team_Pts="97" Visitor_Team_Pts="87" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <Visitor_team Team_id="1610612739" Team_city="Cleveland" Team_name="Cavaliers" Team_abr="CLE" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900205" Game_date="05/11/2010" Game_time="8:00 PM" Game_date_UTC="2010-05-12" Game_time_UTC="00:00" Game_time_Home="8:00 PM" Game_Date_Home="05/11/2010" Game_time_Away="8:00 PM" Game_Date_Away="05/11/2010" Arena_name="Quicken Loans Arena" Location="Cleveland, OH" Home_Team_Pts="88" Visitor_Team_Pts="120" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612739" Team_city="Cleveland" Team_name="Cavaliers" Team_abr="CLE" />
+          <Visitor_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900206" Game_date="05/13/2010" Game_time="8:00 PM" Game_date_UTC="2010-05-14" Game_time_UTC="00:00" Game_time_Home="8:00 PM" Game_Date_Home="05/13/2010" Game_time_Away="8:00 PM" Game_Date_Away="05/13/2010" Arena_name="TD Banknorth Garden" Location="Boston, MA" Home_Team_Pts="94" Visitor_Team_Pts="85" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <Visitor_team Team_id="1610612739" Team_city="Cleveland" Team_name="Cavaliers" Team_abr="CLE" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+      </Series>
+      <Series Index="2" Description="2 vs. 3" Team1_city="Atlanta" Team1_name="Hawks" Team1ID="1610612737" Team1Abbreviation="ATL" Team1Seed="3" Team1Wins="0" Team2_city="Orlando" Team2_name="Magic" Team2ID="1610612753" Team2Abbreviation="ORL" Team2Seed="2" Team2Wins="4" SeriesText="ORL Wins series 4-0">
+        <Msg_game_info>
+          <Game_info Game_id="0040900211" Game_date="05/04/2010" Game_time="8:00 PM" Game_date_UTC="2010-05-05" Game_time_UTC="00:00" Game_time_Home="8:00 PM" Game_Date_Home="05/04/2010" Game_time_Away="8:00 PM" Game_Date_Away="05/04/2010" Arena_name="Amway Arena" Location="Orlando, FL" Home_Team_Pts="114" Visitor_Team_Pts="71" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612753" Team_city="Orlando" Team_name="Magic" Team_abr="ORL" />
+          <Visitor_team Team_id="1610612737" Team_city="Atlanta" Team_name="Hawks" Team_abr="ATL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900212" Game_date="05/06/2010" Game_time="8:00 PM" Game_date_UTC="2010-05-07" Game_time_UTC="00:00" Game_time_Home="8:00 PM" Game_Date_Home="05/06/2010" Game_time_Away="8:00 PM" Game_Date_Away="05/06/2010" Arena_name="Amway Arena" Location="Orlando, FL" Home_Team_Pts="112" Visitor_Team_Pts="98" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612753" Team_city="Orlando" Team_name="Magic" Team_abr="ORL" />
+          <Visitor_team Team_id="1610612737" Team_city="Atlanta" Team_name="Hawks" Team_abr="ATL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900213" Game_date="05/08/2010" Game_time="5:00 PM" Game_date_UTC="2010-05-08" Game_time_UTC="21:00" Game_time_Home="5:00 PM" Game_Date_Home="05/08/2010" Game_time_Away="5:00 PM" Game_Date_Away="05/08/2010" Arena_name="Philips Arena" Location="Atlanta, GA" Home_Team_Pts="75" Visitor_Team_Pts="105" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612737" Team_city="Atlanta" Team_name="Hawks" Team_abr="ATL" />
+          <Visitor_team Team_id="1610612753" Team_city="Orlando" Team_name="Magic" Team_abr="ORL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900214" Game_date="05/10/2010" Game_time="8:00 PM" Game_date_UTC="2010-05-11" Game_time_UTC="00:00" Game_time_Home="8:00 PM" Game_Date_Home="05/10/2010" Game_time_Away="8:00 PM" Game_Date_Away="05/10/2010" Arena_name="Philips Arena" Location="Atlanta, GA" Home_Team_Pts="84" Visitor_Team_Pts="98" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612737" Team_city="Atlanta" Team_name="Hawks" Team_abr="ATL" />
+          <Visitor_team Team_id="1610612753" Team_city="Orlando" Team_name="Magic" Team_abr="ORL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+      </Series>
+    </Conference>
+    <Conference Name="West">
+      <Series Index="1" Description="1 vs. 5" Team1_city="Los Angeles" Team1_name="Lakers" Team1ID="1610612747" Team1Abbreviation="LAL" Team1Seed="1" Team1Wins="4" Team2_city="Utah" Team2_name="Jazz" Team2ID="1610612762" Team2Abbreviation="UTA" Team2Seed="5" Team2Wins="0" SeriesText="LAL Wins series 4-0">
+        <Msg_game_info>
+          <Game_info Game_id="0040900231" Game_date="05/02/2010" Game_time="3:30 PM" Game_date_UTC="2010-05-02" Game_time_UTC="19:30" Game_time_Home="12:30 PM" Game_Date_Home="05/02/2010" Game_time_Away="1:30 PM" Game_Date_Away="05/02/2010" Arena_name="Staples Center" Location="Los Angeles, CA" Home_Team_Pts="104" Visitor_Team_Pts="99" Game_Status="3" Game_Sequence="2" Period="4" />
+          <Home_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <Visitor_team Team_id="1610612762" Team_city="Utah" Team_name="Jazz" Team_abr="UTA" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900232" Game_date="05/04/2010" Game_time="10:30 PM" Game_date_UTC="2010-05-05" Game_time_UTC="02:30" Game_time_Home="7:30 PM" Game_Date_Home="05/04/2010" Game_time_Away="8:30 PM" Game_Date_Away="05/04/2010" Arena_name="Staples Center" Location="Los Angeles, CA" Home_Team_Pts="111" Visitor_Team_Pts="103" Game_Status="3" Game_Sequence="2" Period="4" />
+          <Home_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <Visitor_team Team_id="1610612762" Team_city="Utah" Team_name="Jazz" Team_abr="UTA" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900233" Game_date="05/08/2010" Game_time="8:00 PM" Game_date_UTC="2010-05-09" Game_time_UTC="00:00" Game_time_Home="6:00 PM" Game_Date_Home="05/08/2010" Game_time_Away="5:00 PM" Game_Date_Away="05/08/2010" Arena_name="EnergySolutions Arena" Location="Salt Lake City, UT" Home_Team_Pts="110" Visitor_Team_Pts="111" Game_Status="3" Game_Sequence="2" Period="4" />
+          <Home_team Team_id="1610612762" Team_city="Utah" Team_name="Jazz" Team_abr="UTA" />
+          <Visitor_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900234" Game_date="05/10/2010" Game_time="10:30 PM" Game_date_UTC="2010-05-11" Game_time_UTC="02:30" Game_time_Home="8:30 PM" Game_Date_Home="05/10/2010" Game_time_Away="7:30 PM" Game_Date_Away="05/10/2010" Arena_name="EnergySolutions Arena" Location="Salt Lake City, UT" Home_Team_Pts="96" Visitor_Team_Pts="111" Game_Status="3" Game_Sequence="2" Period="4" />
+          <Home_team Team_id="1610612762" Team_city="Utah" Team_name="Jazz" Team_abr="UTA" />
+          <Visitor_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+      </Series>
+      <Series Index="2" Description="3 vs. 7" Team1_city="Phoenix" Team1_name="Suns" Team1ID="1610612756" Team1Abbreviation="PHX" Team1Seed="3" Team1Wins="4" Team2_city="San Antonio" Team2_name="Spurs" Team2ID="1610612759" Team2Abbreviation="SAS" Team2Seed="7" Team2Wins="0" SeriesText="PHX Wins series 4-0">
+        <Msg_game_info>
+          <Game_info Game_id="0040900221" Game_date="05/03/2010" Game_time="10:30 PM" Game_date_UTC="2010-05-04" Game_time_UTC="02:30" Game_time_Home="7:30 PM" Game_Date_Home="05/03/2010" Game_time_Away="9:30 PM" Game_Date_Away="05/03/2010" Arena_name="US Airways Center" Location="Phoenix, AZ" Home_Team_Pts="111" Visitor_Team_Pts="102" Game_Status="3" Game_Sequence="2" Period="4" />
+          <Home_team Team_id="1610612756" Team_city="Phoenix" Team_name="Suns" Team_abr="PHX" />
+          <Visitor_team Team_id="1610612759" Team_city="San Antonio" Team_name="Spurs" Team_abr="SAS" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900222" Game_date="05/05/2010" Game_time="9:00 PM" Game_date_UTC="2010-05-06" Game_time_UTC="01:00" Game_time_Home="6:00 PM" Game_Date_Home="05/05/2010" Game_time_Away="8:00 PM" Game_Date_Away="05/05/2010" Arena_name="US Airways Center" Location="Phoenix, AZ" Home_Team_Pts="110" Visitor_Team_Pts="102" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612756" Team_city="Phoenix" Team_name="Suns" Team_abr="PHX" />
+          <Visitor_team Team_id="1610612759" Team_city="San Antonio" Team_name="Spurs" Team_abr="SAS" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900223" Game_date="05/07/2010" Game_time="9:30 PM" Game_date_UTC="2010-05-08" Game_time_UTC="01:30" Game_time_Home="8:30 PM" Game_Date_Home="05/07/2010" Game_time_Away="6:30 PM" Game_Date_Away="05/07/2010" Arena_name="AT&amp;T Center" Location="San Antonio, TX" Home_Team_Pts="96" Visitor_Team_Pts="110" Game_Status="3" Game_Sequence="2" Period="4" />
+          <Home_team Team_id="1610612759" Team_city="San Antonio" Team_name="Spurs" Team_abr="SAS" />
+          <Visitor_team Team_id="1610612756" Team_city="Phoenix" Team_name="Suns" Team_abr="PHX" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900224" Game_date="05/09/2010" Game_time="8:00 PM" Game_date_UTC="2010-05-10" Game_time_UTC="00:00" Game_time_Home="7:00 PM" Game_Date_Home="05/09/2010" Game_time_Away="5:00 PM" Game_Date_Away="05/09/2010" Arena_name="AT&amp;T Center" Location="San Antonio, TX" Home_Team_Pts="101" Visitor_Team_Pts="107" Game_Status="3" Game_Sequence="2" Period="4" />
+          <Home_team Team_id="1610612759" Team_city="San Antonio" Team_name="Spurs" Team_abr="SAS" />
+          <Visitor_team Team_id="1610612756" Team_city="Phoenix" Team_name="Suns" Team_abr="PHX" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+      </Series>
+    </Conference>
+  </Round>
+  <Round ID="3" Description="Conf. Finals">
+    <Conference Name="East">
+      <Series Index="1" Description="2 vs. 4" Team1_city="Boston" Team1_name="Celtics" Team1ID="1610612738" Team1Abbreviation="BOS" Team1Seed="4" Team1Wins="4" Team2_city="Orlando" Team2_name="Magic" Team2ID="1610612753" Team2Abbreviation="ORL" Team2Seed="2" Team2Wins="2" SeriesText="BOS Wins series 4-2">
+        <Msg_game_info>
+          <Game_info Game_id="0040900301" Game_date="05/16/2010" Game_time="3:30 PM" Game_date_UTC="2010-05-16" Game_time_UTC="19:30" Game_time_Home="3:30 PM" Game_Date_Home="05/16/2010" Game_time_Away="3:30 PM" Game_Date_Away="05/16/2010" Arena_name="Amway Arena" Location="Orlando, FL" Home_Team_Pts="88" Visitor_Team_Pts="92" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612753" Team_city="Orlando" Team_name="Magic" Team_abr="ORL" />
+          <Visitor_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900302" Game_date="05/18/2010" Game_time="8:30 PM" Game_date_UTC="2010-05-19" Game_time_UTC="00:30" Game_time_Home="8:30 PM" Game_Date_Home="05/18/2010" Game_time_Away="8:30 PM" Game_Date_Away="05/18/2010" Arena_name="Amway Arena" Location="Orlando, FL" Home_Team_Pts="92" Visitor_Team_Pts="95" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612753" Team_city="Orlando" Team_name="Magic" Team_abr="ORL" />
+          <Visitor_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900303" Game_date="05/22/2010" Game_time="8:30 PM" Game_date_UTC="2010-05-23" Game_time_UTC="00:30" Game_time_Home="8:30 PM" Game_Date_Home="05/22/2010" Game_time_Away="8:30 PM" Game_Date_Away="05/22/2010" Arena_name="TD Banknorth Garden" Location="Boston, MA" Home_Team_Pts="94" Visitor_Team_Pts="71" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <Visitor_team Team_id="1610612753" Team_city="Orlando" Team_name="Magic" Team_abr="ORL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900304" Game_date="05/24/2010" Game_time="8:30 PM" Game_date_UTC="2010-05-25" Game_time_UTC="00:30" Game_time_Home="8:30 PM" Game_Date_Home="05/24/2010" Game_time_Away="8:30 PM" Game_Date_Away="05/24/2010" Arena_name="TD Banknorth Garden" Location="Boston, MA" Home_Team_Pts="92" Visitor_Team_Pts="96" Game_Status="3" Game_Sequence="1" Period="5" />
+          <Home_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <Visitor_team Team_id="1610612753" Team_city="Orlando" Team_name="Magic" Team_abr="ORL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900305" Game_date="05/26/2010" Game_time="8:30 PM" Game_date_UTC="2010-05-27" Game_time_UTC="00:30" Game_time_Home="8:30 PM" Game_Date_Home="05/26/2010" Game_time_Away="8:30 PM" Game_Date_Away="05/26/2010" Arena_name="Amway Arena" Location="Orlando, FL" Home_Team_Pts="113" Visitor_Team_Pts="92" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612753" Team_city="Orlando" Team_name="Magic" Team_abr="ORL" />
+          <Visitor_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900306" Game_date="05/28/2010" Game_time="8:30 PM" Game_date_UTC="2010-05-29" Game_time_UTC="00:30" Game_time_Home="8:30 PM" Game_Date_Home="05/28/2010" Game_time_Away="8:30 PM" Game_Date_Away="05/28/2010" Arena_name="TD Banknorth Garden" Location="Boston, MA" Home_Team_Pts="96" Visitor_Team_Pts="84" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <Visitor_team Team_id="1610612753" Team_city="Orlando" Team_name="Magic" Team_abr="ORL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+      </Series>
+    </Conference>
+    <Conference Name="West">
+      <Series Index="1" Description="1 vs. 3" Team1_city="Los Angeles" Team1_name="Lakers" Team1ID="1610612747" Team1Abbreviation="LAL" Team1Seed="1" Team1Wins="4" Team2_city="Phoenix" Team2_name="Suns" Team2ID="1610612756" Team2Abbreviation="PHX" Team2Seed="3" Team2Wins="2" SeriesText="LAL Wins series 4-2">
+        <Msg_game_info>
+          <Game_info Game_id="0040900311" Game_date="05/17/2010" Game_time="9:00 PM" Game_date_UTC="2010-05-18" Game_time_UTC="01:00" Game_time_Home="6:00 PM" Game_Date_Home="05/17/2010" Game_time_Away="6:00 PM" Game_Date_Away="05/17/2010" Arena_name="Staples Center" Location="Los Angeles, CA" Home_Team_Pts="128" Visitor_Team_Pts="107" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <Visitor_team Team_id="1610612756" Team_city="Phoenix" Team_name="Suns" Team_abr="PHX" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900312" Game_date="05/19/2010" Game_time="9:00 PM" Game_date_UTC="2010-05-20" Game_time_UTC="01:00" Game_time_Home="6:00 PM" Game_Date_Home="05/19/2010" Game_time_Away="6:00 PM" Game_Date_Away="05/19/2010" Arena_name="Staples Center" Location="Los Angeles, CA" Home_Team_Pts="124" Visitor_Team_Pts="112" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <Visitor_team Team_id="1610612756" Team_city="Phoenix" Team_name="Suns" Team_abr="PHX" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900313" Game_date="05/23/2010" Game_time="8:30 PM" Game_date_UTC="2010-05-24" Game_time_UTC="00:30" Game_time_Home="5:30 PM" Game_Date_Home="05/23/2010" Game_time_Away="5:30 PM" Game_Date_Away="05/23/2010" Arena_name="US Airways Center" Location="Phoenix, AZ" Home_Team_Pts="118" Visitor_Team_Pts="109" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612756" Team_city="Phoenix" Team_name="Suns" Team_abr="PHX" />
+          <Visitor_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900314" Game_date="05/25/2010" Game_time="9:00 PM" Game_date_UTC="2010-05-26" Game_time_UTC="01:00" Game_time_Home="6:00 PM" Game_Date_Home="05/25/2010" Game_time_Away="6:00 PM" Game_Date_Away="05/25/2010" Arena_name="US Airways Center" Location="Phoenix, AZ" Home_Team_Pts="115" Visitor_Team_Pts="106" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612756" Team_city="Phoenix" Team_name="Suns" Team_abr="PHX" />
+          <Visitor_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900315" Game_date="05/27/2010" Game_time="9:00 PM" Game_date_UTC="2010-05-28" Game_time_UTC="01:00" Game_time_Home="6:00 PM" Game_Date_Home="05/27/2010" Game_time_Away="6:00 PM" Game_Date_Away="05/27/2010" Arena_name="Staples Center" Location="Los Angeles, CA" Home_Team_Pts="103" Visitor_Team_Pts="101" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <Visitor_team Team_id="1610612756" Team_city="Phoenix" Team_name="Suns" Team_abr="PHX" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900316" Game_date="05/29/2010" Game_time="8:30 PM" Game_date_UTC="2010-05-30" Game_time_UTC="00:30" Game_time_Home="5:30 PM" Game_Date_Home="05/29/2010" Game_time_Away="5:30 PM" Game_Date_Away="05/29/2010" Arena_name="US Airways Center" Location="Phoenix, AZ" Home_Team_Pts="103" Visitor_Team_Pts="111" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612756" Team_city="Phoenix" Team_name="Suns" Team_abr="PHX" />
+          <Visitor_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+      </Series>
+    </Conference>
+  </Round>
+  <Round ID="4" Description="Finals">
+    <Conference Name="NBA Finals">
+      <Series Index="1" Description="1 vs. 4" Team1_city="Los Angeles" Team1_name="Lakers" Team1ID="1610612747" Team1Abbreviation="LAL" Team1Seed="1" Team1Wins="4" Team2_city="Boston" Team2_name="Celtics" Team2ID="1610612738" Team2Abbreviation="BOS" Team2Seed="4" Team2Wins="3" SeriesText="LAL Wins series 4-3">
+        <Msg_game_info>
+          <Game_info Game_id="0040900401" Game_date="06/03/2010" Game_time="9:00 PM" Game_date_UTC="2010-06-04" Game_time_UTC="01:00" Game_time_Home="6:00 PM" Game_Date_Home="06/03/2010" Game_time_Away="9:00 PM" Game_Date_Away="06/03/2010" Arena_name="Staples Center" Location="Los Angeles, CA" Home_Team_Pts="102" Visitor_Team_Pts="89" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <Visitor_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900402" Game_date="06/06/2010" Game_time="8:00 PM" Game_date_UTC="2010-06-07" Game_time_UTC="00:00" Game_time_Home="5:00 PM" Game_Date_Home="06/06/2010" Game_time_Away="8:00 PM" Game_Date_Away="06/06/2010" Arena_name="Staples Center" Location="Los Angeles, CA" Home_Team_Pts="94" Visitor_Team_Pts="103" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <Visitor_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900403" Game_date="06/08/2010" Game_time="9:00 PM" Game_date_UTC="2010-06-09" Game_time_UTC="01:00" Game_time_Home="9:00 PM" Game_Date_Home="06/08/2010" Game_time_Away="6:00 PM" Game_Date_Away="06/08/2010" Arena_name="TD Banknorth Garden" Location="Boston, MA" Home_Team_Pts="84" Visitor_Team_Pts="91" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <Visitor_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900404" Game_date="06/10/2010" Game_time="9:00 PM" Game_date_UTC="2010-06-11" Game_time_UTC="01:00" Game_time_Home="9:00 PM" Game_Date_Home="06/10/2010" Game_time_Away="6:00 PM" Game_Date_Away="06/10/2010" Arena_name="TD Banknorth Garden" Location="Boston, MA" Home_Team_Pts="96" Visitor_Team_Pts="89" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <Visitor_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900405" Game_date="06/13/2010" Game_time="8:00 PM" Game_date_UTC="2010-06-14" Game_time_UTC="00:00" Game_time_Home="8:00 PM" Game_Date_Home="06/13/2010" Game_time_Away="5:00 PM" Game_Date_Away="06/13/2010" Arena_name="TD Banknorth Garden" Location="Boston, MA" Home_Team_Pts="92" Visitor_Team_Pts="86" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <Visitor_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900406" Game_date="06/15/2010" Game_time="9:00 PM" Game_date_UTC="2010-06-16" Game_time_UTC="01:00" Game_time_Home="6:00 PM" Game_Date_Home="06/15/2010" Game_time_Away="9:00 PM" Game_Date_Away="06/15/2010" Arena_name="Staples Center" Location="Los Angeles, CA" Home_Team_Pts="89" Visitor_Team_Pts="67" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <Visitor_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+        <Msg_game_info>
+          <Game_info Game_id="0040900407" Game_date="06/17/2010" Game_time="9:00 PM" Game_date_UTC="2010-06-18" Game_time_UTC="01:00" Game_time_Home="6:00 PM" Game_Date_Home="06/17/2010" Game_time_Away="9:00 PM" Game_Date_Away="06/17/2010" Arena_name="Staples Center" Location="Los Angeles, CA" Home_Team_Pts="83" Visitor_Team_Pts="79" Game_Status="3" Game_Sequence="1" Period="4" />
+          <Home_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+          <Visitor_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+          <TV_Info HomeBroadcasterID="0" Home="" AwayBroadcasterID="0" Away="" NatnlBroadcasterID="0" Natnl="" InternatnlBroadcasterID="0" International="" />
+          <Radio_info HomeRadioBroadcasterID="0" Home="" AwayRadioBroadcasterID="0" Away="" NatnlRadioBroadcasterID="0" Natnl="" InternatnlRadioBroadcasterID="0" International="" />
+        </Msg_game_info>
+      </Series>
+    </Conference>
+  </Round>
+</PlayoffBracket>

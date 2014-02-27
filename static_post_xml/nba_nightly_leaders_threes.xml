@@ -1,0 +1,20 @@
+<Msg_file LeagueID="00" League="NBA" Season="2010-11" SeasonType="Playoffs">
+  <Game Number="0">
+    <Msg_Daily_leaders>
+      <Player_three_leader Person_id="467" Last_name="Kidd" First_name="Jason" Team_id="1610612742" Team_name="Mavericks" Team_city="Dallas" Team_abr="DAL" Threes_Made="6" />
+      <Player_three_leader Person_id="101122" Last_name="Granger" First_name="Danny" Team_id="1610612754" Team_name="Pacers" Team_city="Indiana" Team_abr="IND" Threes_Made="4" />
+      <Player_three_leader Person_id="2594" Last_name="Korver" First_name="Kyle" Team_id="1610612741" Team_name="Bulls" Team_city="Chicago" Team_abr="CHI" Threes_Made="4" />
+      <Player_three_leader Person_id="2749" Last_name="Nelson" First_name="Jameer" Team_id="1610612753" Team_name="Magic" Team_city="Orlando" Team_abr="ORL" Threes_Made="4" />
+      <Player_three_leader Person_id="2037" Last_name="Crawford" First_name="Jamal" Team_id="1610612737" Team_name="Hawks" Team_city="Atlanta" Team_abr="ATL" Threes_Made="4" />
+      <Player_three_leader Person_id="201950" Last_name="Holiday" First_name="Jrue" Team_id="1610612755" Team_name="76ers" Team_city="Philadelphia" Team_abr="PHI" Threes_Made="3" />
+      <Player_three_leader Person_id="201985" Last_name="Price" First_name="A.J." Team_id="1610612754" Team_name="Pacers" Team_city="Indiana" Team_abr="IND" Threes_Made="2" />
+      <Player_three_leader Person_id="201575" Last_name="Rush" First_name="Brandon" Team_id="1610612754" Team_name="Pacers" Team_city="Indiana" Team_abr="IND" Threes_Made="2" />
+      <Player_three_leader Person_id="2736" Last_name="Deng" First_name="Luol" Team_id="1610612741" Team_name="Bulls" Team_city="Chicago" Team_abr="CHI" Threes_Made="2" />
+      <Player_three_leader Person_id="201954" Last_name="Collison" First_name="Darren" Team_id="1610612754" Team_name="Pacers" Team_city="Indiana" Team_abr="IND" Threes_Made="2" />
+      <Player_three_leader Person_id="101150" Last_name="Williams" First_name="Louis" Team_id="1610612755" Team_name="76ers" Team_city="Philadelphia" Team_abr="PHI" Threes_Made="2" />
+      <Player_three_leader Person_id="1710" Last_name="Bibby" First_name="Mike" Team_id="1610612748" Team_name="Heat" Team_city="Miami" Team_abr="MIA" Threes_Made="2" />
+      <Player_three_leader Person_id="201975" Last_name="Meeks" First_name="Jodie" Team_id="1610612755" Team_name="76ers" Team_city="Philadelphia" Team_abr="PHI" Threes_Made="2" />
+      <Player_three_leader Person_id="978" Last_name="Stojakovic" First_name="Peja" Team_id="1610612742" Team_name="Mavericks" Team_city="Dallas" Team_abr="DAL" Threes_Made="2" />
+    </Msg_Daily_leaders>
+  </Game>
+</Msg_file>

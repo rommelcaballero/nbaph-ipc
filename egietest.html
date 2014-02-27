@@ -1,0 +1,3025 @@
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>NBA Philippines</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859" />
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="jquery.lightbox-0.5.css">
+<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="jquery.lightbox-0.5.js"></script>
+<script type="text/javascript" src="jquery.tools.min.js"></script>
+<script type="text/javascript" src="jquery.imgpreload.js"></script>
+<script type="text/javascript" src="java.js"></script>
+
+ 
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="ie_style.css">
+<![endif]-->
+<style type="text/css">
+<!-- 
+ 
+
+p {
+padding: 0;
+margin: 0;
+}
+
+#carousel_intro a {
+color: #0054af;
+}
+
+#carousel_intro img {
+vertical-align: -2px;
+}
+
+.scroll {
+position:relative;
+overflow:hidden;
+width: 600px;
+height: 100px;
+float:left;
+}
+
+/* root element for the scroll pics */
+.scroll .pics {
+width:20000em;
+position:absolute;
+clear:both;
+}
+
+/* single scroll item */
+.pics .pics_content {
+float:left;
+width:620px !important;
+height:110px;
+margin:0px;
+}
+
+.pics_content a {
+color: #0054af;
+}
+
+.pics .gallery_content {
+float:left;
+width:282px !important;
+margin:0px;
+}
+
+.video_list {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.video_list li {
+float: left;
+width: 130px;
+height: 23px;
+padding-top: 10px;
+background: url('images/tab.png');
+font-size: 14px;
+font-weight: bold;
+color: #0054af;
+text-align: center;
+cursor: pointer;
+}
+
+
+.share_list {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.share_list li {
+float: left;
+width: 130px;
+height: 23px;
+padding-top: 10px;
+background: url('images/tab.png');
+font-size: 14px;
+font-weight: bold;
+color: #0054af;
+text-align: center;
+cursor: pointer;
+}
+
+
+.writer_title a {
+font-size: 14px;
+font-weight: bold;
+color: #0054af;
+}
+
+.writer_content {
+font-size: 10px;
+color: #808080;
+}
+
+.headline_circle, .video_circle {
+cursor: pointer;
+}
+
+.pics_actual {
+width: 140px;
+height: 70px;
+text-align: center;
+}
+
+.pics_content {
+font-size: 12px;
+color: #0054af;
+}
+
+.pics_details {
+width: 140px;
+height: 100%;
+padding: 0 5px;
+background: #fff;
+float: left;
+font-size: 11px;
+}
+
+.cell_330 {
+width: 318px;
+border: 1px solid #d8d8d8;
+padding: 5px 5px 10px 5px;
+color: #444;
+font-size: 11px;
+
+}
+
+.cell_330 ul {
+	
+	margin: 5px 0px 0px 15px; 
+	padding: 0px;
+	
+}
+
+.cell_330 ul li {
+	
+	margin: 0px; 
+	padding: 0px; 
+ 
+
+	
+}
+
+
+
+.cell_300 {
+width: 288px;
+border: 1px solid #d8d8d8;
+padding: 5px 5px 10px 5px;
+color: #444;
+font-size: 11px;
+}
+
+.cell_330 a, .cell_300 a, .more_link a {
+color: #0054af;
+text-decoration: none;
+}
+
+
+.cell_330 a:hover, .cell_300 a:hover, .more_link a:hover {
+color: #0054af;
+text-decoration: underline;
+}
+
+
+.poll_choice input {
+vertical-align: -3px;
+}
+
+#poll_form td {
+vertical-align: top;
+}
+
+.more_link {
+text-align: right;
+padding-top: 5px;
+font-size: 12px;
+}
+
+.carousel {
+width: 672px;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.carousel_text {
+width: 652px;
+height: 82px;
+background: url('images/topstory_overlay.png');
+position: absolute;
+bottom: 10px;
+left: 8px;
+}
+
+#starting td {
+padding: 5px;
+width: 183px;
+}
+-->
+
+ 
+</style>
+</head>
+
+<body  >
+
+
+
+
+
+   <div id="overlay">
+      <div id="popup_spacer"></div>
+      <table id="popup_table">
+         <tr>
+            <td style="padding: 20px 0">
+               <div id="popup">
+                  <div id="popup_header"></div>
+
+                  <div id="popup_body">
+                     <div id="popup_body_content"></div>
+                  </div>
+               </div>
+            </td>
+         </tr>
+      </table>
+   </div>
+<div id="wrapper">
+<style>
+/*
+body {
+    background: url("/media/1.2/container_bg.png") repeat-x scroll 0 0 #B5C8D5;
+    color: #222222;
+}*/
+
+body {
+    background: #000000 url('back.png') top center no-repeat fixed;
+   color: #222222;
+}
+
+#container {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #222222;
+}
+#global_header {
+    background: url("/media/1.2/11GER_global_bkgd.gif") repeat scroll 0 0 transparent;
+    color: #444444;
+    font-size: 12px;
+    line-height: 18px;
+}
+#global_header .inner {
+    position: relative;
+    z-index: 0;
+}
+#global_header a {
+    color: #0054AF;
+    display: inline;
+    float: none;
+    font-weight: 800;
+    padding: 2px 5px 4px;
+}
+#global_header img {
+    padding: 0 4px;
+    vertical-align: middle;
+}
+#global_header ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#global_header li {
+    display: inline;
+    float: none;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#global_header li ul {
+    background: none repeat scroll 0 0 #DDDDDD;
+    display: none;
+    left: 0;
+    padding: 8px 0;
+    position: absolute;
+    top: 19px;
+    z-index: 99;
+}
+#global_header li ul li {
+    background: none repeat scroll 0 0 #DDDDDD;
+    color: #000000;
+    display: block;
+}
+#global_header li ul li a {
+    color: #002954;
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+}
+#global_header li ul li a:hover {
+    background: none repeat scroll 0 0 #DDDDDD;
+    text-decoration: underline;
+}
+#global_header li ul.team_sites {
+    box-shadow: 0 3px 10px #000000;
+ width: 280px;
+}
+#global_header li ul.team_sites ul {
+    display: inline;
+    float: left;
+    left: auto;
+    padding: 0;
+    position: relative;
+    top: auto;
+    width: 140px;
+}
+#global_header li ul.team_sites ul li {
+    padding: 2px 10px;
+    width: 120px;
+}
+#global_header li ul.international_sites {
+    box-shadow: 0 3px 10px #000000;
+    width: 130px;
+}
+#global_header li ul.international_sites li {
+    padding: 2px 10px;
+    width: 110px;
+}
+#edition_wrapper {
+    background: url("/media/1.2/select_bg.jpg") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: none;
+    height: 46px;
+    line-height: 45px;
+}
+#edition_wrapper.edition_open {
+    display: block;
+}
+#edition {
+    margin-left: 20px;
+}
+#edition.edition_open, #edition_message.edition_open {
+    display: block;
+}
+#edition.edition_closed, #edition_message.edition_closed {
+    display: none;
+}
+#logo_header .inner {
+    height: 65px;
+}
+#logo_header {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+#logo h1 {
+    background: url("/media/1.2/NBA_philippines.png") repeat scroll 0 0 transparent;
+    text-indent: -10000px;
+    width: 280px;
+}
+#event {
+    left: 320px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    z-index: 200;
+}
+#event a {
+    background: url("/media/11AS_tab_DE.png") repeat scroll 0 0 transparent;
+    display: block;
+    height: 42px;
+    text-indent: -10000px;
+    width: 135px;
+}
+#header_menu {
+    background: url("/media/1.2/11GER_nav_bkgd_off.gif") repeat scroll 0 0 transparent;
+    z-index: 500;
+}
+#topstory {
+    background: none repeat scroll 0 0 #AABBBB;
+}
+#promo_670x35 {
+    background: none repeat scroll 0 0 #BBAABB;
+}
+#social {
+    background: url("/media/1.2/11GER_bkgd_socialmedia.gif") repeat scroll 0 0 transparent;
+}
+#social .fbConnectWidgetTopmost {
+    border: medium none !important;
+}
+#videos {
+    background: url("/media/1.2/11GER_bkgd_video.gif") repeat scroll 0 0 transparent;
+}
+#headlines {
+    background: url("/media/1.2/11GER_bkgd_headlines.gif") repeat scroll 0 0 transparent;
+}
+#photos {
+    background: url("/media/1.2/11GER_bkgd_photos.gif") repeat scroll 0 0 transparent;
+}
+#stats {
+    background: url("/media/1.2/11GER_bkgd_photos.gif") repeat scroll 0 0 transparent;
+}
+#two_tabs {
+    background: url("/media/1.2/11GER_bkgd_poll_mailbag.gif") repeat scroll 0 0 transparent;
+    color: #444444;
+    font-size: 12px;
+    line-height: 14px;
+}
+#tabbed_poll .trivial_poll {
+    margin: 10px;
+}
+#tabbed_poll .header {
+    float: left;
+    margin-right: 10px;
+}
+#tabbed_poll .question {
+    margin-bottom: 15px;
+}
+#tabbed_poll .options {
+    margin-bottom: 30px;
+}
+#tabbed_poll .option {
+    padding: 3px;
+}
+#tabbed_poll .button_input {
+    margin-left: 100px;
+}
+.module h2 {
+    color: #002954;
+    font-size: 16px;
+    font-weight: 800;
+    height: 34px;
+    line-height: 34px;
+    margin-left: 20px;
+}
+#copyright {
+    text-align: center;
+}
+#copyright a {
+    color: #444444;
+}
+.ph .ph {
+    display: block;
+}
+.ph .en {
+    display: none;
+}
+.en .en {
+    display: block;
+}
+.en .ph {
+    display: none;
+}
+.PRrank {
+    float: left;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    width: 50px;
+}
+.PRteam {
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    width: 150px;
+}
+.PRcopy {
+    float: left;
+    height: 80px;
+    padding: 0 10px;
+    text-align: left;
+    width: 450px;
+}
+.PRrow {
+    clear: both;
+    margin: 0 0 10px;
+}
+#hp-takeover {
+    margin: 10px auto;
+    max-height: 250px;
+    min-height: 50px;
+    position: relative;
+    width: 980px;
+}
+#hp-takeover .ui-takeover-min-state {
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+}
+#hp-takeover .ui-takeover-max-state {
+    height: 250px;
+    left: 0;
+    position: relative;
+    top: 0;
+    z-index: 2;
+}
+#hp-takeover .toggle {
+    cursor: pointer;
+}
+#hp-takeover .button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 10;
+}
+#headermenu {
+    position: relative;
+}
+#headermenu .menu {
+    clear: both;
+    height: 30px;
+    list-style-type: none;
+    margin: 0 0 0 8px;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+}
+#headermenu .menu li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#headermenu .menu li.spacer {
+    background: url("/media/1.2/11GER_nav_divider.gif") repeat scroll 0 0 transparent;
+    height: 33px;
+    position: relative;
+    width: 2px;
+    z-index: 1;
+}
+#headermenu .menu li.top_item a {
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0 20px;
+    position: relative;
+    text-align: center;
+}
+#headermenu .menu li.top_item .nbatv {
+    background: url("/images/12NBA_Global_Nav_NBATV.jpg") no-repeat scroll 0 -33px transparent;
+    display: block;
+    height: 33px;
+    padding: 0;
+    text-indent: -9999px;
+    width: 79px;
+}
+#headermenu .menu li.top_item .nbatv:hover {
+    background: url("/images/12NBA_Global_Nav_NBATV.jpg") no-repeat scroll 0 0 transparent;
+    text-decoration: none;
+}
+#headermenu .menu .translator {
+    width: 120px;
+}
+#headermenu .menu .translator .selection {
+    padding: 0 20px;
+}
+#headermenu .menu li.top_item:hover {
+    background: url("/media/1.2/11GER_nav_bkgd_on.gif") repeat scroll 0 0 transparent;
+}
+#headermenu .menu li ul {
+    display: none;
+}
+#headermenu .menu li.top_item .ui-dropdown-sub {
+    list-style-type: none;
+    padding: 0;
+}
+#headermenu .menu li.top_item .ui-dropdown-sub {
+    background: url("/media/1.2/dd_background.png") repeat-x scroll 0 0 #FFFFFF;
+    border-top: medium none;
+    box-shadow: 0 0 10px #000000;
+    left: 0;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    top: 30px;
+    width: 210px;
+}
+#headermenu .menu li.top_item .ui-dropdown-sub li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    padding: 2px 5px;
+    width: 200px;
+}
+#headermenu .menu li.top_item .ui-dropdown-sub li a {
+    color: #002954;
+    height: 18px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0 5px;
+    text-align: left;
+    width: 190px;
+}
+#headermenu .menu li.top_item .ui-dropdown-sub li a:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+    text-decoration: underline;
+}
+#headermenu .menu li.top_item a.scores, #headermenu .menu li.top_item a.schedule, #headermenu .menu li.top_item a.standings, #headermenu .menu li.top_item a.stats, #headermenu .menu li.top_item a.players, #headermenu .menu li.top_item a.news, #headermenu .menu .translator a.selection {
+    background: url("/images/12NBA_global_carat.png") no-repeat scroll 94% 16px transparent;
+}
+.dropdownmenu {
+    position: relative;
+    z-index: 99;
+}
+.dropdownmenu .ui-dropdown-nav {
+    clear: both;
+    left: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.dropdownmenu .ui-dropdown-nav li {
+    float: left;
+    margin: 0;
+}
+.dropdownmenu .ui-dropdown-nav li a {
+    display: block;
+    float: left;
+    margin: 0;
+}
+.dropdownmenu .ui-dropdown-nav li ul {
+    display: none;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+.dropdownmenu .ui-dropdown-sub {
+    position: absolute;
+ z-index: 99;
+}
+.dropdownmenu .ui-dropdown-active ul {
+    display: block !important;
+    z-index: 99;
+}
+
+.dropdownmenu .ui-dropdown-active {
+ z-index: 99;
+}
+
+</style>
+<script>
+/*
+ * Drop downmenu
+ *
+ * Author : Nicholas Ortenzio
+ * Created : 2010/03/26
+ * Last Modified : 2010/02/26
+ *
+ */
+
+(function($){
+
+  $.fn.DropDownMenu = function(options) {
+
+    var defaults = $.extend({itemSelector:'li'}, options);
+  
+    return this.each(function(){
+      var $this = $(this);
+      var $navs = $this.children('ul').addClass('ui-dropdown-nav').children(defaults.itemSelector);
+      $navs.children('ul').addClass('ui-dropdown-sub').hide();
+      $navs.hover(
+        function(){$(this).addClass('ui-dropdown-active')}, 
+        function(){$(this).removeClass('ui-dropdown-active')}
+      );
+    }).addClass('dropdownmenu');
+
+  };
+
+})(jQuery);
+</script>
+
+<script>
+$(function() { 
+
+$("#global_header .inner").DropDownMenu({itemSelector:'li'});
+
+})
+</script>
+
+
+<!-- for register and login -->
+<!--<link media="screen" rel="stylesheet" type="text/css" href="colorbox/colorbox.css" />
+<script src="colorbox/jquery.colorbox.js"></script>-->
+<script>
+$(function() { 
+
+ //$("a.registerbox").colorbox();
+/* $.colorbox({href:"register_box.php"});
+ $("#LoginBtn").click(function(){
+  
+  login();
+  
+ });*/
+ 
+})
+</script>
+
+
+<!-- Web Developer: JAYPEE DE REAL -->
+<div id="header">
+
+    <div id="header_content">
+   <div id="nba_header" style="position: absolute; z-index: 1000;">
+   <div id="global_header">
+    <div class="inner">
+     <ul>
+      <li><a href="http://www.nba.com/gr/reflectIntl.html?gr=philippinesuw&page=www&&dur=1w"><img src="http://ph.global.nba.com/media/1.2/11GER_global_nbacom.png" /></a> |</li>
+      <li>
+       <a href="/teams/">Teams <img src="http://ph.global.nba.com/media/1.2/11GER_global_arrow.png" /></a> |
+       <ul class="team_sites">
+        <li>
+         <ul id="first_team_sites">
+          <li><a href="http://www.nba.com/hawks/">ATLANTA</a></li>
+          <li><a href="http://www.nba.com/celtics/">BOSTON</a></li>
+          <li><a href="http://www.nba.com/bobcats/">CHARLOTTE</a></li>
+          <li><a href="http://www.nba.com/bulls/">CHICAGO</a></li>
+          <li><a href="http://www.nba.com/cavaliers/">CLEVELAND</a></li>
+          <li><a href="http://www.nba.com/mavericks/">DALLAS</a></li>
+          <li><a href="http://www.nba.com/nuggets/">DENVER</a></li>
+          <li><a href="http://www.nba.com/pistons/">DETROIT</a></li>
+          <li><a href="http://www.nba.com/warriors/">GOLDEN STATE</a></li>
+          <li><a href="http://www.nba.com/rockets/">HOUSTON</a></li>
+          <li><a href="http://www.nba.com/pacers/">INDIANA</a></li>
+          <li><a href="http://www.nba.com/clippers/">LA CLIPPERS</a></li>
+          <li><a href="http://www.nba.com/lakers/">LA LAKERS</a></li>
+          <li><a href="http://www.nba.com/grizzlies/">MEMPHIS</a></li>
+          <li><a href="http://www.nba.com/heat/">MIAMI</a></li>
+         </ul>
+         <ul id="second_team_sites/">
+          <li><a href="http://www.nba.com/bucks/">MILWAUKEE</a></li>
+          <li><a href="http://www.nba.com/timberwolves/">MINNESOTA</a></li>
+          <li><a href="http://www.nba.com/nets/">NEW JERSEY</a></li>
+          <li><a href="http://www.nba.com/hornets/">NEW ORLEANS</a></li>
+          <li><a href="http://www.nba.com/knicks/">NEW YORK</a></li>
+          <li><a href="http://www.nba.com/thunder/">OKLAHOMA CITY</a></li>
+          <li><a href="http://www.nba.com/magic/">ORLANDO</a></li>
+          <li><a href="http://www.nba.com/sixers/">PHILADELPHIA</a></li>
+          <li><a href="http://www.nba.com/suns/">PHOENIX</a></li>
+          <li><a href="http://www.nba.com/blazers/">PORTLAND</a></li>
+          <li><a href="http://www.nba.com/kings/">SACRAMENTO</a></li>
+          <li><a href="http://www.nba.com/spurs/">SAN ANTONIO</a></li>
+          <li><a href="http://www.nba.com/raptors/">TORONTO</a></li>
+          <li><a href="http://www.nba.com/jazz/">UTAH</a></li>
+          <li><a href="http://www.nba.com/wizards/">WASHINGTON</a></li>
+         </ul>
+        </li>
+       </ul>
+      </li>
+            <li>
+       <a href="http://www.nba.com/global">Global <img src="http://ph.global.nba.com/media/1.2/11GER_global_arrow.png" /></a>
+       <ul class="international_sites">
+        <li><a href="http://www.nba.com/africa/">AFRICA</a></li>
+        <li><a href="http://www.nba.com/brasil/">BRASIL</a></li>
+        <li><a href="http://www.nba.com/canada/">CANADA</a></li>
+        <li><a href="http://china.nba.com/">&#20013;&#22269;</a></li>
+        <li><a href="http://www.nba.com/germany/">DEUTSCHLAND</a></li>
+        <li><a href="http://www.nba.com/enebea/">éne-bé-a</a></li>
+        <li><a href="http://www.marca.com/baloncesto/nba.html">ESPAÑA</a></li>
+        <li><a href="http://www.nba.com/france/">FRANCE</a></li>
+        <li><a href="http://nba.sport24.gr/">GREECE</a></li>
+        <li><a href="http://www.nba.com/india/">INDIA</a></li>
+        <li><a href="http://it.nba.com">ITALIA</a></li>
+        <li><a href="http://www.nba.com/japan/">&#26085;&#26412;</a></li>
+        <li><a href="http://www.nba.com/kr/">&#54620;&#44397; </a></li>
+        <li><a href="http://www.nba.com/philippines/">PHILIPPINES</a></li>
+        <li><a href="http://www.nba.com/uk/">UK</a></li>
+       </ul>
+      </li>
+     </ul>
+    </div>
+   </div>
+   </div>
+   
+      <div id="login">
+      <!--
+              <span ><a href="login_box.php?rand=795638536" class="registerbox" >Login</a></span> or <span ><a href="register_box.php?rand=679242529" class="registerbox" >Register</a> &nbsp; </span>
+         
+        
+      -->
+      </div>
+      
+   <div style="clear:both;"></div>
+   
+      <div id="header_main lfloat" style="z-index: 1;">
+         <div style="position: absolute; top: 14px; left: 11px">
+            <a href="index"><img src="images/nba_philippines.png"></a>
+         </div>
+      </div>
+
+
+      <div id="header_nav">
+      
+           <ul id="header_ul">
+              
+                <li id="header_nav_nba"><a href="http://www.nba.tv/nbatv/servlets/refer/affipvgsitetopnav" target="_blank"><img src="images/blank.png" width="77" height="29"></a></li> 
+                
+                <li class="header_nav_divider"> </li>
+                
+                <li class="header_nav_section" id="nav_news">
+               
+                   <a href="news_article" class="header_nav_link">NEWS</a>
+                   
+                   <div class="header_nav_spacer">
+                      <div class="header_nav_dropdown" id="header_nav_news">
+                        <div><a href="nba-writers">NBA WRITERS</a></div>
+                       <div><a href="news-article">NEWS</a></div>
+                         <div><a href="news-archives">ARCHIVES</a></div>
+                      </div>
+                   </div>
+                    
+                </li>
+              
+                <li class="header_nav_divider"></li>
+                
+                <li class="header_nav_section" id="nav_scores">
+                   <a href="http://ph.global.nba.com/stats/league/leagueSchedule.xhtml" class="header_nav_link">SCORES &amp; SCHEDULES</a>
+                
+                   <div class="header_nav_spacer">
+                      <div class="header_nav_dropdown" id="header_nav_scores">
+                         <!--div><a href="http://www.nba.com/news/key-dates/index.html">IMPORTANT DATES</a></div-->
+                         <div><a href="http://ph.global.nba.com/stats/league/scoreboard.xhtml">SCORES/RESULTS</a></div>
+                         <div><a href="http://www.nba.com/video/nbatv" target="_blank">NBA.TV</a></div>
+                         <div><a href="http://ph.global.nba.com/stats/league/leagueSchedule.xhtml">SCHEDULE</a></div>
+                         <div><a href="http://ph.global.nba.com/stats/league/leagueScheduleBySeasonAndMonth.xhtml">FULL SCHEDULE</a></div>
+                         <div><a href="http://ph.global.nba.com/stats/teams/index.xhtml">TEAM SCHEDULE</a></div>
+                         <div><a href="http://ph.global.nba.com/stats/league/scoreboard.xhtml">LIVE GAME SCHEDULE</a></div>
+                      </div>
+                   </div>
+                </li>
+                
+                
+                <li class="header_nav_divider"></li>
+                
+                <li class="header_nav_section" id="nav_video">
+                   <a href="http://nba.tv/nbatv/video" class="header_nav_link" target="_blank">VIDEO</a>
+                                   </li>
+                
+                <li class="header_nav_divider"></li>
+                
+                <li class="header_nav_section" id="nav_players">
+                   <a href="http://ph.global.nba.com/stats/players/index.xhtml" class="header_nav_link">PLAYERS</a>
+                
+                   <div class="header_nav_spacer">
+                      <div class="header_nav_dropdown" id="header_nav_players">
+                         <div><a href="http://ph.global.nba.com/stats/players/index.xhtml">PLAYERS</a></div>   
+                         <div><a href="http://ph.global.nba.com/stats/teams/index.xhtml">TEAM ROSTERS</a></div>  
+                         <!--div><a href="http://www.nba.com/coaches/">Coaches</a></div>
+                         <div><a href="http://www.nba.com/rookieladder/">Rookie Ladder</a></div>
+                         <div><a href="http://www.nba.com/officiating">Officiating</a></div>
+                         <div><a href="http://www.nba.com/historical/search/index.jsp">Historical Player Search</a></div-->
+                      </div>
+                   </div>
+                </li>
+                
+                
+                <li class="header_nav_divider"></li>
+                <li class="header_nav_section" id="nav_standings">
+                   <a href="http://ph.global.nba.com/stats/league/teamDivStandings.xhtml" class="header_nav_link">STANDINGS</a>
+                
+                   <div class="header_nav_spacer">
+                      <div class="header_nav_dropdown" id="header_nav_standings">
+                         <div><a href="http://ph.global.nba.com/stats/league/teamDivStandings.xhtml">BY DIVISION</a></div>
+                         <div><a href="http://ph.global.nba.com/stats/league/teamConfStandings.xhtml">BY CONFERENCE</a></div>
+                         <div><a href="http://ph.global.nba.com/stats/league/teamConfStandingsStreaks.xhtml">STREAKS AND LAST 10</a></div>
+                         <div><a href="http://ph.global.nba.com/stats/league/teamConfStandingsAhd.xhtml">AHEAD AND BEHIND</a></div>
+                         <div><a href="http://ph.global.nba.com/stats/league/teamConfStandingsMgr.xhtml">MARGIN AND STATISTICS</a></div>
+                         <div><a href="http://ph.global.nba.com/stats/league/playoffs/index.xhtml?season=2011">PLAYOFF CENTRAL</a></div>
+                      </div>
+                   </div>
+                </li>
+                
+                <li class="header_nav_divider"></li>
+                <li class="header_nav_section" id="nav_stats">
+                   <a href="http://ph.global.nba.com/stats/league/seasonLeadersSummary.xhtml" class="header_nav_link">STATS</a>
+                
+                   <div class="header_nav_spacer">
+                      <div class="header_nav_dropdown" id="header_nav_stats">
+                           <div><a href="http://ph.global.nba.com/stats/league/seasonLeadersFull.xhtml">INDIVIDUAL STATS</a></div>
+                           <div><a href="http://ph.global.nba.com/stats/league/seasonLeadersSummary.xhtml">STATS SUMMARY</a></div>
+                           <div><a href="http://ph.global.nba.com/stats/league/dailyLeaders.xhtml">DAILY LEADERS</a></div>
+                           <div><a href="http://ph.global.nba.com/stats/league/seasonLeadersSummary.xhtml">SEASON LEADERS</a></div>
+                           <div><a href="http://ph.global.nba.com/stats/teams/index.xhtml">TEAM STATS</a></div>
+                           <div><a href="http://ph.global.nba.com/stats/teams/index.xhtml">TEAM LEADERS</a></div>
+                          <!--div><a href="http://www.nba.com/advancedstats/">Advanced Stats</a></div>
+                          <div><a href="http://www.nba.com/statistics/plusminus/plusminus.jsp">+/- Stats</a></div>
+                          <div><a href="http://www.nba.com/teams/teamStatisticsLinks.html">Team-by-Team</a></div>
+                          <div><a href="http://www.nba.com/statistics/player/Scoring.jsp">Sortable Player Stats</a></div>
+                          <div><a href="http://www.nba.com/statistics/sortable_team_statistics/sortable1.html">Sortable Team Stats</a></div>
+                          <div><a href="http://www.nba.com/teams/teamSplitsLinks.html">Team-by-Team Splits</a></div>
+                          <div><a href="http://www.nba.com/statistics/international/interPlayersStatsAVG.html">International</a></div>
+                          <div><a href="http://www.nba.com/teams/milestones.html">Milestones</a></div-->
+                      </div>
+                   </div>
+                </li>
+                
+                <li class="header_nav_divider"></li>
+                <li class="header_nav_section" id="nav_blogs">
+                   <a href="bloggers" class="header_nav_link">BLOGS</a>
+                </li>
+                
+                <li class="header_nav_divider"></li>
+                <li class="header_nav_section" id="nav_fantasy">
+                   <a href="http://games.espn.go.com/fba/welcome?ex_cid=2009_fbaxx_xxx_nba_fan" class="header_nav_link">FANTASY</a>
+                   
+                   <div class="header_nav_spacer">
+                      <div class="header_nav_dropdown" id="header_nav_fantasy">
+                          <div><a href="http://fantasy.nba.com/drive/" target="_blank">DRIVE TO THE FINALS</a></div>
+                      </div>
+                   </div>
+                   
+                </li>
+             
+                <li class="header_nav_divider"></li>
+                <li class="header_nav_section" id="nav_fan">
+                   <a href="http://www.nba.com/allaccess/" target="_blank" class="header_nav_link">FAN STUFF</a>
+                   <div class="header_nav_spacer">
+                      <div class="header_nav_dropdown" id="header_nav_fan">
+                         <div><a href="off-court-news">OFF-COURT NEWS</a></div>
+                         <div><a href="pinoy-beat-writer">PINOY BEAT WRITER</a></div>
+                        <div><a href="http://my.nba.com">FAN VOICE</a></div>
+                         <div><a href="http://www.nba.com/allaccess/">ALL-ACCESS</a></div>
+                         <div><a href="http://twitter.com/NBA_Philippines" target="_blank">NBA TWITTER</a></div>
+                         <div><a href="https://www.facebook.com/philsnba" target="_blank">NBA ON FACEBOOK</a></div>
+                         <!--div><a href="http://www.nba.com/travel/" target="_blank">NBA Fan Travel</a></div-->
+                       </div>
+                   </div>
+                </li>
+                
+                <li class="header_nav_divider"></li>
+                <li class="header_nav_section" id="nav_photos">
+                   <a href="photo-gallery" class="header_nav_link">PHOTOS</a>
+                </li>
+                
+                <li class="header_nav_divider"></li>
+                <li class="header_nav_section" id="nav_events">
+                   <a href="local-events" class="header_nav_link">EVENTS</a>
+                   <div class="header_nav_spacer">
+                   <div class="header_nav_dropdown" id="header_nav_events">
+                         <div><a href="local-events">LOCAL EVENTS</a></div>
+                         <div><a href="http://www.jrnba.com.ph" target="_blank">JR. NBA</a></div>
+                         <div><a href="http://www.nba.com/nbafit/" target="_blank">NBA FIT</a></div>
+                         <div><a href="http://www.nba.com/3on3/philippines/" target="_blank">NBA 3X</a></div>
+                        </div>
+                   </div>
+                   </li>
+                
+                <li class="header_nav_divider"></li>
+                <li class="header_nav_section" id="nav_cheerleaders">
+                   <a href="cheerdancers" class="header_nav_link">CHEERDANCERS</a>
+                </li>
+                
+                <li class="header_nav_divider "> </li>
+            
+              
+           </ul>
+           <div class="clear_left" ></div>
+           
+      </div>
+      
+      
+      <!-- login box -->
+      <!--  <div id="LoginBox">
+         
+            <div id="LoginContent" >
+             
+                <div style="padding: 10px 10px 20px 10px; " >
+                 
+                    <div class="login_inphol" ><input type="text" class="login_input" name="nba_username" id="nba_username" /></div>
+                    
+                    <div class="login_inphol" ><input type="password" class="login_input"  name="nba_password" id="nba_password"/></div>
+                    
+                    <div ><input type="checkbox" name="remember"> <span style="margin-bottom: 15px; " >Remember me</span> </div>
+                    
+                    <div style="position: absolute; right: 21px; top: 70px; " ><input id="LoginButton" class="loginbtn" type="button" value="Login" /></div>
+                    
+                    <div  style="padding: 10px 0px 10px 0px; " ><a href="#" ><u>Forgot Password?</u></a></div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>-->
+        <!-- login box --> 
+      
+   </div>
+   
+
+   
+   
+</div>	
+   <!-- main_content -->
+   <div id="main_content" >
+ 
+      	  <div style="height: 10px"></div>
+
+          <div style="width: 958px; height: 90px; margin: 0 auto; text-align: center; ">
+			<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+</script>
+<script type="text/javascript">
+  GS_googleAddAdSenseService("ca-pub-7046465195803313");
+  GS_googleEnableAllServices();
+</script>
+<script type="text/javascript">
+  GA_googleAddSlot("ca-pub-7046465195803313", "NBA_Homepage_TopEar_210x90");
+  GA_googleAddSlot("ca-pub-7046465195803313", "NBA_Homepage_TopLeaderboard_728x90");
+</script>
+<script type="text/javascript">
+  GA_googleFetchAds();
+</script>
+<!-- END OF TAG FOR head SECTION -->
+
+ <table border="0" 
+  cellpadding="0" 
+  cellspacing="1" 
+  style="table-layout: auto; width: 100%"  
+  bordercolor=white  >
+        <tr height=90px>
+   <td width=5px> </td>
+   
+            <td  width="730px" style="text-align: left">
+   
+    <script type="text/javascript">
+      GA_googleFillSlot("NBA_Homepage_TopLeaderboard_728x90");
+    </script>
+    
+             </td>
+    
+   <td width=10px> </td>
+   
+            <td align=right>
+  
+    <script type="text/javascript">
+      GA_googleFillSlot("NBA_Homepage_TopEar_210x90");
+    </script>
+   
+   </td>
+    
+    <td width=5px> </td>
+            <td >
+        </tr>
+    </table>          </div>
+    
+          <div style="height: 10px"></div>
+    
+          <div style="text-align: center">
+             <a href="http://nbastore.com/" target="_blank"><img src="images/nba_store.png" border="0"></a>
+          </div>
+    
+          <div style="padding: 10px 30px">
+             <a href="http://ph.global.nba.com/stats/league/leagueSchedule.xhtml" style="font-size: 14px; font-weight: bold; color: #1c75bc">View Full Calendar</a>
+          </div>
+    
+          <div style="width: 1000px;  margin: 0 auto; text-align: center; background: #fff">
+             <iframe src="http://ph.global.nba.com/hpscoreboardiframe.html" align="center" frameborder="0" width="1000" height="143" scrolling="no" marginwidth="0" marginheight="0" style="text-align:center; align: center; margin: 0; padding: 0; marginwidth:0"></iframe>
+          </div>
+    
+          <div style="height: 10px"></div>
+          
+          
+          
+          <!-- top half container start -->
+          <div class="container"  >
+          
+             <!-- top left start  -->
+             <div style="float: left; width: 672px; margin-left: 10px; ">
+                <!-- headlines start -->
+                <div style="width: 672px; padding-bottom: 2px; background: url('images/rounded_bottom_672.png') bottom center no-repeat; ">
+                
+                   <div style="width: 672px; height: 376px; overflow: hidden">
+                          <div id="carousel1" class="carousel" style="">
+                         <a href="http://ph.nba.com/news-article/229/down-3-1-to-heat-thunder-vow-to-keep-fighting"><img src="images/carousel/yd9sj7fzwqz61negvim77s197khjoxqc.jpg"></a>
+                         <div class="carousel_text">
+                            <div style="font-family: arial; font-size: 20px; color: #fff; margin: 4px 15px; width: 622px; height: 24px; overflow: hidden">
+                               <b><a href="http://ph.nba.com/news-article/229/down-3-1-to-heat-thunder-vow-to-keep-fighting" style="color: #fff">Down 3-1 to Heat, Thunder vow to keep fighting</a></b>
+                            </div>
+    
+                            <div id="carousel_intro" style="font-size: 12px; color: #fff; margin: 4px 15px; width: 622px; height: 46px; overflow: hidden">
+                               <b><p>Down 3-1 in the NBA Finals, history says the Oklahoma City Thunder aren't coming back. But don't write off the Thunder just yet.</p></b>
+                            </div>
+                         </div>
+                      </div>
+                          <div id="carousel2" class="carousel" style="display: none">
+                         <a href="http://ph.nba.com/news-article/227/heat-top-thunder-take-3-1-lead"><img src="images/carousel/kaf2ycgvqoj2444doqmpl7j87mjjgyq6.jpg"></a>
+                         <div class="carousel_text">
+                            <div style="font-family: arial; font-size: 20px; color: #fff; margin: 4px 15px; width: 622px; height: 24px; overflow: hidden">
+                               <b><a href="http://ph.nba.com/news-article/227/heat-top-thunder-take-3-1-lead" style="color: #fff">James with near triple-double as Heat make it 3-1</a></b>
+                            </div>
+    
+                            <div id="carousel_intro" style="font-size: 12px; color: #fff; margin: 4px 15px; width: 622px; height: 46px; overflow: hidden">
+                               <b><p>LeBron James flirted with a triple-double with 26 points, 9 rebounds and 12 assists as the Miami Heat move a game away from clinching the NBA title with a 104-98 win over the Oklahoma City Thunder on Wednesday.</p></b>
+                            </div>
+                         </div>
+                      </div>
+                          <div id="carousel3" class="carousel" style="display: none">
+                         <a href="http://ph.global.nba.com/stats/league/playByPlay.xhtml?gameId=0041100404&leagueId=00&tz=GMT+8&dst=0&locale=en&countryCode=PH"><img src="images/carousel/fvbt09ci70utjxcgv51k6vluyptsggc2.jpg"></a>
+                         <div class="carousel_text">
+                            <div style="font-family: arial; font-size: 20px; color: #fff; margin: 4px 15px; width: 622px; height: 24px; overflow: hidden">
+                               <b><a href="http://ph.global.nba.com/stats/league/playByPlay.xhtml?gameId=0041100404&leagueId=00&tz=GMT+8&dst=0&locale=en&countryCode=PH" style="color: #fff">Game 4 Play by Play</a></b>
+                            </div>
+    
+                            <div id="carousel_intro" style="font-size: 12px; color: #fff; margin: 4px 15px; width: 622px; height: 46px; overflow: hidden">
+                               <b><p>Missed Game 4 of the NBA Finals? Check out the play-by-play coverage here.</p></b>
+                            </div>
+                         </div>
+                      </div>
+                          <div id="carousel4" class="carousel" style="display: none">
+                         <a href="http://121.127.6.125/news-article/228/game-4-loss-puts-thunder-title-hopes-on-brink"><img src="images/carousel/eotfywzmdm7ch7csxfqs0alje35fjka3.jpg"></a>
+                         <div class="carousel_text">
+                            <div style="font-family: arial; font-size: 20px; color: #fff; margin: 4px 15px; width: 622px; height: 24px; overflow: hidden">
+                               <b><a href="http://121.127.6.125/news-article/228/game-4-loss-puts-thunder-title-hopes-on-brink" style="color: #fff">Game 4 loss puts Thunder title hopes on brink</a></b>
+                            </div>
+    
+                            <div id="carousel_intro" style="font-size: 12px; color: #fff; margin: 4px 15px; width: 622px; height: 46px; overflow: hidden">
+                               <b><p>Oklahoma City was more than OK at the start. At the end, not so much.</p></b>
+                            </div>
+                         </div>
+                      </div>
+                          <div id="carousel5" class="carousel" style="display: none">
+                         <a href="http://ph.nba.com/news-article/225/james-scores-29-as-heat-rally-past-thunder-91-85"><img src="images/carousel/7u5z6pfks9avwal8ev3uy9lhwgi79x27.jpg"></a>
+                         <div class="carousel_text">
+                            <div style="font-family: arial; font-size: 20px; color: #fff; margin: 4px 15px; width: 622px; height: 24px; overflow: hidden">
+                               <b><a href="http://ph.nba.com/news-article/225/james-scores-29-as-heat-rally-past-thunder-91-85" style="color: #fff">James scores 29 as Heat rally past Thunder 91-85</a></b>
+                            </div>
+    
+                            <div id="carousel_intro" style="font-size: 12px; color: #fff; margin: 4px 15px; width: 622px; height: 46px; overflow: hidden">
+                               <b><p>LeBron James starred anew for Miami, scoring 29 points and hauling down 14 rebounds as the Heat held on to a 91-85 win over the Oklahoma City Thunder on Monday for a 2-1 NBA Finals lead.</p></b>
+                            </div>
+                         </div>
+                      </div>
+                          <div id="carousel6" class="carousel" style="display: none">
+                         <a href="http://ph.global.nba.com/stats/league/playByPlay.xhtml?gameId=0041100403&leagueId=00&tz=GMT+8&dst=0&locale=en&countryCode=PH"><img src="images/carousel/cilkxmzkn6anvtfwznk0cp2i59lcuxid.jpg"></a>
+                         <div class="carousel_text">
+                            <div style="font-family: arial; font-size: 20px; color: #fff; margin: 4px 15px; width: 622px; height: 24px; overflow: hidden">
+                               <b><a href="http://ph.global.nba.com/stats/league/playByPlay.xhtml?gameId=0041100403&leagueId=00&tz=GMT+8&dst=0&locale=en&countryCode=PH" style="color: #fff">Game 3 Play by Play</a></b>
+                            </div>
+    
+                            <div id="carousel_intro" style="font-size: 12px; color: #fff; margin: 4px 15px; width: 622px; height: 46px; overflow: hidden">
+                               <b><p>Missed Game 3 of the NBA Finals? Click for the play-by-play coverage.</p></b>
+                            </div>
+                         </div>
+                      </div>
+                          <div id="carousel7" class="carousel" style="display: none">
+                         <a href="http://ph.nba.com/news-article/224/heat-know-what-to-expect-from-thunder-in-game-3"><img src="images/carousel/z1c8yl27j3kdp0ezhb9igxhtqwtuzic5.jpg"></a>
+                         <div class="carousel_text">
+                            <div style="font-family: arial; font-size: 20px; color: #fff; margin: 4px 15px; width: 622px; height: 24px; overflow: hidden">
+                               <b><a href="http://ph.nba.com/news-article/224/heat-know-what-to-expect-from-thunder-in-game-3" style="color: #fff">Heat know what to expect from Thunder in Game 3</a></b>
+                            </div>
+    
+                            <div id="carousel_intro" style="font-size: 12px; color: #fff; margin: 4px 15px; width: 622px; height: 46px; overflow: hidden">
+                               <b><p>At this point a year ago, LeBron James and Dwyane Wade were using words like urgency and desperation. And that's exactly what the Miami Heat expect the Oklahoma City Thunder to bring into Game 3.</p></b>
+                            </div>
+                         </div>
+                      </div>
+                          <div id="carousel8" class="carousel" style="display: none">
+                         <a href="http://ph.nba.com/news-article/223/a-tense-tied-finals-moves-to-miami-for-game-3"><img src="images/carousel/epwlrk0b5locyaknlj74ozwh8zzcygy3.jpg"></a>
+                         <div class="carousel_text">
+                            <div style="font-family: arial; font-size: 20px; color: #fff; margin: 4px 15px; width: 622px; height: 24px; overflow: hidden">
+                               <b><a href="http://ph.nba.com/news-article/223/a-tense-tied-finals-moves-to-miami-for-game-3" style="color: #fff">A tense, tied Finals moves to Miami for Game 3</a></b>
+                            </div>
+    
+                            <div id="carousel_intro" style="font-size: 12px; color: #fff; margin: 4px 15px; width: 622px; height: 46px; overflow: hidden">
+                               <b><p>Kevin Durant had the ball in his hands and LeBron James in his face.</p></b>
+                            </div>
+                         </div>
+                      </div>
+                          <div id="carousel9" class="carousel" style="display: none">
+                         <a href="http://ph.nba.com/news_article.php?newsid=222"><img src="images/carousel/kno4vwhuv5971miivmmvq0365petdl63.jpg"></a>
+                         <div class="carousel_text">
+                            <div style="font-family: arial; font-size: 20px; color: #fff; margin: 4px 15px; width: 622px; height: 24px; overflow: hidden">
+                               <b><a href="http://ph.nba.com/news_article.php?newsid=222" style="color: #fff">James hits 32 as Heat tie series</a></b>
+                            </div>
+    
+                            <div id="carousel_intro" style="font-size: 12px; color: #fff; margin: 4px 15px; width: 622px; height: 46px; overflow: hidden">
+                               <b><p>LeBron James had 32 points, including two crucial freethrows in the closing seconds of the game, as the Miami Heat evened their series with the Oklahoma City Thunder with a 100-96 win on Friday.</p></b>
+                            </div>
+                         </div>
+                      </div>
+                          <div id="carousel10" class="carousel" style="display: none">
+                         <a href="http://ph.global.nba.com/stats/league/playByPlay.xhtml?gameId=0041100402&leagueId=00&tz=GMT+8&dst=0&locale=en&countryCode=PH"><img src="images/carousel/vvlhqi3jbqtclnmil2x2fnbqg0qtuxag.jpg"></a>
+                         <div class="carousel_text">
+                            <div style="font-family: arial; font-size: 20px; color: #fff; margin: 4px 15px; width: 622px; height: 24px; overflow: hidden">
+                               <b><a href="http://ph.global.nba.com/stats/league/playByPlay.xhtml?gameId=0041100402&leagueId=00&tz=GMT+8&dst=0&locale=en&countryCode=PH" style="color: #fff">Game 2 Play-By-Play</a></b>
+                            </div>
+    
+                            <div id="carousel_intro" style="font-size: 12px; color: #fff; margin: 4px 15px; width: 622px; height: 46px; overflow: hidden">
+                               <b><p>Want to review the action in Game 2? Click here for the play-by-play coverage.</p></b>
+                            </div>
+                         </div>
+                      </div>
+                          <div id="carousel11" class="carousel" style="display: none">
+                         <a href="http://121.127.6.125/news_article.php?newsid=221"><img src="images/carousel/346lnwoubw8uxxjakgkou9m2hj7o9g53.jpg"></a>
+                         <div class="carousel_text">
+                            <div style="font-family: arial; font-size: 20px; color: #fff; margin: 4px 15px; width: 622px; height: 24px; overflow: hidden">
+                               <b><a href="http://121.127.6.125/news_article.php?newsid=221" style="color: #fff">The spotlight is there for Durant, if he wants it</a></b>
+                            </div>
+    
+                            <div id="carousel_intro" style="font-size: 12px; color: #fff; margin: 4px 15px; width: 622px; height: 46px; overflow: hidden">
+                               <b><p>Not many know much about the guy who dominated Game 1 of the NBA Finals other than he's pretty good. Kevin Durant is a mystery even to some of the players trying to beat him.</p></b>
+                            </div>
+                         </div>
+                      </div>
+                          <div id="carousel12" class="carousel" style="display: none">
+                         <a href="http://121.127.6.125/writers_full.php?id=488"><img src="images/carousel/44t3paguuksj7uvdocdd7q903pzr2irw.jpg"></a>
+                         <div class="carousel_text">
+                            <div style="font-family: arial; font-size: 20px; color: #fff; margin: 4px 15px; width: 622px; height: 24px; overflow: hidden">
+                               <b><a href="http://121.127.6.125/writers_full.php?id=488" style="color: #fff">Heat's Big 3 needs to 'show up'</a></b>
+                            </div>
+    
+                            <div id="carousel_intro" style="font-size: 12px; color: #fff; margin: 4px 15px; width: 622px; height: 46px; overflow: hidden">
+                               <b><p>NBA.com Philippines' correspondent to the NBA Finals TJ Manotoc says LeBron James, Dwyane Wade and Chris Bosh must 'show up' in order to make the finals a memorable one.</p></b>
+                            </div>
+                         </div>
+                      </div>
+                       </div>
+    
+                   <div style="width: 650px; border-left: 1px solid #d8d8d8; border-right: 1px solid #d8d8d8; padding: 5px 10px">
+                      <table cellspacing="0" cellpadding="0" style="width: 650px; padding-top: 10px">
+                         <tr>
+                            <td style="width: 25px">
+                               <img src="images/left_btn.png" id="headline_left" class="pointer">
+                            </td>
+                            <td style="width: 600px; background: #ccc">
+                               <div class="scroll" id="headline_pics">
+                                  <div class="pics">
+                                         <div class="pics_content">
+                                            <div class="pics_details pointer" onclick="carousel(1)">
+                                           <div class="pics_actual">
+                                              <img src="resize_crop.php?file=images/carousel/yd9sj7fzwqz61negvim77s197khjoxqc.jpg&w=132&h=70">
+                                           </div>
+    
+                                           Down 3-1 to Heat, Thunder vow to keep fighting                                        </div>
+                                            <div class="pics_details pointer" onclick="carousel(2)">
+                                           <div class="pics_actual">
+                                              <img src="resize_crop.php?file=images/carousel/kaf2ycgvqoj2444doqmpl7j87mjjgyq6.jpg&w=132&h=70">
+                                           </div>
+    
+                                           James with near triple-double as Heat make it 3-1                                        </div>
+                                            <div class="pics_details pointer" onclick="carousel(3)">
+                                           <div class="pics_actual">
+                                              <img src="resize_crop.php?file=images/carousel/fvbt09ci70utjxcgv51k6vluyptsggc2.jpg&w=132&h=70">
+                                           </div>
+    
+                                           Game 4 Play by Play                                        </div>
+                                            <div class="pics_details pointer" onclick="carousel(4)">
+                                           <div class="pics_actual">
+                                              <img src="resize_crop.php?file=images/carousel/eotfywzmdm7ch7csxfqs0alje35fjka3.jpg&w=132&h=70">
+                                           </div>
+    
+                                           Game 4 loss puts Thunder title hopes on brink                                        </div>
+                                            <div class="clear"></div>
+                                     </div>
+                                         <div class="pics_content">
+                                            <div class="pics_details pointer" onclick="carousel(5)">
+                                           <div class="pics_actual">
+                                              <img src="resize_crop.php?file=images/carousel/7u5z6pfks9avwal8ev3uy9lhwgi79x27.jpg&w=132&h=70">
+                                           </div>
+    
+                                           James scores 29 as Heat rally past Thunder 91-85                                        </div>
+                                            <div class="pics_details pointer" onclick="carousel(6)">
+                                           <div class="pics_actual">
+                                              <img src="resize_crop.php?file=images/carousel/cilkxmzkn6anvtfwznk0cp2i59lcuxid.jpg&w=132&h=70">
+                                           </div>
+    
+                                           Game 3 Play by Play                                        </div>
+                                            <div class="pics_details pointer" onclick="carousel(7)">
+                                           <div class="pics_actual">
+                                              <img src="resize_crop.php?file=images/carousel/z1c8yl27j3kdp0ezhb9igxhtqwtuzic5.jpg&w=132&h=70">
+                                           </div>
+    
+                                           Heat know what to expect from Thunder in Game 3                                        </div>
+                                            <div class="pics_details pointer" onclick="carousel(8)">
+                                           <div class="pics_actual">
+                                              <img src="resize_crop.php?file=images/carousel/epwlrk0b5locyaknlj74ozwh8zzcygy3.jpg&w=132&h=70">
+                                           </div>
+    
+                                           A tense, tied Finals moves to Miami for Game 3                                        </div>
+                                            <div class="clear"></div>
+                                     </div>
+                                         <div class="pics_content">
+                                            <div class="pics_details pointer" onclick="carousel(9)">
+                                           <div class="pics_actual">
+                                              <img src="resize_crop.php?file=images/carousel/kno4vwhuv5971miivmmvq0365petdl63.jpg&w=132&h=70">
+                                           </div>
+    
+                                           James hits 32 as Heat tie series                                        </div>
+                                            <div class="pics_details pointer" onclick="carousel(10)">
+                                           <div class="pics_actual">
+                                              <img src="resize_crop.php?file=images/carousel/vvlhqi3jbqtclnmil2x2fnbqg0qtuxag.jpg&w=132&h=70">
+                                           </div>
+    
+                                           Game 2 Play-By-Play                                        </div>
+                                            <div class="pics_details pointer" onclick="carousel(11)">
+                                           <div class="pics_actual">
+                                              <img src="resize_crop.php?file=images/carousel/346lnwoubw8uxxjakgkou9m2hj7o9g53.jpg&w=132&h=70">
+                                           </div>
+    
+                                           The spotlight is there for Durant, if he wants it                                        </div>
+                                            <div class="pics_details pointer" onclick="carousel(12)">
+                                           <div class="pics_actual">
+                                              <img src="resize_crop.php?file=images/carousel/44t3paguuksj7uvdocdd7q903pzr2irw.jpg&w=132&h=70">
+                                           </div>
+    
+                                           Heat's Big 3 needs to 'show up'                                        </div>
+                                            <div class="clear"></div>
+                                     </div>
+                                      </div>
+                               </div>
+                            </td>
+                            <td style="width: 25px; text-align: right">
+                               <img src="images/right_btn.png" id="headline_right" class="pointer">
+                            </td>
+                         </tr>
+                         <tr>
+                            <td colspan="3" style="height: 25px; text-align: center">
+                               <img src="images/circle_filled.png" id="headline_circle_0" class="headline_circle">
+                               <img src="images/circle_empty.png" id="headline_circle_1" class="headline_circle">
+                               <img src="images/circle_empty.png" id="headline_circle_2" class="headline_circle">
+                            </td>
+                         </tr>
+                      </table>
+                   </div>
+    
+                   <div class="clear"></div>
+                </div>
+                <!-- headlines end -->
+    
+                <!-- video links start -->
+                <div style="width: 672px; padding: 5px 0 2px 0; background: url('images/rounded_bottom_672.png') bottom center no-repeat">
+                   <div class="article_header" style="background: url('images/rounded_top_672.png'); width: 642px; height: 15px">
+                      VIDEO
+                   </div>
+    
+                   <div style="width: 650px; border-left: 1px solid #d8d8d8; border-right: 1px solid #d8d8d8; padding: 5px 10px">
+                      <div style="width: 650px; padding-top: 5px">
+                         <ul class="video_list">
+                            <li style="background-position: 0 33px; color: #444" class="video_element" id="video_list_highlights">
+                               HIGHLIGHTS
+                            </li>
+                            <li class="video_element" id="video_list_top">
+                               TOP PLAYS
+                            </li>
+                            <li class="video_element" id="video_list_picks">
+                               EDITOR'S PICKS
+                            </li>
+                            <li class="video_element" id="video_list_tv">
+                               NBA TV
+                            </li>
+                            <li class="video_element" id="video_list_live">
+                               <a href="http://www.nba.tv/nbatv/" class="blue">WATCH LIVE</a>
+                            </li>
+                         </ul>
+                      </div>
+    
+                      <table cellspacing="0" cellpadding="0" style="width: 650px; padding-top: 10px">
+                         <tr>
+                            <td style="width: 25px">
+                               <img src="images/left_btn.png" id="video_left" class="pointer">
+                            </td>
+                            <td style="width: 600px; background: #ccc">
+                               <div class="scroll" id="video_list_highlights_gallery">
+                                  <div class="pics">
+                                         <div class="pics_content">
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/20120620_okc_mia_gm4_slideshow.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/playoffs/2012/06/20/20120620_okc_mia_gm4_slideshow.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/20120620_okc_mia_gm4_slideshow.nba/index.html">Finals Game 4 Audio Slideshow</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/20120620_okc_mia_phantom.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/playoffs/2012/06/20/20120620_okc_mia_phantom.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/20120620_okc_mia_phantom.nba/index.html">Poetry In Motion: Game 4</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/20120620_okc_mia_gm4_micromovie.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/playoffs/2012/06/20/20120620_okc_mia_gm4_micromovie.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/20120620_okc_mia_gm4_micromovie.nba/index.html">The Finals: Game 4 Micro-Movie</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/20120619_lebron_over_kd.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/playoffs/2012/06/20/20120619_lebron_over_kd.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/20120619_lebron_over_kd.nba/index.html">Poetry in Motion: LBJ Over KD</a>
+                                        </div>
+                                            <div class="clear"></div>
+                                     </div>
+                                         <div class="pics_content">
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/20120619_james_turnaround.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/playoffs/2012/06/20/20120619_james_turnaround.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/20120619_james_turnaround.nba/index.html">Poetry in Motion: LeBron's Turnaround</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/0041100404_mia_wade_postgame.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/playoffs/2012/06/20/0041100404_mia_wade_postgame.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/0041100404_mia_wade_postgame.nba/index.html">Postgame: Dwyane Wade</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/0041100404_mia_lebron_postgame.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/playoffs/2012/06/20/0041100404_mia_lebron_postgame.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/0041100404_mia_lebron_postgame.nba/index.html">Postgame: LeBron James</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/20120619_gm5_preview.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/playoffs/2012/06/20/20120619_gm5_preview.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/20120619_gm5_preview.nba/index.html">Finals Game 5 Preview</a>
+                                        </div>
+                                            <div class="clear"></div>
+                                     </div>
+                                         <div class="pics_content">
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/0041100404_mia_bosh_postgame.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/playoffs/2012/06/20/0041100404_mia_bosh_postgame.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/0041100404_mia_bosh_postgame.nba/index.html">Postgame: Chris Bosh</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/westbrook_big_4th.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/playoffs/2012/06/20/westbrook_big_4th.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/westbrook_big_4th.nba/index.html">Westbrook's Big Fourth</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/mia_4th_quarter_game4.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/playoffs/2012/06/20/mia_4th_quarter_game4.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/mia_4th_quarter_game4.nba/index.html">Wade and Chalmers Come Through</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/0041100404_mia_chalmers_postgame.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/playoffs/2012/06/20/0041100404_mia_chalmers_postgame.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/playoffs/2012/06/20/0041100404_mia_chalmers_postgame.nba/index.html">Postgame: Mario Chalmers</a>
+                                        </div>
+                                            <div class="clear"></div>
+                                     </div>
+                                      </div>
+                               </div>
+    
+                               <div class="scroll" id="video_list_top_gallery" style="display: none">
+                                  <div class="pics">
+                                         <div class="pics_content">
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/19/20120619_pod.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/play_of_the_day/2012/06/19/20120619_pod.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/19/20120619_pod.nba/index.html">Play of the Day</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/17/20120617_pod.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/play_of_the_day/2012/06/17/20120617_pod.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/17/20120617_pod.nba/index.html">Play of the Day</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/14/20120614_pod.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/play_of_the_day/2012/06/14/20120614_pod.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/14/20120614_pod.nba/index.html">Play of the Day</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/12/20120612_pod.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/play_of_the_day/2012/06/12/20120612_pod.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/12/20120612_pod.nba/index.html">Play of the Day</a>
+                                        </div>
+                                            <div class="clear"></div>
+                                     </div>
+                                         <div class="pics_content">
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/09/20120609_pod.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/play_of_the_day/2012/06/09/20120609_pod.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/09/20120609_pod.nba/index.html">Play of the Day</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/07/20120607_pod.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/play_of_the_day/2012/06/07/20120607_pod.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/07/20120607_pod.nba/index.html">Play of the Day</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/06/20120606_pod.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/play_of_the_day/2012/06/06/20120606_pod.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/06/20120606_pod.nba/index.html">Play of the Day</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/05/20120605_pod.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/play_of_the_day/2012/06/05/20120605_pod.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/05/20120605_pod.nba/index.html">Play of the Day</a>
+                                        </div>
+                                            <div class="clear"></div>
+                                     </div>
+                                         <div class="pics_content">
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/04/20120604_pod.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/play_of_the_day/2012/06/04/20120604_pod.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/04/20120604_pod.nba/index.html">Play of the Day</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/03/20120603_pod.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/play_of_the_day/2012/06/03/20120603_pod.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/03/20120603_pod.nba/index.html">Play of the Day</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/02/20120602_pod.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/play_of_the_day/2012/06/02/20120602_pod.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/02/20120602_pod.nba/index.html">Play of the Day</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/01/20120601_pod.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/play_of_the_day/2012/06/01/20120601_pod.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/play_of_the_day/2012/06/01/20120601_pod.nba/index.html">Play of the Day</a>
+                                        </div>
+                                            <div class="clear"></div>
+                                     </div>
+                                      </div>
+                               </div>
+    
+                               <div class="scroll" id="video_list_picks_gallery" style="display: none">
+                                  <div class="pics">
+                                         <div class="pics_content">
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/tnt_overtime/2012/05/27/20120527_insidetrax_okc_sas.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/tnt_overtime/2012/05/27/20120527_insidetrax_okc_sas.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/tnt_overtime/2012/05/27/20120527_insidetrax_okc_sas.nba/index.html">Inside Trax - Gregg Popovich</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/nba_tv/2012/05/18/20120518_WUSAB_Practice.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/nba_tv/2012/05/18/20120518_WUSAB_Practice.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/nba_tv/2012/05/18/20120518_WUSAB_Practice.nba/index.html">All-Access at WUSAB Practice</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/tnt_overtime/2012/05/15/20120515_inside_2.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/tnt_overtime/2012/05/15/20120515_inside_2.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/tnt_overtime/2012/05/15/20120515_inside_2.nba/index.html">Top 5 of Inside: Heat's End of Game</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/playoffs/2012/04/29/0041100141_uta_sas_play3.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/playoffs/2012/04/29/0041100141_uta_sas_play3.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/playoffs/2012/04/29/0041100141_uta_sas_play3.nba/index.html">Tony's Circus Layup</a>
+                                        </div>
+                                            <div class="clear"></div>
+                                     </div>
+                                         <div class="pics_content">
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/tnt_overtime/2012/04/28/20120428_tnt_playoffs_open.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/tnt_overtime/2012/04/28/20120428_tnt_playoffs_open.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/tnt_overtime/2012/04/28/20120428_tnt_playoffs_open.nba/index.html">2012 NBA Playoffs</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/games/timberwolves/2012/04/26/0021100987_den_min_play6.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/games/timberwolves/2012/04/26/0021100987_den_min_play6.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/games/timberwolves/2012/04/26/0021100987_den_min_play6.nba/index.html">McGee Rises Up</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/games/thunder/2012/04/25/0021100976_den_okc_play4.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/games/thunder/2012/04/25/0021100976_den_okc_play4.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/games/thunder/2012/04/25/0021100976_den_okc_play4.nba/index.html">Durant Bangs on McGee</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/games/thunder/2012/04/25/0021100976_den_okc_play3.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/games/thunder/2012/04/25/0021100976_den_okc_play3.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/games/thunder/2012/04/25/0021100976_den_okc_play3.nba/index.html">Tightrope Mishap</a>
+                                        </div>
+                                            <div class="clear"></div>
+                                     </div>
+                                         <div class="pics_content">
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/games/warriors/2012/04/16/0021100912_sas_gsw_play1.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/games/warriors/2012/04/16/0021100912_sas_gsw_play1.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/games/warriors/2012/04/16/0021100912_sas_gsw_play1.nba/index.html">Ginobili's Great Pass</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/games/spurs/2012/04/23/0021100965_por_sas_play1.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/games/spurs/2012/04/23/0021100965_por_sas_play1.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/games/spurs/2012/04/23/0021100965_por_sas_play1.nba/index.html">Ginobili to Parker</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/games/clippers/2012/04/23/0021100959_noh_lac_play5.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/games/clippers/2012/04/23/0021100959_noh_lac_play5.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/games/clippers/2012/04/23/0021100959_noh_lac_play5.nba/index.html">Hustling for the Win</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/nba_tv/2012/04/23/20120423_EVANS_FLOP.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/nba_tv/2012/04/23/20120423_EVANS_FLOP.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/nba_tv/2012/04/23/20120423_EVANS_FLOP.nba/index.html">Evans Blatant Flop</a>
+                                        </div>
+                                            <div class="clear"></div>
+                                     </div>
+                                      </div>
+                               </div>
+    
+                               <div class="scroll" id="video_list_tv_gallery" style="display: none">
+                                  <div class="pics">
+                                         <div class="pics_content">
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/sma2012_bowling_with_shaq.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/nba_tv/2012/06/20/sma2012_bowling_with_shaq.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/sma2012_bowling_with_shaq.nba/index.html">Bowling with Shaq</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/sma2012_social_slam_award_green.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/nba_tv/2012/06/20/sma2012_social_slam_award_green.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/sma2012_social_slam_award_green.nba/index.html">The Social Slam Award: Gerald Green</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/sma2012_got_game_award_blake.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/nba_tv/2012/06/20/sma2012_got_game_award_blake.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/sma2012_got_game_award_blake.nba/index.html">The Got Game Award: Blake Griffin</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/sma2012_lol_award_mcgee.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/nba_tv/2012/06/20/sma2012_lol_award_mcgee.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/sma2012_lol_award_mcgee.nba/index.html">LOL Award</a>
+                                        </div>
+                                            <div class="clear"></div>
+                                     </div>
+                                         <div class="pics_content">
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/sma2012_big_award_dudley.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/nba_tv/2012/06/20/sma2012_big_award_dudley.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/sma2012_big_award_dudley.nba/index.html">The Big Award - Jared Dudley</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/sma2012_lac_fan_nation_award.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/nba_tv/2012/06/20/sma2012_lac_fan_nation_award.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/sma2012_lac_fan_nation_award.nba/index.html">Fan Nation Award: Los Angeles Clippers</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/sma2012_lin_game_year_winner.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/nba_tv/2012/06/20/sma2012_lin_game_year_winner.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/sma2012_lin_game_year_winner.nba/index.html">Social Media Awards: Game of the Year</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/20120620_gt_gm5_keys.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/nba_tv/2012/06/20/20120620_gt_gm5_keys.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/20120620_gt_gm5_keys.nba/index.html">Keys to Game 5</a>
+                                        </div>
+                                            <div class="clear"></div>
+                                     </div>
+                                         <div class="pics_content">
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/20120620_gt_lbj_half.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/nba_tv/2012/06/20/20120620_gt_lbj_half.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/20120620_gt_lbj_half.nba/index.html">Tale of Two Halves</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/20120620_gt_chalmers.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/nba_tv/2012/06/20/20120620_gt_chalmers.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/20120620_gt_chalmers.nba/index.html">Mario Chalmers in Game 4</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/20120620_gt_lbj_injury.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/nba_tv/2012/06/20/20120620_gt_lbj_injury.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/20120620_gt_lbj_injury.nba/index.html">Charles and Greg on Cramps</a>
+                                        </div>
+                                            <div class="pics_details">
+                                           <div class="pics_actual">
+                                              <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/20120619_chalmers_intv.nba/index.html"><img src="resize_crop.php?file=http://i2.cdn.turner.com/nba/nba/video/channels/nba_tv/2012/06/20/20120619_chalmers_intv.nba.136x96.jpg&w=132&h=70" border="0"></a>
+                                           </div>
+    
+                                           <a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/20120619_chalmers_intv.nba/index.html">Mario Chalmers Interview</a>
+                                        </div>
+                                            <div class="clear"></div>
+                                     </div>
+                                      </div>
+                               </div>
+                            </td>
+                            <td style="width: 25px; text-align: right">
+                               <img src="images/right_btn.png" id="video_right" class="pointer">
+                            </td>
+                         </tr>
+                         <tr>
+                            <td colspan="3" style="height: 25px; text-align: center">
+                               <img src="images/circle_filled.png" id="video_circle_0" class="video_circle">
+                               <img src="images/circle_empty.png" id="video_circle_1" class="video_circle">
+                               <img src="images/circle_empty.png" id="video_circle_2" class="video_circle">
+                            </td>
+                         </tr>
+                      </table>
+                   </div>
+                </div>
+                <!-- video links end -->
+             </div>
+             <!-- top left end  -->
+             
+    
+             <!-- top right start -->
+             <div style="float: left; width: 300px; margin-left: 10px">
+             
+                 <div style="width: 300px; height: 250px">
+					 <script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+</script>
+<script type="text/javascript">
+  GS_googleAddAdSenseService("ca-pub-7046465195803313");
+  GS_googleEnableAllServices();
+</script>
+<script type="text/javascript">
+  GA_googleAddSlot("ca-pub-7046465195803313", "NBA_Homepage_TopMedallion_300x250"); 
+</script>
+<script type="text/javascript">
+  GA_googleFetchAds();
+</script> 
+ 
+<script type="text/javascript">
+  GA_googleFillSlot("NBA_Homepage_TopMedallion_300x250");
+</script>                </div>
+    
+                <div style="height: 10px"></div>
+    
+                <div style="width: 300px; height: 100px">
+				               <a href="http://www.nba.tv/nbatv/servlets/refer/affipvgsitead100"><img src="ads/300x100.jpg"></a>
+                </div>
+    
+                <div style="height: 10px"></div>
+    
+                <!-- writers start -->
+                <div style="width: 300px; padding: 5px 0 2px 0; background: url('images/rounded_bottom_300.png') bottom center no-repeat">
+                   <div class="article_header" style="background: url('images/rounded_top_300.png'); width: 270px; height: 15px">
+                      NBA WRITERS
+                   </div>
+    
+                   <!-- writers content start -->
+                   <div style="width: 298px; border: 1px solid #d8d8d8">
+                   
+                      <div style="width: 298px; border-bottom: 1px solid #d8d8d8">
+                         <div style="width: 260px; padding-top: 5px; margin: 0 auto">
+                            <ul class="video_list">
+                               <li style="background-position: 0 33px; color: #444" class="writer_element" id="writer_personality">
+                                  Personalities
+                               </li>
+                               <li class="writer_element" id="writer_blogger">
+                                  Bloggers
+                               </li>
+                            </ul>
+    
+                            <div class="clear"></div>
+                         </div>
+                      </div>
+    
+                      <!-- writers lists start -->
+                      <div class="clear" style="padding: 10px">
+                         <!-- writers personalities start -->
+                         <div id="writer_personality_list">
+                            <table>
+                                   <tr>
+                                  <td style="width: 55px; vertical-align: top; padding-top: 10px; " >
+                                    <div style="width: 45px; height: 75px;">
+                                       <img src="images/personalities/tj+manotoc.jpg" border="0">
+                                    </div>
+                                  </td>
+                                  <td style="vertical-align: top;  padding-top: 10px;  " >
+                                     <div class="writer_title">
+                                        					<a href="writers-content/503/mental-toughness">Mental toughness</a>
+                                     </div>
+    
+                                     <div class="writer_content">
+                                        <b>TJ MANOTOC</b>
+    
+                                        <div style="padding-top: 5px">
+                                           I grew up idolizing Michael Jordan. Of course as a kid, I was fascinated with his high-flying moves, his slam dunks, his spin moves, his speed, and yes, the long baggy shorts and tongue wagging...                                        </div>
+                                     </div>
+                                  </td>
+                               </tr>
+                                   <tr>
+                                  <td style="width: 55px; vertical-align: top; padding-top: 10px; " >
+                                    <div style="width: 45px; height: 75px;">
+                                       <img src="images/personalities/joaquin+henson.jpg" border="0">
+                                    </div>
+                                  </td>
+                                  <td style="vertical-align: top;  padding-top: 10px;  " >
+                                     <div class="writer_title">
+                                                                                <a href="http://ph.nba.com/writers-content/502/from-the-dean" target="_blank">From the Dean</a>
+                                     </div>
+    
+                                     <div class="writer_content">
+                                        <b>JOAQUIN HENSON</b>
+    
+                                        <div style="padding-top: 5px">
+                                           Chris Bosh collared five of his 11 rebounds in the final period. He contributed 10 points, including 4-of-4 foul shots. What’s more, he gave Miami coach Erik Spoelstra a pick-and-roll option and an intimidating presence inside the lane...                                        </div>
+                                     </div>
+                                  </td>
+                               </tr>
+                                </table>
+    
+                            <div class="more_link">
+                               <a href="nba-writers">More NBA.com Writers</a>
+                            </div>
+                         </div>
+                         <!-- writers personalities end -->
+    
+                         <!-- writers bloggers start -->
+                         <div id="writer_blogger_list" style="display: none">
+                            <table>
+                                   <tr>
+                                  <td style="width: 55px; vertical-align: top; padding-top: 10px; " >
+                                     <div style="width: 45px; height: 75px;"><img src="images/blogs/hooph.jpg" border="0"></div>
+                                  </td>
+                                  <td>
+                                     <div class="writer_title">
+					<a href="bloggers/51/stop-the-hate-appreciate-the-great">Stop the hate, appreciate the Great</a>
+                                     </div>
+    
+                                     <div class="writer_content">
+                                        <b>HOOPH</b>
+    
+                                        <div style="padding-top: 5px">
+                                           In Game 4, LeBron James had 26 points 12 rebound and 9 assists. He is the first player to do a 26-12-9 in an NBA Finals game since Larry Bird did in 1986. He also scored a key three pointer. On one working leg.                                        </div>
+                                     </div>
+                                  </td>
+                               </tr>
+                                   <tr>
+                                  <td style="width: 55px; vertical-align: top; padding-top: 10px; " >
+                                     <div style="width: 45px; height: 75px;"><img src="images/blogs/pio+garcia.jpg" border="0"></div>
+                                  </td>
+                                  <td>
+                                     <div class="writer_title">
+					<a href="bloggers/52/the-king-wants-his-ring">The King wants his ring</a>
+                                     </div>
+    
+                                     <div class="writer_content">
+                                        <b>PIO GARCIA</b>
+    
+                                        <div style="padding-top: 5px">
+                                           The games have been close. Every game has been decided in the fourth, the quarter for those who really have that desire and fire to win. But in all the games so far in the Finals, there was a constant. LeBron James has come to play.                                        </div>
+                                     </div>
+                                  </td>
+                               </tr>
+                                </table>
+				<div class="more_link">
+                               <a href="bloggers">More Bloggers</a>
+                            </div>
+                         </div>
+                         <!-- writers bloggers end -->
+                      </div>
+                      <!-- writers lists end -->
+                   </div>
+                   <!-- writers content end -->
+                </div>
+                <!-- writers end -->
+             </div>
+             <!-- top right end -->
+    
+             <div class="clear"></div>
+             
+          </div>
+          <!-- top half container end -->
+ 	
+          
+          <div style="height: 10px"></div>
+
+          <div style="width: 958px; height: 90px; margin: 0 auto; text-align: center; ">
+ 			 <script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+</script>
+<script type="text/javascript">
+  GS_googleAddAdSenseService("ca-pub-7046465195803313");
+  GS_googleEnableAllServices();
+</script>
+<script type="text/javascript">
+  GA_googleAddSlot("ca-pub-7046465195803313", "NBA_Homepage_MiddleEar_210x90");
+  GA_googleAddSlot("ca-pub-7046465195803313", "NBA_Homepage_MiddleLeaderboard_728x90");
+</script>
+<script type="text/javascript">
+  GA_googleFetchAds();
+</script>
+ <table border="0" 
+  cellpadding="0" 
+  cellspacing="1" 
+  style="table-layout: auto; width: 100%"  
+  bordercolor=white  >
+        <tr height"90">
+   <td width="5"> </td>
+   
+            <td  width="730px" style="text-align: left">
+   
+    <script type="text/javascript">
+      GA_googleFillSlot("NBA_Homepage_MiddleLeaderboard_728x90");
+    </script>
+    
+             </td>
+    
+   <td width="10"> </td>
+   
+            <td align=right>
+  
+    <script type="text/javascript">
+      GA_googleFillSlot("NBA_Homepage_MiddleEar_210x90");
+    </script>
+   
+   </td>
+    
+    <td width"5"> </td>
+            <td >
+        </tr>
+    </table>          </div>
+    
+          <div style="height: 10px"></div>
+          
+          
+          <!-- three columns start -->
+          <div class="container" >
+             <div style="width: 330px; float: left; margin-left: 10px">
+                <div style="width: 330px; padding: 5px 0 2px 0; background: url('images/rounded_bottom_330.png') bottom center no-repeat">
+                   <div class="article_header" style="background: url('images/rounded_top_330.png'); width: 300px; height: 15px">
+                      HEADLINES
+                   </div>
+    
+                   <!-- Headlines content start -->
+                   <div class="cell_330">
+                      <table style="width: 100%">
+                             <tr style="">
+                            <td>
+                               <a href="http://ph.nba.com/news-article/229/down-3-1-to-heat-thunder-vow-to-keep-fighting">Down 3-1 to Heat, Thunder vow to keep fighting</a>
+                            </td>
+                         </tr>
+                             <tr style="background: #ccc">
+                            <td>
+                               <a href="http://121.127.6.125/news-article/228/game-4-loss-puts-thunder-title-hopes-on-brink">Game 4 loss puts Thunder title hopes on brink</a>
+                            </td>
+                         </tr>
+                             <tr style="">
+                            <td>
+                               <a href="http://ph.nba.com/news-article/227/heat-top-thunder-take-3-1-lead">Heat top Thunder, take 3-1 lead</a>
+                            </td>
+                         </tr>
+                             <tr style="background: #ccc">
+                            <td>
+                               <a href="news_article.php?newsid=226">Riley selected as Chuck Daly Award recipient</a>
+                            </td>
+                         </tr>
+                             <tr style="">
+                            <td>
+                               <a href="http://ph.nba.com/news-article/225/james-scores-29-as-heat-rally-past-thunder-91-85">James scores 29 as Heat rally past Thunder 91-85</a>
+                            </td>
+                         </tr>
+                          </table>
+    
+                      <div class="more_link">
+                         <a href="news-article">More Headlines</a>
+                      </div>
+                   </div>
+                   <!-- Headlines content end -->
+                </div>
+    
+                <div style="width: 330px; padding: 5px 0 2px 0; background: url('images/rounded_bottom_330.png') bottom center no-repeat">
+                   <div class="article_header" style="background: url('images/rounded_top_330.png'); width: 300px; height: 15px">
+                      EVENTS
+                   </div>
+    
+                   <!-- Headlines content start -->
+                   <div class="cell_330">
+                          <div style="width: 318px; ">
+                          <img src="resize_pic.php?file=images/events/18.jpg&w=318&h=159" >
+                       </div>
+    
+                      <div style="padding: 5px 0; font-size: 14px">
+                         <b>10 kids form Jr. NBA All-Star team</b>
+                      </div>
+    
+                      A total of 10 kids – four from Manila, three from Cagayan de Oro and, one each from Puerto Princesa, Pampanga and the Alaska Power Camp – took the top 10 slots in the 2012 Jr. NBA Philippines national camp to form this year’s Jr. NBA All-Star team.    
+                      <div class="more_link">
+                         <a href="local-events">More Events</a>
+                      </div>
+                   </div>
+                   <!-- Headlines content end -->
+                </div>
+    
+                <div style="width: 330px; padding: 5px 0 2px 0; background: url('images/rounded_bottom_330.png') bottom center no-repeat">
+                   <div class="article_header" style="background: url('images/rounded_top_330.png'); width: 300px; height: 15px">
+                      FEATURES
+                   </div>
+    
+                   <!-- Headlines content start -->
+                   <div class="cell_330">
+                      <table style="width: 100%">
+                             <tr style="">
+                            <td>
+                               <a href="http://www.nba.com/news/features/dream-team-archive/index.html">'The Dream Team': Online exclusives and video archive</a>
+                            </td>
+                         </tr>
+                             <tr style="background: #ccc">
+                            <td>
+                               <a href="http://www.nba.com/playoffs/2012/finals?v=/video/channels/playoffs/2012/06/14/20120613_MIA_LeBron_interview.nba">LeBron talks Finals and more with David Aldridge</a>
+                            </td>
+                         </tr>
+                             <tr style="">
+                            <td>
+                               <a href="http://www.nba.com/playoffs/2012/finals?v=/video/channels/nba_tv/2012/06/13/20120613_miami_one_on_one.nba">GameTime: Are Heat playing one-on-one too much?</a>
+                            </td>
+                         </tr>
+                             <tr style="background: #ccc">
+                            <td>
+                               <a href="http://www.nba.com/playoffs/2012/westseries7/?v=/video/channels/playoffs/2012/06/08/20120508_okc_san_minimovie.nba">West finals recap</a>
+                            </td>
+                         </tr>
+                             <tr style="">
+                            <td>
+                               <a href="http://www.nba.com/playoffs/2012/eastseries7/?v=/video/channels/playoffs/2012/06/10/20120610_eastconf_mini_movie.nba">Micro-Movie: East finals recap</a>
+                            </td>
+                         </tr>
+                          </table>
+    
+                      <div class="more_link">
+                         <a href="nba-features">More Features</a><br>
+                      </div>
+                   </div>
+                   <!-- Headlines content end -->
+                </div>
+    
+                <div style="width: 330px; padding: 5px 0 2px 0; background: url('images/rounded_bottom_330.png') bottom center no-repeat">
+                   <div class="article_header" style="background: url('images/rounded_top_330.png'); width: 300px; height: 15px">
+                      PHOTO GALLERY
+                   </div>
+    
+                   <!-- Headlines content start -->
+                   <div class="cell_330">
+                      <table cellspacing="0" cellpadding="0" style="width: 318px">
+                         <tr>
+                            <td style="width: 13px">
+                               <img src="images/left_btn_small.png" id="gallery_left" class="pointer">
+                            </td>
+                            <td style="width: 282px; padding: 0 5px">
+                               <div class="scroll" id="gallery_pics" style="width: 282px; height: 282px; ">
+                               
+                                  <div class="pics"> 
+                                  
+								                                     <div class="gallery_content">
+                                        <table cellspacing="0" cellpadding="0" style="width: 282px; height: 282px">
+                                           <tr>
+                                              <td style="text-align: center">
+                                                 <a  title="Miami Heat shooting guard Dwyane Wade shoots against Oklahoma City Thunder point guard Russell Westbrook during the first half at Game 4 in Miami Wednesday. The Heat won 104-98." href="photo-gallery/47/finals-game-4-june-20"><img src="resize_pic.php?file=images/gallery/47/346_photos.jpg&w=282&h=282"></a>
+                                                 
+                                              </td>
+                                           </tr>
+                                        </table>
+                                     </div>
+								                                     <div class="gallery_content">
+                                        <table cellspacing="0" cellpadding="0" style="width: 282px; height: 282px">
+                                           <tr>
+                                              <td style="text-align: center">
+                                                 <a  title="Oklahoma City Thunder point guard Russell Westbrook shoots against Miami Heat small forward James Jones during the second half at Game 4 on Wednesday in Miami. The Heat won 104-98." href="photo-gallery/47/finals-game-4-june-20"><img src="resize_pic.php?file=images/gallery/47/347_photos.jpg&w=282&h=282"></a>
+                                                 
+                                              </td>
+                                           </tr>
+                                        </table>
+                                     </div>
+								                                     <div class="gallery_content">
+                                        <table cellspacing="0" cellpadding="0" style="width: 282px; height: 282px">
+                                           <tr>
+                                              <td style="text-align: center">
+                                                 <a  title="Miami Heat power forward Chris Bosh and point guard Mario Chalmers react against the Oklahoma City Thunder during the second half at Game 4 on Wednesday. The Heat won 104-98." href="photo-gallery/47/finals-game-4-june-20"><img src="resize_pic.php?file=images/gallery/47/348_photos.jpg&w=282&h=282"></a>
+                                                 
+                                              </td>
+                                           </tr>
+                                        </table>
+                                     </div>
+								                                     <div class="gallery_content">
+                                        <table cellspacing="0" cellpadding="0" style="width: 282px; height: 282px">
+                                           <tr>
+                                              <td style="text-align: center">
+                                                 <a  title="Oklahoma City Thunder point guard Russell Westbrook shoots against Miami Heat power forward Udonis Haslem (40) and small forward James Jones during the second half at Game 4 on Wednesday in Miami." href="photo-gallery/47/finals-game-4-june-20"><img src="resize_pic.php?file=images/gallery/47/349_photos.jpg&w=282&h=282"></a>
+                                                 
+                                              </td>
+                                           </tr>
+                                        </table>
+                                     </div>
+								                                     <div class="gallery_content">
+                                        <table cellspacing="0" cellpadding="0" style="width: 282px; height: 282px">
+                                           <tr>
+                                              <td style="text-align: center">
+                                                 <a  title="Miami Heat small forward LeBron James (6) is carried from the floor after taking a spill against the Oklahoma City Thunder during the second half at Game 4 of the NBA Finals basketball series, Tuesday, June 19, 2012, in Miami." href="photo-gallery/47/finals-game-4-june-20"><img src="resize_pic.php?file=images/gallery/47/350_photos.jpg&w=282&h=282"></a>
+                                                 
+                                              </td>
+                                           </tr>
+                                        </table>
+                                     </div>
+								                                     <div class="gallery_content">
+                                        <table cellspacing="0" cellpadding="0" style="width: 282px; height: 282px">
+                                           <tr>
+                                              <td style="text-align: center">
+                                                 <a  title="Oklahoma City Thunder small forward Kevin Durant shoots against Miami Heat small forward LeBron James (6) and point guard Mario Chalmers (15) during the second half at Game 4 of the NBA Finals basketball series, Tuesday, June 19, 2012, in Miami." href="photo-gallery/47/finals-game-4-june-20"><img src="resize_pic.php?file=images/gallery/47/351_photos.jpg&w=282&h=282"></a>
+                                                 
+                                              </td>
+                                           </tr>
+                                        </table>
+                                     </div>
+								                                     <div class="gallery_content">
+                                        <table cellspacing="0" cellpadding="0" style="width: 282px; height: 282px">
+                                           <tr>
+                                              <td style="text-align: center">
+                                                 <a  title="Miami Heat shooting guard Dwyane Wade (3), small forward LeBron James (6) and power forward Chris Bosh (1) react against the Oklahoma City Thunder during the second half at Game 4 on Wednesday in Miami. The Heat won 104-98." href="photo-gallery/47/finals-game-4-june-20"><img src="resize_pic.php?file=images/gallery/47/352_photos.jpg&w=282&h=282"></a>
+                                                 
+                                              </td>
+                                           </tr>
+                                        </table>
+                                     </div>
+								                                     <div class="gallery_content">
+                                        <table cellspacing="0" cellpadding="0" style="width: 282px; height: 282px">
+                                           <tr>
+                                              <td style="text-align: center">
+                                                 <a  title="Oklahoma City Thunder point guard Russell Westbrook dunks against Miami Heat power forward Chris Bosh, left, during the first half at Game 4 on Wednesday in Miami." href="photo-gallery/47/finals-game-4-june-20"><img src="resize_pic.php?file=images/gallery/47/353_photos.jpg&w=282&h=282"></a>
+                                                 
+                                              </td>
+                                           </tr>
+                                        </table>
+                                     </div>
+								                                     <div class="gallery_content">
+                                        <table cellspacing="0" cellpadding="0" style="width: 282px; height: 282px">
+                                           <tr>
+                                              <td style="text-align: center">
+                                                 <a  title="Oklahoma City Thunder small forward Kevin Durant dunks against the Miami Heat during the first half at Game 4 on Wednesday in Miami." href="photo-gallery/47/finals-game-4-june-20"><img src="resize_pic.php?file=images/gallery/47/354_photos.jpg&w=282&h=282"></a>
+                                                 
+                                              </td>
+                                           </tr>
+                                        </table>
+                                     </div>
+								                                     <div class="gallery_content">
+                                        <table cellspacing="0" cellpadding="0" style="width: 282px; height: 282px">
+                                           <tr>
+                                              <td style="text-align: center">
+                                                 <a  title="Miami Heat power forward Chris Bosh (1) and Oklahoma City Thunder power forward Serge Ibaka go after a loose ball during the first half at Game 4 on Wednesday in Miami." href="photo-gallery/47/finals-game-4-june-20"><img src="resize_pic.php?file=images/gallery/47/355_photos.jpg&w=282&h=282"></a>
+                                                 
+                                              </td>
+                                           </tr>
+                                        </table>
+                                     </div>
+								                                  </div>
+                               </div>
+                            </td>
+                            <td style="width: 13px; text-align: right">
+                               <img src="images/right_btn_small.png" id="gallery_right" class="pointer">
+                            </td>
+                         </tr>
+                         <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                               <div style="font-size: 10px; color: #444; padding: 5px 0">
+                                  <span id="gallery_count">1</span> of 10    
+                                  <div style="position: absolute; top: 5px; right: 0" class="blue">
+                                     Finals Game 4:  June 20                                  </div>
+                               </div>
+                            </td>
+                            <td>&nbsp;</td>
+                         </tr>
+                      </table>
+                   </div>
+                   <!-- Headlines content end -->
+                </div>
+             </div>
+    
+             <div style="width: 330px; float: left; margin-left: 10px">
+                <div style="width: 330px; padding: 5px 0 2px 0; background: url('images/rounded_bottom_330.png') bottom center no-repeat">
+                   <div class="article_header" style="background: url('images/rounded_top_330.png'); width: 300px; height: 15px">
+                      POLL
+                   </div>
+    
+                   <!-- poll content start -->
+                   <div class="cell_330" id="poll_cell">
+                          <form id="poll_form">
+                         <input type="hidden" name="pollid" value="4">
+                         <table cellspacing="0" style="width: 100%; height: 175px">
+                            <tr>
+                                   <td rowspan="2" style="width: 105px">
+                                   <img src="resize_crop.php?file=images/polls/1mvz0az0y48yyh8ezdekfhffjzg3jkqa.jpg&w=100&h=100"> 
+                                   
+                               </td>
+                                   <td>
+                                  Which superstar would you like to come to the Philippines?<br><br>    
+                                  <div style="padding: 5px 0">
+
+                                         <div class="poll_choice">
+                                        <input type="radio" name="poll" id="poll0" value="6">
+                                        <label for="poll0">Carmelo Anthony</label>
+                                     </div>
+                                         <div class="poll_choice">
+                                        <input type="radio" name="poll" id="poll1" value="1">
+                                        <label for="poll1">Chris Paul</label>
+                                     </div>
+                                         <div class="poll_choice">
+                                        <input type="radio" name="poll" id="poll2" value="2">
+                                        <label for="poll2">Derrick Rose</label>
+                                     </div>
+                                         <div class="poll_choice">
+                                        <input type="radio" name="poll" id="poll3" value="5">
+                                        <label for="poll3">Dwight Howard</label>
+                                     </div>
+                                         <div class="poll_choice">
+                                        <input type="radio" name="poll" id="poll4" value="3">
+                                        <label for="poll4">Kobe Bryant</label>
+                                     </div>
+                                         <div class="poll_choice">
+                                        <input type="radio" name="poll" id="poll5" value="4">
+                                        <label for="poll5">LeBron James</label>
+                                     </div>
+                                      </div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <img src="images/vote.png" class="pointer" onclick="submit_poll()">
+                               </td>
+                            </tr>
+                         </table>
+                      </form>
+                       </div>
+                   <!-- poll content end -->
+                </div>
+    
+                <div style="width: 330px; padding: 5px 0 2px 0; background: url('images/rounded_bottom_330.png') bottom center no-repeat">
+                       <div class="article_header" style="background: url('images/rounded_top_330.png'); width: 300px; height: 15px">
+                      GAMETIME                   </div>
+                   
+                   <!-- Headlines content start -->
+                   <div class="cell_330">
+                      
+                      <div class="nbaPodFeatContent" style="text-align: left;"><a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/20120620_gt_lbj_injury.nba"><img src="http://i.cdn.turner.com/nba/nba/2012/images/06/20/0620-lebron-cramp-285.jpg" alt="" width="313" height="160" /></a></div>
+<div><a href="http://www.nba.com/video/channels/nba_tv/2012/06/20/20120620_gt_lbj_injury.nba"><strong>Sharing his pain</strong></a></div>
+<div>Charles Barkley and Greg Anthony have some laughs at the crew's expense as they discuss LeBron's Game 4.</div>
+<ul>
+<li><strong>Smith:</strong> <a href="http://hangtime.blogs.nba.com/2012/06/20/mr-clutch-comes-up-big-for-the-heat/">'Mr. Clutch' comes up big for the Heat</a><br /><strong></strong></li>
+<li><strong><strong>Schuhmann</strong>:</strong> <a href="http://hangtime.blogs.nba.com/2012/06/20/westbrook-complicates-brilliant-performance-with-brutal-mistake/">Westbrook's brutal mistake</a></li>
+<li><a href="http://www.nba.com/video/channels/playoffs/2012/06/19/0041100404_okc_mia_recap.nba">Game 4 highlights</a></li>
+<li><a href="http://www.nba.com/games/20120619/OKCMIA/gameinfo.html">Game 4 Notebook</a><br /><strong></strong></li>
+</ul>
+<p>&nbsp;</p>                      
+                      <div class="clear_both" ></div>
+                      
+                   </div>
+                   <!-- Headlines content end -->
+                </div>
+    
+                <div style="width: 330px; padding: 5px 0 2px 0; background: url('images/rounded_bottom_330.png') bottom center no-repeat; ">
+                
+                   <div class="article_header" style="background: url('images/rounded_top_330.png'); width: 300px; height: 15px">
+                      FOLLOW THE NBA
+                   </div>
+    				
+                   <!-- tab -->
+                   <div style="width: 328px; border: 1px solid #d8d8d8; border-bottom: 0px;  border-top: 0px; text-align: left; ">
+                   
+                      <div style="width: 327px; padding-top: 10px; ">
+                            <ul class="video_list">
+                               <li style="background-position: 0 33px; color: #444; " class="share_element" id="twitter_tab">
+                                   <span style="background-image: url(images/twit_share1.png); background-repeat: no-repeat; text-align: left; padding-left: 18px; " >Twitter</span> 
+                               </li>
+                               <li class="share_element" id="facebook_tab">
+                                   <span style="background-image: url(images/fb_share1.png); background-repeat: no-repeat; text-align: left; padding-left: 19px; " >Facebook</span> 
+                               </li>
+                               <li class="share_element" style="height: 22px; width: 66px; border-bottom: 1px solid #e6e6e6; background-image: none; " >
+                                  &nbsp;
+                               </li>
+                            </ul>
+                        
+                            <div class="clear"></div>
+                        
+                      </div>
+                     
+                    </div>
+                    <!-- end tab -->
+                     
+                   <!-- twitter content -->
+                    <div id="twitter_tab_list" class="cell_330" style="height: auto !important; min-height: 390px; height: 390px; border-top: 0px; padding-bottom: 0px; padding-top: 0px;  margin-bottom: 0px; margin-top: 0px;  " >
+						 <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+                         <script>
+                         new TWTR.Widget({
+                           version: 2,
+                           type: 'profile',
+                           rpp: 4,
+                           interval: 30000,
+                           width: 318,
+                           height: 261,
+                           theme: {
+                             shell: {
+                               background: '#ffffff',
+                               color: '#0055af'
+                             },
+                             tweets: {
+                               background: '#ffffff',
+                               color: '#444444',
+                               links: '#0055af'
+                             }
+                           },
+                           features: {
+                             scrollbar: true,
+                             loop: false,
+                             live: false,
+                             behavior: 'default'
+                           }
+                         }).render().setUser('NBA_Philippines').start();
+                         </script>
+                   </div>
+                   <!-- end twitter content -->
+                   
+                   
+                   <!-- twitter content -->
+                   <link href="fbfeed/jquery.neosmart.fb.wall.css" rel="stylesheet" type="text/css"/>
+					<!--<script src="fbfeed/jquery-1.6.1.min.js" type="text/javascript"></script>-->
+                    <script src="fbfeed/jquery.neosmart.fb.wall.js" type="text/javascript"></script>
+                    
+                   <div id="facebook_tab_list" class="cell_330"   style="display:none; height: auto !important; min-height: 390px; height: 390px; border-top: 0px; padding-bottom: 0px; padding-top: 0px;  margin-bottom: 0px; margin-top: 0px;  " >
+                   		
+                        
+                   		<div class="blue" style="padding: 5px 5px 5px 0px; " ><a href="http://www.facebook.com/philsnba" target="_blank" >Become a fan</a></div> 
+                        <!--<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fphilsnba&amp;width=318&amp;height=395&amp;colorscheme=light&amp;show_faces=false&amp;border_color=white&amp;stream=true&amp;header=false&amp;appId=134247523339520" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:318px; height:320px;" allowTransparency="true"></iframe>-->
+                       <div id="Fbcontent" style="padding: 10px 10px 3px 10px; "  >
+						   <script type="text/javascript">
+                                $(function(){
+                                     
+                                     $('#Fbcontent').fbWall({
+                                        id:'philsnba',
+                                        //accessToken:'AAAC7gAoWDQ0BAMDPcIvZCZBKsFkQGd31RYXggZCwNjLKrLIAM9BzUM7WndnBsI6C9fljfeTaq8Gw4opAQTPqwxHVl7wP0MLHzpSPZAfERO02HfO6CilM', 
+										accessToken:'AAAC7gAoWDQ0BAGzwrx0cLkpSMFxmvSwZAi414H4xsFRUZCuwNjcahoZCnI5CHyZARDDcgVK5TG8yCSvVXElOZCga4aQDsargZD',
+                                        showGuestEntries:false,
+                                        showComments:false,
+                                        max:1,
+                                        timeConversion:24 
+                                    });
+                                     
+                                });
+                            </script>
+                            <div class="clear_both" ></div>
+                        </div>
+                        
+                         <!--<div style="padding: 5px 0px 10px 0px; " >
+                            <table border="0" cellpadding="0" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td>View Facebook Group</td>
+                                        <td>
+                                            <form>
+                                                <select name="fbpage" class="fbdd" onchange="window.open(this.options[this.selectedIndex].value,'_top')" style="margin-left: 10px; " >
+                                                    <option value="http://www.facebook.com/nba/">Select One</option>
+                                                    <option value="http://www.facebook.com/nba/">NBA</option>
+                                                    <option value="http://www.facebook.com/wnba/">WNBA</option>
+                                                    <option value="http://www.facebook.com/nbadleague/">D League</option>
+                                                    <option value="http://www.facebook.com/NBAStore/">NBA Store</option>
+                                                    <option value="http://www.facebook.com/NBAStoreNYC/">NBA Store on 5th Ave.</option>
+                                                    <option value="http://www.facebook.com/yourNBAdestination/">NBA on ESPN RV Tour</option>
+                                                    <option value="http://www.facebook.com/NBAONTNT/">NBA on TNT</option>
+                                                </select>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>-->
+                        
+                      
+                   </div>
+                   <!-- end twitter content -->
+                   
+                   
+                </div>
+                
+                
+             </div>
+    
+             <div style="width: 300px; float: left; margin-left: 10px">
+             
+                <div style="width: 300px; height: 250px">
+				<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+</script>
+<script type="text/javascript">
+  GS_googleAddAdSenseService("ca-pub-7046465195803313");
+  GS_googleEnableAllServices();
+</script>
+<script type="text/javascript">
+  GA_googleAddSlot("ca-pub-7046465195803313", "NBA_Homepage_MiddleMedallion1_300x250"); 
+</script>
+<script type="text/javascript">
+  GA_googleFetchAds();
+</script>
+ 
+<script type="text/javascript">
+  GA_googleFillSlot("NBA_Homepage_MiddleMedallion1_300x250");
+</script>                </div>
+    			
+                <!-- NBA TV Box -->
+                <!--<div style="width: 300px; padding: 5px 0 2px 0; background: url('images/rounded_bottom_300.png') bottom center no-repeat">
+                
+                   <div class="article_header" style="background: url('images/rounded_top_300.png'); width: 270px; height: 15px">
+                      NBA TV
+                   </div>
+    
+                   
+                   <div class="cell_300">
+                      Entries.
+                   </div>
+                   
+                   
+                </div>-->
+    			<!-- END NBA TV Box -->
+                
+                <div style="width: 300px; padding: 5px 0 2px 0; background: url('images/rounded_bottom_300.png') bottom center no-repeat">
+                   <div class="article_header" style="background: url('images/rounded_top_300.png'); width: 270px; height: 15px">
+                      AROUND THE NBA
+                   </div>
+    
+                   <!-- poll content start -->
+                   <div class="cell_300">
+    <p>&nbsp;</p>
+<p><a href="http://www.wnba.com/">WNBA: Watch Games Live, On Demand</a></p>
+<p><a href="http://www.facebook.com/nba">Connect With the NBA, Sign Up for Facebook</a></p>
+<p><a href="http://www.nba.com/caravan/">WNBA Stars Embrace Cares</a></p>
+<p><a href="http://nba.tumblr.com/">Classic NBA Playoff Photos: NBA on Tumblr&nbsp;</a></p>
+<p><a href="http://www.nba.com/dleague/">NBA D-League Finals on Futurecast</a></p>
+<p><a href="https://twitter.com/#!/nbahistory">NBA Historical Nuggets: Twitter/NBA History</a></p>
+<p><a href="http://www.jrnba.com.ph/">Updates on Jr. NBA in the Philippines</a></p>
+<p><a href="http://www.nba.com/nbafit/">NBA Fit</a></p>
+<p>&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;"><a href="http://www.nba.com/hoops/"><img src="http://imageshack.us/a/img805/8739/hoopsaroundtheworldlogo.jpg" alt="" width="260" height="120" /></a>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;<a href="http://NBA.Com/nba_cares/"><img style="margin-right: auto; margin-left: auto; display: block;" src="http://i.cdn.turner.com/nba/nba/nba_adspaces/1.0/creatives/2012/1/30/1552312NBA_CARES_BTB260x40.jpg" alt="" width="260" height="40" /></a></p>					
+ 
+
+                   </div>
+                   <!-- poll content end -->
+                </div>
+<div style="height: 10px"></div>
+    
+                <div style="width: 300px; height: 100px">
+               <a href="http://www.nba.tv/nbatv/servlets/refer/affipvgsitead100"><img src="ads/300x100.jpg"></a>
+               </div>
+    
+                
+                <div style="height: 5px"></div>
+    
+                <div style="width: 300px; height: 250px">
+					<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+</script>
+<script type="text/javascript">
+  GS_googleAddAdSenseService("ca-pub-7046465195803313");
+  GS_googleEnableAllServices();
+</script>
+<script type="text/javascript">
+  GA_googleAddSlot("ca-pub-7046465195803313", "NBA_Homepage_MiddleMedallion2_300x250"); 
+</script>
+<script type="text/javascript">
+  GA_googleFetchAds();
+</script>
+ 
+<script type="text/javascript">
+  GA_googleFillSlot("NBA_Homepage_MiddleMedallion2_300x250");
+</script>                </div>
+             </div>
+    
+             <div class="clear"></div>
+          </div>
+          <!-- three columns end -->
+          
+          
+          <!-- starting 5 start -->
+          <div style="width: 982px; margin: 0 auto; padding: 5px 0 2px 0; background: url('images/rounded_bottom_982.png') bottom center no-repeat">
+             <div class="article_header" style="background: url('images/rounded_top_982.png'); width: 952px; height: 15px">
+                WHO'S YOUR STARTING 5?
+    
+                <div style="font-size: 14px; font-weight: bold; position: absolute; top: 10px; right: 15px">
+                   <a href="starting-five" class="blue">VOTE NOW!</a>
+                </div>
+             </div>
+    
+             <div style="width: 970px; border: 1px solid #d8d8d8; padding: 10px 5px; color: #444; font-size: 12px">
+                <table cellspacing="0" style="width: 100%; text-align: center; font-weight: bold" id="starting">
+                   <tr>
+                          <td style="border-right: 1px solid #999">
+                         <div style="color: #999; font-size: 14px">Shooting Guard</div>
+                         <div class="blue" style="font-size: 14px">Kobe Bryant</div>
+                         <div style="color: #f03; font-size: 15px">468 votes</div>
+                      </td>
+                          <td style="border-right: 1px solid #999">
+                         <div style="color: #999; font-size: 14px">Small Forward</div>
+                         <div class="blue" style="font-size: 14px">LeBron James</div>
+                         <div style="color: #f03; font-size: 15px">447 votes</div>
+                      </td>
+                          <td style="border-right: 1px solid #999">
+                         <div style="color: #999; font-size: 14px">Power Forward</div>
+                         <div class="blue" style="font-size: 14px">Kevin Love</div>
+                         <div style="color: #f03; font-size: 15px">336 votes</div>
+                      </td>
+                          <td style="border-right: 1px solid #999">
+                         <div style="color: #999; font-size: 14px">Center</div>
+                         <div class="blue" style="font-size: 14px">Dwight Howard</div>
+                         <div style="color: #f03; font-size: 15px">638 votes</div>
+                      </td>
+                          <td >
+                         <div style="color: #999; font-size: 14px">Point Guard</div>
+                         <div class="blue" style="font-size: 14px">Derrick Rose</div>
+                         <div style="color: #f03; font-size: 15px">463 votes</div>
+                      </td>
+                       </tr>
+                </table>
+             </div>
+          </div>
+          <!-- starting 5 end -->
+          
+      
+      
+               <div style="height: 10px"></div>
+
+      <div style="width: 100%; background: #fff">
+         <div style="width: 982px; margin: 0 auto">
+            <table id="links_table">
+               <tr>
+                  <td class="links_heading">
+                     OTHER FEATURES
+                  </td>
+                  <td class="links_heading">
+                     NBA
+                  </td>
+                  <td class="links_heading">
+                     EVENTS
+                  </td>
+                  <td class="links_heading">
+                     NBA 101
+                  </td>
+                  <td class="links_heading">
+                     ALL-ACCESS
+                  </td>
+                  <td class="links_heading">
+                     24/7
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://www.nba.com/mvp-ladder/">Race to the MVP Ladder</a>
+                     <a href="http://www.nba.com/top-plays-ladder/">Top Plays Ladder</a>
+                     <a href="http://www.nba.com/dunk-ladder/">Dunk Ladder</a>
+                     <a href="http://www.nba.com/rookies/">Rookie Ladder</a>
+                  </td>
+                  <td>
+                     <a href="mailto:dangdomingo@philstar.com">Advertise on NBA.com</a>
+                     <a href="mailto:dangdomingo@philstar.com">Contact Us</a>
+                     <a href="http://www.nbpa.org/">NBPA</a>
+                     <a href="http://www.nba.com/nba_cares/">NBA Cares</a>
+                     <a href="http://www.nba.com/green">NBA Green</a>
+                     <a href="http://www.nba.com/nbafit/">NBA FIT</a>
+                     <a href="http://www.ihoops.com/">iHoops</a>
+                     <a href="http://www.usabasketball.com/">USA Basketball</a>
+                     <a href="http://www.nba.com/nbacity/">NBA City Restaurant</a>
+                     <a href="http://www.nba.com/videogames/nbalive10_overview.html">NBA Video Games</a>
+                     <a href="http://www.nba.com/nycstore/">NYC Store</a>
+                  </td>
+                  <td>
+                     <a href="http://www.nba.com/allstar/2012/">2012 All-Star</a>
+                     <a href="http://www.nba.com/draft/">2012 Draft</a>
+                     <a href="http://www.nba.com/news/key-dates/index.html">Important Dates</a>
+                     <a href="http://www.nba.com/halloffame">2011 Hall of Fame Induction</a>
+                     <a href="http://www.nba.com/nbanation/">NBA Nation</a>
+                     <a href="http://www.nba.com/jamvan/">NBA Jam Van</a>
+                     <a href="http://www.nba.com/jamsession/">Jam Session</a>
+                     <a href="http://www.nba.com/bwb/">Basketball Without Borders</a>
+                  </td>
+                  <td>
+                     <a href="http://www.nba.com/official">NBA Official</a>
+                     <a href="http://www.nba.com/about/game.html">About the NBA</a>
+                     <a href="http://www.nba.com/history">History</a>
+                     <a href="http://www.nba.com/nba101">Rules of the Game</a>
+                     <a href="http://www.nba.com/videorulebook">Video Rulebook</a>
+                     <a href="http://hoopedia.nba.com/index.php/Main_Page">Hoopedia: Basketball Wiki</a>
+                     <a href="http://www.nba.com/roundball/">Red on Roundball</a>
+                     <a href="http://www.nba.com/news/transactions/nba.guide/index.html">NBA Guide</a>
+                     <a href="http://www.nba.com/news/transactions/nba.register/index.html">NBA Register</a>
+                  </td>
+                  <td>
+                     <a href="http://www.nba.com/allaccess">Member Center</a>
+                     <!--<a href="http://www.nba.com/leaguepass/index.html">NBA LEAGUE PASS</a>-->
+                     <a href="http://www.nba.com/nbatv/">NBA.TV</a>
+                     <a href="http://www.nba.com/allaccess/watchListen.html">Audio LEAGUE PASS</a>
+                     <a href="http://www.nba.com/fantasy">Fantasy Games</a>
+                     <a href="http://www.nba.com/games">Online Games</a>
+                     <a href="http://my.nba.com/">Fan Voice</a>
+                     <a href="http://www.nba.com/allaccess/shop.html">NBA Deals and Discounts</a>
+                     <a href="http://www.nba.com/allaccess/newsletters.html">Newsletters</a>
+                     <a href="http://www.nba.com/hoop/hoop_archives_2009_08_28.html">HOOP Magazine</a>
+                  </td>
+                  <td>
+                     <a href="http://www.nba.com/nbatv/">NBA.TV</a>
+                     <a href="http://www.nba.com/rss">RSS Feeds</a>
+                  </td>
+               </tr>
+            </table>
+         </div>
+
+         <div style="height: 10px"></div>
+
+         <div style="width: 958px; height: 90px; text-align: center; margin: 0 auto;  ">
+			 <script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+</script>
+<script type="text/javascript">
+  GS_googleAddAdSenseService("ca-pub-7046465195803313");
+  GS_googleEnableAllServices();
+</script>
+<script type="text/javascript">
+  GA_googleAddSlot("ca-pub-7046465195803313", "NBA_Homepage_BottomEar_210x90");
+  GA_googleAddSlot("ca-pub-7046465195803313", "NBA_Homepage_BottomLeaderboard_728x90");
+</script>
+<script type="text/javascript">
+  GA_googleFetchAds();
+</script>
+
+ <table border="0" 
+  cellpadding="0" 
+  cellspacing="1" 
+  style="table-layout: auto; width: 100%"  
+  bordercolor=white  >
+        <tr height=90px>
+   <td width=5px> </td>
+   
+            <td  width="730px" style="text-align: left">
+   
+    <script type="text/javascript">
+      GA_googleFillSlot("NBA_Homepage_BottomLeaderboard_728x90");
+    </script>
+    
+             </td>
+    
+   <td width=10px> </td>
+   
+            <td align=right>
+  
+    <script type="text/javascript">
+      GA_googleFillSlot("NBA_Homepage_BottomEar_210x90");
+    </script>
+   
+   </td>
+    
+    <td width=5px> </td>
+            <td >
+        </tr>
+    </table>         </div>
+
+         <div style="height: 10px"></div>
+      </div>
+ 
+          
+            
+   </div>
+  
+       
+</div>
+
+ <!-- end main_content -->
+   
+	<div id="footer">
+
+   <div id="footer_copyright">
+      Copyright 2012 NBA Media Ventures, LLC <span>|</span> NBA Media Ventures, LLC. All rights reserved. No portion of this site may be duplicated, redistributed or manipulated in any form.<br>
+   By accessing any information beyond this page, you agree to abide by the <a href="http://www.nba.com/news/privacy_policy.html">Privacy Policy</a> and <a href="http://www.nba.com/news/termsofuse.html">Terms of Use</a>.<br>
+   </div>
+
+   <div id="footer_links">
+      <a href="mailto:dangdomingo@philstar.com">Advertise on NBA.com</a>
+      <span>|</span>
+      <a href="http://www.nba.com/help/site_faq.html">NBA.com Help</a>
+      <span>|</span>
+      <a href="http://www.nba.com/help/fan_relations_faq.html">Fan Relations FAQ</a>
+   </div>
+   
+</div>
+<!-- Web Developer: JAYPEE DE REAL --><script type="text/javascript">
+<!--
+$(function() {
+   $('.boxlight').filter(function(index) {
+     if (index != 0 && index != 11)
+      $(this).addClass("lightbox");
+   });
+
+   $('a.lightbox').lightBox();
+});
+
+$(".scroll").scrollable({ circular: true });
+
+var video_section = "video_list_highlights_gallery";
+
+var headline_count = 0;
+var video_count = 0;
+
+$("#headline_left").click(function() {
+   $("#headline_pics").data("scrollable").prev();
+
+   $("#headline_circle_" + headline_count).prop("src", "images/circle_empty.png");
+
+   headline_count -= 1;
+   if (headline_count < 0)
+      headline_count = 2;
+
+   $("#headline_circle_" + headline_count).prop("src", "images/circle_filled.png");
+});
+
+$("#headline_right").click(function() {
+   $("#headline_pics").data("scrollable").next();
+
+   $("#headline_circle_" + headline_count).prop("src", "images/circle_empty.png");
+
+   headline_count += 1;
+   if (headline_count > 2)
+      headline_count = 0;
+
+   $("#headline_circle_" + headline_count).prop("src", "images/circle_filled.png");
+});
+
+$(".headline_circle").click(function() {
+   $("#headline_circle_" + headline_count).prop("src", "images/circle_empty.png");
+
+   var num = parseInt($(this).prop("id").substring($(this).prop("id").length - 1));
+   $("#headline_pics").data("scrollable").seekTo(num);
+   headline_count = num;
+
+   $("#headline_circle_" + headline_count).prop("src", "images/circle_filled.png");
+});
+
+$("#video_left").click(function() {
+   $("#" + video_section).data("scrollable").prev();
+
+   $("#video_circle_" + video_count).prop("src", "images/circle_empty.png");
+
+   video_count -= 1;
+   if (video_count < 0)
+      video_count = 2;
+
+   $("#video_circle_" + video_count).prop("src", "images/circle_filled.png");
+});
+
+$("#video_right").click(function() {
+   $("#" + video_section).data("scrollable").next();
+
+   $("#video_circle_" + video_count).prop("src", "images/circle_empty.png");
+
+   video_count += 1;
+   if (video_count > 2)
+      video_count = 0;
+
+   $("#video_circle_" + video_count).prop("src", "images/circle_filled.png");
+});
+
+$(".video_circle").click(function() {
+   $("#video_circle_" + video_count).prop("src", "images/circle_empty.png");
+
+   var num = parseInt($(this).prop("id").substring($(this).prop("id").length - 1));
+   $("#" + video_section).data("scrollable").seekTo(num);
+   video_count = num;
+
+   $("#video_circle_" + video_count).prop("src", "images/circle_filled.png");
+});
+
+var video_tab = "video_list_highlights";
+
+$(".video_element").hover(function() {
+   $(this).css({backgroundPosition: "0 33px", color: "#444"});
+   }, function() {
+   if ($(this).prop("id") != video_tab) {
+      $(this).css({backgroundPosition: "0 0", color: "#0054af"});
+   }
+});
+
+$(".video_element").click(function() {
+   if ($(this).prop('id') != "video_list_live") {
+      $("#" + video_tab).css({backgroundPosition: "0 0", color: "#0054af"});
+      $("#" + video_section).css({display: "none"});
+
+      video_tab = $(this).prop("id");
+      video_section = video_tab + "_gallery";
+      
+      $("#" + video_tab).css({backgroundPosition: "0 33px", color: "#444"});
+      $("#" + video_section).css({display: "block"});
+      $("#" + video_section).data("scrollable").begin();
+
+      $("#video_circle_" + video_count).prop("src", "images/circle_empty.png");
+      $("#video_circle_0").prop("src", "images/circle_filled.png");
+
+      video_count = 0;
+   }
+});
+
+
+var writer_tab = "writer_personality";
+
+$(".writer_element").hover(function() {
+   $(this).css({backgroundPosition: "0 33px", color: "#444"});
+   }, function() {
+   if ($(this).prop("id") != writer_tab) {
+      $(this).css({backgroundPosition: "0 0", color: "#0054af"});
+   }
+});
+
+$(".writer_element").click(function() {
+   $("#" + writer_tab).css({backgroundPosition: "0 0", color: "#0054af"});
+   $("#" + writer_tab + "_list").css({display: "none"});
+
+   writer_tab = $(this).prop("id");
+   
+   $("#" + writer_tab).css({backgroundPosition: "0 33px", color: "#444"});
+   $("#" + writer_tab + "_list").css({display: "block"});
+});
+
+
+
+//SHARE MEDIA
+var share_tab = "twitter_tab";
+
+$("._element").hover(function() {
+   $(this).css({backgroundPosition: "0 33px", color: "#444"});
+   }, function() {
+   if ($(this).prop("id") != writer_tab) {
+      $(this).css({backgroundPosition: "0 0", color: "#0054af"});
+   }
+});
+
+$(".share_element").click(function() {
+   $("#" + share_tab).css({backgroundPosition: "0 0", color: "#0054af"});
+   $("#" + share_tab + "_list").css({display: "none"});
+
+   share_tab = $(this).prop("id");
+   
+   $("#" + share_tab).css({backgroundPosition: "0 33px", color: "#444"});
+   $("#" + share_tab + "_list").css({display: "block"});
+});
+
+
+
+var gallery_count = 0;
+
+$("#gallery_left").click(function() {
+   $("#gallery_pics").data("scrollable").prev();
+
+   gallery_count -= 1;
+   if (gallery_count < 0)
+      gallery_count = 9;
+
+   $("#gallery_count").html(gallery_count + 1);
+});
+
+$("#gallery_right").click(function() {
+   $("#gallery_pics").data("scrollable").next();
+
+   gallery_count += 1;
+   if (gallery_count > 9)
+      gallery_count = 0;
+
+   $("#gallery_count").html(gallery_count + 1);
+});
+
+function submit_poll() {
+   var dat = $("#poll_form").serialize();
+
+   $.post("submit_poll.php", dat, function(msg) {
+      $("#poll_cell").html(msg);
+   });
+}
+
+var p_top = 1;
+var c_top = 1;
+
+function carousel(targ) {
+   if (c_top != targ) {
+      $("#carousel" + c_top).css({zIndex: 0});
+
+      p_top = c_top;
+      c_top = targ;
+
+      $("#carousel" + targ).css({zIndex: 10});
+      $("#carousel" + targ).css({left: "-672px", display: "block"}).animate({left: '0'}, "fast", function() {
+       $("#carousel" + p_top).css({display: "none"});
+      });
+      //$("#carousel" + targ).slideDown("fast", function() {
+       //$("#carousel" + p_top).css({display: "none"});
+      //});
+   }
+}
+
+
+
+$("#header_nav_nba").hover(function() {
+   $(this).css({backgroundPosition: "0 29px"});
+   }, function() {
+   $(this).css({backgroundPosition: "0 0"});
+});
+
+$(".header_nav_section").hover(function() {
+   $(this).css({background: "url('images/header_nav_over.png') repeat-x"});
+   var navid = $(this).prop('id');
+   $("#header_" + navid).css({display: "block"});
+   }, function() {
+   $(this).css({background: "none"});
+   var navid = $(this).prop('id');
+   $("#header_" + navid).css({display: "none"});
+});
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31591663-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+-->
+</script>
+
+
+
+
+
+</body>
+</html>

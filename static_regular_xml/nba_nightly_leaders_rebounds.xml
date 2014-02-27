@@ -1,0 +1,17 @@
+<Msg_file LeagueID="00" League="NBA" Season="2010-11" SeasonType="Regular Season">
+  <Game Number="0">
+    <Msg_Daily_leaders>
+      <Player_rebound_leader Person_id="2449" Last_name="Scola" First_name="Luis" Team_id="1610612745" Team_name="Rockets" Team_city="Houston" Team_abr="HOU" Offensive_rebounds="4" Defensive_rebounds="12" Rebounds="16" />
+      <Player_rebound_leader Person_id="2617" Last_name="Haslem" First_name="Udonis" Team_id="1610612748" Team_name="Heat" Team_city="Miami" Team_abr="MIA" Offensive_rebounds="4" Defensive_rebounds="7" Rebounds="11" />
+      <Player_rebound_leader Person_id="201587" Last_name="Batum" First_name="Nicolas" Team_id="1610612757" Team_name="Trail Blazers" Team_city="Portland" Team_abr="POR" Offensive_rebounds="5" Defensive_rebounds="6" Rebounds="11" />
+      <Player_rebound_leader Person_id="2397" Last_name="Ming" First_name="Yao" Team_id="1610612745" Team_name="Rockets" Team_city="Houston" Team_abr="HOU" Offensive_rebounds="4" Defensive_rebounds="7" Rebounds="11" />
+      <Player_rebound_leader Person_id="2200" Last_name="Gasol" First_name="Pau" Team_id="1610612747" Team_name="Lakers" Team_city="Los Angeles" Team_abr="LAL" Offensive_rebounds="4" Defensive_rebounds="7" Rebounds="11" />
+      <Player_rebound_leader Person_id="708" Last_name="Garnett" First_name="Kevin" Team_id="1610612738" Team_name="Celtics" Team_city="Boston" Team_abr="BOS" Offensive_rebounds="2" Defensive_rebounds="8" Rebounds="10" />
+      <Player_rebound_leader Person_id="948" Last_name="Camby" First_name="Marcus" Team_id="1610612757" Team_name="Trail Blazers" Team_city="Portland" Team_abr="POR" Offensive_rebounds="4" Defensive_rebounds="6" Rebounds="10" />
+      <Player_rebound_leader Person_id="1885" Last_name="Odom" First_name="Lamar" Team_id="1610612747" Team_name="Lakers" Team_city="Los Angeles" Team_abr="LAL" Offensive_rebounds="1" Defensive_rebounds="9" Rebounds="10" />
+      <Player_rebound_leader Person_id="1718" Last_name="Pierce" First_name="Paul" Team_id="1610612738" Team_name="Celtics" Team_city="Boston" Team_abr="BOS" Offensive_rebounds="1" Defensive_rebounds="8" Rebounds="9" />
+      <Player_rebound_leader Person_id="200746" Last_name="Aldridge" First_name="LaMarcus" Team_id="1610612757" Team_name="Trail Blazers" Team_city="Portland" Team_abr="POR" Offensive_rebounds="3" Defensive_rebounds="6" Rebounds="9" />
+      <Player_rebound_leader Person_id="1802" Last_name="Miller" First_name="Brad" Team_id="1610612745" Team_name="Rockets" Team_city="Houston" Team_abr="HOU" Offensive_rebounds="2" Defensive_rebounds="7" Rebounds="9" />
+    </Msg_Daily_leaders>
+  </Game>
+</Msg_file>

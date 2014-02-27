@@ -1,0 +1,57 @@
+<Msg_file LeagueID="00" League="NBA" Season="2010-11" SeasonType="Playoffs">
+  <Game Number="0">
+    <Msg_season_leaders>
+      <Player_tppct_leader Person_id="467" Last_name="Kidd" First_name=" Jason" Team_id="1610612742" Team_name="Mavericks" Team_abr="DAL" Games="21" TP_made="43" TP_attempted="115" TP_pct="0.374" />
+      <Player_tppct_leader Person_id="1891" Last_name="Terry" First_name=" Jason" Team_id="1610612742" Team_name="Mavericks" Team_abr="DAL" Games="21" TP_made="42" TP_attempted="95" TP_pct="0.442" />
+      <Player_tppct_leader Person_id="201142" Last_name="Durant" First_name=" Kevin" Team_id="1610612760" Team_name="Thunder" Team_abr="OKC" Games="17" TP_made="37" TP_attempted="109" TP_pct="0.339" />
+      <Player_tppct_leader Person_id="201596" Last_name="Chalmers" First_name=" Mario" Team_id="1610612748" Team_name="Heat" Team_abr="MIA" Games="21" TP_made="32" TP_attempted="84" TP_pct="0.381" />
+      <Player_tppct_leader Person_id="951" Last_name="Allen" First_name=" Ray" Team_id="1610612738" Team_name="Celtics" Team_abr="BOS" Games="9" TP_made="32" TP_attempted="56" TP_pct="0.571" />
+      <Player_tppct_leader Person_id="2544" Last_name="James" First_name=" LeBron" Team_id="1610612748" Team_name="Heat" Team_abr="MIA" Games="21" TP_made="30" TP_attempted="85" TP_pct="0.353" />
+      <Player_tppct_leader Person_id="978" Last_name="Stojakovic" First_name=" Peja" Team_id="1610612742" Team_name="Mavericks" Team_abr="DAL" Games="19" TP_made="29" TP_attempted="77" TP_pct="0.377" />
+      <Player_tppct_leader Person_id="2052" Last_name="Stevenson" First_name=" DeShawn" Team_id="1610612742" Team_name="Mavericks" Team_abr="DAL" Games="21" TP_made="27" TP_attempted="68" TP_pct="0.397" />
+      <Player_tppct_leader Person_id="2586" Last_name="Bogans" First_name=" Keith" Team_id="1610612741" Team_name="Bulls" Team_abr="CHI" Games="16" TP_made="25" TP_attempted="59" TP_pct="0.424" />
+      <Player_tppct_leader Person_id="201565" Last_name="Rose" First_name=" Derrick" Team_id="1610612741" Team_name="Bulls" Team_abr="CHI" Games="16" TP_made="25" TP_attempted="101" TP_pct="0.248" />
+      <Player_tppct_leader Person_id="1717" Last_name="Nowitzki" First_name=" Dirk" Team_id="1610612742" Team_name="Mavericks" Team_abr="DAL" Games="21" TP_made="23" TP_attempted="50" TP_pct="0.460" />
+      <Player_tppct_leader Person_id="201935" Last_name="Harden" First_name=" James" Team_id="1610612760" Team_name="Thunder" Team_abr="OKC" Games="17" TP_made="23" TP_attempted="76" TP_pct="0.303" />
+      <Player_tppct_leader Person_id="2594" Last_name="Korver" First_name=" Kyle" Team_id="1610612741" Team_name="Bulls" Team_abr="CHI" Games="16" TP_made="22" TP_attempted="52" TP_pct="0.423" />
+      <Player_tppct_leader Person_id="2736" Last_name="Deng" First_name=" Luol" Team_id="1610612741" Team_name="Bulls" Team_abr="CHI" Games="16" TP_made="22" TP_attempted="68" TP_pct="0.324" />
+      <Player_tppct_leader Person_id="1718" Last_name="Pierce" First_name=" Paul" Team_id="1610612738" Team_name="Celtics" Team_abr="BOS" Games="9" TP_made="21" TP_attempted="47" TP_pct="0.447" />
+      <Player_tppct_leader Person_id="2037" Last_name="Crawford" First_name=" Jamal" Team_id="1610612737" Team_name="Hawks" Team_abr="ATL" Games="12" TP_made="21" TP_attempted="60" TP_pct="0.350" />
+      <Player_tppct_leader Person_id="201564" Last_name="Mayo" First_name=" O.J." Team_id="1610612763" Team_name="Grizzlies" Team_abr="MEM" Games="13" TP_made="20" TP_attempted="49" TP_pct="0.408" />
+      <Player_tppct_leader Person_id="2207" Last_name="Johnson" First_name=" Joe" Team_id="1610612737" Team_name="Hawks" Team_abr="ATL" Games="12" TP_made="18" TP_attempted="42" TP_pct="0.429" />
+      <Player_tppct_leader Person_id="2592" Last_name="Jones" First_name=" James" Team_id="1610612748" Team_name="Heat" Team_abr="MIA" Games="12" TP_made="17" TP_attempted="37" TP_pct="0.459" />
+      <Player_tppct_leader Person_id="1710" Last_name="Bibby" First_name=" Mike" Team_id="1610612748" Team_name="Heat" Team_abr="MIA" Games="20" TP_made="17" TP_attempted="66" TP_pct="0.258" />
+      <Player_tppct_leader Person_id="200826" Last_name="Barea" First_name=" Jose" Team_id="1610612742" Team_name="Mavericks" Team_abr="DAL" Games="21" TP_made="16" TP_attempted="50" TP_pct="0.320" />
+      <Player_tppct_leader Person_id="201161" Last_name="Cook" First_name=" Daequan" Team_id="1610612760" Team_name="Thunder" Team_abr="OKC" Games="17" TP_made="16" TP_attempted="46" TP_pct="0.348" />
+      <Player_tppct_leader Person_id="201566" Last_name="Westbrook" First_name=" Russell" Team_id="1610612760" Team_name="Thunder" Team_abr="OKC" Games="17" TP_made="14" TP_attempted="48" TP_pct="0.292" />
+      <Player_tppct_leader Person_id="2548" Last_name="Wade" First_name=" Dwyane" Team_id="1610612748" Team_name="Heat" Team_abr="MIA" Games="21" TP_made="14" TP_attempted="52" TP_pct="0.269" />
+      <Player_tppct_leader Person_id="977" Last_name="Bryant" First_name=" Kobe" Team_id="1610612747" Team_name="Lakers" Team_abr="LAL" Games="10" TP_made="12" TP_attempted="41" TP_pct="0.293" />
+      <Player_tppct_leader Person_id="201144" Last_name="Conley" First_name=" Mike" Team_id="1610612763" Team_name="Grizzlies" Team_abr="MEM" Games="13" TP_made="11" TP_attempted="37" TP_pct="0.297" />
+      <Player_tppct_leader Person_id="201950" Last_name="Holiday" First_name=" Jrue" Team_id="1610612755" Team_name="76ers" Team_abr="PHI" Games="5" TP_made="11" TP_attempted="21" TP_pct="0.524" />
+      <Player_tppct_leader Person_id="2034" Last_name="Miller" First_name=" Mike" Team_id="1610612748" Team_name="Heat" Team_abr="MIA" Games="18" TP_made="11" TP_attempted="37" TP_pct="0.297" />
+      <Player_tppct_leader Person_id="1897" Last_name="World Peace" First_name=" Metta" Team_id="1610612747" Team_name="Lakers" Team_abr="LAL" Games="9" TP_made="9" TP_attempted="28" TP_pct="0.321" />
+      <Player_tppct_leader Person_id="1938" Last_name="Ginobili" First_name=" Manu" Team_id="1610612759" Team_name="Spurs" Team_abr="SAS" Games="5" TP_made="9" TP_attempted="28" TP_pct="0.321" />
+      <Player_tppct_leader Person_id="2747" Last_name="Smith" First_name=" J.R." Team_id="1610612743" Team_name="Nuggets" Team_abr="DEN" Games="5" TP_made="9" TP_attempted="21" TP_pct="0.429" />
+      <Player_tppct_leader Person_id="201953" Last_name="Maynor" First_name=" Eric" Team_id="1610612760" Team_name="Thunder" Team_abr="OKC" Games="17" TP_made="9" TP_attempted="25" TP_pct="0.360" />
+      <Player_tppct_leader Person_id="2546" Last_name="Anthony" First_name=" Carmelo" Team_id="1610612752" Team_name="Knicks" Team_abr="NYK" Games="4" TP_made="9" TP_attempted="26" TP_pct="0.346" />
+      <Player_tppct_leader Person_id="101108" Last_name="Paul" First_name=" Chris" Team_id="1610612740" Team_name="Hornets" Team_abr="NOH" Games="6" TP_made="9" TP_attempted="19" TP_pct="0.474" />
+      <Player_tppct_leader Person_id="101122" Last_name="Granger" First_name=" Danny" Team_id="1610612754" Team_name="Pacers" Team_abr="IND" Games="5" TP_made="8" TP_attempted="23" TP_pct="0.348" />
+      <Player_tppct_leader Person_id="202083" Last_name="Matthews" First_name=" Wesley" Team_id="1610612757" Team_name="Trail Blazers" Team_abr="POR" Games="6" TP_made="8" TP_attempted="21" TP_pct="0.381" />
+      <Player_tppct_leader Person_id="2202" Last_name="Richardson" First_name=" Jason" Team_id="1610612753" Team_name="Magic" Team_abr="ORL" Games="5" TP_made="8" TP_attempted="25" TP_pct="0.320" />
+      <Player_tppct_leader Person_id="2203" Last_name="Battier" First_name=" Shane" Team_id="1610612763" Team_name="Grizzlies" Team_abr="MEM" Games="13" TP_made="8" TP_attempted="29" TP_pct="0.276" />
+      <Player_tppct_leader Person_id="201158" Last_name="Belinelli" First_name=" Marco" Team_id="1610612740" Team_name="Hornets" Team_abr="NOH" Games="6" TP_made="8" TP_attempted="26" TP_pct="0.308" />
+      <Player_tppct_leader Person_id="2550" Last_name="Hinrich" First_name=" Kirk" Team_id="1610612737" Team_name="Hawks" Team_abr="ATL" Games="6" TP_made="8" TP_attempted="19" TP_pct="0.421" />
+      <Player_tppct_leader Person_id="201975" Last_name="Meeks" First_name=" Jodie" Team_id="1610612755" Team_name="76ers" Team_abr="PHI" Games="5" TP_made="8" TP_attempted="18" TP_pct="0.444" />
+      <Player_tppct_leader Person_id="201985" Last_name="Price" First_name=" A.J." Team_id="1610612754" Team_name="Pacers" Team_abr="IND" Games="5" TP_made="7" TP_attempted="16" TP_pct="0.438" />
+      <Player_tppct_leader Person_id="200769" Last_name="Brown" First_name=" Shannon" Team_id="1610612747" Team_name="Lakers" Team_abr="LAL" Games="10" TP_made="7" TP_attempted="25" TP_pct="0.280" />
+      <Player_tppct_leader Person_id="201568" Last_name="Gallinari" First_name=" Danilo" Team_id="1610612743" Team_name="Nuggets" Team_abr="DEN" Games="5" TP_made="7" TP_attempted="15" TP_pct="0.467" />
+      <Player_tppct_leader Person_id="201587" Last_name="Batum" First_name=" Nicolas" Team_id="1610612757" Team_name="Trail Blazers" Team_abr="POR" Games="6" TP_made="7" TP_attempted="26" TP_pct="0.269" />
+      <Player_tppct_leader Person_id="201145" Last_name="Green" First_name=" Jeff" Team_id="1610612738" Team_name="Celtics" Team_abr="BOS" Games="9" TP_made="7" TP_attempted="16" TP_pct="0.438" />
+      <Player_tppct_leader Person_id="2753" Last_name="West" First_name=" Delonte" Team_id="1610612738" Team_name="Celtics" Team_abr="BOS" Games="9" TP_made="7" TP_attempted="19" TP_pct="0.368" />
+      <Player_tppct_leader Person_id="965" Last_name="Fisher" First_name=" Derek" Team_id="1610612747" Team_name="Lakers" Team_abr="LAL" Games="10" TP_made="7" TP_attempted="17" TP_pct="0.412" />
+      <Player_tppct_leader Person_id="2772" Last_name="Ariza" First_name=" Trevor" Team_id="1610612740" Team_name="Hornets" Team_abr="NOH" Games="6" TP_made="7" TP_attempted="21" TP_pct="0.333" />
+      <Player_tppct_leader Person_id="201962" Last_name="Douglas" First_name=" Toney" Team_id="1610612752" Team_name="Knicks" Team_abr="NYK" Games="4" TP_made="7" TP_attempted="18" TP_pct="0.389" />
+      <Player_tppct_leader Person_id="2045" Last_name="Turkoglu" First_name=" Hedo" Team_id="1610612753" Team_name="Magic" Team_abr="ORL" Games="6" TP_made="7" TP_attempted="30" TP_pct="0.233" />
+    </Msg_season_leaders>
+  </Game>
+</Msg_file>

@@ -1,0 +1,414 @@
+<Msg_file LeagueID="00" League="NBA" Season="2010-11" SeasonType="Regular Season">
+  <Game Number="0">
+    <Msg_game_info>
+      <Game_info Game_id="0021000017" Game_date="10/28/2010" Game_time="8:00 PM" Home_time="8:00 PM" Visitor_time="8:00 PM" Arena_name="Amway Center" Location="Orlando, FL" PPD_Status="I" />
+      <Home_team Team_id="1610612753" Team_city="Orlando" Team_name="Magic" Team_abr="ORL" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000031" Game_date="10/30/2010" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Philips Arena" Location="Atlanta, GA" PPD_Status="I" />
+      <Home_team Team_id="1610612737" Team_city="Atlanta" Team_name="Hawks" Team_abr="ATL" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000048" Game_date="11/02/2010" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612755" Team_city="Philadelphia" Team_name="76ers" Team_abr="PHI" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000072" Game_date="11/05/2010" Game_time="7:30 PM" Home_time="7:30 PM" Visitor_time="7:30 PM" Arena_name="Madison Square Garden" Location="New York, NY" PPD_Status="I" />
+      <Home_team Team_id="1610612752" Team_city="New York" Team_name="Knicks" Team_abr="NYK" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000081" Game_date="11/06/2010" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612739" Team_city="Cleveland" Team_name="Cavaliers" Team_abr="CLE" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000111" Game_date="11/10/2010" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="6:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612745" Team_city="Houston" Team_name="Rockets" Team_abr="HOU" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000124" Game_date="11/12/2010" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612766" Team_city="Charlotte" Team_name="Bobcats" Team_abr="CHA" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000134" Game_date="11/13/2010" Game_time="8:00 PM" Home_time="7:00 PM" Visitor_time="8:00 PM" Arena_name="United Center" Location="Chicago, IL" PPD_Status="I" />
+      <Home_team Team_id="1610612741" Team_city="Chicago" Team_name="Bulls" Team_abr="CHI" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000153" Game_date="11/16/2010" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612761" Team_city="Toronto" Team_name="Raptors" Team_abr="TOR" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000160" Game_date="11/17/2010" Game_time="7:30 PM" Home_time="7:30 PM" Visitor_time="7:30 PM" Arena_name="TD Garden" Location="Boston, MA" PPD_Status="I" />
+      <Home_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000174" Game_date="11/19/2010" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="6:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612763" Team_city="Memphis" Team_name="Grizzlies" Team_abr="MEM" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000192" Game_date="11/21/2010" Game_time="6:00 PM" Home_time="6:00 PM" Visitor_time="6:00 PM" Arena_name="Palace of Auburn Hills" Location="Detroit, MI" PPD_Status="I" />
+      <Home_team Team_id="1610612765" Team_city="Detroit" Team_name="Pistons" Team_abr="DET" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000205" Game_date="11/23/2010" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612755" Team_city="Philadelphia" Team_name="76ers" Team_abr="PHI" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000220" Game_date="11/25/2010" Game_time="8:00 PM" Home_time="8:00 PM" Visitor_time="8:00 PM" Arena_name="Philips Arena" Location="Atlanta, GA" PPD_Status="I" />
+      <Home_team Team_id="1610612737" Team_city="Atlanta" Team_name="Hawks" Team_abr="ATL" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000235" Game_date="11/27/2010" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612753" Team_city="Orlando" Team_name="Magic" Team_abr="ORL" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000250" Game_date="11/29/2010" Game_time="7:30 PM" Home_time="7:30 PM" Visitor_time="7:30 PM" Arena_name="American Airlines Arena" Location="Miami, FL" PPD_Status="I" />
+      <Home_team Team_id="1610612748" Team_city="Miami" Team_name="Heat" Team_abr="MIA" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000263" Game_date="12/01/2010" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Air Canada Centre" Location="Toronto, ON" PPD_Status="I" />
+      <Home_team Team_id="1610612761" Team_city="Toronto" Team_name="Raptors" Team_abr="TOR" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000277" Game_date="12/03/2010" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="4:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612757" Team_city="Portland" Team_name="Trail Blazers" Team_abr="POR" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000300" Game_date="12/05/2010" Game_time="8:00 PM" Home_time="6:00 PM" Visitor_time="8:00 PM" Arena_name="US Airways Center" Location="Phoenix, AZ" PPD_Status="I" />
+      <Home_team Team_id="1610612756" Team_city="Phoenix" Team_name="Suns" Team_abr="PHX" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000315" Game_date="12/07/2010" Game_time="10:30 PM" Home_time="7:30 PM" Visitor_time="10:30 PM" Arena_name="Staples Center" Location="Los Angeles, CA" PPD_Status="I" />
+      <Home_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000325" Game_date="12/08/2010" Game_time="10:00 PM" Home_time="7:00 PM" Visitor_time="10:00 PM" Arena_name="Power Balance Pavilion" Location="Sacramento, CA" PPD_Status="I" />
+      <Home_team Team_id="1610612758" Team_city="Sacramento" Team_name="Kings" Team_abr="SAC" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000332" Game_date="12/10/2010" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612752" Team_city="New York" Team_name="Knicks" Team_abr="NYK" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000362" Game_date="12/14/2010" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="4:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000378" Game_date="12/16/2010" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Prudential Center" Location="Newark, NJ" PPD_Status="I" />
+      <Home_team Team_id="1610612751" Team_city="New Jersey" Team_name="Nets" Team_abr="NJN" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000393" Game_date="12/18/2010" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612748" Team_city="Miami" Team_name="Heat" Team_abr="MIA" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000409" Game_date="12/20/2010" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612766" Team_city="Charlotte" Team_name="Bobcats" Team_abr="CHA" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000423" Game_date="12/22/2010" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="6:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612741" Team_city="Chicago" Team_name="Bulls" Team_abr="CHI" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000443" Game_date="12/26/2010" Game_time="7:00 PM" Home_time="6:00 PM" Visitor_time="7:00 PM" Arena_name="AT&amp;T Center" Location="San Antonio, TX" PPD_Status="I" />
+      <Home_team Team_id="1610612759" Team_city="San Antonio" Team_name="Spurs" Team_abr="SAS" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000451" Game_date="12/27/2010" Game_time="8:30 PM" Home_time="7:30 PM" Visitor_time="8:30 PM" Arena_name="Toyota Center" Location="Houston, TX" PPD_Status="I" />
+      <Home_team Team_id="1610612745" Team_city="Houston" Team_name="Rockets" Team_abr="HOU" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000464" Game_date="12/29/2010" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612754" Team_city="Indiana" Team_name="Pacers" Team_abr="IND" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000478" Game_date="12/31/2010" Game_time="3:00 PM" Home_time="3:00 PM" Visitor_time="3:00 PM" Arena_name="Conseco Fieldhouse" Location="Indianapolis, IN" PPD_Status="I" />
+      <Home_team Team_id="1610612754" Team_city="Indiana" Team_name="Pacers" Team_abr="IND" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000484" Game_date="01/01/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="6:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612740" Team_city="New Orleans" Team_name="Hornets" Team_abr="NOH" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000515" Game_date="01/05/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Wells Fargo Center" Location="Philadelphia, PA" PPD_Status="I" />
+      <Home_team Team_id="1610612755" Team_city="Philadelphia" Team_name="76ers" Team_abr="PHI" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000527" Game_date="01/07/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612751" Team_city="New Jersey" Team_name="Nets" Team_abr="NJN" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000537" Game_date="01/08/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Time Warner Cable Arena" Location="Charlotte, NC" PPD_Status="I" />
+      <Home_team Team_id="1610612766" Team_city="Charlotte" Team_name="Bobcats" Team_abr="CHA" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000556" Game_date="01/11/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="4:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612758" Team_city="Sacramento" Team_name="Kings" Team_abr="SAC" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000573" Game_date="01/13/2011" Game_time="8:00 PM" Home_time="7:00 PM" Visitor_time="8:00 PM" Arena_name="Target Center" Location="Minneapolis, MN" PPD_Status="I" />
+      <Home_team Team_id="1610612750" Team_city="Minnesota" Team_name="Timberwolves" Team_abr="MIN" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000589" Game_date="01/15/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612761" Team_city="Toronto" Team_name="Raptors" Team_abr="TOR" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000599" Game_date="01/17/2011" Game_time="1:00 PM" Home_time="1:00 PM" Visitor_time="11:00 AM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612762" Team_city="Utah" Team_name="Jazz" Team_abr="UTA" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000617" Game_date="01/19/2011" Game_time="8:00 PM" Home_time="7:00 PM" Visitor_time="8:00 PM" Arena_name="Bradley Center" Location="Milwaukee, WI" PPD_Status="I" />
+      <Home_team Team_id="1610612749" Team_city="Milwaukee" Team_name="Bucks" Team_abr="MIL" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000634" Game_date="01/21/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="5:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612756" Team_city="Phoenix" Team_name="Suns" Team_abr="PHX" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000641" Game_date="01/22/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000657" Game_date="01/24/2011" Game_time="7:30 PM" Home_time="7:30 PM" Visitor_time="7:30 PM" Arena_name="Madison Square Garden" Location="New York, NY" PPD_Status="I" />
+      <Home_team Team_id="1610612752" Team_city="New York" Team_name="Knicks" Team_abr="NYK" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000663" Game_date="01/25/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="5:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612743" Team_city="Denver" Team_name="Nuggets" Team_abr="DEN" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000688" Game_date="01/28/2011" Game_time="8:00 PM" Home_time="7:00 PM" Visitor_time="8:00 PM" Arena_name="Chesapeake Energy Arena" Location="Oklahoma City, OK" PPD_Status="I" />
+      <Home_team Team_id="1610612760" Team_city="Oklahoma City" Team_name="Thunder" Team_abr="OKC" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000694" Game_date="01/29/2011" Game_time="8:00 PM" Home_time="7:00 PM" Visitor_time="8:00 PM" Arena_name="FedExForum" Location="Memphis, TN" PPD_Status="I" />
+      <Home_team Team_id="1610612763" Team_city="Memphis" Team_name="Grizzlies" Team_abr="MEM" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000712" Game_date="01/31/2011" Game_time="8:30 PM" Home_time="7:30 PM" Visitor_time="8:30 PM" Arena_name="American Airlines Center" Location="Dallas, TX" PPD_Status="I" />
+      <Home_team Team_id="1610612742" Team_city="Dallas" Team_name="Mavericks" Team_abr="DAL" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000715" Game_date="02/01/2011" Game_time="8:00 PM" Home_time="7:00 PM" Visitor_time="8:00 PM" Arena_name="New Orleans Arena" Location="New Orleans, LA" PPD_Status="I" />
+      <Home_team Team_id="1610612740" Team_city="New Orleans" Team_name="Hornets" Team_abr="NOH" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000737" Game_date="02/04/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612753" Team_city="Orlando" Team_name="Magic" Team_abr="ORL" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000746" Game_date="02/05/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612737" Team_city="Atlanta" Team_name="Hawks" Team_abr="ATL" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000778" Game_date="02/09/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="6:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612749" Team_city="Milwaukee" Team_name="Bucks" Team_abr="MIL" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000798" Game_date="02/12/2011" Game_time="8:00 PM" Home_time="8:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612759" Team_city="San Antonio" Team_name="Spurs" Team_abr="SAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000806" Game_date="02/13/2011" Game_time="6:00 PM" Home_time="6:00 PM" Visitor_time="6:00 PM" Arena_name="Quicken Loans Arena" Location="Cleveland, OH" PPD_Status="I" />
+      <Home_team Team_id="1610612739" Team_city="Cleveland" Team_name="Cavaliers" Team_abr="CLE" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000824" Game_date="02/16/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Amway Center" Location="Orlando, FL" PPD_Status="I" />
+      <Home_team Team_id="1610612753" Team_city="Orlando" Team_name="Magic" Team_abr="ORL" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000839" Game_date="02/22/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612754" Team_city="Indiana" Team_name="Pacers" Team_abr="IND" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000850" Game_date="02/23/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Wells Fargo Center" Location="Philadelphia, PA" PPD_Status="I" />
+      <Home_team Team_id="1610612755" Team_city="Philadelphia" Team_name="76ers" Team_abr="PHI" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000866" Game_date="02/25/2011" Game_time="7:30 PM" Home_time="7:30 PM" Visitor_time="7:30 PM" Arena_name="American Airlines Arena" Location="Miami, FL" PPD_Status="I" />
+      <Home_team Team_id="1610612748" Team_city="Miami" Team_name="Heat" Team_abr="MIA" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000873" Game_date="02/26/2011" Game_time="8:00 PM" Home_time="8:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612742" Team_city="Dallas" Team_name="Mavericks" Team_abr="DAL" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000890" Game_date="02/28/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="6:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612741" Team_city="Chicago" Team_name="Bulls" Team_abr="CHI" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000904" Game_date="03/02/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="4:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612744" Team_city="Golden State" Team_name="Warriors" Team_abr="GSW" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000926" Game_date="03/05/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="6:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612750" Team_city="Minnesota" Team_name="Timberwolves" Team_abr="MIN" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000934" Game_date="03/06/2011" Game_time="6:00 PM" Home_time="6:00 PM" Visitor_time="6:00 PM" Arena_name="Palace of Auburn Hills" Location="Detroit, MI" PPD_Status="I" />
+      <Home_team Team_id="1610612765" Team_city="Detroit" Team_name="Pistons" Team_abr="DET" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000950" Game_date="03/08/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="6:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612749" Team_city="Milwaukee" Team_name="Bucks" Team_abr="MIL" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000978" Game_date="03/12/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="4:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612746" Team_city="Los Angeles" Team_name="Clippers" Team_abr="LAC" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021000992" Game_date="03/14/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="6:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612760" Team_city="Oklahoma City" Team_name="Thunder" Team_abr="OKC" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021001001" Game_date="03/15/2011" Game_time="8:00 PM" Home_time="7:00 PM" Visitor_time="8:00 PM" Arena_name="United Center" Location="Chicago, IL" PPD_Status="I" />
+      <Home_team Team_id="1610612741" Team_city="Chicago" Team_name="Bulls" Team_abr="CHI" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021001019" Game_date="03/18/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Air Canada Centre" Location="Toronto, ON" PPD_Status="I" />
+      <Home_team Team_id="1610612761" Team_city="Toronto" Team_name="Raptors" Team_abr="TOR" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021001035" Game_date="03/20/2011" Game_time="1:00 PM" Home_time="1:00 PM" Visitor_time="1:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612751" Team_city="New Jersey" Team_name="Nets" Team_abr="NJN" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021001052" Game_date="03/22/2011" Game_time="10:00 PM" Home_time="7:00 PM" Visitor_time="10:00 PM" Arena_name="Rose Garden" Location="Portland, OR" PPD_Status="I" />
+      <Home_team Team_id="1610612757" Team_city="Portland" Team_name="Trail Blazers" Team_abr="POR" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021001065" Game_date="03/23/2011" Game_time="10:30 PM" Home_time="7:30 PM" Visitor_time="10:30 PM" Arena_name="Staples Center" Location="Los Angeles, CA" PPD_Status="I" />
+      <Home_team Team_id="1610612746" Team_city="Los Angeles" Team_name="Clippers" Team_abr="LAC" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021001076" Game_date="03/25/2011" Game_time="9:00 PM" Home_time="7:00 PM" Visitor_time="9:00 PM" Arena_name="Pepsi Center" Location="Denver, CO" PPD_Status="I" />
+      <Home_team Team_id="1610612743" Team_city="Denver" Team_name="Nuggets" Team_abr="DEN" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021001093" Game_date="03/27/2011" Game_time="9:00 PM" Home_time="6:00 PM" Visitor_time="9:00 PM" Arena_name="ORACLE Arena" Location="Oakland, CA" PPD_Status="I" />
+      <Home_team Team_id="1610612744" Team_city="Golden State" Team_name="Warriors" Team_abr="GSW" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021001100" Game_date="03/28/2011" Game_time="9:00 PM" Home_time="7:00 PM" Visitor_time="9:00 PM" Arena_name="EnergySolutions Arena" Location="Salt Lake City, UT" PPD_Status="I" />
+      <Home_team Team_id="1610612762" Team_city="Utah" Team_name="Jazz" Team_abr="UTA" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021001110" Game_date="03/30/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612748" Team_city="Miami" Team_name="Heat" Team_abr="MIA" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021001123" Game_date="04/01/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612739" Team_city="Cleveland" Team_name="Cavaliers" Team_abr="CLE" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021001141" Game_date="04/03/2011" Game_time="6:00 PM" Home_time="6:00 PM" Visitor_time="6:00 PM" Arena_name="Time Warner Cable Arena" Location="Charlotte, NC" PPD_Status="I" />
+      <Home_team Team_id="1610612766" Team_city="Charlotte" Team_name="Bobcats" Team_abr="CHA" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021001153" Game_date="04/05/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612765" Team_city="Detroit" Team_name="Pistons" Team_abr="DET" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021001163" Game_date="04/06/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Conseco Fieldhouse" Location="Indianapolis, IN" PPD_Status="I" />
+      <Home_team Team_id="1610612754" Team_city="Indiana" Team_name="Pacers" Team_abr="IND" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021001179" Game_date="04/08/2011" Game_time="7:30 PM" Home_time="7:30 PM" Visitor_time="7:30 PM" Arena_name="TD Garden" Location="Boston, MA" PPD_Status="I" />
+      <Home_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021001188" Game_date="04/09/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612737" Team_city="Atlanta" Team_name="Hawks" Team_abr="ATL" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021001205" Game_date="04/11/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="Verizon Center" Location="Washington, DC" PPD_Status="I" />
+      <Home_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+      <Visitor_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021001218" Game_date="04/13/2011" Game_time="8:00 PM" Home_time="8:00 PM" Visitor_time="8:00 PM" Arena_name="Quicken Loans Arena" Location="Cleveland, OH" PPD_Status="I" />
+      <Home_team Team_id="1610612739" Team_city="Cleveland" Team_name="Cavaliers" Team_abr="CLE" />
+      <Visitor_team Team_id="1610612764" Team_city="Washington" Team_name="Wizards" Team_abr="WAS" />
+    </Msg_game_info>
+  </Game>
+</Msg_file>

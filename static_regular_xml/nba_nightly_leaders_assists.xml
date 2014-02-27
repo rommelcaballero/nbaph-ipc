@@ -1,0 +1,22 @@
+<Msg_file LeagueID="00" League="NBA" Season="2010-11" SeasonType="Regular Season">
+  <Game Number="0">
+    <Msg_Daily_leaders>
+      <Player_assist_leader Person_id="200765" Last_name="Rondo" First_name="Rajon" Team_id="1610612738" Team_name="Celtics" Team_city="Boston" Team_abr="BOS" Assists="17" />
+      <Player_assist_leader Person_id="1889" Last_name="Miller" First_name="Andre" Team_id="1610612757" Team_name="Trail Blazers" Team_city="Portland" Team_abr="POR" Assists="9" />
+      <Player_assist_leader Person_id="977" Last_name="Bryant" First_name="Kobe" Team_id="1610612747" Team_name="Lakers" Team_city="Los Angeles" Team_abr="LAL" Assists="7" />
+      <Player_assist_leader Person_id="2548" Last_name="Wade" First_name="Dwyane" Team_id="1610612748" Team_name="Heat" Team_city="Miami" Team_abr="MIA" Assists="6" />
+      <Player_assist_leader Person_id="200750" Last_name="Roy" First_name="Brandon" Team_id="1610612757" Team_name="Trail Blazers" Team_city="Portland" Team_abr="POR" Assists="6" />
+      <Player_assist_leader Person_id="959" Last_name="Nash" First_name="Steve" Team_id="1610612756" Team_name="Suns" Team_city="Phoenix" Team_abr="PHX" Assists="6" />
+      <Player_assist_leader Person_id="2449" Last_name="Scola" First_name="Luis" Team_id="1610612745" Team_name="Rockets" Team_city="Houston" Team_abr="HOU" Assists="4" />
+      <Player_assist_leader Person_id="1718" Last_name="Pierce" First_name="Paul" Team_id="1610612738" Team_name="Celtics" Team_city="Boston" Team_abr="BOS" Assists="3" />
+      <Player_assist_leader Person_id="708" Last_name="Garnett" First_name="Kevin" Team_id="1610612738" Team_name="Celtics" Team_city="Boston" Team_abr="BOS" Assists="3" />
+      <Player_assist_leader Person_id="2544" Last_name="James" First_name="LeBron" Team_id="1610612748" Team_name="Heat" Team_city="Miami" Team_abr="MIA" Assists="3" />
+      <Player_assist_leader Person_id="200746" Last_name="Aldridge" First_name="LaMarcus" Team_id="1610612757" Team_name="Trail Blazers" Team_city="Portland" Team_abr="POR" Assists="3" />
+      <Player_assist_leader Person_id="202083" Last_name="Matthews" First_name="Wesley" Team_id="1610612757" Team_name="Trail Blazers" Team_city="Portland" Team_abr="POR" Assists="3" />
+      <Player_assist_leader Person_id="202356" Last_name="Johnson" First_name="Ar. Johnson" Team_id="1610612757" Team_name="Trail Blazers" Team_city="Portland" Team_abr="POR" Assists="3" />
+      <Player_assist_leader Person_id="948" Last_name="Camby" First_name="Marcus" Team_id="1610612757" Team_name="Trail Blazers" Team_city="Portland" Team_abr="POR" Assists="3" />
+      <Player_assist_leader Person_id="201164" Last_name="Fernandez" First_name="Rudy" Team_id="1610612757" Team_name="Trail Blazers" Team_city="Portland" Team_abr="POR" Assists="3" />
+      <Player_assist_leader Person_id="2581" Last_name="Blake" First_name="Steve" Team_id="1610612747" Team_name="Lakers" Team_city="Los Angeles" Team_abr="LAL" Assists="3" />
+    </Msg_Daily_leaders>
+  </Game>
+</Msg_file>

@@ -1,0 +1,70 @@
+<?php	
+	require_once "config.php";
+	require_once "process_date.php";	
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script language="Javascript" type="text/javascript" src="js/jquery-1.4.1.js"></script>
+	<script language="Javascript" type="text/javascript" src="js/jquery.lwtCountdown-1.0.js"></script>
+	<script language="Javascript" type="text/javascript" src="js/misc.js"></script>
+	<link rel="Stylesheet" type="text/css" href="style/<?php  echo ($_GET['style'] == 'light' ? 'main.css' : 'dark.css')?>"></link>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>Countdown</title>
+</head>
+
+<body>
+
+	<div id="container"> 			
+		<!-- Countdown dashboard start -->
+		<style>
+			#container {width: 442px !important;}
+			.title_dash {
+			    background: url("/countdown/images/NBA-allstar-countdown-vote-now.jpg") no-repeat scroll 0 0 transparent;
+			    width: 442px !important;
+			    margin: 0;
+			}
+			.countdown_dashboard{
+				cursor: pointer;
+			}
+			.seconds_dash,.minutes_dash,.hours_dash,.days_dash{top: -55px;}
+			.hours_dash{margin-left: 280px;}			
+			.dash{color:#045eaa !important;}
+			/*.dash .digit{width:26px !important;  font: bold 38pt helvetica,verdana !important; }
+			.days_dash{background:none !important; }*/
+			
+		</style>
+		<div id="countdown_dashboard" class='countdown_dashboard'>			
+			<div class="dash title_dash"></div>
+			<!--div class="dash days_dash">
+				<span class="dash_title">days</span>
+				<div class="digit"><?php echo $date['days'][0]?></div>
+				<div class="digit"><?php echo $date['days'][1]?></div>
+			</div>		
+			<div class="dash hours_dash">				
+				<div class="digit"><?php echo $date['hours'][0]?></div>
+				<div class="digit"><?php echo $date['hours'][1]?></div>
+			</div>	
+			<div class="dash minutes_dash">				
+				<div class="digit"><?php echo $date['mins'][0]?></div>
+				<div class="digit"><?php echo $date['mins'][1]?></div>
+			</div>
+			<div class="dash seconds_dash">				
+				<div class="digit"><?php echo $date['secs'][0]?></div>
+				<div class="digit"><?php echo $date['secs'][1]?></div>
+			</div-->
+		</div>
+		 <script language="javascript" type="text/javascript">
+            jQuery(document).ready(function() {
+
+                $('#countdown_dashboard').click(function(){                	
+                	window.open("http://allstarballot.nba.com/?referrer=asb14_philippines&cid=asb14_philippines&lang=es_US","_blank");
+                });
+            });
+        </script>
+
+	</div>
+</body>
+
+</html>

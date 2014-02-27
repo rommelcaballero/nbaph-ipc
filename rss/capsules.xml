@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><nitf version="-//IPTC//DTD NITF 3.4//EN" change.date="October 18, 2006" change.time="19:30">
+   <head>
+      <docdata>
+         <doc-id regsrc="AP"/>
+         <date.issue norm="20121211T031808Z"/>
+         <ed-msg info="Eds: Will be updated."/>
+         <doc.rights owner="http://www.ap.org" agent="http://license.icopyright.net" type="none"/>
+         <doc.copyright holder="AP" year="2012"/>
+      </docdata>
+   </head>
+   <body>
+      <body.head>
+         <hedline>
+            <hl1 id="headline">NBA Capsules</hl1>
+            <hl2 id="originalHeadline">NBA Capsules</hl2>
+         </hedline>
+         <distributor>The Associated Press</distributor>
+         <dateline>
+            <location>MIAMI</location>
+         </dateline>
+      </body.head>
+      <body.content>
+         <block id="Main">
+            <p>MIAMI (AP) — LeBron James scored 27 points, Dwyane Wade had 26 and the Miami Heat pulled away in the second half to beat the Atlanta Hawks 101-92 on Monday night.</p>
+            <p>James (10-16) and Wade (11-13) made 21 of 29 shots for Miami, which shot 58 percent overall to improve to 10-1 at home this season. Chris Bosh had 14 points and 10 rebounds, and Norris Cole scored 10 for the Heat, who handed the Hawks only their second loss in 11 games.</p>
+            <p>Josh Smith scored 22 points and Al Horford finished with 20 points and 11 rebounds for Atlanta, which briefly held the lead midway through the third quarter before the Heat got rolling and moved 1½ games ahead of the Hawks in the Southeast Division.</p>
+            <p>Atlanta is 0-2 against Miami this season and 1-7 since March 2011.</p>
+            <p>A 17-4 run was the difference maker, turning a two-point deficit into an 11-point lead with 1:24 remaining in the third. Wade got it started with a jumper, and he wound up with eight during the burst, including a layup off a perfect pass by James from the right side of the lane.</p>
+            <p>WARRIORS 104, BOBCATS 96</p>
+            <p>CHARLOTTE, North Carolina (AP) — Stephen Curry put on a show for his hometown fans, finishing with 27 points, seven assists and seven rebounds to lead Golden State over Charlotte.</p>
+            <p>Curry, who grew up in Charlotte and made a name for himself leading nearby Davidson College to the brink of the Final Four in 2008, shot 10 of 22 from the field and hit four 3-pointers. It was his eighth straight 20-point game, a career best.</p>
+            <p>David Lee had 25 points and 11 rebounds for the Warriors (14-7), who have won seven of their past eight games and improved to 4-0 on their current seven-game Eastern trip.</p>
+            <p>Kemba Walker scored 24 points to lead the Bobcats, who have lost eight straight.</p>
+            <p>76ERS 104, PISTONS 97</p>
+            <p>PHILADELPHIA (AP) — Evan Turner had 18 points and 11 rebounds, and Jrue Holiday scored 25 points to lead Philadelphia past Detroit.</p>
+            <p>Thaddeus Young added 20 points and Spencer Hawes 15 for the Sixers.</p>
+            <p>Greg Monroe missed a tip with less than a minute left that came back to haunt Detroit. Holiday sank a 19-footer for a 100-95 lead and the Sixers stretched the lead from the free-throw line.</p>
+            <p>Monroe and Brandon Knight had 22 points apiece. Rodney Stuckey scored 19 for Detroit, and Tayshaun Prince finished with 16.</p>
+            <p>Jason Richardson scored 13 points for Philadelphia.</p>
+         </block>
+      </body.content>
+      <body.end/>
+   </body>
+</nitf>

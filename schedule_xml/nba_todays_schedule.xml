@@ -1,0 +1,23 @@
+<Msg_file>
+  <Game Number="0">
+    <Msg_game_info>
+      <Game_info Game_id="0021100001" Game_date="11/1/2011" Game_time="8:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="American Airlines Center" Location="Dallas, TX" PPD_Status="I" />
+      <Home_team Team_id="1610612742" Team_city="Dallas" Team_name="Mavericks" Team_abr="DAL" />
+      <Visitor_team Team_id="1610612741" Team_city="Chicago" Team_name="Bulls" Team_abr="CHI" />
+      <TV_Info Home="" Away="" Natnl="" Canadian="" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021100002" Game_date="11/1/2011" Game_time="9:00 PM" Home_time="7:00 PM" Visitor_time="8:00 PM" Arena_name="EnergySolutions Arena" Location="Salt Lake City, UT" PPD_Status="A" />
+      <Home_team Team_id="1610612762" Team_city="Utah" Team_name="Jazz" Team_abr="UTA" />
+      <Visitor_team Team_id="1610612745" Team_city="Houston" Team_name="Rockets" Team_abr="HOU" />
+      <TV_Info Home="" Away="" Natnl="" Canadian="" />
+      <PPD_Info Status="PPD" Orig_Date_EST="11/01/2011" Orig_Time_EST="9:00 PM" New_Date_EST="11/03/2011" New_Time_EST="9:00 PM" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0021100003" Game_date="11/1/2011" Game_time="10:30 PM" Home_time="7:30 PM" Visitor_time="9:30 PM" Arena_name="Staples Center" Location="Los Angeles, CA" PPD_Status="I" />
+      <Home_team Team_id="1610612747" Team_city="L.A. Lakers" Team_name="Lakers" Team_abr="LAL" />
+      <Visitor_team Team_id="1610612760" Team_city="Oklahoma City" Team_name="Thunder" Team_abr="OKC" />
+      <TV_Info Home="" Away="" Natnl="" Canadian="" />
+    </Msg_game_info>
+  </Game>
+</Msg_file>
