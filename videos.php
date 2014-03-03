@@ -481,6 +481,7 @@
 		<script type="text/javascript" src="http://s0.2mdn.net/instream/html5/ima3.js"></script>				
 		<script type="text/javascript">
 		$(document).ready(function(){
+			var ad_height, ad_width;
 			var adsManager;
 			var adsLoader;
 			var adDisplayContainer;
@@ -576,7 +577,7 @@
 
 				try {
 					// Initialize the ads manager. Ad rules playlist will start at this time.
-					adsManager.init(630, 360, google.ima.ViewMode.NORMAL);					
+					adsManager.init(ad_width,ad_height, google.ima.ViewMode.NORMAL);					
 					// Call play to start showing the ad. Single video and overlay ads will
 					// start at this time; the call will be ignored for ad rules.
 					adsManager.start();
@@ -598,16 +599,16 @@
 						// Position AdDisplayContainer correctly for overlay.
 						// Use ad.width and ad.height.						
 							var el = document.getElementById('adContainer');
-							console.log(el.style.width);	
 							el.style.bottom = '0';
 							el.style.height = ad.getHeight()+'px';
 							el.style.width = ad.getWidth()+'px';
-							el.style.margin = '0 auto';
-							
+							el.style.margin = '0 auto';							
 							console.log('first');
 						}else{
 							console.log('second');								
 						}
+						ad_width = ad.getWidth();
+						ad_height = ad.getHeight();
 						console.log(ad.getWidth() + "x" + ad.getHeight());
 						break;
 					case google.ima.AdEvent.Type.STARTED:
