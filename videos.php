@@ -605,7 +605,7 @@
 						}else{
 							console.log('second');								
 						}
-						console.log(ad.width + 'x' + ad.height);
+						console.log(ad);
 						break;
 					case google.ima.AdEvent.Type.STARTED:
 						// This event indicates the ad has started - the video player
