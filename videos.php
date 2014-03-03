@@ -599,9 +599,9 @@
 						// Use ad.width and ad.height.						
 							var el = document.getElementById('adContainer');
 							console.log(el.style.width);	
-							el.style.bottom = '0 !important';
-							el.style.height = ad.getHeight()+'px !important';
-							el.style.width = ad.getWidth()+'px !important';
+							el.style.bottom = '0';
+							el.style.height = ad.getHeight()+'px';
+							el.style.width = ad.getWidth()+'px';
 							el.style.margin = '0 auto';
 							
 							console.log('first');
