@@ -601,8 +601,13 @@
 						if (!ad.isLinear()) {
 						// Position AdDisplayContainer correctly for overlay.
 						// Use ad.width and ad.height.						
+							var el = document.getElementById('adContainer');
+							el.style.bottom = '0 !important';
+							el.style.height = ad.getHeight()+'px !important';
+							el.style.width = ad.getWidth()+'px !important';
+							el.style.margin = '0 auto';
+							
 							console.log('first');
-							$("#adContainer").css({'height':'60px !important','top':'260px !importnat'});
 						}else{
 							console.log('second');								
 						}
