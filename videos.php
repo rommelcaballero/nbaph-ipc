@@ -598,6 +598,7 @@
 						// Position AdDisplayContainer correctly for overlay.
 						// Use ad.width and ad.height.						
 							var el = document.getElementById('adContainer');
+							console.log(el);	
 							el.style.bottom = '0 !important';
 							el.style.height = ad.getHeight()+'px !important';
 							el.style.width = ad.getWidth()+'px !important';
