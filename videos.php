@@ -111,16 +111,7 @@
 							      	</video>
 								</div>
 							</script>
-						</div-->
-						<style>
-							#adContainer {
-								position: absolute;								
-								top: 0px;
-								left: 0px;
-								width: 630px;				
-								height: 360px;				
-							}
-						</style>	
+						</div-->							
 						<div class="player-box" style="width:630px; height:360px;" data-engine="flash">
 							<?php if(($geoLocBlocked == true) && ($bypass_geoblock != '123')): ?>	
 								<div style="width:100%; height:100%; background:#000;">
@@ -131,7 +122,12 @@
 									<source type="video/mp4" src="<?php echo $base; ?>ftp-web/<?php echo $current_video['filename'].".".strtolower($current_video['format']); ?>"></source>								
 									<source type="video/mov" src="<?php echo $base; ?>ftp-web/<?php echo $current_video['filename'].".".strtolower($current_video['format']); ?>"></source>								
 								</video>									
-								<div id='adContainer'></div>								
+								<div id='adContainer' style='
+									position: absolute;								
+									top: 0px;
+									left: 0px;
+									width: 630px;				
+									height: 360px;'></div>								
 							<?php endif; ?>								
 						</div>		
 						<?php else: ?>
