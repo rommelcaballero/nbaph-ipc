@@ -24,7 +24,7 @@
 	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" /> 	
 	
 	<META http-equiv="X-UA-Compatible" content="IE=9" />
-	
+	<meta http-equiv="Cache-control" content="public">
 	<base href="<?php echo $base; ?>">
 
 	<link rel="stylesheet" type="text/css" href="style.css">

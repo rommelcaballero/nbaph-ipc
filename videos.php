@@ -634,6 +634,7 @@
 				// Handle the error logging.
 				//console.log(adErrorEvent.getError());
 				//adsManager.destroy();
+				console.log(adErrorEvent);
 				document.getElementById('adContainer').style.display = "none";	
 			}
 
