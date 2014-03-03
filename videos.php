@@ -589,7 +589,7 @@
 				// Retrieve the ad from the event. Some events (e.g. ALL_ADS_COMPLETED)
 				// don't have ad object associated.
 				var ad = adEvent.getAd();
-				console.log(adEvent.type);
+				console.log('-> ' + adEvent.type);
 				switch (adEvent.type) {
 					case google.ima.AdEvent.Type.LOADED:
 						// This is the first event sent for an ad - it is possible to
