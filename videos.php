@@ -634,6 +634,11 @@
 						var el = document.getElementById('adContainer');
 						el.style.display = "none";
 						break;
+					default:
+						var el = document.getElementById('adContainer');
+						el.style.display = 'none';
+						videoContent.play();
+						break;
 				}
 			}
 
