@@ -601,11 +601,12 @@
 						if (!ad.isLinear()) {
 						// Position AdDisplayContainer correctly for overlay.
 						// Use ad.width and ad.height.						
-							console.log('first');								
+							console.log('first');
+							$("#adContainer").css({'height':'60px !important','top':'260px !importnat'});
 						}else{
 							console.log('second');								
 						}
-						console.log(ad);
+						console.log(ad.getWidth() + "x" + ad.getHeight());
 						break;
 					case google.ima.AdEvent.Type.STARTED:
 						// This event indicates the ad has started - the video player
