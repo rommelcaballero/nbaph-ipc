@@ -25,9 +25,9 @@
 	<meta property="og:image" content="<?php echo $base; ?>ftp-web/<?php echo $current_video['large_image'] ?>"/>	
 	<meta property="fb:admins" content="668328204" />
 
-	<link rel="stylesheet" type="text/css" href="style.css">	
-	<link rel="stylesheet" type="text/css" href="style-new.css">
-	<link rel="stylesheet" type="text/css" href="videos.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">	
+	<link rel="stylesheet" type="text/css" href="/css/style-new.css">
+	<link rel="stylesheet" type="text/css" href="/css/videos.css">
 	<!--[if IE]>
 	<link rel="stylesheet" type="text/css" href="ie_style.css">
 	<![endif]-->
