@@ -12,7 +12,6 @@ include('queries/news-queries.php');
 <title>NBA Philippines</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<base href="<?php echo $base; ?>">
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="style-news.css">
 <link rel="stylesheet" type="text/css" href="colorbox/colorbox.css">

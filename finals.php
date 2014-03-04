@@ -86,8 +86,6 @@ $game_data = getGameFinalStandings();
 	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" /> 
 	<META HTTP-EQUIV="Cache-control" content="public" />
 
-	<base href="<?php echo $base; ?>">
-
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="style-index.css">
 	<script type="text/javascript" src="jquery-1.7.1.min.js"></script>

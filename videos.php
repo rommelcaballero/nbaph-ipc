@@ -11,8 +11,6 @@
 	
 	$bypass_geoblock = isset($_GET['bypass-geoblock'])?$_GET['bypass-geoblock']:'000';
 	?>
-	<base href="<?php echo $base; ?>">
-
 	<title>NBA Philippines | Videos</title>
 	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" /> 
 	<META name='description' content='<?php echo stripslashes($current_video['title']); ?>' />

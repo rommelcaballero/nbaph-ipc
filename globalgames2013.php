@@ -8,7 +8,6 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US" xmlns:fb="http://ogp.me/ns/fb#">	  
 <head>
-	<base href="<?php echo $base; ?>">
 
 	<title>NBA Philippines | Global Games 2013</title>
 

@@ -7,8 +7,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US" xmlns:fb="http://ogp.me/ns/fb#">	  
 <head>
-	<base href="<?php echo $base; ?>">
-
+	
 	<title>NBA Philippines | All Star 2014</title>
 	
 	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" /> 	

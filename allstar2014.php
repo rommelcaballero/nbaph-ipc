@@ -3,20 +3,11 @@
 	//$beta = true;	
 	$part_page = "allstar2014";	
 	
-	include('queries/allstar.php');
-	if(file_exists($cachefile)) {		
-		echo "<!-- Cached File -->\n";	
-		include($cachefile); 
-		echo "<!-- Cached File -->\n";	
-		die;
-	}
-	ob_start();
+	
 ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US" xmlns:fb="http://ogp.me/ns/fb#">	  
 <head>
-	<base href="<?php echo $base; ?>">
-
 	<title>NBA Philippines | All Star 2014</title>
 	
 	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" /> 	
@@ -412,9 +403,3 @@
 					
 	</body>	
 </html>
-<?php
-	$fp = fopen($cachefile, 'w');
-	fwrite($fp, ob_get_contents());
-	fclose($fp);
-	ob_end_flush();
-?>

@@ -8,8 +8,6 @@
 		$beta = false;
 		include('queries/global-queries-new-article.php');
 	?>
-	<base href="<?php echo $base; ?>">
-
 	<title>NBA Philippines | Global Games 2013</title>
 
 	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" /> 	

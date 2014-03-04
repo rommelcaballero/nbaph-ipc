@@ -1,33 +1,13 @@
 <?php
-ob_start();
-
 $part_page = "archives";
 
 include('queries/archives-queries.php');
 
-if(file_exists($cachefile))
-{ 
-	$cache_this = 0;
-	//echo "<!-- Cached Copy ".$last_db." -->\n";
-	include($cachefile); 
-	exit;
-}
-else
-{
-	$cache_this = 1; 	
-//moved to seo.php
-/*if ($_GET['start_date']) {
-   $start_date = explode("-", $_GET['start_date']);
-}else {
-   $start_date = array(date("Y"), date("m"), date("d") - date("w"));
-}*/
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
 <title>NBA Philippines</title>
-
-<base href="<?php echo $base; ?>">
 
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="style-archives.css">
@@ -276,28 +256,3 @@ include("layouts/background_ads.php");
 
 </body>
 </html>
-<?php
-$cachetime = 5 * 60;
-// Serve from the cache if it is younger than $cachetime
-/*if (file_exists($cachefile) && time() - $cachetime < filemtime($cachefile)) {
-    include($cachefile);
-    echo "<!-- Cached copy, generated ".date('H:i', filemtime($cachefile))." -->\n";
-    exit ;
-}*/
-
-if(($cache_this == 1)) // put && ($base == "http://ph.nba.com/")
- {
-	 
-	// Start the output buffer
-	
-	/* The code to dynamically generate the page goes here */
-	
-	// Cache the output to a file
-	$fp = fopen($cachefile, 'w');
-	fwrite($fp, ob_get_contents());
-	fclose($fp);
-
- }//end cache this
-ob_end_flush(); // Send the output to the browser
-}//end else cache
-?>

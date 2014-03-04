@@ -10,8 +10,6 @@ include('queries/index-queries.php');
 	<title>NBA Philippines | Conference Finals</title>
 	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" /> 
 
-	<base href="<?php echo $base; ?>">
-
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="style-index.css">
 	<link rel="stylesheet" type="text/css" href="colorbox/colorbox.css">

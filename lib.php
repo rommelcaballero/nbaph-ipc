@@ -224,7 +224,7 @@ return $new_image;
 }//end function
 
 function resizePic($filename, $width, $height, $mode) {
-
+return false;
 $width_user = $width;
 $height_user = $height;
 $mode_user = $mode;

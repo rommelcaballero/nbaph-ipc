@@ -1,6 +1,4 @@
 <?php
-ob_start();
-
 $part_page = "cheerdancers column";
 
 include('queries/cheer_columns-queries.php');
@@ -11,8 +9,6 @@ include('queries/cheer-general-queries.php');
 <html xmlns:fb="http://ogp.me/ns/fb#">
 <head>
 <title>NBA Philippines</title>
-
-<base href="<?php echo $base; ?>">
 
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="style-cheer.css">

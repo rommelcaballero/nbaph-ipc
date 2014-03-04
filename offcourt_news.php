@@ -1,24 +1,9 @@
 <?php
 
-ob_start();
 
 $part_page = "offcourt";
 
 include('queries/offcourt_news-queries.php');
-
-//moved to seo.php
-//$off_id = mysql_real_escape_string(trim($_GET['offcourt_id']));
-
-if(file_exists($cachefile))
-{ 
-	$cache_this = 0;
-	//echo "<!-- Cached Copy ".$last_db." -->\n";
-	include($cachefile); 
-	exit;
-}
-else
-{
-	$cache_this = 1; 	
 
    $offcourt_id = $found_array['OffcourtID'];
    $offcourt_title = ucfirst(trim(stripslashes($found_array['Title'])));
@@ -41,8 +26,6 @@ else
 <html>
 <head>
 <title>NBA Philippines</title>
-
-<base href="<?php echo $base; ?>">
 
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="style-offcourt_news.css">
@@ -329,28 +312,4 @@ include("layouts/background_ads.php");
 
 </body>
 </html>
-<?php
-$cachetime = 5 * 60;
-// Serve from the cache if it is younger than $cachetime
-/*if (file_exists($cachefile) && time() - $cachetime < filemtime($cachefile)) {
-    include($cachefile);
-    echo "<!-- Cached copy, generated ".date('H:i', filemtime($cachefile))." -->\n";
-    exit ;
-}*/
 
-if(($cache_this == 1)) // put && ($base == "http://ph.nba.com/")
- {
-	 
-	// Start the output buffer
-	
-	/* The code to dynamically generate the page goes here */
-	
-	// Cache the output to a file
-	$fp = fopen($cachefile, 'w');
-	fwrite($fp, ob_get_contents());
-	fclose($fp);
-
- }//end cache this
-ob_end_flush(); // Send the output to the browser
-}//end else cache
-?>

@@ -8,8 +8,6 @@ include('queries/vote-queries.php');
 <head>
 <title>NBA Philippines</title>
 
-<base href="<?php  echo $base; ?>">
-
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="style-vote.css">
 <link rel="stylesheet" type="text/css" href="colorbox/colorbox.css">

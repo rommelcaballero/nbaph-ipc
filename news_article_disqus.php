@@ -23,9 +23,6 @@ if(file_exists($cachefile))
 <html>
 <head>
 <title>NBA Philippines</title>
-
-<base href="<?php echo $base; ?>">
-
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="style-new.css">
 <!--link rel="stylesheet" type="text/css" href="style-news.css"-->

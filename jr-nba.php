@@ -17,7 +17,6 @@
     <meta property="og:image" content="http://ph.nba.com/media/2.0/banner_rockets_vs_pacers_v2.jpg"/>   
     <meta property="fb:admins" content="668328204" />
 
-    <base href="<?php echo $base; ?>">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="style-index.css">
     <link rel="stylesheet" type="text/css" href="style-new.css">

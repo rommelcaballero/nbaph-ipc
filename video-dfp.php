@@ -6,7 +6,7 @@
 	?>
 	<head>
 	<meta charset="utf-8">
-	<base href="<?php echo $base; ?>">
+	
 	<?php
 		
 		header("Access-Control-Allow-Credentials: false");

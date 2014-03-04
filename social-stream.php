@@ -7,8 +7,6 @@ include('queries/video-queries.php');
 <!DOCTYPE html> 
 <html dir="ltr" lang="en-US" xmlns:fb="http://ogp.me/ns/fb#">	  
 <head>
-	<base href="<?php echo $base; ?>">
-
 	<title>NBA Philippines | Social Stream</title>
 	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" /> 
 
