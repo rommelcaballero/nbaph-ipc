@@ -2,24 +2,6 @@
 include('sqli.php');
 include("lib.php");
 
-$query1 = "SELECT information_schema.TABLES.UPDATE_TIME FROM information_schema.TABLES WHERE
-         information_schema.TABLES.TABLE_SCHEMA LIKE '$sql_db' ORDER BY information_schema.TABLES.UPDATE_TIME DESC
-          LIMIT 0,1 ";
-$result1 = mysqli_query($connect, $query1) or die(mysqli_error());
-$qrow = mysqli_fetch_array($result1); 
-$last_db = $qrow['UPDATE_TIME'];
-
-$rep = array(" ", ":");
-$per = array("-", "");
-
-$last_file = str_replace($rep, $per, $last_db); 
-
-if ($album_id)
-   $cachefile = 'cache/cheer_photos-' . $album_id . '-cache-'.$last_file.'.html';
-else
-   $cachefile = 'cache/cheer_photos-cache-'.$last_file.'.html';
-
-if(!file_exists($cachefile)) {
    if($album_id) {
        $query_pho = "SELECT a.*, b.AlbumName, b.DateAdded FROM cheerphotos AS a
                    LEFT JOIN cheeralbums AS b ON a.AlbumID=b.AlbumID
@@ -81,5 +63,5 @@ if(!file_exists($cachefile)) {
    $query_bgads = "SELECT AdsID, Title, Link, Image, BgColor FROM background_ads WHERE Status='s' AND Page='".mysqli_real_escape_string($connect, trim($part_page))."' ORDER BY DateUpdated DESC, DateAdded DESC LIMIT 0, 1 ";
    $result_bgads = mysqli_query($connect, $query_bgads) or die(mysqli_error());
    $found_bgads = mysqli_num_rows($result_bgads);
-}
+
 ?>

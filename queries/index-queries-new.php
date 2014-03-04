@@ -2,94 +2,6 @@
 include('sqli.php');
 include('lib.php');
 
-//for caching
-/*
-
-mysqli_query($connect, "Flush Tables;");
-$qry_str_schema = "SELECT information_schema.TABLES.AUTO_INCREMENT, 
-   information_schema.TABLES.CREATE_TIME, 
-   information_schema.TABLES.UPDATE_TIME, 
-   information_schema.TABLES.TABLE_NAME
-   FROM information_schema.TABLES 
-   WHERE information_schema.TABLES.TABLE_SCHEMA = 'db48516_nba' and 
-   information_schema.TABLES.TABLE_NAME IN (
-      'ADS_LIST',
-      'CAROUSEL',
-      'NEW_VIDEOS',
-      'NEWS',
-      'EVENTS',
-      'GALLERY',
-      'GALLERYPHOTOS',
-      'NBAACTION',
-      'AROUNDNBA',
-      'STATINGFIVE',
-      'PERSONALITIESORDER',
-      'BLOGORDER',
-      'ADS',
-      'POLLS',
-      'POLLVOTE',
-      'POLLQUESTIONS',
-      'BACKGROUND_ADS') ORDER BY information_schema.TABLES.UPDATE_TIME DESC
-      LIMIT 0,1 ;";
-
-
-while($schema_row = mysqli_fetch_array($result_schema)){
-   $schema_records[$schema_row['TABLE_NAME']] = array(
-         'AUTO_INCREMENT' => $schema_row['AUTO_INCREMENT'],
-         'CREATE_TIME' => $schema_row['CREATE_TIME'],
-         'UPDATE_TIME' => $schema_row['UPDATE_TIME']
-      );
-   $ext = $ext . $schema_row['TABLE_NAME']."-".$schema_row['UPDATE_TIME']."_";
-} 
-
-$cache_filename = 'index-'. $ext . '.html';
-
-$files = scandir($_SERVER["DOCUMENT_ROOT"]."/cached/");
-
-foreach($files as $k => $v){
-    $index_exploded = explode("-",$v);            
-      
-    if($cache_identity .".html" == @$index_exploded[1]){
-        $cache_found = true;   
-		break;
-    }
-    if($index_exploded[0] == "index"){
-        $last_index_cached = $v;
-    }
-}
-*/
-//$cache_found = false;
-$query1 = "SELECT information_schema.TABLES.UPDATE_TIME FROM information_schema.TABLES WHERE
-         information_schema.TABLES.TABLE_SCHEMA LIKE '$sql_db' and  information_schema.TABLES.TABLE_NAME IN (
-		'ADS_LIST',
-		'CAROUSEL',
-		'NEW_VIDEOS',
-		'NEWS',
-		'EVENTS',
-		'GALLERY',
-		'GALLERYPHOTOS',
-		'NBAACTION',
-		'AROUNDNBA',
-		'STATINGFIVE',
-		'PERSONALITIESORDER',
-		'BLOGORDER',
-		'ADS',
-		'POLLS',
-		'POLLVOTE',
-		'POLLQUESTIONS',
-		'BACKGROUND_ADS') ORDER BY information_schema.TABLES.UPDATE_TIME DESC
-          LIMIT 0,1 ";
-$result1 = mysqli_query($connect, $query1) or die(mysqli_error());
-$qrow = mysqli_fetch_array($result1); 
-$last_db = date('Y-m-d H:i',strtotime($qrow['UPDATE_TIME']));
-
-$rep = array(" ", ":");
-$per = array("-", ".");
-
-$last_file = str_replace($rep, $per, $last_db); 
-$cachefile = 'cached/index-cache-'.$last_file.'.html';
-
-if(!file_exists($cachefile)) {
    $results = mysqli_query($connect, "SELECT Content, AdsDesc FROM ads_list WHERE (AdsDesc='nba_homepage_top_leaderboard' or AdsDesc='nba_homepage_top_medallion' or AdsDesc='nba_homepage_middle_leaderboard' or AdsDesc='nba_homepage_middle_medallion1' or AdsDesc='nba_homepage_middle_medallion2' or AdsDesc='nba_homepage_bottom_leaderboard') AND Status='s' ");
 
    $ads_list = array();
@@ -293,7 +205,7 @@ if(!file_exists($cachefile)) {
 			$wall_videos = array();
 		}
 	}	
-}
+
 
 
 mysqli_close($connect);

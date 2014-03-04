@@ -19,24 +19,6 @@ if ($found_off == 0)
    header("location: ".$base."off-court-news");
  }
 
-$query1 = "SELECT information_schema.TABLES.UPDATE_TIME FROM information_schema.TABLES WHERE
-         information_schema.TABLES.TABLE_SCHEMA LIKE '$sql_db' ORDER BY information_schema.TABLES.UPDATE_TIME DESC
-          LIMIT 0,1 ";
-$result1 = mysqli_query($connect, $query1) or die(mysqli_error());
-$qrow = mysqli_fetch_array($result1); 
-$last_db = $qrow['UPDATE_TIME'];
-
-$rep = array(" ", ":");
-$per = array("-", "");
-
-$last_file = str_replace($rep, $per, $last_db); 
-
-if ($off_id)
-   $cachefile = 'cache/offcourt_news-' . $off_id . '-cache-'.$last_file.'.html';
-else
-   $cachefile = 'cache/offcourt_news-cache-'.$last_file.'.html';
-
-if(!file_exists($cachefile)) {
    $row = mysqli_fetch_array($result_off);
 
    $found_array = array("OffcourtID" => $row['OffcourtID'],
@@ -88,7 +70,7 @@ if(!file_exists($cachefile)) {
    $query_bgads = "SELECT AdsID, Title, Link, Image, BgColor FROM background_ads WHERE Status='s' AND Page='".mysqli_real_escape_string($connect, trim($part_page))."' ORDER BY DateUpdated DESC, DateAdded DESC LIMIT 0, 1 ";
    $result_bgads = mysqli_query($connect, $query_bgads) or die(mysqli_error());
    $found_bgads = mysqli_num_rows($result_bgads);
-}
+
 
 mysqli_close($connect);
 ?>

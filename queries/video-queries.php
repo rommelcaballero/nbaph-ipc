@@ -1,26 +1,6 @@
 <?php
 include('sqli.php');
 include('lib.php');
-
-/*
-//for caching
-$query1 = "SELECT information_schema.TABLES.UPDATE_TIME FROM information_schema.TABLES WHERE
-         information_schema.TABLES.TABLE_SCHEMA LIKE '$sql_db' ORDER BY information_schema.TABLES.UPDATE_TIME DESC
-          LIMIT 0,1 ";
-$result1 = mysqli_query($connect, $query1) or die(mysqli_error());
-$qrow = mysqli_fetch_array($result1); 
-$last_db = $qrow['UPDATE_TIME'];
-
-$rep = array(" ", ":");
-$per = array("-", "");
-
-$last_file = str_replace($rep, $per, $last_db); 
-$cachefile = 'cache/videos-cache-'.$last_file.'.html';
-
-if(!file_exists($cachefile)) {
-*/	
-	//query ads here
-	//$video_ads = mysqli_query($connect, "SELECT Content, AdsDesc FROM ads_list WHERE (AdsDesc='nba_videopage_top_leaderboard' or AdsDesc='nba_videopage_top_medallion' or AdsDesc='nba_videopage_middle_leaderboard' or AdsDesc='nba_videopage_middle_medallion1' or AdsDesc='nba_videopage_middle_medallion2' or AdsDesc='nba_videopage_bottom_leaderboard') AND Status='s' ");
 	$result = mysqli_query($connect, "SELECT Content, AdsDesc FROM ads_list WHERE (AdsDesc='nba_homepage_top_leaderboard' or AdsDesc='nba_homepage_top_medallion' or AdsDesc='nba_homepage_middle_leaderboard' or AdsDesc='nba_homepage_middle_medallion1' or AdsDesc='nba_homepage_middle_medallion2' or AdsDesc='nba_homepage_bottom_leaderboard') AND Status='s' ");
 	while($row = mysqli_fetch_array($result)){
 		$ads_list[$row['AdsDesc']] = $row['Content'];
@@ -160,5 +140,5 @@ if(!file_exists($cachefile)) {
 	$query_bgads = "SELECT AdsID, Title, Link, Image, BgColor FROM background_ads WHERE Status='s' AND Page='".mysqli_real_escape_string($connect, trim($part_page))."' ORDER BY DateUpdated DESC, DateAdded DESC LIMIT 0, 1 ";
    	$result_bgads = mysqli_query($connect, $query_bgads) or die(mysqli_error());
    	$found_bgads = mysqli_num_rows($result_bgads);
-//}
+
 ?>	

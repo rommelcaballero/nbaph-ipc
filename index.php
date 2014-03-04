@@ -8,13 +8,6 @@
 		$_SESSION['_csrf'] = $csrf;
 	endif; 
 	
-	if(file_exists($cachefile)) {		
-		echo "<!-- Cached File -->\n";	
-		include($cachefile); 
-		echo "<!-- Cached File -->\n";	
-		die;
-	}
-	ob_start();
 ?>
 
 <!DOCTYPE html>
@@ -24,6 +17,8 @@
 	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" /> 	
 	
 	<META http-equiv="X-UA-Compatible" content="IE=9" />
+	<meta http-equiv="Cache-control" content="public">
+
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="style-index.css">
@@ -88,29 +83,3 @@
 	</body>
 
 </html>
-
-<?php
-	
-	//$dir = $_SERVER["DOCUMENT_ROOT"];
-	//$output = array();
-	//chdir($dir);
-	//putenv('PATH='. getenv('PATH') .";C:\Users\Paulon\Documents\Aptana Studio 3 Workspace\.metadata\.plugins\com.aptana.portablegit.win32\bin\\");
-	//exec("git log --date=iso",$output);
-	
-	//if(isset($output[8])){
-	//	echo "<!-- Dev. ". $output[8] . " -->\n";	
-	//}
-	//if(isset($output[9])){
-	//	echo "<!-- last update - ". $output[9] . " -->\n";	
-	//}
-
-	
-	$fp = fopen($cachefile, 'w');
-	fwrite($fp, ob_get_contents());
-	fclose($fp);
-	ob_end_flush(); // Send the output to the browser
-	//if(!$cache_found){
-    //unlink($_SERVER["DOCUMENT_ROOT"]."/cached/".$last_index_cached);
-    //}
-	
-?>	

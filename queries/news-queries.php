@@ -2,20 +2,7 @@
 include('sqli.php');
 include("lib.php"); 
 $category = 'articles';
-$query1 = "SELECT information_schema.TABLES.UPDATE_TIME FROM information_schema.TABLES WHERE
-         information_schema.TABLES.TABLE_SCHEMA LIKE '$sql_db' and information_schema.TABLES.TABLE_NAME ='news' ORDER BY information_schema.TABLES.UPDATE_TIME DESC
-          LIMIT 0,1 ";
-$result1 = mysqli_query($connect, $query1) or die(mysqli_error());
-$qrow = mysqli_fetch_array($result1); 
-$last_db = $qrow['UPDATE_TIME'];
 
-$rep = array(" ", ":");
-$per = array("-", "");
-
-$last_file = str_replace($rep, $per, $last_db); 
-$cachefile = 'cache/news-cache-'.$last_file.'.html';
-
-if(!file_exists($cachefile)) {
    $q = "SELECT AdsDesc, Content FROM ads_list WHERE (AdsDesc='nba_news_top_leaderboard' or AdsDesc='nba_news_top_medallion' or AdsDesc='nba_news_bottom_leaderboard') AND Status='s'";
    $results = mysqli_query($connect, $q);
 
@@ -77,7 +64,7 @@ if(!file_exists($cachefile)) {
    $query_bgads = "SELECT AdsID, Title, Link, Image, BgColor FROM background_ads WHERE Status='s' AND Page='".mysqli_real_escape_string($connect, trim($part_page))."' ORDER BY DateUpdated DESC, DateAdded DESC LIMIT 0, 1 ";
    $result_bgads = mysqli_query($connect, $query_bgads) or die(mysqli_error());
    $found_bgads = mysqli_num_rows($result_bgads);
-}
+
 
 mysqli_close($connect);
 ?>
