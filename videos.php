@@ -111,16 +111,7 @@
 							      	</video>
 								</div>
 							</script>
-						</div-->
-						<style>
-							#adContainer {
-								position: absolute;								
-								top: 0px;
-								left: 0px;
-								width: 630px;				
-								height: 360px;				
-							}
-						</style>	
+						</div-->							
 						<div class="player-box" style="width:630px; height:360px;" data-engine="flash">
 							<?php if(($geoLocBlocked == true) && ($bypass_geoblock != '123')): ?>	
 								<div style="width:100%; height:100%; background:#000;">
@@ -131,7 +122,12 @@
 									<source type="video/mp4" src="<?php echo $base; ?>ftp-web/<?php echo $current_video['filename'].".".strtolower($current_video['format']); ?>"></source>								
 									<source type="video/mov" src="<?php echo $base; ?>ftp-web/<?php echo $current_video['filename'].".".strtolower($current_video['format']); ?>"></source>								
 								</video>									
-								<div id='adContainer'></div>								
+								<div id='adContainer' style='
+									position: absolute;								
+									top: 0px;
+									left: 0px;
+									width: 630px;				
+									height: 360px;'></div>								
 							<?php endif; ?>								
 						</div>		
 						<?php else: ?>
@@ -580,7 +576,7 @@
 
 				try {
 					// Initialize the ads manager. Ad rules playlist will start at this time.
-					adsManager.init(630, 360, google.ima.ViewMode.NORMAL);					
+					adsManager.init(630,360, google.ima.ViewMode.NORMAL);					
 					// Call play to start showing the ad. Single video and overlay ads will
 					// start at this time; the call will be ignored for ad rules.
 					adsManager.start();
@@ -593,7 +589,7 @@
 				// Retrieve the ad from the event. Some events (e.g. ALL_ADS_COMPLETED)
 				// don't have ad object associated.
 				var ad = adEvent.getAd();
-				console.log(adEvent.type);
+				console.log('-> ' + adEvent.type);
 				switch (adEvent.type) {
 					case google.ima.AdEvent.Type.LOADED:
 						// This is the first event sent for an ad - it is possible to
@@ -601,7 +597,18 @@
 						if (!ad.isLinear()) {
 						// Position AdDisplayContainer correctly for overlay.
 						// Use ad.width and ad.height.						
+							var el = document.getElementById('adContainer');
+							el.style.bottom = '0';
+							el.style.height = ad.getHeight()+'px';
+							el.style.width = ad.getWidth()+'px';
+							el.style.margin = '0 auto';	
+							ad.a.width = ad.getWidth()+'px';	
+							ad.a.height = ad.getHeight()+'px';	
+							console.log('first');
+						}else{
+							console.log('second');								
 						}
+						console.log(ad.getWidth() + "x" + ad.getHeight());
 						break;
 					case google.ima.AdEvent.Type.STARTED:
 						// This event indicates the ad has started - the video player
@@ -627,6 +634,11 @@
 						var el = document.getElementById('adContainer');
 						el.style.display = "none";
 						break;
+					default:
+						var el = document.getElementById('adContainer');
+						el.style.display = 'none';
+						videoContent.play();
+						break;
 				}
 			}
 
@@ -634,6 +646,7 @@
 				// Handle the error logging.
 				//console.log(adErrorEvent.getError());
 				//adsManager.destroy();
+				console.log(adErrorEvent);
 				document.getElementById('adContainer').style.display = "none";	
 			}
 
