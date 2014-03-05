@@ -182,7 +182,7 @@
 		
 		<div id="header_nav">      
 			<ul id="header_ul">              
-				<li id="header_nav_leaguepass"><a href="http://watch.nba.com/nba/servlets/refer/affipvgsitetopnav" target="_blank"><img src="images/blank.png" width="100" height="30" /></a></li>                 
+				<li id="header_nav_leaguepass"><a href="http://watch.nba.com/nba/servlets/refer/affipvgsitetopnav" target="_blank"><img src="/images/blank.png" width="100" height="30" /></a></li>                 
 				<li class="header_nav_divider"></li> 
 				<li class="header_nav_divider"></li> 
 				<li class="header_nav_divider"></li>               
