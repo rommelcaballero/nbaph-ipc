@@ -157,11 +157,11 @@
 							<div class='top-playlist'>
 								<div class='top-playlist-col top-playlist-image'>
 									<a href='/videos/?id=<?php echo $likes['id']; ?>'>
-									<?php if(file_exists("./ftp-web/".$likes['small_image']) && trim($likes['small_image'])!=""):?>	
+									<?php //if(file_exists("./ftp-web/".$likes['small_image']) && trim($likes['small_image'])!=""):?>	
 									<img src="/ftp-web/<?php echo $likes['small_image']; ?>" title='<?php echo $likes['description']; ?>' width="150" height="84"/>
-									<?php else: ?>
-									<img src='/ftp-web/default.jpg' title='<?php echo $likes['description']; ?>' />
-									<?php endif; ?>
+									<?php //else: ?>
+									<!--img src='/ftp-web/default.jpg' title='<?php echo $likes['description']; ?>' /-->
+									<?php //endif; ?>
 									</a>
 								</div>
 								<div class='top-playlist-col top-playlist-content'>
@@ -354,11 +354,11 @@
 						<?php if($playlist_video[$b]['id']!=""): ?>
 						<div class='more-thumbs'>
 							<a href='/videos/?id=<?php echo $playlist_video[$b]['id']; ?>'>
-							<?php if(file_exists("./ftp-web/".$playlist_video[$b]['small_image']) && trim($playlist_video[$b]['small_image'])!= ""):?>	
+							<?php //if(file_exists("./ftp-web/".$playlist_video[$b]['small_image']) && trim($playlist_video[$b]['small_image'])!= ""):?>	
 							<span class='img'><img src='/ftp-web/<?php echo $playlist_video[$b]['small_image']; ?>' title='<?php echo $playlist_video[$b]['description']; ?>' width='150' height='84' /></span>
-							<?php else: ?>
-							<span class='img'><img src='/ftp-web/default.jpg' title='<?php echo $playlist_video[$b]['description']; ?>' width='150' height='84'/></span>
-							<?php endif; ?>
+							<?php //else: ?>
+							<!--span class='img'><img src='/ftp-web/default.jpg' title='<?php echo $playlist_video[$b]['description']; ?>' width='150' height='84'/></span-->
+							<?php //endif; ?>
 							<span class='title'><?php echo $playlist_video[$b]['title']; ?></span>
 							<span class='duration'><?php echo $playlist_video[$b]['duration']; ?></span>							
 							</a>
@@ -429,11 +429,11 @@
 							<div class='top-playlist'>
 								<div class='top-playlist-col top-playlist-image'>
 									<a href='/videos/?id=<?php echo $most_recent_video[$a]['id']; ?>'>
-									<?php if(file_exists("./ftp-web/".$most_recent_video[$a]['small_image']) && trim($most_recent_video[$a]['small_image']) != "" ): ?>
+									<?php //if(file_exists("./ftp-web/".$most_recent_video[$a]['small_image']) && trim($most_recent_video[$a]['small_image']) != "" ): ?>
 									<img src="/ftp-web/<?php echo $most_recent_video[$a]['small_image']; ?>" title="<?php echo $most_recent_video[$a]['description']; ?>" width='150' height='84'/>
-									<?php else: ?>
-									<img src="/ftp-web/default.jpg" title="<?php echo $most_recent_video[$a]['description']; ?>" width='150' height='84'/>	
-									<?php endif; ?>
+									<?php //else: ?>
+									<!--img src="/ftp-web/default.jpg" title="<?php echo $most_recent_video[$a]['description']; ?>" width='150' height='84'/-->	
+									<?php //endif; ?>
 									</a>
 								</div>
 								<div class='top-playlist-col top-playlist-content'>
