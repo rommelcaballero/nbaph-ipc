@@ -166,7 +166,7 @@
 								</div>
 								<div class='top-playlist-col top-playlist-content'>
 									<a href='/videos/?id=<?php echo $likes['id']; ?>'>
-									<span class='title'><?php echo myTruncate($likes['title'],23); ?></span>
+									<span class='title'><?php echo myTruncate($likes['title'],20); ?></span>
 									<span class='description'><?php echo $likes['description']; ?></span>
 									</a>
 								</div>
