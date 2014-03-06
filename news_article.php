@@ -14,10 +14,10 @@ include('queries/news_article-queries.php');
 <head>
 <title>NBA Philippines</title>
 
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" type="text/css" href="style-new.css">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<link rel="stylesheet" type="text/css" href="/css/style-new.css">
 <!--link rel="stylesheet" type="text/css" href="style-news.css"-->
-<link rel="stylesheet" type="text/css" href="colorbox/colorbox.css">
+<link rel="stylesheet" type="text/css" href="/css/colorbox/colorbox.css">
 <!--[if IE]>
 <link rel="stylesheet" type="text/css" href="ie_style.css">
 <![endif]-->
