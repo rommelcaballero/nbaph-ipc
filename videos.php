@@ -393,7 +393,7 @@
 								</div>
 								<div class='top-playlist-col top-playlist-content'>
 									<a href='/videos/?id=<?php echo $most_recent_video[$a]['id']; ?>'>
-									<span class='title'><?php echo $most_recent_video[$a]['title']; ?></span>
+									<span class='title'><?php echo myTruncate($most_recent_video[$a]['title'],20); ?></span>
 									<span class='description'><?php echo $most_recent_video[$a]['description']; ?></span>
 									</a>
 								</div>
