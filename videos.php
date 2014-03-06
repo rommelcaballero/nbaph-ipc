@@ -4,8 +4,21 @@
 	<?php
 	$part_page = "videos";
 	include('queries/video-queries.php');
-	$remote_addr = $_SERVER['REMOTE_ADDR'];
-	$geo_data = unserialize(file_get_contents("http://www.geoplugin.net/php.gp?ip={$remote_addr}"));	
+	
+	if(isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+		$x_forwarded =$_SERVER['HTTP_X_FORWARDED_FOR'];
+		$has_many_ip =  strpos($x_forwarded,',');
+		if($has_many_ip){
+			$exploded_ip = explode(',',$x_forwarded);
+			$remote_addr = $exploded_ip[0];
+		}else{
+    			$remote_addr = $x_forwarded;
+		}
+	} else {
+    		$remote_addr = $_SERVER['REMOTE_ADDR'];
+	}
+	$geo_data = unserialize(file_get_contents("http://www.geoplugin.net/php.gp?ip={$remote_addr}"));
+	
 	$geoLocBlocked = ($geo_data['geoplugin_countryCode'] != 'PH');
 	
 	$bypass_geoblock = isset($_GET['bypass-geoblock'])?$_GET['bypass-geoblock']:'000';
