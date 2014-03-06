@@ -129,8 +129,8 @@
 								</div>
 							<?php else: ?>
 								<video id='contentElement' width="630" height="360" controls>
+									<source type="video/quicktime" src="/ftp-web/<?php echo $current_video['filename'].".".strtolower($current_video['format']); ?>"></source>								
 									<source type="video/mp4" src="/ftp-web/<?php echo $current_video['filename'].".".strtolower($current_video['format']); ?>"></source>								
-									<source type="video/mov" src="/ftp-web/<?php echo $current_video['filename'].".".strtolower($current_video['format']); ?>"></source>								
 								</video>									
 								<div id='adContainer' style='
 									position: absolute;								
