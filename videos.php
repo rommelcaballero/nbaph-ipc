@@ -166,7 +166,7 @@
 								</div>
 								<div class='top-playlist-col top-playlist-content'>
 									<a href='/videos/?id=<?php echo $likes['id']; ?>'>
-									<span class='title'><?php echo $likes['title']; ?></span>
+									<span class='title'><?php echo myTruncate($likes['title'],23); ?></span>
 									<span class='description'><?php echo $likes['description']; ?></span>
 									</a>
 								</div>
@@ -298,52 +298,7 @@
 						            }
 								}
 							]
-						});
-					<?php else: ?>						
-						
-							/*jwplayer('player-vid').setup({							
-			                    'flashplayer': '<?php echo $base; ?>jwplayer/jwplayer.flash.swf',            
-			                    'file': "<?php echo $base; ?>ftp-web/conference/<?php echo $_GET['test']; ?>",
-			                    'type': 'videos/<?php echo $_GET['test']; ?>', 		                    
-			                    'height': 360,
-			                    'width': 630,
-			                    'autostart': true,
-			                    'controlbar.position': 'bottom',
-			                    'fallback': false
-			                    //'wmode':"window"                    
-			            	});				            
-							*/				
-							
-							
-						/*
-							flowplayer("player-vid", {							    
-							    src: "/js/flowplayer-3.2.15.swf",					    					    
-					      		},{
-					      			clip:{
-					      				<?php if(isset($_GET['test'])): ?>
-					      				url:"http://ph.nba.com/ftp-web/conference/<?php echo $_GET['test']; ?>",
-										baseUrl: "http://ph.nba.com/",
-										<?php else: ?>
-										url:"<?php echo $base; ?>ftp-web/<?php echo $current_video['filename'].".".strtolower($current_video['format']); ?>",	
-										baseUrl: "<?php echo $base; ?>",
-										<?php endif; ?>
-										
-
-										autoPlay: <?php echo isset($_GET['page'])?"false":"true"; ?>,
-		  								autoBuffering: true, 								
-		  								onStart:function(){
-		  									//this.getPlugin("content").hide();
-		  								},
-		  								onResume: function(){
-		  									//this.getPlugin("content").hide();
-		  								},
-		  								onPause: function(){
-		  									//this.getPlugin("content").show();	
-		  								}
-		  							}
-									
-								});				
-						*/
+						});					
 					<?php endif; ?>			
 				</script>						
 				
