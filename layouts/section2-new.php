@@ -122,9 +122,9 @@
                                     <span class='personality-story-excerpt'>                                        
                                         <!--img class='personality-photo' src="images/writers/< ?php echo $blogger_pic; ?>.jpg" border="0" /-->
                                         <?php if($v['tablename']=='blog'): ?>
-                                        <img class='personality-photo' src="/images/blogs/<?php echo $v['aws_photo_name']; ?>.jpg" border="0" />
+                                        <img class='personality-photo' src="/images/blogs/<?php echo $v['aws_photo_name']; ?>" border="0" />
                                         <?php else: ?>
-                                        <img class='personality-photo' src="/images/personalities/<?php echo $v['aws_photo_name']; ?>.jpg" border="0" />
+                                        <img class='personality-photo' src="/images/personalities/<?php echo $v['aws_photo_name']; ?>" border="0" />
                                         <?php endif; ?>
                                         <p>
                                         <a href="/<?php echo ($v['tablename'] == 'blog')?"bloggers":"writers-content"; ?>/<?php echo $v['BlogID']; ?>/<?php echo seoUrl(trim(stripslashes($v['BlogTitle']))); ?>" target="_blank"><?php echo stripslashes($v['BlogTitle']); ?></a><br/> 
