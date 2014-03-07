@@ -8,7 +8,7 @@ include('queries/writers_full-queries.php');
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 	<head>
-		<title>NBA Philippines</title>
+		<title>NBA Philippines</title> 
 		
 		<link rel="stylesheet" type="text/css" href="/css/style.css">
 		<link rel="stylesheet" type="text/css" href="/css/style-writers_full.css">
