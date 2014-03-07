@@ -45,7 +45,7 @@ include('queries/news-queries.php');
                     <div style="float: left; width: 608px; font-size: 12px">
                          <?php 
                          if ($main_article['Source'] == 'PH') {
-                              $link = "news-article/".$main_article['NewsID']."/".seoUrl(strtolower($main_article['Title']));
+                              $link = "/news-article/".$main_article['NewsID']."/".seoUrl(strtolower($main_article['Title']));
                          } else {
 	                        $link = $main_article['Link'];
                          }
@@ -67,7 +67,7 @@ include('queries/news-queries.php');
                               <span class="blue" ><a href="<?php echo $link; ?>">Read full article</a></span><br>
                               <?php for ($count = 0; $count < 3; $count += 1): ?>
 	                              <?php if ($news_array[$count]['Source'] == 'PH'): 
-                                        $link_2 = "news-article/".$news_array[$count]['NewsID']."/".seoUrl(strtolower($news_array[$count]['Title'])); 
+                                        $link_2 = "/news-article/".$news_array[$count]['NewsID']."/".seoUrl(strtolower($news_array[$count]['Title'])); 
                                    else: 
                                         $link_2 = $news_array[$count]['Link'];
                                    endif; ?>
@@ -84,7 +84,7 @@ include('queries/news-queries.php');
                               for ($count = 0; $count < 12; $count += 1) :
                                    $newline++;
                                    if ($news_array[$count]['Source'] == 'PH') {
-                                        $link_3 = "news-article/".$news_array[$count]['NewsID']."/".seoUrl(strtolower($news_array[$count]['Title']));
+                                        $link_3 = "/news-article/".$news_array[$count]['NewsID']."/".seoUrl(strtolower($news_array[$count]['Title']));
                                    } else {
                                         $link_3 = $news_array[$count]['Link'];
                                    }
@@ -122,7 +122,7 @@ include('queries/news-queries.php');
                          <div style="height: 10px"></div>
                          <?php if ($ad['Link']) { ?>
                          <div style="width: 300px; height: 100px">
-                              <a href="<?php echo $ad['Link']; ?>"><img src="ads/<?php echo $ad['Image']; ?>"></a>
+                              <a href="<?php echo $ad['Link']; ?>"><img src="/ads/<?php echo $ad['Image']; ?>"></a>
                          </div>
                          <?php } ?>
                     </div>
