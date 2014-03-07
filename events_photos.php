@@ -10,11 +10,11 @@ include('queries/events-general-queries.php');
 <head>
 <title>NBA Philippines</title>
 
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" type="text/css" href="style-events.css">
-<link rel="stylesheet" type="text/css" href="jscal2.css" />
-<link rel="stylesheet" type="text/css" href="border-radius.css" />
-<link rel="stylesheet" type="text/css" href="colorbox/colorbox.css">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<link rel="stylesheet" type="text/css" href="/css/style-events.css">
+<link rel="stylesheet" type="text/css" href="/css/jscal2.css" />
+<link rel="stylesheet" type="text/css" href="/css/border-radius.css" />
+<link rel="stylesheet" type="text/css" href="/css/colorbox/colorbox.css">
 <!--[if IE]>
 <link rel="stylesheet" type="text/css" href="ie_style.css">
 <![endif]-->
@@ -36,11 +36,11 @@ width:20000em;
 position:absolute;
 }-->
 </style>
-<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="jquery.tools.min.js"></script>
-<script type="text/javascript" src="jquery.imgpreload.js"></script>
-<script type="text/javascript" src="colorbox/jquery.colorbox.js"></script>
-<script type="text/javascript" src="java.js"></script>
+<script type="text/javascript" src="/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/jquery.tools.min.js"></script>
+<script type="text/javascript" src="/jquery.imgpreload.js"></script>
+<script type="text/javascript" src="/colorbox/jquery.colorbox.js"></script>
+<script type="text/javascript" src="/java.js"></script>
 </head>
 
 <body>
