@@ -69,7 +69,8 @@ $count = count($blog_array);
 
 for ($i = 0; $i < $count; $i += 1) {
 
-   $blogger_pic = strtolower(urlencode(str_replace("ñ", "n", $blog_array[$i]['Blogger'])));
+  // $blogger_pic = strtolower(urlencode(str_replace("ñ", "n", $blog_array[$i]['Blogger'])));
+   $blogger_pic = $blog_array[$i]['aws_photo_name'];
 
    if ($i > 0 && $i % 2 == 0) {
 ?>
