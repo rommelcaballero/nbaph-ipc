@@ -108,10 +108,10 @@ include('lib.php');
 
    //$results = mysqli_query($connect, "select BlogID, Blogger, BlogTitle, BlogLink, BlogExcerpt from writers left join writers_stories using (Blogger) group by Blogger order by Position, DatePosted desc limit 0, 20");
    
-   $sql_string = "(SELECT  'blog' tablename, b.DatePosted, bo.Position, b.DisplayOn, b.BlogID, b.Blogger, b.BlogTitle, b.BlogLink, b.BlogExcerpt, b.aws_photo_name 
+   $sql_string = "(SELECT  'blog' tablename, b.DatePosted, bo.Position, b.DisplayOn, b.BlogID, b.Blogger, b.BlogTitle, b.BlogLink, b.BlogExcerpt, bo.aws_photo_name 
    FROM blog b JOIN blogorder bo ON bo.Blogger = b.Blogger ORDER BY b.DisplayOn DESC LIMIT 5)
    UNION
-   (SELECT  'personalities' tablename, p.DatePosted, po.Position, p.DisplayOn, p.BlogID, p.Blogger, p.BlogTitle, p.BlogLink, p.BlogExcerpt, p.aws_photo_name
+   (SELECT  'personalities' tablename, p.DatePosted, po.Position, p.DisplayOn, p.BlogID, p.Blogger, p.BlogTitle, p.BlogLink, p.BlogExcerpt, po.aws_photo_name
    FROM personalities p JOIN personalitiesorder po ON po.Blogger = p.Blogger ORDER BY p.DisplayOn DESC LIMIT 5)
    ORDER BY DisplayOn DESC;";
 
