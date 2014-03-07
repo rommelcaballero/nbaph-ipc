@@ -36,7 +36,8 @@
 
 	<link href="/css/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="/css/calendar.css" rel="stylesheet" media="screen">	
-	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/calendar.js"></script>
 	</head>
 	<body>
 		<div id="fb-root"></div>
@@ -203,8 +204,7 @@
 					</div>
 					<div class='content-right'>
 						<div class='content-right-data'>
-							<h3 style='color:#fff;'>Calendar Events</h3>								
-							<script src="calendar.js"></script>
+							<h3 style='color:#fff;'>Calendar Events</h3>
 							<div class='calendar' id='calendar'></div>							
 						</div>
 					</div>
