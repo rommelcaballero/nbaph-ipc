@@ -159,7 +159,7 @@ include('queries/news_article-queries.php');
                         <div style="height: 10px"></div>
                         <?php if ($ad['Link']) { ?>
                         <div style="width: 300px; padding: 10px; background: #ccc">
-                            <a href="<?php echo $ad['Link']; ?>"><img src="ads/<?php echo $ad['Image']; ?>"></a>
+                            <a href="<?php echo $ad['Link']; ?>"><img src="/ads/<?php echo $ad['Image']; ?>"></a>
                         </div>
                         <?php } ?>
                     </div>
