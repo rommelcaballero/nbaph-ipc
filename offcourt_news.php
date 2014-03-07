@@ -27,9 +27,9 @@ include('queries/offcourt_news-queries.php');
 <head>
 <title>NBA Philippines</title>
 
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" type="text/css" href="style-offcourt_news.css">
-<link rel="stylesheet" type="text/css" href="colorbox/colorbox.css">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<link rel="stylesheet" type="text/css" href="/css/style-offcourt_news.css">
+<link rel="stylesheet" type="text/css" href="/css/colorbox/colorbox.css">
 <!--[if IE]>
 <link rel="stylesheet" type="text/css" href="ie_style.css">
 <![endif]-->
