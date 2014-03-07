@@ -41,13 +41,13 @@
 	<link rel="stylesheet" type="text/css" href="/css/style-new.css">	
 	<link rel="stylesheet" href="/css/jquery-ui.css" />
 	
-	<script type="text/javascript" src="jquery-1.9.1.js"></script>
-	<script type="text/javascript" src="jquery-ui.js"></script>
+	<script type="text/javascript" src="/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="/jquery-ui.js"></script>
 	<!--script type="text/javascript" src="carousel-index.js"></script-->
 
 	<link href="/css/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="/css/calendar.css" rel="stylesheet" media="screen">	
-	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="/bootstrap/js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<div id="fb-root"></div>
