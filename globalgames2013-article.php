@@ -39,7 +39,7 @@
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 	<link rel="stylesheet" type="text/css" href="/css/style-index.css">
 	<link rel="stylesheet" type="text/css" href="/css/style-new.css">	
-	<link rel="stylesheet" href="/css/query-ui.css" />
+	<link rel="stylesheet" href="/css/jquery-ui.css" />
 	
 	<script type="text/javascript" src="jquery-1.9.1.js"></script>
 	<script type="text/javascript" src="jquery-ui.js"></script>
