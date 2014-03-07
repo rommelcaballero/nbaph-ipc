@@ -96,7 +96,7 @@ for ($i = 0; $i < $count; $i += 1) {
 <?php
 if ($blogger_pic) {
 ?>
-                                       <img src="/images/personalities/<?php echo $blogger_pic; ?>.jpg" border="0">
+                                       <img src="/images/personalities/<?php echo $blogger_pic; ?>" border="0">
 <?php
 }?>
                                     </div>
