@@ -24,6 +24,8 @@ include('sqli.php');
          $blog_array[$i]['BlogTitle'] = $row['BlogTitle'];
          $blog_array[$i]['BlogExcerpt'] = $row['BlogExcerpt'];
          $blog_array[$i]['BlogID'] = $row['BlogID'];
+         $blog_array[$i]['aws_photo_name'] = $row['aws_photo_name'];
+		 
          $last_blogger = $row['Blogger'];
          $i += 1;
       }
