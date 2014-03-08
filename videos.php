@@ -41,10 +41,10 @@
 	<link rel="stylesheet" type="text/css" href="/css/style-new.css">
 	<link rel="stylesheet" type="text/css" href="/css/videos.css">
 	<!--[if IE]>
-	<link rel="stylesheet" type="text/css" href="ie_style.css">
+	<link rel="stylesheet" type="text/css" href="/css/ie_style.css">
 	<![endif]-->
 	<!--[if IE 7]>
-	<link rel="stylesheet" type="text/css" href="ie7_style.css">
+	<link rel="stylesheet" type="text/css" href="/css/ie7_style.css">
 	<![endif]-->
 	
 	<script type="text/javascript" src="jquery-1.7.1.min.js"></script>	

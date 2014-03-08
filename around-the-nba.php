@@ -7,18 +7,18 @@
      <head>
           <title>NBA Philippines | Around The NBA</title>
 
-          <link rel="stylesheet" type="text/css" href="/style.css">
-          <link rel="stylesheet" type="text/css" href="/style-new.css">
+          <link rel="stylesheet" type="text/css" href="/css/style.css">
+          <link rel="stylesheet" type="text/css" href="/css/style-new.css">
           <!--[if IE]>
-          <link rel="stylesheet" type="text/css" href="/ie_style.css">
+          <link rel="stylesheet" type="text/css" href="/css/ie_style.css">
           <![endif]-->
           <!--[if IE 7]>
-          <link rel="stylesheet" type="text/css" href="/ie7_style.css">
+          <link rel="stylesheet" type="text/css" href="/css/ie7_style.css">
           <![endif]-->
           <script type="text/javascript" src="/jquery-1.7.1.min.js"></script>
           <script type="text/javascript" src="/java.js"></script>
           <script type="text/javascript" src="/pagination/jquery.simplePagination.js"></script>
-          <link rel="stylesheet" type='text/css' href="/pagination/simplePagination.css"> 
+          <link rel="stylesheet" type='text/css' href="/css/pagination/simplePagination.css"> 
           <style>
                .column-title{                         
                     background: #0054AF;

@@ -13,16 +13,16 @@ else {
 <head>
 <title>NBA Philippines</title> 
 
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" type="text/css" href="style-index.css">
-<link rel="stylesheet" type="text/css" href="style-new.css">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<link rel="stylesheet" type="text/css" href="/css/style-index.css">
+<link rel="stylesheet" type="text/css" href="/css/style-new.css">
 <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="jquery.tools.min.js"></script>
 <script type="text/javascript" src="jquery.imgpreload.js"></script>
 
 <script type="text/javascript" src="java.js"></script>
 <!--[if IE]>
-<link rel="stylesheet" type="text/css" href="ie_style.css">
+<link rel="stylesheet" type="text/css" href="/css/ie_style.css">
 <![endif]-->
 <style type="text/css">
 <!--

@@ -10,16 +10,16 @@ include('lib.php');
 	<title>NBA Draft Board 2013</title>
 	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" /> 
 
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="style-index.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/style-index.css">
 	<!--link rel="stylesheet" type="text/css" href="colorbox/colorbox.css"-->
 	<!--link href="fbfeed/jquery.neosmart.fb.wall.css" rel="stylesheet" type="text/css"/-->	
-	<link rel="stylesheet" type="text/css" href="style-new.css">
+	<link rel="stylesheet" type="text/css" href="/css/style-new.css">
 	<!--[if IE]>
-	<link rel="stylesheet" type="text/css" href="ie_style.css">
+	<link rel="stylesheet" type="text/css" href="/css/ie_style.css">
 	<![endif]-->
 	<!--[if IE 7]>
-	<link rel="stylesheet" type="text/css" href="ie7_style.css">
+	<link rel="stylesheet" type="text/css" href="/css/ie7_style.css">
 	<![endif]-->
 
 	</head>
