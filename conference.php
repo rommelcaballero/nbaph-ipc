@@ -10,19 +10,19 @@ include('queries/index-queries.php');
 	<title>NBA Philippines | Conference Finals</title>
 	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" /> 
 
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="style-index.css">
-	<link rel="stylesheet" type="text/css" href="colorbox/colorbox.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/style-index.css">
+	<link rel="stylesheet" type="text/css" href="/css/colorbox/colorbox.css">
 	<!--link href="fbfeed/jquery.neosmart.fb.wall.css" rel="stylesheet" type="text/css"/-->	
-	<link rel="stylesheet" type="text/css" href="/style-new.css">
+	<link rel="stylesheet" type="text/css" href="/css/style-new.css">
 	
-	<link rel="stylesheet" type="text/css" href="/pkg-desktop-bracket-min.css" >
-	<link rel="stylesheet" type="text/css" href="/pkg-theme-default-min.css" >
+	<link rel="stylesheet" type="text/css" href="/css/pkg-desktop-bracket-min.css" >
+	<link rel="stylesheet" type="text/css" href="/css/pkg-theme-default-min.css" >
 	<!--[if IE]>
-	<link rel="stylesheet" type="text/css" href="ie_style.css">
+	<link rel="stylesheet" type="text/css" href="/css/ie_style.css">
 	<![endif]-->
 	<!--[if IE 7]>
-	<link rel="stylesheet" type="text/css" href="ie7_style.css">
+	<link rel="stylesheet" type="text/css" href="/css/ie7_style.css">
 	<![endif]-->
 
 	<!--script type="text/javascript" src="jquery-1.7.1.min.js"></script>
