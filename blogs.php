@@ -67,7 +67,7 @@ $count = count($blog_array);
 
 for ($i = 0; $i < $count; $i += 1) {
 
-$blogger_pic = strtolower(urlencode(str_replace("ñ", "n", $blog_array[$i]['Blogger'])));
+$blogger_pic = $blog_array[$i]['aws_photo_name'];
 
    if ($i > 0 && $i % 2 == 0) {
 ?>
@@ -90,7 +90,7 @@ $blogger_pic = strtolower(urlencode(str_replace("ñ", "n", $blog_array[$i]['Blogg
                               <tr>
                                  <td class="writer_picture">
                                     <div class="writer_pic">
-                                       <img src="/images/blogs/<?php echo $blogger_pic; ?>.jpg" border="0">
+                                       <img src="/images/blogs/<?php echo $blogger_pic; ?>" border="0">
                                     </div>
                                  </td>
                                  <td class="writer_entry">
