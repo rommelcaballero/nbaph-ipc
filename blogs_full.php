@@ -172,8 +172,8 @@ include('queries/blogs_full-queries.php');
 			?>
 			<div id="MoreBlogs" >
 
-			<div style="width: 300px; padding: 5px 0 2px 0; background: url('images/rounded_bottom_300.png') bottom center no-repeat">
-			<div class="article_header" style="background: url('images/rounded_top_300.png'); width: 270px; height: 15px">
+			<div style="width: 300px; padding: 5px 0 2px 0; background: url('/images/rounded_bottom_300.png') bottom center no-repeat">
+			<div class="article_header" style="background: url('/images/rounded_top_300.png'); width: 270px; height: 15px">
 			More from <?php echo ucwords($blog_postedby); ?>
 			</div>
 
@@ -259,49 +259,49 @@ var video_count = 0;
 $("#headline_left").click(function() {
    $("#headline_pics").data("scrollable").prev();
 
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_empty.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_empty.png");
 
    headline_count -= 1;
    if (headline_count < 0)
       headline_count = 2;
 
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_filled.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_filled.png");
 });
 
 $("#headline_right").click(function() {
    $("#headline_pics").data("scrollable").next();
 
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_empty.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_empty.png");
 
    headline_count += 1;
    if (headline_count > 2)
       headline_count = 0;
 
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_filled.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_filled.png");
 });
 
 $("#video_left").click(function() {
    $("#" + video_section).data("scrollable").prev();
 
-   $("#video_circle_" + video_count).prop("src", "images/circle_empty.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_empty.png");
 
    video_count -= 1;
    if (video_count < 0)
       video_count = 2;
 
-   $("#video_circle_" + video_count).prop("src", "images/circle_filled.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_filled.png");
 });
 
 $("#video_right").click(function() {
    $("#" + video_section).data("scrollable").next();
 
-   $("#video_circle_" + video_count).prop("src", "images/circle_empty.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_empty.png");
 
    video_count += 1;
    if (video_count > 2)
       video_count = 0;
 
-   $("#video_circle_" + video_count).prop("src", "images/circle_filled.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_filled.png");
 });
 
 var video_tab = "video_list_highlights";

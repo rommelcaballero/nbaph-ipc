@@ -55,8 +55,8 @@ include('layouts/header.php');
          <!-- top left start -->
          <div style="float: left; width: 610px">
             <!-- headlines start -->
-            <div style="width: 610px; padding-bottom: 2px; background: url('images/rounded_bottom_610.png') bottom center no-repeat">
-               <div class="article_header" style="background: url('images/rounded_top_610.png'); width: 580px; height: 15px">
+            <div style="width: 610px; padding-bottom: 2px; background: url('/images/rounded_bottom_610.png') bottom center no-repeat">
+               <div class="article_header" style="background: url('/images/rounded_top_610.png'); width: 580px; height: 15px">
                   RECENT CONTENT
                </div>
 
@@ -90,7 +90,7 @@ $blogger_pic = strtolower(urlencode(str_replace("ñ", "n", $blog_array[$i]['Blogg
                               <tr>
                                  <td class="writer_picture">
                                     <div class="writer_pic">
-                                       <img src="images/blogs/<?php echo $blogger_pic; ?>.jpg" border="0">
+                                       <img src="/images/blogs/<?php echo $blogger_pic; ?>.jpg" border="0">
                                     </div>
                                  </td>
                                  <td class="writer_entry">
@@ -206,49 +206,49 @@ var video_count = 0;
 $("#headline_left").click(function() {
    $("#headline_pics").data("scrollable").prev();
 
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_empty.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_empty.png");
 
    headline_count -= 1;
    if (headline_count < 0)
       headline_count = 2;
 
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_filled.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_filled.png");
 });
 
 $("#headline_right").click(function() {
    $("#headline_pics").data("scrollable").next();
 
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_empty.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_empty.png");
 
    headline_count += 1;
    if (headline_count > 2)
       headline_count = 0;
 
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_filled.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_filled.png");
 });
 
 $("#video_left").click(function() {
    $("#" + video_section).data("scrollable").prev();
 
-   $("#video_circle_" + video_count).prop("src", "images/circle_empty.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_empty.png");
 
    video_count -= 1;
    if (video_count < 0)
       video_count = 2;
 
-   $("#video_circle_" + video_count).prop("src", "images/circle_filled.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_filled.png");
 });
 
 $("#video_right").click(function() {
    $("#" + video_section).data("scrollable").next();
 
-   $("#video_circle_" + video_count).prop("src", "images/circle_empty.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_empty.png");
 
    video_count += 1;
    if (video_count > 2)
       video_count = 0;
 
-   $("#video_circle_" + video_count).prop("src", "images/circle_filled.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_filled.png");
 });
 
 var video_tab = "video_list_highlights";
