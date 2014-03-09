@@ -177,7 +177,7 @@ include('layouts/header.php');
                         }
                ?>
 
-                    <div class="lfloat" style="width: 185px; margin: 0px 0px 20px 10px; "  >
+                    <div class="lfloat" style="width: 185px; margin: 0px 0px 20px 10px; height:200px;"  >
 
                         <div><a href="cheerdancers-videos/<?php echo $other_id; ?>/<?php echo seoUrl($other_title); ?>" ><img src="<?php
                            echo $other_image;
