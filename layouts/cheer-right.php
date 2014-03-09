@@ -16,7 +16,7 @@
    else
     {
    ?>
-   	<div ><img src="images/cheer_columns.png"></div>
+   	<div ><img src="/images/cheer_columns.png"></div>
    <?php	
 	}
    ?>
@@ -36,7 +36,7 @@
                  $column_writer = strtoupper(trim($column_array[$count]['Writer']));
                  $column_link = trim(trim($column_array[$count]['Link']));
 
-                 $column_img = "images/column/".$column_id."_column.jpg";
+                 $column_img = "/images/column/".$column_id."_column.jpg";
         ?>
 
        <!-- column 1 -->
