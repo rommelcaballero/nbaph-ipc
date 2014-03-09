@@ -59,7 +59,7 @@ include('layouts/header.php');
          <!-- left start -->
          <div style="float: left; width: 622px; ">
 
-          <div style="width: 622px; background-color: #27aae2; " ><img src="images/cheer_videos.png" border="0"  /></div>
+          <div style="width: 622px; background-color: #27aae2; " ><img src="/images/cheer_videos.png" border="0"  /></div>
 
              <div style="margin: 0px; padding: 15px 5px 10px 5px; " >
 
@@ -181,7 +181,7 @@ include('layouts/header.php');
 
                         <div><a href="cheerdancers-videos/<?php echo $other_id; ?>/<?php echo seoUrl($other_title); ?>" ><img src="<?php
                            echo $other_image;
-                           //echo resizeCrop("images/cheer_videos/".$other_id.".jpg", 185, 137, '');
+                           //echo resizeCrop("/images/cheer_videos/".$other_id.".jpg", 185, 137, '');
                         ?>" alt="<?php echo strtoupper($other_title); ?>" title="<?php echo strtoupper($other_title); ?>" class="btnimg" /></a></div>
 
                         <div style="margin: 0px; padding: 2px 5px 0px 5px; line-height: normal; " >
