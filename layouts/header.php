@@ -302,7 +302,7 @@
 				</li>
 				<li class="header_nav_divider"></li>
 				<li class="header_nav_section" id="nav_cheerleaders">
-					<a href="http://ph.nba.com/cheerdancers" class="header_nav_link">Cheerdancers...</a>
+					<a href="http://ph.nba.com/cheerdancers" class="header_nav_link">Cheerdancers.....</a>
 				</li>      
 			</ul>
 			<div class="clear_left" ></div>       
