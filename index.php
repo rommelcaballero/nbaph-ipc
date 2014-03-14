@@ -20,11 +20,11 @@
 	<meta http-equiv="Cache-control" content="public">
 
 
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="style-index.css">
-	<link rel="stylesheet" type="text/css" href="style-new.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/style-index.css">
+	<link rel="stylesheet" type="text/css" href="/css/style-new.css">
 	
-	<link rel="stylesheet" href="jquery-ui.css" />
+	<link rel="stylesheet" href="/css/jquery-ui.css" />
 	<script type="text/javascript" src="jquery-1.9.1.js"></script>
 	<script type="text/javascript" src="jquery-ui.js"></script>
 	<script type="text/javascript" src="carousel-index.js"></script>
