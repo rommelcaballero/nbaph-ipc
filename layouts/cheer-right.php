@@ -84,7 +84,7 @@
 if ($ad['Link']) {
 ?>
             <div style="width: 300px; height: 100px">
-               <a href="<?php echo $ad['Link']; ?>"><img src="ads/<?php echo $ad['Image']; ?>"></a>
+               <a href="<?php echo $ad['Link']; ?>"><img src="/ads/<?php echo $ad['Image']; ?>"></a>
             </div>
 <?php
 }
