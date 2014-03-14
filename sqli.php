@@ -27,6 +27,10 @@ $domain = str_replace("https://", "", $_SERVER['SERVER_NAME']);
 $domain = str_replace("http://", "", $domain); 
 if($domain != "nba.local"){
 	$sql_db = "db48516_nba";
+	//$sql_server = "nbadb.cgvo8mpef8im.ap-southeast-1.rds.amazonaws.com";
+        //$sql_root = "nbauser1";
+        //$sql_pwd = "nb@db1";
+
 	$sql_server = "nbadb.cgvo8mpef8im.ap-southeast-1.rds.amazonaws.com";
 	$sql_root = "nbaawsuser";
 	$sql_pwd = "p@ssw0rd_123";	
