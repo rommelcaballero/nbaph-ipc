@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+error_reporting(E_ALL);
 $headers = apache_request_headers();
 $timestamp = time();
 $tsstring = gmdate('D, d M Y H:i:s ', $timestamp) . 'GMT';
@@ -10,7 +10,7 @@ header('Expires: Thu, 01-Jan-70 00:00:01 GMT');
 header('P3P: CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"');
 header('Content-type: text/html; charset=iso-8859-i');
 if(isset($headers['If-Modified-Since'])) {
-        //echo 'set modified header';
+        echo 'set modified header';
 	if(intval(time()) - intval(strtotime($headers['If-Modified-Since'])) < 300) {
               header('HTTP/1.1 304 Not Modified');
               exit();

@@ -3,7 +3,7 @@
 <head>
 	<?php
 	$part_page = "videos";
-	include('queries/video-queries.php');
+	include('/queries/video-queries.php');
 	
 	if(isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
 		$x_forwarded =$_SERVER['HTTP_X_FORWARDED_FOR'];
