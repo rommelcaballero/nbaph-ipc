@@ -1,0 +1,30 @@
+
+AuthName "Restricted Area"
+AuthType Basic
+AuthUserFile /data/httpd/html/nba/admin/.htpasswd
+AuthGroupFile /dev/null
+require valid-user
+
+SetEnvIf Request_URI "(/data/httpd/html/nba/admin/)$" allow
+SetEnvIf Request_URI "(/data/httpd/html/nba/admin/\.php)$"  allow
+Order allow,deny
+Allow from env=allow
+#Allow from 54.254.248.99
+#Allow from 54.254.237.13
+#Allow from myphnbaelb-708266321.ap-southeast-1.elb.amazonaws.com
+Allow from ec2-54-254-225-238.ap-southeast-1.compute.amazonaws.com
+#Allow from 222.127.85.149
+#Allow from 54.239.178.8
+Satisfy any
+
+php_value upload_max_filesize 512M
+php_value post_max_size 512M
+php_value memory_limit 16M
+
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} -s [OR]
+#RewriteCond %{REQUEST_FILENAME} -l [OR]
+#RewriteCond %{REQUEST_FILENAME} -d
+
+#RewriteRule ^.*$ - [NC,L]
+#RewriteRule ^.*$ index.php [NC,L]
