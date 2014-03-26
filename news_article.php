@@ -132,8 +132,9 @@ include('queries/news_article-queries.php');
 						<div id="disqus_thread" style='padding:10px;'></div>
 						<script type="text/javascript">
 							/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-							var disqus_shortname = 'ph-nba-com'; // required: replace example with your forum shortname					
-							var disqus_url = '<?php echo $base; ?>news-article/<?php echo $newsid; ?>/<?php  echo seoUrl($article['Title']); ?>/<?php echo trim(urlencode($blog_postedby)); ?>';
+							var disqus_shortname = 'ph-nba-com'; // required: replace example with your forum shortname		
+							<?php $xbase = 'http://ph.nba.com/'; ?>	
+							var disqus_url = '<?php echo $xbase; ?>news-article/<?php echo $newsid; ?>/<?php  echo seoUrl($article['Title']); ?>/<?php echo trim(urlencode($blog_postedby)); ?>';
 							/* * * DON'T EDIT BELOW THIS LINE * * */
 							(function() {
 								var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
