@@ -72,8 +72,7 @@ include('queries/writers_full-queries.php');
 						<!-- pb writer <?php echo $ctr; ?> -->
 						<div class="blog_item" style='padding:10px;'>                 	
 							<div class="blog_date" ><?php echo $blog_date; ?>
-								<div class="addthis_position">
-									<!-- AddThis Button BEGIN -->
+								<!--div class="addthis_position">									
 									<div class="addthis_toolbox addthis_default_style ">
 										<a class="addthis_button_preferred_1"></a>
 										<a class="addthis_button_preferred_2"></a>
@@ -84,8 +83,8 @@ include('queries/writers_full-queries.php');
 									</div>
 									<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
 									<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-503c81d36918b206"></script>
-									<!-- AddThis Button END -->
-								</div>
+									
+								</div-->
 							</div>
 							<div class="blog_title"><?php echo $blog_title; ?></div>
 							<div class="blog_posted" ><?php echo $blog_postedby; ?></div>
@@ -118,9 +117,9 @@ include('queries/writers_full-queries.php');
 								<script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script> 
 							</div>
 							<div class="clear" style="height: 10px"></div>
-							<div class="addthis_div">
+							<!--div class="addthis_div">
 							   <div class="addthis_position">
-								  <!-- AddThis Button BEGIN -->
+								 
 								  <div class="addthis_toolbox addthis_default_style ">
 								  <a class="addthis_button_preferred_1"></a>
 								  <a class="addthis_button_preferred_2"></a>
@@ -131,14 +130,15 @@ include('queries/writers_full-queries.php');
 								  </div>
 								  <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
 								  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-503c81d36918b206"></script>
-								  <!-- AddThis Button END -->
+								 
 							   </div>
-							</div>
+							</div-->
 							<div id="disqus_thread" style='padding:10px;'></div>
 							<script type="text/javascript">
 								/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-								var disqus_shortname = 'ph-nba-com'; // required: replace example with your forum shortname					
-								var disqus_url = '<?php echo $base; ?>writers-content/<?php echo $sblog_id; ?>/<?php  echo seoUrl($blog_title); ?>/<?php echo trim(urlencode($blog_postedby)); ?>';
+								var disqus_shortname = 'ph-nba-com'; // required: replace example with your forum shortname	
+								<?php $xbase = 'http://ph.nba.com/'; ?>
+								var disqus_url = '<?php echo $xbase; ?>writers-content/<?php echo $sblog_id; ?>/<?php  echo seoUrl($blog_title); ?>/<?php echo trim(urlencode($blog_postedby)); ?>';
 								/* * * DON'T EDIT BELOW THIS LINE * * */
 								(function() {
 									var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
