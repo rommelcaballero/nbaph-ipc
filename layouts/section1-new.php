@@ -109,10 +109,10 @@
 			<div style="height: 10px"></div>
 			<?php if ($ads_array[0]['Link']): ?>                
 			<div style="width: 300px; height: 100px">
-					<!--a href="< ?php echo $ads_array[0]['Link']; ?>"><img src="ads/< ?php echo $ads_array[0]['Image']; ?>"></a-->
+					<a href="<?php echo $ads_array[0]['Link']; ?>"><img src="ads/<?php echo $ads_array[0]['Image']; ?>"></a>
 					<!--a href="/pre-season.php?register=1"><img src="media/2.0/300x100-banner-4.jpg"></a-->					
 					<!--a href="/nbaglobalgamesphilippines2013"><img src="media/2.0/300x100-banner-5.jpg"></a-->					
-					<a href="/allstar2014"><img src="media/2.0/allstar/2014/300x100-banner-5.jpg"></a>					
+					<!--a href="/allstar2014"><img src="media/2.0/allstar/2014/300x100-banner-5.jpg"></a-->					
 			</div>
 			<?php endif; ?>
 			<div style="height: 10px"></div>
