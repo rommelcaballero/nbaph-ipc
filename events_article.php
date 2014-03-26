@@ -103,8 +103,8 @@ include('layouts/header.php');
             <div style="font-size: 12px" id="events_article">
                <?php echo stripslashes($event['Description']); ?>
                <div class="clear_both" ></div>
-            <div class="addthis_div">
-               <!--div class="addthis_position">
+            <!--div class="addthis_div">
+               <div class="addthis_position">
                   
                   <div class="addthis_toolbox addthis_default_style ">
                   <a class="addthis_button_preferred_1"></a>
@@ -117,8 +117,8 @@ include('layouts/header.php');
                   <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
                   <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-503c81d36918b206"></script>
                   
-               </div-->
-            </div>
+               </div>
+            </div-->
 			<div id="disqus_thread" style='padding:10px;'></div>
 			<script type="text/javascript">
 				/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
