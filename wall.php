@@ -40,7 +40,7 @@
 		
 			<div class='video-container'>	
 				<video controls width="630" height="360" id='wall-video' >
-					<source type="video/mp4" src="<?php echo $base; ?>ftp-web/wall/<?php echo $wall_videos[0]['filename']; ?>">
+					<source type="video/mp4" src="<?php echo $base; ?>ftp-web/<?php echo $wall_videos[0]['filename']; ?>">
 				</video>			
 			</div>
 		
