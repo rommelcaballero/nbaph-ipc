@@ -130,19 +130,19 @@
 	.ui-dialog{background: transparent; border: none; width:1320px !important;}
 	.ui-dialog-titlebar{background: transparent; border: none; padding:0 !important;}	
 	
-	.ui-dialog-titlebar-close{ right:6em !important; display: none; margin-right:-15px !important;}
+	.ui-dialog-titlebar-close{ z-index:100; right:6em !important; display: none; margin-right:-15px !important;}
 
 	.ui-dialog-content{overflow: hidden !important;}
 	.ui-widget-header{border: none;}
 	.ui-widget-overlay{opacity:0.8; background: #000;}
-	.ui-icon{z-index: 764565764565746546574645756; width:32px  !important; height:32px !important; background:url(/media/2.0/button_close.png) 0 -32px no-repeat !important; top:23%  !important; margin-left:-16px !important;}	
+	.ui-icon{z-index: 100; width:32px  !important; height:32px !important; background:url(/media/2.0/button_close.png) 0 -32px no-repeat !important; top:23%  !important; margin-left:-16px !important;}	
 	.ui-dialog-titlebar-close{ width:10px !important; height:10px !important; }
 	/*.*/
 </style>
 
 
 <div class='dialog' style="display:none; margin-left: -170px; top: -40px;">	
-<embed id='wall-video' src="<?php echo $base; ?>ftp-web/wall/<?php echo $wall_videos[0]['filename']; ?>" width="<?php echo $wall_videos[0]['wall_width']; ?>" height="<?php echo $wall_videos[0]['wall_height']; ?>" wmode="transparent" />
+<embed id='wall-video' src="<?php echo $base; ?>ftp-web/wall/<?php echo $wall_videos[0]['filename']; ?>" width="<?php echo $wall_videos[0]['wall_width']; ?>" height="<?php echo $wall_videos[0]['wall_height']; ?>" wmode="transparent" style="left:50%; margin-left:-800px; margin-top:0;  position:fixed; width:1600;" />
 </div>
 
 <script>
