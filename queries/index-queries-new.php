@@ -193,12 +193,14 @@ include('lib.php');
 	$result_bgads = mysqli_query($connect, $query_bgads) or die(mysqli_error());
 	$found_bgads = mysqli_num_rows($result_bgads);
 
-	$result = mysqli_query($connect,"select * from wall_videos where status =1 and impression_target>impression_count order by date_created desc limit 0, 1");
+	$result = mysqli_query($connect,"select * from wall_videos where status=1");
+	$wall_videos_count = mysqli_num_rows($result);
 	$wall_videos = array();
 	while($row = mysqli_fetch_array($result)){
 	  $wall_videos[] = $row;
 	}
-	if(count($wall_videos)>0){
+	//if(count($wall_videos)>0){
+	if($wall_videos_count > 0){
 	   if((strtotime(date("H:i")) >= strtotime($wall_videos[0]['start_time'])) &&
 		(strtotime(date("H:i")) <= strtotime($wall_videos[0]['end_time']))){
 			

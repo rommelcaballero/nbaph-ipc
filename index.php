@@ -29,7 +29,7 @@
 	<script type="text/javascript" src="jquery-1.9.1.js"></script>
 	<script type="text/javascript" src="jquery-ui.js"></script>
 	<script type="text/javascript" src="carousel-index.js"></script>
-	<script></script>	
+	
 <?php //include('leaderboards_js.php'); ?>
 	</head>
 	<body>
