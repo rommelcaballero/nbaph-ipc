@@ -1,0 +1,170 @@
+
+.promo-header{
+	width: 1000px;
+	height: 723px;
+	background: url(/super-market/img/header.jpg);
+}
+.promo-footer{
+	width: 900px;
+	min-height: 50px;
+	background:#e62c3a;	
+	padding:10px 50px 10px;			
+}
+.promo-content{
+	min-height: 100px;
+	width: 900px;			
+	background:#e62c3a;	
+	padding:20px 50px 10px;	
+}
+.promo-sponsors{margin-bottom: 20px;}
+.promo-content hr, .promo-sponsors hr{border-top:1px solid #fff; border-bottom:1px solid #f88b93;}
+
+h1.title{
+	font-family: helvetica;
+	color:#fff;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 45px;
+	font-weight: bold;
+}
+h2.title{
+	font-family: helvetica;
+	color:#fff;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 2.5em;
+	font-weight: normal;		
+}
+h3.title{
+	font-family: helvetica;
+	color:#fff;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 1.8em;
+	font-weight: normal;		
+}
+
+span.description{
+	color:#fff;
+	display: block;
+	padding:0 50px;
+	font-family: helvetica;
+	font-size:13px;
+	line-height:150%;
+	letter-spacing: 1px;
+
+}
+span.promo-mechanics{
+	color:#ffff00; float:right; bottom:0; cursor:pointer;
+}
+span.promo-mechanics:hover{
+	text-decoration: underline;
+}
+.input-row{
+	min-height: 10px;
+	margin-bottom: 10px;
+	vertical-align: top;
+	font-family: arial;
+	font-size:14px;
+	letter-spacing: 0;
+}
+.input-left{
+	width: 135px;
+	text-align: left;		
+	display: inline-block;
+	vertical-align: top;		
+}
+.input-left span{padding-right:10px;}
+.input-right input[type=text]{
+	width: 200px;
+	text-align: left;
+}
+.input-right select{width: 205px;}
+.input-right textarea{width: 410px;}
+.input-right{
+	display: inline-block;
+	text-align: left;
+	width: 430px;
+}
+.input-right input[type=submit]{
+	width:130px;
+	color:#fff;
+	padding:5px 15px;
+	background: #ae212a;
+	border-right: 1px solid #862E2C;
+	border-bottom: 1px solid #862E2C;
+	border-left: 1px solid #862E2C;
+	border-top: 1px solid #862E2C;
+	cursor: pointer;
+	font-weight: bold;
+}
+.input-right input[type=submit]:hover{
+	border-left: 1px solid #dc4f58;
+	border-top: 1px solid #dc4f58;
+	border-right: 1px solid #dc4f58;
+	border-bottom: 1px solid #dc4f58;
+	
+}
+.captcha-container{
+	width: 400px;
+	overflow: hidden;
+	display: inline-block;
+
+}
+.ui-button {
+    font-size: 14px !important; /* change font size */					    
+    color:#0054AF !important;
+}
+.ui-dialog-titlebar{display: none;}
+.ui-dialog-title{
+	font-size: 14px !important;
+	color:#0054af !important;						
+
+}
+.ui-widget-overlay{opacity:0.8;}
+.stop-scrolling {
+  	height: 110%;
+  	overflow: hidden;
+}
+.ui-dialog-titlebar-close{display: none !important;}
+.error{	
+	font-size:11px;
+	color:#f6b6ba;
+	margin: 0;
+	padding:0 0 2px 0;
+}
+.error-dialog{
+	color:#FF0033;
+	font-size:14px;
+	padding-left:70px;
+	padding-top:10px;
+	min-height: 70px;
+	background: url(/super-market/img/Alarm-Error-icon.png) no-repeat;
+}
+.error-dialog span{
+	color:#FF0033;
+	font-size:12px;	
+}
+
+.success-dialog{
+	color:#0068BD;
+	font-size:14px;
+	padding-left:70px;
+	padding-top:10px;
+	min-height: 70px;
+	background: url(/super-market/img/Alarm-Tick-icon.png) no-repeat;		
+}
+.info-dialog{
+	color:#0068BD;
+	font-size:14px;
+	padding-left:70px;
+	padding-top:10px;
+	min-height: 70px;	
+	background: url(/super-market/img/Alarm-Info-icon.png) no-repeat;	
+}
+.align-center{
+	text-align: center !important;
+}

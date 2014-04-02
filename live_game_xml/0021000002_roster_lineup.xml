@@ -1,0 +1,57 @@
+<Msg_file>
+  <Game Number="0021000002">
+    <Msg_person_info Game_id="0021000002" Person_id="1179" First_name="Rodney" Last_name="Mott" Jersey_number="71" Person_type="Official" />
+    <Msg_person_info Game_id="0021000002" Person_id="1185" First_name="Violet" Last_name="Palmer" Jersey_number="12" Person_type="Official" />
+    <Msg_person_info Game_id="0021000002" Person_id="1194" First_name="Bill" Last_name="Spooner" Jersey_number="22" Person_type="Official" />
+    <Msg_person_info Game_id="0021000002" Person_id="813" Team_id="1610612757" First_name="Bernie" Last_name="Bickerstaff" Person_type="Staff" />
+    <Msg_person_info Game_id="0021000002" Person_id="1311" Team_id="1610612757" First_name="Bob" Last_name="Ociepka" Person_type="Staff" />
+    <Msg_person_info Game_id="0021000002" Person_id="1329" Team_id="1610612757" First_name="Jay" Last_name="Jensen" Person_type="Staff" />
+    <Msg_person_info Game_id="0021000002" Person_id="1778" Team_id="1610612757" First_name="Nate" Last_name="McMillan" Person_type="Staff" />
+    <Msg_person_info Game_id="0021000002" Person_id="101271" Team_id="1610612757" First_name="Maurice" Last_name="Lucas" Person_type="Staff" />
+    <Msg_person_info Game_id="0021000002" Person_id="101272" Team_id="1610612757" First_name="Geoff" Last_name="Clark" Person_type="Staff" />
+    <Msg_person_info Game_id="0021000002" Person_id="202441" Team_id="1610612757" First_name="Charles" Last_name="Williams" Person_type="Staff" />
+    <Msg_person_info Game_id="0021000002" Person_id="1220" Team_id="1610612756" First_name="Bill" Last_name="Cartwright" Person_type="Staff" />
+    <Msg_person_info Game_id="0021000002" Person_id="1243" Team_id="1610612756" First_name="Alvin" Last_name="Gentry" Person_type="Staff" />
+    <Msg_person_info Game_id="0021000002" Person_id="2008" Team_id="1610612756" First_name="Aaron" Last_name="Nelson" Person_type="Staff" />
+    <Msg_person_info Game_id="0021000002" Person_id="2166" Team_id="1610612756" First_name="Igor" Last_name="Kokoskov" Person_type="Staff" />
+    <Msg_person_info Game_id="0021000002" Person_id="201694" Team_id="1610612756" First_name="Dan" Last_name="Majerle" Person_type="Staff" />
+    <Msg_person_info Game_id="0021000002" Person_id="202440" Team_id="1610612756" First_name="Noel" Last_name="Gillespie" Person_type="Staff" />
+    <Msg_person_info Game_id="0021000002" Person_id="201587" Team_id="1610612757" Player_status="A" Status_text="" First_name="Nicolas" Last_name="Batum" Jersey_number="88" Person_type="Player" Player_code="nicolas_batum" />
+    <Msg_person_info Game_id="0021000002" Person_id="200746" Team_id="1610612757" Player_status="A" Status_text="" First_name="LaMarcus" Last_name="Aldridge" Jersey_number="12" Person_type="Player" Player_code="lamarcus_aldridge" />
+    <Msg_person_info Game_id="0021000002" Person_id="948" Team_id="1610612757" Player_status="A" Status_text="" First_name="Marcus" Last_name="Camby" Jersey_number="23" Person_type="Player" Player_code="marcus_camby" />
+    <Msg_person_info Game_id="0021000002" Person_id="200750" Team_id="1610612757" Player_status="A" Status_text="" First_name="Brandon" Last_name="Roy" Jersey_number="7" Person_type="Player" Player_code="brandon_roy" />
+    <Msg_person_info Game_id="0021000002" Person_id="1889" Team_id="1610612757" Player_status="A" Status_text="" First_name="Andre" Last_name="Miller" Jersey_number="24" Person_type="Player" Player_code="andre_miller" />
+    <Msg_person_info Game_id="0021000002" Person_id="202083" Team_id="1610612757" Player_status="A" Status_text="" First_name="Wesley" Last_name="Matthews" Jersey_number="2" Person_type="Player" Player_code="wesley_matthews" />
+    <Msg_person_info Game_id="0021000002" Person_id="201164" Team_id="1610612757" Player_status="A" Status_text="" First_name="Rudy" Last_name="Fernandez" Jersey_number="5" Person_type="Player" Player_code="rudy_fernandez" />
+    <Msg_person_info Game_id="0021000002" Person_id="201967" Team_id="1610612757" Player_status="A" Status_text="" First_name="Dante" Last_name="Cunningham" Jersey_number="33" Person_type="Player" Player_code="dante_cunningham" />
+    <Msg_person_info Game_id="0021000002" Person_id="101177" Team_id="1610612757" Player_status="A" Status_text="" First_name="Fabricio" Last_name="Oberto" Jersey_number="21" Person_type="Player" Player_code="fabricio_oberto" />
+    <Msg_person_info Game_id="0021000002" Person_id="202356" Team_id="1610612757" Player_status="A" Status_text="" First_name="Armon" Last_name="Johnson" Jersey_number="1" Person_type="Player" Player_code="armon_johnson" />
+    <Msg_person_info Game_id="0021000002" Person_id="201988" Team_id="1610612757" Player_status="A" Status_text="DNP - Coach's Decision" First_name="Patty" Last_name="Mills" Jersey_number="8" Person_type="Player" Player_code="patrick_mills" />
+    <Msg_person_info Game_id="0021000002" Person_id="202337" Team_id="1610612757" Player_status="A" Status_text="DNP - Coach's Decision" First_name="Luke" Last_name="Babbitt" Jersey_number="11" Person_type="Player" Player_code="luke_babbitt" />
+    <Msg_person_info Game_id="0021000002" Person_id="202343" Team_id="1610612757" Player_status="I" Status_text="" First_name="Elliot" Last_name="Williams" Jersey_number="9" Person_type="Player" Player_code="elliot_williams" />
+    <Msg_person_info Game_id="0021000002" Person_id="201141" Team_id="1610612757" Player_status="I" Status_text="" First_name="Greg" Last_name="Oden" Jersey_number="52" Person_type="Player" Player_code="greg_oden" />
+    <Msg_person_info Game_id="0021000002" Person_id="2038" Team_id="1610612757" Player_status="I" Status_text="" First_name="Joel" Last_name="Przybilla" Jersey_number="10" Person_type="Player" Player_code="joel_przybilla" />
+    <Msg_person_info Game_id="0021000002" Person_id="255" Team_id="1610612756" Player_status="A" Status_text="" First_name="Grant" Last_name="Hill" Jersey_number="33" Person_type="Player" Player_code="grant_hill" />
+    <Msg_person_info Game_id="0021000002" Person_id="2045" Team_id="1610612756" Player_status="A" Status_text="" First_name="Hedo" Last_name="Turkoglu" Jersey_number="19" Person_type="Player" Player_code="hidayet_turkoglu" />
+    <Msg_person_info Game_id="0021000002" Person_id="201577" Team_id="1610612756" Player_status="A" Status_text="" First_name="Robin" Last_name="Lopez" Jersey_number="15" Person_type="Player" Player_code="robin_lopez" />
+    <Msg_person_info Game_id="0021000002" Person_id="2202" Team_id="1610612756" Player_status="A" Status_text="" First_name="Jason" Last_name="Richardson" Jersey_number="23" Person_type="Player" Player_code="jason_richardson" />
+    <Msg_person_info Game_id="0021000002" Person_id="959" Team_id="1610612756" Player_status="A" Status_text="" First_name="Steve" Last_name="Nash" Jersey_number="13" Person_type="Player" Player_code="steve_nash" />
+    <Msg_person_info Game_id="0021000002" Person_id="101112" Team_id="1610612756" Player_status="A" Status_text="" First_name="Channing" Last_name="Frye" Jersey_number="8" Person_type="Player" Player_code="channing_frye" />
+    <Msg_person_info Game_id="0021000002" Person_id="101124" Team_id="1610612756" Player_status="A" Status_text="" First_name="Hakim" Last_name="Warrick" Jersey_number="21" Person_type="Player" Player_code="hakim_warrick" />
+    <Msg_person_info Game_id="0021000002" Person_id="201162" Team_id="1610612756" Player_status="A" Status_text="" First_name="Jared" Last_name="Dudley" Jersey_number="3" Person_type="Player" Player_code="jared_dudley" />
+    <Msg_person_info Game_id="0021000002" Person_id="2735" Team_id="1610612756" Player_status="A" Status_text="" First_name="Josh" Last_name="Childress" Jersey_number="1" Person_type="Player" Player_code="josh_childress" />
+    <Msg_person_info Game_id="0021000002" Person_id="201609" Team_id="1610612756" Player_status="A" Status_text="" First_name="Goran" Last_name="Dragic" Jersey_number="2" Person_type="Player" Player_code="goran_dragic" />
+    <Msg_person_info Game_id="0021000002" Person_id="202081" Team_id="1610612756" Player_status="A" Status_text="DNP - Coach's Decision" First_name="Garret" Last_name="Siler" Jersey_number="20" Person_type="Player" Player_code="garret_siler" />
+    <Msg_person_info Game_id="0021000002" Person_id="201947" Team_id="1610612756" Player_status="A" Status_text="DNP - Coach's Decision" First_name="Earl" Last_name="Clark" Jersey_number="55" Person_type="Player" Player_code="earl_clark" />
+    <Msg_person_info Game_id="0021000002" Person_id="202371" Team_id="1610612756" Player_status="I" Status_text="" First_name="Gani" Last_name="Lawal" Jersey_number="31" Person_type="Player" Player_code="gani_lawal" />
+    <Msg_person_info Game_id="0021000002" Person_id="202394" Team_id="1610612756" Player_status="I" Status_text="" First_name="Matt" Last_name="Janning" Jersey_number="22" Person_type="Player" Player_code="matt_janning" />
+    <Msg_game_lineup Game_id="0021000002" Period="1" Home_forward_1_id="201587" Home_forward_2_id="200746" Home_center_id="948" Home_guard_1_id="200750" Home_guard_2_id="1889" Visitor_forward_1_id="255" Visitor_forward_2_id="2045" Visitor_center_id="201577" Visitor_guard_1_id="2202" Visitor_guard_2_id="959" Delete_flag="0" />
+    <Msg_game_lineup Game_id="0021000002" Period="2" Home_forward_1_id="201164" Home_forward_2_id="101177" Home_center_id="201967" Home_guard_1_id="202356" Home_guard_2_id="202083" Visitor_forward_1_id="101112" Visitor_forward_2_id="2735" Visitor_center_id="201162" Visitor_guard_1_id="201609" Visitor_guard_2_id="101124" Delete_flag="0" />
+    <Msg_game_lineup Game_id="0021000002" Period="3" Home_forward_1_id="201587" Home_forward_2_id="200746" Home_center_id="948" Home_guard_1_id="200750" Home_guard_2_id="1889" Visitor_forward_1_id="255" Visitor_forward_2_id="2045" Visitor_center_id="201577" Visitor_guard_1_id="2202" Visitor_guard_2_id="959" Delete_flag="0" />
+    <Msg_game_lineup Game_id="0021000002" Period="4" Home_forward_1_id="201164" Home_forward_2_id="202083" Home_center_id="201967" Home_guard_1_id="202356" Home_guard_2_id="948" Visitor_forward_1_id="201162" Visitor_forward_2_id="101112" Visitor_center_id="2735" Visitor_guard_1_id="201609" Visitor_guard_2_id="101124" Delete_flag="0" />
+    <Msg_game_lineup Game_id="0021000002" Period="5" Home_forward_1_id="0" Home_forward_2_id="0" Home_center_id="0" Home_guard_1_id="0" Home_guard_2_id="0" Visitor_forward_1_id="0" Visitor_forward_2_id="0" Visitor_center_id="0" Visitor_guard_1_id="0" Visitor_guard_2_id="0" Delete_flag="0" />
+    <Msg_game_lineup Game_id="0021000002" Period="6" Home_forward_1_id="0" Home_forward_2_id="0" Home_center_id="0" Home_guard_1_id="0" Home_guard_2_id="0" Visitor_forward_1_id="0" Visitor_forward_2_id="0" Visitor_center_id="0" Visitor_guard_1_id="0" Visitor_guard_2_id="0" Delete_flag="0" />
+    <Msg_game_lineup Game_id="0021000002" Period="7" Home_forward_1_id="0" Home_forward_2_id="0" Home_center_id="0" Home_guard_1_id="0" Home_guard_2_id="0" Visitor_forward_1_id="0" Visitor_forward_2_id="0" Visitor_center_id="0" Visitor_guard_1_id="0" Visitor_guard_2_id="0" Delete_flag="0" />
+    <Msg_game_lineup Game_id="0021000002" Period="8" Home_forward_1_id="0" Home_forward_2_id="0" Home_center_id="0" Home_guard_1_id="0" Home_guard_2_id="0" Visitor_forward_1_id="0" Visitor_forward_2_id="0" Visitor_center_id="0" Visitor_guard_1_id="0" Visitor_guard_2_id="0" Delete_flag="0" />
+  </Game>
+</Msg_file>

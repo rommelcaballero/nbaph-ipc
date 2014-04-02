@@ -1,0 +1,3069 @@
+/*
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+nav ul {
+    list-style: none outside none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+a {
+    background: none repeat scroll 0 0 transparent;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+ins {
+    background-color: #FFFF99;
+    color: #000000;
+    text-decoration: none;
+}
+mark {
+    background-color: #FFFF99;
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #CCCCCC -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-right: 0 none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    display: block;
+    height: 1px;
+    margin: 1em 0;
+    padding: 0;
+}
+input, select {
+    vertical-align: middle;
+}
+body {
+    background: url("@/dep/nba-cms3-desktop/elements/themes/default/global/homepage-bg.jpg@") repeat scroll 0 0 #929292;
+    font-family: "Helvetica Neue",Helvetica Neue,Helvetica,Arial,Liberation Sans,sans-serif;
+}*/
+#nbaTheme input, #nbaTheme textarea, #nbaTheme button {
+    font-family: "Helvetica Neue",Helvetica Neue,Helvetica,Arial,Liberation Sans,sans-serif;
+}
+#nbaTheme p, #nbaTheme td, #nbaTheme div, #nbaTheme span {
+    color: #323232;
+}
+#nbaTheme a, #nbaTheme a:link, #nbaTheme a:active {
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#nbaTheme a:hover {
+    text-decoration: underline;
+}
+#nbaTheme a.nbaLinkArrow_1 {
+    color: #000000;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 10px;
+    position: relative;
+    text-decoration: none;
+}
+#nbaTheme a.nbaLinkArrow_1:hover {
+    color: #0066DD;
+}
+#nbaTheme a.nbaLinkArrow_1:before {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/themes/default/global/global-sprite.png") no-repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 10px;
+    position: absolute;
+    right: 0;
+    width: 7px;
+}
+#nbaTheme a.nbaLinkWatch {
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 0;
+    position: relative;
+}
+#nbaTheme a.nbaLinkWatch:before {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/themes/default/global/global-sprite.png") no-repeat scroll -8px 0 transparent;
+    content: "";
+    display: block;
+    height: 12px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 14px;
+}
+#nbaTheme sup {
+    font-size: 50%;
+    vertical-align: super;
+}
+#nbaTheme a.nbaFacebookConnect {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/themes/default/feature/news-sprite.png") no-repeat scroll -160px 0 transparent;
+    display: block;
+    font-size: 0.5em;
+    font-weight: normal;
+    height: 27px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    width: 183px;
+}
+#nbaTheme #nbaContent {
+    background-color: #F2F2F2;
+    box-shadow: 0 0 5px #666666;
+    min-height: 345px;
+}
+#nbaTheme .nbaAd {
+    text-align: center;
+}
+#nbaTheme .nbaAd.nbaOPA {
+    margin-bottom: 5px;
+}
+#nbaTheme .nbaAd.nbaCombo {
+    margin: 18px 25px;
+}
+#nbaTheme .nbaAd.nbaCombo .nbaAd {
+    float: left;
+}
+#nbaTheme .nbaAd.nbaCombo .nbaLeft {
+    margin-right: 10px;
+    width: 200px;
+}
+#nbaTheme .nbaAd.nbaCombo .nbaRight {
+    float: right;
+    width: 728px;
+}
+.nbaPage {
+    margin: 0 auto;
+    width: 1000px;
+}
+.nbaAd-970x66 {
+    margin: 0 auto;
+    width: 1000px;
+}
+.nbaSectionRow {
+    background-color: #F2F2F2;
+    border-bottom: 5px solid #005F9F;
+    box-shadow: 0 0 5px #666666;
+    margin-bottom: 8px;
+    min-height: 345px;
+}
+.nbaFlexRow {
+    margin: 18px 0;
+}
+.nbaAdRow {
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #DFE1E0;
+}
+.nbaAdRow:before {
+    border-top: 1px solid #FFFFFF;
+    content: "";
+    margin-bottom: 18px;
+    width: 100%;
+}
+.nbaAdRow:after {
+    border-bottom: 1px solid #DFE1E0;
+    content: "";
+    margin-top: 18px;
+    width: 100%;
+}
+.nbaSectionRow.nbaLast {
+    margin-bottom: 0;
+}
+.nbaSectionRow.nbaNoBorder {
+    border: 0 none;
+}
+.nbaSectionRow .nbaRowHeader, .nbaFlexRow .nbaRowHeader {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #DCDFE2;
+    font-size: 22px;
+    font-weight: bold;
+    height: 29px;
+    padding: 11px 10px 5px 30px;
+}
+.nbaSectionRow .nbaRowHeader h2, .nbaFlexRow .nbaRowHeader h2 {
+    float: left;
+}
+.nbaSectionRow .nbaRowHeader h2 a {
+    color: #000000;
+    font-size: 22px;
+}
+.nbaSectionRow .nbaRowHeader h2 a:hover {
+    color: #000000;
+}
+#nbaTheme .nbaSectionRow h3, #nbaTheme .nbaSectionRow h3 a, #nbaTheme .nbaFlexRow h3, #nbaTheme .nbaFlexRow h3 a {
+    color: #000000;
+    font-size: 1em;
+}
+.nbaSectionRow h3 a:hover, .nbaFlexRow h3 a:hover {
+    color: #000000;
+}
+.nbaSectionRow section {
+    background-color: #F2F2F2;
+    border-right: 1px solid #DCDFE2;
+    border-top: 1px solid #FFFFFF;
+    float: left;
+    height: 303px;
+    margin: 0 0 1px 1px;
+    padding: 0 9px;
+    position: relative;
+    width: 300px;
+}
+.nbaFlexRow .nbaFlex {
+    float: left;
+    height: 250px;
+    padding: 20px 6px 0;
+    position: relative;
+    width: 300px;
+}
+.nbaSectionRow section .nbaSponsorArea {
+    height: 31px;
+    position: absolute;
+    right: 0;
+    top: -12px;
+    width: 88px;
+}
+.nbaFlexRow .nbaFlex .nbaSponsorArea {
+    height: 31px;
+    position: absolute;
+    right: 6px;
+    top: 7px;
+    width: 88px;
+}
+.nbaFlexRow .nbaFlex.nbaLast .nbaSponsorArea {
+    right: 38px;
+}
+.nbaSectionRow section .nbaSectionContent {
+    margin: 25px 10px 11px;
+    position: relative;
+}
+.nbaSectionRow .nbaFirst .nbaSectionContent {
+    margin: 25px 0 11px;
+}
+.nbaSectionRow .nbaLast .nbaSectionContent {
+    margin: 25px 0 15px 10px;
+}
+.nbaSectionRow .nbaLast .nbaSectionContent.nbaNum0 {
+    margin: 25px 0 11px;
+}
+.nbaSectionRow section .nbaSectionContent.nbaFlex {
+    padding: 0;
+}
+#nbaTheme .nbaSectionRow section .nbaSectionContent.nbaFlex .nbaAdNotice {
+    color: #8E8E8E;
+    font-size: 9px;
+    height: 9px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: -12px;
+    width: 88px;
+}
+#nbaTheme .nbaFlexRow .nbaFlex .nbaAdNotice {
+    color: #8E8E8E;
+    font-size: 9px;
+    height: 9px;
+    position: absolute;
+    right: 9px;
+    text-align: right;
+    top: 7px;
+    width: 88px;
+}
+#nbaTheme .nbaFlexRow .nbaFlex.nbaLast .nbaAdNotice {
+    right: 41px;
+    top: 7px;
+}
+.nbaSectionRow section.nbaFirst {
+    padding: 0 9px 0 29px;
+}
+.nbaFlexRow .nbaFlex.nbaFirst {
+    padding: 20px 6px 0 38px;
+}
+.nbaFlexRow .nbaFlex.nbaFirst.nbaNum0 {
+    padding: 20px 0 0 38px;
+}
+.nbaSectionRow section.nbaLast {
+    border-right: 1px solid #FFFFFF;
+    padding: 0 29px 0 9px;
+}
+.nbaFlexRow .nbaFlex.nbaNum0, .nbaFlexRow .nbaFlex.nbaLast.nbaNum0 {
+    padding: 20px 0 0 6px;
+}
+.nbaFlexRow .nbaFlex.nbaNum1 {
+    padding: 20px 6px 0 10px;
+}
+.nbaFlexRow .nbaFlex.nbaLast.nbaNum1 {
+    padding: 20px 38px 0 10px;
+}
+.nbaFlexRow .nbaFlex.nbaLast {
+    padding: 20px 38px 0 6px;
+}
+.nbaPrettyTable_1, .nbaPrettyTable_2 {
+    border-collapse: separate;
+    text-align: left;
+}
+.nbaPrettyTable_1 thead th {
+    border-bottom: 1px solid #DCDFE2;
+    font-size: 0.8125em;
+    padding: 4px;
+    text-transform: uppercase;
+}
+.nbaPrettyTable_1 tbody tr:first-child td {
+    border-top: 1px solid #FFFFFF;
+}
+.nbaPrettyTable_1 tbody td {
+    font-size: 0.6875em;
+    padding: 4px 0 7px;
+}
+.nbaPrettyTable_1 thead th.nbaAlignCenter {
+    text-align: center;
+}
+.nbaPrettyTable_2 tbody tr td {
+    border-bottom: 1px solid #DCDFE2;
+    border-top: 1px solid #FFFFFF;
+    padding: 9px 5px;
+}
+.nbaPrettyTable_2 tbody tr.nbaFirst td {
+    border-top: 0 none;
+}
+.nbaPrettyTable_2 tbody tr.nbaLast td {
+    border-bottom: 0 none;
+}
+.nbaPrettyTable_2 tbody tr td.nbaProgramName {
+    font-family: Georgia,Times,serif;
+    font-size: 16px;
+}
+.nbaPrettyTable_2 tbody tr td.nbaProgramTime {
+    font-size: 14px;
+    font-weight: bold;
+}
+.nbaFlex {
+    float: left;
+    height: 250px;
+    padding: 0;
+    width: 300px;
+}
+.nbaSectionRow section .nbaFlex.nbaSectionContent, .nbaFlexRow section .nbaFlex.nbaSectionContent {
+    margin-right: 0;
+}
+.nbaSectionRow .nbaSectionContent.nbaFlex.nbaSplit, .nbaFlexRow .nbaSectionContent.nbaFlex.nbaSplit {
+    width: 145px;
+}
+.nbaFlex a {
+    font-weight: inherit;
+}
+.nbaFlex a:hover {
+    color: #000000;
+}
+.nbaFlex .nbaFlexPanel .nbaThumbnail img {
+    display: block;
+    height: 124px;
+    width: 296px;
+}
+.nbaFlex.nbaSplit .nbaFlexPanel .nbaThumbnail img {
+    height: 94px;
+    width: 141px;
+}
+.nbaFlex .nbaFlexPanel h3 {
+    height: 1.2em;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.nbaFlex .nbaFlexPanel .nbaFlexContent {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #FFFFFF;
+    border-color: #DCDFE2 #DCDFE2 #D3D3D3;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    height: 222px;
+    padding: 1px;
+    position: relative;
+}
+.nbaFlex .nbaFlexPanel .nbaFlexContent h4 {
+    font-size: 12px;
+    height: 1.2em;
+    line-height: 1.2;
+    overflow: hidden;
+    padding: 8px 4px 2px 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.nbaFlex .nbaFlexPanel .nbaFlexContent h4 a:hover {
+    text-decoration: underline;
+}
+.nbaFlex.nbaSplit .nbaFlexPanel .nbaFlexContent h4 {
+    height: auto;
+    max-height: 2.2em;
+    overflow: hidden;
+    white-space: normal;
+}
+.nbaFlex .nbaFlexPanel p {
+    display: block;
+    font-size: 12px;
+    height: 29px;
+    line-height: 1.2;
+    overflow: hidden;
+    padding: 2px 6px 0 8px;
+}
+.nbaFlex.nbaSplit .nbaFlexPanel p {
+    height: 44px;
+}
+.nbaFlex .nbaFlexPanel .nbaSocial {
+    background-color: #F4F4F4;
+    bottom: 1px;
+    height: 26px;
+    overflow: hidden;
+    padding-top: 7px;
+    position: absolute;
+    text-align: center;
+    width: 296px;
+}
+.nbaFlex.nbaSplit .nbaFlexPanel .nbaSocial {
+    width: 141px;
+}
+.nbaFlex .nbaFlexPanel .nbaSocial > div {
+    display: inline-block;
+}
+.nbaFlex .nbaFlexPanel .nbaSocial .nbaFbLike {
+    height: 21px;
+    margin: 0 3px 0 0;
+    overflow: hidden;
+    width: 49px;
+}
+.nbaFlex .nbaFlexPanel .nbaSocial .nbaFbLike iframe {
+    border: 0 none;
+    height: 21px;
+    width: 49px;
+}
+.nbaFlex .nbaFlexPanel .nbaSocial .twitter-share-button {
+    height: 21px;
+    margin: 0;
+    overflow: hidden;
+    width: 57px;
+}
+.nbaFlex .nbaFlexPanel .nbaSocial .twitter-share-button iframe {
+    border: 0 none;
+    height: auto;
+    width: 57px;
+}
+.nbaFlex.nbaOpinion .nbaFlexPanel .nbaFlexContent h4 {
+    padding: 18px 4px 2px 13px;
+}
+.nbaFlex.nbaOpinion .nbaFlexPanel .nbaThumbnail {
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 9px;
+    margin-top: 10px;
+}
+.nbaFlex.nbaOpinion .nbaFlexPanel .nbaThumbnail img {
+    height: 87px;
+    width: 65px;
+}
+.nbaFlex.nbaOpinion .nbaFlexPanel .nbaFlexContent p {
+    color: #8A8A8A !important;
+    font-family: georgia;
+    font-size: 17px;
+    height: auto;
+    letter-spacing: 1px;
+    line-height: 21px;
+    padding: 11px 6px 0 20px;
+    width: 186px;
+}
+.nbaFlex.nbaOpinion .nbaFlexPanel .nbaFlexContent p:before {
+    content: "“";
+}
+.nbaFlex.nbaOpinion .nbaFlexPanel .nbaFlexContent p:after {
+    content: "”";
+}
+.nbaFlex.nbaOpinion .nbaFlexPanel .nbaFlexContent span {
+    font-size: 0.7em;
+    font-style: italic;
+    margin-left: 20px;
+}
+.nbaFlex.nbaOpinion .nbaFlexPanel .nbaFlexContent .nbaBullets {
+    left: 1px;
+    margin-top: 0;
+    position: absolute;
+    top: 148px;
+    width: 296px;
+}
+.nbaFlex .nbaFlexPanel .nbaFlexContent .nbaBullets li {
+    color: #000000;
+    font-size: 0.75em;
+    line-height: 1.5;
+    list-style: none outside none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.nbaFlex .nbaFlexPanel .nbaFlexContent .nbaBullets li:before {
+    color: #0066DD;
+    content: "•";
+    font-size: 0.9em;
+    padding-right: 0.3em;
+    position: relative;
+    top: 0;
+}
+.nbaFlex .nbaFlexPanel .nbaFlexContent .nbaBullets li a {
+    font-weight: normal !important;
+    text-overflow: ellipsis;
+}
+.nbaFlex.nbaOpinion .nbaFlexPanel .nbaFlexContent .nbaBullets {
+    clear: both;
+    margin-top: 11px;
+}
+.nbaFlex.nbaFull.nbaBullets .nbaFlexPanel .nbaFlexContent .nbaBullets {
+    margin-top: 0;
+}
+.nbaFlex.nbaOpinion .nbaFlexPanel .nbaFlexContent .nbaBullets li {
+    padding: 0 16px 0 13px;
+}
+.nbaFlex.nbaFull.nbaBullets .nbaFlexPanel .nbaFlexContent .nbaBullets li {
+    padding: 0 16px 0 9px;
+}
+.nbaFlex.nbaFull.nbaBullets .nbaFlexPanel .nbaFlexContent p {
+    height: 14px;
+    margin-bottom: 2px;
+    margin-top: -3px;
+}
+.nbaFlex .nbaFlexContent.nbaPoll {
+    height: 222px;
+    overflow: hidden;
+    position: relative;
+}
+.nbaFlex .nbaFlexPanel .nbaFlexContent.nbaPoll h4 {
+    font-size: 0.75em;
+    height: auto;
+    line-height: 1.2;
+    padding: 10px 0 10px 10px;
+    white-space: normal;
+}
+.nbaFlex .nbaPoll h4 span {
+    display: block;
+    width: 130px;
+}
+.nbaFlex .nbaPoll form {
+    position: relative;
+    z-index: 2;
+}
+.nbaFlex .nbaPoll fieldset ul {
+    list-style: none outside none;
+    margin-left: 8px;
+    padding: 0;
+}
+.nbaFlex .nbaPoll fieldset li {
+    clear: both;
+    font-size: 0.6875em;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0 0 6px;
+    position: relative;
+    z-index: 3;
+}
+.nbaFlex .nbaPoll fieldset input.nbaRadio {
+    display: block;
+    float: left;
+    font-size: 1em;
+    margin: 1px 9px 0 0;
+    padding: 0;
+}
+.nbaFlex .nbaPoll fieldset label.nbaRadio {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 118px;
+    z-index: 1;
+}
+.nbaFlex .nbaFlexPollResults {
+    display: block;
+    height: 222px;
+    overflow: hidden;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    width: 143px;
+    z-index: 1;
+}
+.nbaFlex .nbaFlexPollResultOverlay {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    display: block;
+    height: 222px;
+    position: absolute;
+    right: 150px;
+    top: 0;
+    width: 143px;
+    z-index: 0;
+}
+#nbaTheme .nbaFlex .nbaFlexPanel .nbaFlexContent.nbaPoll .nbaFlexPollResults h4 {
+    color: #FFFFFF;
+    font-size: 0.75em;
+    padding-bottom: 0;
+    position: relative;
+    z-index: 1;
+}
+#nbaTheme .nbaFlex .nbaFlexPanel .nbaFlexContent.nbaPoll .nbaFlexPollResults h4 span {
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+}
+#nbaTheme .nbaFlex .nbaFlexPanel .nbaFlexContent .nbaFlexPollResults p {
+    color: #FFFFFF;
+    font-size: 0.6875em;
+    position: relative;
+    z-index: 1;
+}
+.nbaFlex .nbaFlexPanel .nbaFlexContent.nbaPoll .nbaFlexPollImage {
+    height: 222px;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    width: 143px;
+    z-index: 0;
+}
+#nbaTheme .nbaFlex .nbaPollVotes {
+    color: #FFFFFF;
+    font-weight: bold;
+    left: 150px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+#nbaTheme .nbaFlex .nbaPollBarChart {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: block;
+    height: 15px;
+    left: 45px;
+    position: absolute;
+    top: -1px;
+    width: 100px;
+    z-index: 0;
+}
+.nbaFlex .nbaFlexPanel .nbaPollCTA {
+    clear: both;
+    padding-top: 5px;
+    text-align: center;
+    width: 150px;
+}
+.nbaFlex .nbaPoll button {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/themes/default/global/global-sprite.png") no-repeat scroll -24px 1px transparent;
+    border: 0 none;
+    color: #666666;
+    cursor: pointer;
+    display: block;
+    font-size: 0.8125em;
+    font-weight: bold;
+    height: 29px;
+    letter-spacing: 0.05em;
+    line-height: 26px;
+    margin: 0 auto;
+    text-shadow: 0 0 2px #FFFFFF;
+    vertical-align: middle;
+    width: 94px;
+}
+.nbaFlex .nbaPoll button:hover {
+    background-position: -24px -29px;
+    border: 0 none;
+    color: #0A6AB6;
+    font-size: 0.8125em;
+}
+.nbaFlex .nbaPoll button:active {
+    background-position: -24px -59px;
+    border: 0 none;
+    color: #666666;
+    font-size: 0.8125em;
+}
+#nbaTheme .nbaFlex .nbaPoll .nbaSeeResults {
+    color: #0066DD;
+    display: block;
+    font-size: 0.5625em;
+    font-weight: normal;
+    padding-top: 10px;
+    text-align: center;
+}
+.nbaFlex .nbaFlexPollResultFrame {
+    border: 0 none;
+    left: 400px;
+    outline: 0 none;
+    position: absolute;
+    top: 400px;
+}
+.nbaFlex.nbaPhotoGallery {
+    position: relative;
+}
+.nbaFlex.nbaPhotoGallery .nbaFlexPanel .nbaThumbnail {
+    background-color: #000000;
+    display: block;
+    height: 222px;
+    position: absolute;
+    width: 296px;
+}
+.nbaFlex.nbaPhotoGallery .nbaFlexPanel .nbaThumbnail img {
+    display: block;
+    height: 222px;
+    width: 296px;
+}
+.nbaFlex.nbaPhotoGallery .nbaPhotoDetails {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    bottom: 29px;
+    display: block;
+    height: 35px;
+    line-height: 1.3;
+    padding: 8px 8px 4px;
+    position: absolute;
+    width: 280px;
+}
+#nbaTheme .nbaFlex.nbaPhotoGallery .nbaPhotoDetails * {
+    color: #FFFFFF;
+}
+#nbaTheme .nbaFlex.nbaPhotoGallery .nbaPhotoDetails .nbaPhotoTitle {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0;
+}
+.nbaFlex.nbaPhotoGallery a:hover span, .nbaFlex.nbaPhotoGallery .nbaPhotoDetails a:hover {
+    text-decoration: underline;
+}
+#nbaTheme .nbaFlex.nbaPhotoGallery .nbaPhotoDetails .nbaPhotoTitle {
+    display: block;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 280px;
+}
+#nbaTheme .nbaFlex.nbaPhotoGallery .nbaPhotoDetails .nbaPhotoDesc {
+    color: #EEEEEE;
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 280px;
+}
+#nbaTheme .nbaFlex.nbaPhotoGallery .nbaPhotoDetails h4, #nbaTheme .nbaFlex.nbaPhotoGallery .nbaPhotoDetails span {
+    color: #FFFFFF;
+}
+.nbaFlex.nbaPhotoGallery .nbaPhotoMore {
+    background-color: #000000;
+    bottom: 1px;
+    height: 12px;
+    padding: 8px 0 8px 8px;
+    position: absolute;
+    width: 288px;
+}
+#nbaTheme .nbaFlex.nbaPhotoGallery .nbaPhotoMore a, .nbaFlex.nbaPhotoGallery .nbaPhotoMore a:link {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+}
+#nbaTheme .nbaFlex.nbaPhotoGallery .nbaPhotoMore a:hover {
+    color: #0066DD;
+}
+.nbaFlex.nbaPhotoGallery .nbaPhotoMore .nbaMoreLink {
+    float: left;
+}
+.nbaFlex.nbaPhotoGallery .nbaPhotoMore .nbaLaunchLink {
+    float: right;
+    margin: 0 8px 0 0;
+}
+.nbaFlex.nbaHeadlines .nbaHeadlineList {
+    margin: 11px 13px 0;
+}
+.nbaFlex.nbaHeadlines .nbaHeadlineList ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.nbaFlex.nbaHeadlines li {
+    border-bottom: 1px solid #E6E6E6;
+    font-family: Georgia,Times New Roman,Times,Palatino Linotype,serif;
+    font-size: 0.875em;
+    font-weight: normal;
+    list-style: none outside none;
+    margin-bottom: 4px;
+    padding: 1px 0 3px 4px;
+}
+.nbaFlex.nbaHeadlines li.nbaLast {
+    border-bottom: 0 none;
+}
+.nbaFlex.nbaHeadlines li.nbaSingleton {
+    min-height: 33px;
+}
+.nbaFlex.nbaHeadlines li .nbaSingleLine {
+    display: block;
+    height: 1.2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#nbaTheme .nbaFlex.nbaHeadlines li a {
+    font-size: 1em;
+    font-weight: normal;
+}
+#nbaTheme .nbaFlex.nbaHeadlines li a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+.nbaFlex.nbaHeadlines ul ul {
+    height: 1.2em;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+#nbaTheme .nbaFlex.nbaHeadlines li li {
+    border-bottom: 0 none;
+    float: left;
+    font-family: "Helvetica Neue",Helvetica Neue,Helvetica,Arial,Liberation Sans,sans-serif;
+    font-size: 0.785714em;
+    line-height: 1;
+    margin: 0 3px 0 0;
+    min-height: auto;
+    padding: 0 1px 2px 0;
+}
+#nbaTheme .nbaFlex.nbaHeadlines li li a {
+    border-right: 1px solid #898989;
+    color: #0066DD;
+    display: inline-block;
+    font-weight: normal;
+    line-height: 1.1;
+    padding-right: 5px;
+    position: relative;
+}
+#nbaTheme .nbaFlex.nbaHeadlines li li a:hover {
+    color: #0066DD;
+}
+#nbaTheme .nbaFlex.nbaHeadlines li li.nbaLast a {
+    border-right: 0 none;
+}
+#nbaTheme .nbaFlex.nbaHeadlines .nbaLinkWatch {
+    padding-left: 15px;
+}
+.nbaPager {
+    list-style-type: none;
+}
+.nbaPagerContent {
+    list-style-type: none;
+}
+.nbaPager li {
+    display: inline;
+    margin: 4px 6px;
+}
+#nbaTheme .nbaPager li a {
+    color: #777777;
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: -1px -1px 2px #FFFFFF;
+}
+#nbaTheme .nbaPager li.active a {
+    color: #005F9F;
+}
+#nbaTheme .nbaPager li a:hover {
+    color: #005F9F;
+}
+.nbaPager li.previous, .nbaPager li.next, .nbaPager li.daily {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/stats-standings/stats-standings-sprite.png") no-repeat scroll 0 0 transparent;
+    height: 21px;
+    margin: 4px 3px;
+    width: 21px;
+}
+#nbaTheme .nbaPager li.previous a, #nbaTheme .nbaPager li.next a, #nbaTheme .nbaPager li.daily a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+}
+.nbaPager li.previous {
+    background-position: -192px -68px;
+}
+.nbaPager li.previous:hover {
+    background-position: -192px -37px;
+}
+.nbaPager li.previous:active {
+    background-position: -192px -99px;
+}
+.nbaPager li.previous.inactive {
+    background-position: -217px -37px;
+}
+.nbaPager li.previous.inactive a {
+    cursor: default;
+}
+.nbaPager li.next {
+    background-position: -216px -68px;
+}
+.nbaPager li.next:hover {
+    background-position: -192px -7px;
+}
+.nbaPager li.next:active {
+    background-position: -219px -99px;
+}
+.nbaPager li.next.inactive {
+    background-position: -216px -7px;
+}
+.nbaPager li.next.inactive a {
+    cursor: default;
+}
+.nbaPager li.daily {
+    background-position: -240px -7px;
+    height: 17px;
+    width: 15px;
+}
+.nbaPager li.daily.active, .nbaPager li.daily.last.active {
+    background-position: -240px -37px;
+}
+.nbaPager li.daily.last {
+    background-position: -240px -7px;
+    border-right: 1px solid #CCCCCC;
+    margin-right: 0;
+    width: 22px;
+}
+.nbaPager li.first {
+    border-left: 1px solid #FFFFFF;
+    height: 17px;
+    margin-left: 0;
+    padding-left: 9px;
+    width: inherit;
+}
+#nbaTheme .ui-selectmenu-menu li a {
+    color: #363636;
+    font-size: 12px;
+    font-weight: normal;
+}
+.ui-selectmenu-status {
+    color: #575757;
+    font-size: 12px;
+    font-weight: normal;
+}
+a.ui-selectmenu-dropdown {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/stats-standings/stats-standings-sprite.png") no-repeat scroll -29px -6px transparent;
+    border: 0 none;
+    height: 27px;
+}
+a.ui-selectmenu-dropdown .ui-selectmenu-icon {
+    display: none;
+}
+a.ui-selectmenu-dropdown.ui-state-hover {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/stats-standings/stats-standings-sprite.png") no-repeat scroll -29px -36px transparent;
+}
+a.ui-selectmenu-dropdown.ui-state-active {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/stats-standings/stats-standings-sprite.png") no-repeat scroll -29px -67px transparent;
+}
+.ui-widget-content.ui-selectmenu-menu-dropdown {
+    border: 1px solid #CCCCCC;
+    margin-top: -2px;
+    width: 149px !important;
+}
+.ui-widget-content.ui-selectmenu-menu-dropdown .ui-state-hover {
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+}
+.nbaAssist {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+}
+.nbaNoJsAssist {
+    display: none;
+}
+.no-js .nbaNoJsAssist {
+    display: inherit;
+}
+.nbaClear:before, .nbaClear:after {
+    content: "";
+    display: table;
+}
+.nbaClear:after {
+    clear: both;
+}
+.nbaClear {
+    display: block;
+}
+.nbaCenterList {
+    display: table;
+    margin: 0 auto;
+}
+.nbaHide {
+    display: none;
+}
+.nbaNotVisible {
+    border: 0 none !important;
+    clip: rect(0px, 0px, 0px, 0px) !important;
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+}
+.lt-ie8 .nbaPrettyTable_1, .lt-ie8 .nbaPrettyTable_2 {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+.lt-ie8 .nbaPrettyTable_1 {
+    font-size: 11px;
+}
+.lt-ie8 .nbaFlex p a {
+    font-weight: normal;
+}
+.lt-ie9 .nbaFlex .nbaPoll button {
+    border: 1px solid #CCCCCC !important;
+}
+.lt-ie8 .nbaFlex .nbaPoll li {
+    margin: 0;
+    padding: 0 0 4px;
+}
+.lt-ie8 .nbaFlex .nbaPoll input.nbaRadio {
+    margin: -3px 0 0 -3px;
+    padding: 0;
+}
+.lt-ie8 .nbaFlex .nbaPoll label.nbaRadio {
+    margin-left: 5px;
+    width: 115px;
+}
+.lt-ie8 .nbaPager li a {
+    line-height: 1.4;
+}
+#nbaHeader {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/themes/default/header/header-bg.jpg") no-repeat scroll 0 0 #006BB5;
+    box-shadow: 0 -1px 1px #050505 inset, 0 1px 4px #474747;
+    height: 139px;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 10;
+}
+#nbaHeader .nbaSocial {
+    height: 56px;
+    left: 86px;
+    position: absolute;
+    top: 12px;
+}
+#nbaHeader .nbaSocial iframe {
+    background-color: transparent;
+    border: 0 none transparent;
+    height: 30px;
+    margin: 0 0 0 14px;
+    overflow: hidden;
+    padding: 0;
+}
+#nbaHeader .nbaSocial > div {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/themes/default/header/header-social-pipe.png") repeat-y scroll right top transparent;
+    float: left;
+    height: 35px;
+    margin: 0;
+}
+#nbaHeader .nbaSocial .nbaLogin {
+    color: #FFFFFF;
+    font-size: 0.6875em;
+    line-height: 35px;
+    padding-right: 15px;
+    text-align: right;
+    width: 274px;
+}
+#nbaHeader .nbaSocial .Action {
+    color: #FFFFFF;
+    float: right;
+}
+#nbaHeader .nbaSocial .User {
+    color: #FFFFFF;
+    float: right;
+    padding-right: 5px;
+}
+#nbaHeader .nbaSocial .User > img {
+    display: inline-block;
+    float: left;
+    margin-right: 2px;
+    margin-top: 10px;
+}
+#nbaHeader .nbaSocial .nbaLogin a {
+    color: #FFFFFF;
+    font-size: inherit;
+    font-weight: normal;
+}
+#nbaHeader .nbaSocial .nbaLogin a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+#nbaHeader .nbaSocial .nbaFBLike {
+    width: 110px;
+}
+#nbaHeader .nbaFBLike iframe {
+    margin-right: 0;
+    margin-top: 6px;
+    width: 94px;
+}
+#nbaHeader .nbaSocial .nbaTwitterFollow {
+    width: 206px;
+}
+#nbaHeader .nbaTwitterFollow iframe {
+    margin-top: 6px;
+    width: 190px;
+}
+#nbaHeader .nbaSocial .nbaGooglePlus {
+    background: none repeat scroll 0 center transparent;
+    padding: 5px 0 0 15px;
+}
+#nbaHeader .nbaLogo {
+    display: block;
+    height: 142px;
+    left: 21px;
+    position: absolute;
+    top: 0;
+    width: 75px;
+    z-index: 10001;
+}
+.nbaLogo a {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/themes/default/global/nba-logo.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 142px;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    width: 75px;
+}
+#nbaHeader .nbaStoreButton {
+    display: block;
+    height: 42px;
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    width: 122px;
+    z-index: 10;
+}
+#nbaHeader #nbaGlobalNav {
+    padding-left: 110px;
+    position: relative;
+    top: 56px;
+    z-index: 10000;
+}
+#nbaHeader #nbaGlobalNav > ul > li {
+    display: inline-block;
+    float: left;
+    height: 40px;
+    line-height: 38px;
+    list-style: none outside none;
+    margin-right: 16px;
+    position: relative;
+}
+#nbaHeader #nbaGlobalNav > ul > li.nbaLast {
+    margin-right: 0;
+}
+#nbaHeader .nbaSocial .nbaLogin .nbaGlobal {
+    float: left;
+    padding-left: 22px;
+}
+#nbaHeader .nbaSocial .nbaLogin .nbaDleague {
+    float: left;
+    padding-left: 7px;
+}
+#nbaHeader .nbaSocial .nbaLogin .nbaWNBA {
+    float: left;
+    padding-left: 7px;
+}
+#nbaHeader .nbaSocial .nbaLogin #nbaChromeLogin {
+    float: none;
+    padding-top: 0;
+    width: 274px;
+}
+#nbaHeader .nbaSocial .nbaLogin .nbaGlobal > a {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/themes/default/header/header-sprite.png") repeat scroll -9px -45px transparent;
+    display: block;
+    height: 25px;
+    overflow: hidden;
+    position: relative;
+    text-indent: 100%;
+    top: 6px;
+    white-space: nowrap;
+    width: 25px;
+}
+#nbaHeader .nbaSocial .nbaLogin .nbaDleague > a {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/themes/default/header/dleagueHeader.png") repeat scroll 0 0 transparent;
+    display: block;
+    height: 47px;
+    overflow: hidden;
+    position: relative;
+    text-indent: 100%;
+    top: -6px;
+    white-space: nowrap;
+    width: 47px;
+}
+#nbaHeader .nbaSocial .nbaLogin .nbaWNBA > a {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/themes/default/header/wnbaHeader.png") repeat scroll 0 0 transparent;
+    display: block;
+    height: 49px;
+    overflow: hidden;
+    position: relative;
+    text-indent: 100%;
+    top: -7px;
+    white-space: nowrap;
+    width: 26px;
+}
+#nbaHeader .nbaSocial .nbaLogin .nbaGlobal > a:hover {
+    background-position: -45px -45px;
+}
+#nbaHeader #nbaGlobalNav > ul > li > a {
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 0.75em;
+    padding: 0;
+    text-shadow: 0 -1px 0 #000000;
+}
+#nbaHeader #nbaGlobalNav > ul > li.nbaHover:before, #nbaHeader #nbaGlobalNav > ul > li:hover:before {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
+    content: "";
+    display: block;
+    left: -10px;
+    padding: 15px 10px;
+    position: absolute;
+    top: 7px;
+    width: 100%;
+    z-index: 0;
+}
+#nbaHeader #nbaGlobalNav > ul > li.nbaGlobal.nbaHover:before, #nbaHeader #nbaGlobalNav > ul > li.nbaGlobal:hover:before {
+    display: none;
+}
+#nbaHeader #nbaGlobalNav > ul > li.nbaHover > a, #nbaHeader #nbaGlobalNav > ul > li:hover > a {
+    color: #000000;
+    position: relative;
+    text-shadow: none;
+    z-index: 1;
+}
+#nbaHeader #nbaGlobalNav > ul > li.nbaHover > a:hover, #nbaHeader #nbaGlobalNav > ul > li:hover > a:hover {
+    color: #0066DD;
+    text-decoration: underline;
+}
+#nbaHeader #nbaGlobalNav > ul > li.nbaHover > a.nbaPreventDefault, #nbaHeader #nbaGlobalNav > ul > li:hover > a.nbaPreventDefault {
+    color: #000000;
+    text-decoration: none;
+}
+#nbaHeader #nbaGlobalNav > ul > li.nbaSingleton.nbaHover:before, #nbaHeader #nbaGlobalNav > ul > li.nbaSingleton:hover:before {
+    display: none;
+}
+#nbaHeader #nbaGlobalNav > ul > li.nbaSingleton.nbaHover > a, #nbaHeader #nbaGlobalNav > ul > li.nbaSingleton:hover > a {
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 #000000;
+}
+#nbaHeader #nbaGlobalNav .nbaNavDropdown {
+    left: -999em;
+    position: absolute;
+}
+#nbaHeader #nbaGlobalNav .nbaHover .nbaNavDropdown, #nbaHeader #nbaGlobalNav li:hover .nbaNavDropdown {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 5px solid #006FA2;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
+    left: -10px;
+    right: auto;
+    top: 36px;
+    width: 193px;
+}
+#nbaHeader #nbaGlobalNav .nbaHover.nbaMenuLeft .nbaNavDropdown, #nbaHeader #nbaGlobalNav li.nbaMenuLeft:hover .nbaNavDropdown {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 5px solid #006FA2;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
+    left: auto;
+    right: -10px;
+    top: 36px;
+    width: 193px;
+}
+#nbaHeader #nbaGlobalNav .nbaNavDropdown a {
+    color: #000000;
+    display: block;
+    font-size: 0.8125em;
+    font-weight: normal;
+    line-height: 1.3;
+    margin: 0.8em 0;
+    text-shadow: none;
+}
+#nbaHeader #nbaGlobalNav .nbaNavDropdown a:hover {
+    color: #0066DD;
+    text-decoration: underline;
+}
+#nbaHeader #nbaGlobalNav .nbaTeams .nbaNavDropdown a {
+    line-height: 25px;
+}
+#nbaHeader #nbaGlobalNav .nbaNavDropdown .nbaNavSubheading {
+    display: block;
+    font-size: 0.875em;
+    font-weight: bold;
+    line-height: 1.6;
+    padding: 4px 16px 0;
+}
+#nbaHeader #nbaGlobalNav .nbaNavDropdown .nbaAllStarNavSubheading {
+    color: #323232;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 4px 16px 0 0;
+}
+#nbaHeader .nbaNavDropdown ul {
+    padding: 0 16px;
+}
+#nbaHeader #nbaGlobalNav .nbaNavDropdown li {
+    display: block;
+    line-height: 1.6;
+}
+#nbaHeader .nbaNavDropdown .nbaPrimary {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #DCE0E3;
+    padding-bottom: 20px;
+    padding-top: 12px;
+}
+#nbaHeader .nbaNavDropdown .nbaSecondary {
+    background: none repeat scroll 0 0 #F2F2F2;
+    border-top: 1px solid #FFFFFF;
+    padding-bottom: 20px;
+    padding-top: 12px;
+    position: relative;
+}
+#nbaHeader .nbaTeams .nbaNavDropdown .nbaPrimary {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding-bottom: 4px;
+}
+#nbaHeader .nbaTeams .nbaNavDropdown .nbaSecondary {
+    padding-bottom: 4px;
+}
+#nbaHeader #nbaGlobalNav .nbaTeams.nbaHover .nbaNavDropdown, #nbaHeader #nbaGlobalNav .nbaTeams:hover .nbaNavDropdown {
+    background: none repeat scroll 0 0 #F2F2F2;
+    width: 440px;
+}
+#nbaHeader .nbaTeams .nbaPrimary, #nbaHeader .nbaTeams .nbaSecondary {
+    float: left;
+}
+#nbaHeader .nbaTeams .nbaNavDropdown .nbaPrimary {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 0 none;
+    border-right: 1px solid #DCE0E3;
+}
+#nbaHeader .nbaTeams .nbaNavDropdown .nbaSecondary {
+    border-left: 1px solid #FFFFFF;
+    border-top: 0 none;
+}
+#nbaHeader .nbaTeams .nbaNavDropdown ul {
+    padding: 0 25px;
+}
+#nbaHeader .nbaTeams .nbaNavDropdown .nbaSecondary ul {
+    padding: 0 16px 0 25px;
+}
+#nbaHeader .nbaTeams .nbaNavDropdown ul ul, #nbaHeader .nbaTeams .nbaNavDropdown .nbaSecondary ul ul {
+    padding: 0 0 16px;
+}
+#nbaHeader .nbaTeams .nbaNavDropdown ul ul li {
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+#nbaHeader .nbaTeams .nbaNavDropdown ul ul li a {
+    display: block;
+    line-height: 25px;
+    padding-left: 33px;
+    position: relative;
+}
+#nbaHeader .nbaTeams .nbaNavDropdown ul ul li a:before {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/themes/default/header/header-sprite.png") no-repeat scroll -10000px -10000px transparent;
+    content: "";
+    display: block;
+    height: 25px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 25px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamATL:before {
+    background-position: -10px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamBOS:before {
+    background-position: -42px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamBKN:before, #nbaHeader .nbaTeams ul ul li a.nbaTeamNJN:before {
+    background-position: -555px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamCHA:before {
+    background-position: -74px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamCHI:before {
+    background-position: -106px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamCLE:before {
+    background-position: -138px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamDAL:before {
+    background-position: -170px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamDEN:before {
+    background-position: -202px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamDET:before {
+    background-position: -234px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamGSW:before {
+    background-position: -266px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamHOU:before {
+    background-position: -298px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamIND:before {
+    background-position: -330px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamLAC:before {
+    background-position: -362px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamLAL:before {
+    background-position: -394px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamMEM:before {
+    background-position: -426px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamMIA:before {
+    background-position: -458px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamMIL:before {
+    background-position: -490px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamMIN:before {
+    background-position: -522px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamNOH:before {
+    background-position: -586px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamNYK:before {
+    background-position: -618px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamOKC:before {
+    background-position: -650px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamORL:before {
+    background-position: -682px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamPHI:before {
+    background-position: -714px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamPHX:before {
+    background-position: -746px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamPOR:before {
+    background-position: -778px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamSAC:before {
+    background-position: -810px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamSAS:before {
+    background-position: -842px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamTOR:before {
+    background-position: -874px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamUTA:before {
+    background-position: -906px -10px;
+}
+#nbaHeader .nbaTeams ul ul li a.nbaTeamWAS:before {
+    background-position: -938px -10px;
+}
+#nbaHeader #nbaGlobalNav .nbaTeams .nbaNavSubheading {
+    padding: 0 25px;
+    text-transform: uppercase;
+}
+#nbaHeader #nbaGlobalNav .nbaTeams .nbaSecondary .nbaNavSubheading {
+    padding: 0 0 0 25px;
+    text-transform: uppercase;
+}
+#nbaHeader .nbaTeams .nbaDivision {
+    display: block;
+    font-size: 0.875em;
+    font-weight: bold;
+    line-height: 2;
+}
+#nbaHeader #nbaSearch {
+    bottom: 0;
+    height: 43px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+#nbaHeader #nbaSearch form {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/themes/default/header/header-sprite.png") repeat scroll -86px -44px transparent;
+    height: 24px;
+    margin: 8px auto 0;
+    padding: 0;
+    position: relative;
+    text-align: left;
+    width: 273px;
+    z-index: 2;
+}
+#nbaHeader #nbaSearch input {
+    background: none repeat scroll 0 center transparent;
+    border: 0 none;
+    color: #666666;
+    font-size: 0.75em;
+    font-weight: bold;
+    height: 23px;
+    left: 10px;
+    line-height: 23px;
+    position: absolute;
+    top: 0;
+    width: 230px;
+    z-index: 3;
+}
+#nbaHeader #nbaSearch input::-moz-placeholder {
+    color: #666666;
+    font-size: 12px;
+}
+#nbaHeader #nbaSearch label {
+    color: #666666;
+    display: block;
+    font-size: 0.75em;
+    font-weight: bold;
+    height: 24px;
+    left: 10px;
+    line-height: 24px;
+    position: absolute;
+    top: 0;
+    z-index: 4;
+}
+.no-js #nbaHeader #nbaSearch label {
+    display: none;
+}
+#nbaHeader #nbaSearch .nbaSubmit {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none transparent;
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    text-indent: 100%;
+    top: 0;
+    white-space: nowrap;
+    width: 30px;
+}
+#nbaHeader #nbaSearch .nbaSkin {
+    height: 41px;
+    position: absolute;
+    width: 1000px;
+    z-index: 1;
+}
+#nbaHeader #nbaSearch #nbaClockBG {
+    height: 43px;
+    position: relative;
+    top: -32px;
+    width: 1000px;
+}
+#nbaHeader #nbaSearch #nbaClockBG .nbaPromoBar {
+    float: left;
+    left: 100px;
+    position: relative;
+    width: 250px;
+}
+#nbaHeader #nbaSearch #nbaClock {
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    color: #CC3333;
+    float: left;
+    font: bold 21px Arial;
+    height: 25px;
+    letter-spacing: 0;
+    padding: 0 2px;
+    position: relative;
+    top: 10px;
+    word-spacing: -5px;
+}
+#nbaHeader #nbaSearch #clkThrough {
+    height: 44px;
+    left: 7px;
+    position: absolute;
+    top: 5px;
+    width: 645px;
+    z-index: 5;
+}
+#nbaHeader #nbaSearch #nbaClockBG .nbaClockClick {
+    cursor: pointer;
+    float: right;
+    height: 45px;
+    position: relative;
+    width: 350px;
+    z-index: 10;
+}
+#nbaHeader #nbaSearch #nbaClockBG .nbaClockClick .nbaCountTo {
+    float: left;
+    height: 27px;
+    position: relative;
+    top: 9px;
+    width: 146px;
+}
+#nbaHeader #nbaSearch #nbaClockBG .nbaClockClick .nbaCountTo img {
+    float: left;
+}
+#nbaHeader #nbaSearch #nbaClockBG .nbaClockClick .nbaCountTo p {
+    color: #999999;
+    float: left;
+    font: bold 9px arial;
+    margin-left: 2px;
+    text-transform: uppercase;
+    width: 85px;
+}
+#nbaHeader #nbaSearch #nbaClockBG .nbaClockClick .nbaCountTo span {
+    color: #FFFFFF;
+    font: bold 14px arial;
+}
+#nbaHeader #nbaSearch #nbaClockBG .nbaClockClick .nbaCountAd {
+    float: left;
+    height: 31px;
+    left: 7px;
+    position: relative;
+    top: 6px;
+    width: 88px;
+}
+#nbaHeader #nbaSearch #cntdwn {
+    font-size: 19px;
+    left: 4px;
+    position: relative;
+    top: 3px;
+    word-spacing: 15px;
+}
+#nbaHeader #nbaSearch .nbaAllStarSearchBar {
+    background: none repeat scroll 0 0 #000000;
+    height: 43px;
+    position: relative;
+}
+#nbaHeader #nbaSearch .nbaAllStarSearchBar .nbaSearchPromoLeft {
+    display: block;
+    height: 40px;
+    left: 94px;
+    position: absolute;
+    top: 0;
+    width: 252px;
+}
+#nbaHeader #nbaSearch .nbaAllStarSearchBar .nbaSearchPromoRight {
+    display: block;
+    height: 40px;
+    position: absolute;
+    right: 40px;
+    top: 0;
+    width: 297px;
+}
+#nbaHeader #nbaSearch .nbaPlayoffsSearchBar {
+    background: none repeat scroll 0 0 #000000;
+    height: 43px;
+    position: relative;
+}
+#nbaHeader #nbaSearch .nbaPlayoffsSearchBar .nbaSearchPromoLeft {
+    display: block;
+    height: 40px;
+    left: 94px;
+    position: absolute;
+    top: 0;
+    width: 252px;
+}
+#nbaHeader #nbaSearch .nbaPlayoffsSearchBar .nbaSearchPromoRight {
+    display: block;
+    height: 40px;
+    position: absolute;
+    right: 40px;
+    top: 0;
+    width: 297px;
+}
+#nbaHeader #nbaStoreNav > ul > li.nbaStore > a {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/themes/default/header/nbaStoreBtn.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 42px;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    width: 122px;
+}
+#nbaHeader #nbaStoreNav > ul > li.nbaStore > a:hover, #nbaHeader #nbaStoreNav > ul > li.nbaStore:hover > a {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/themes/default/header/nbaStoreBtn.png") no-repeat scroll 0 -44px transparent;
+    display: block;
+    height: 42px;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    width: 122px;
+}
+#nbaHeader #nbaStoreNav {
+    position: absolute;
+    right: 27px;
+    top: 8px;
+    z-index: 10000;
+}
+#nbaHeader #nbaStoreNav > ul > li {
+    display: inline-block;
+    float: left;
+    height: 40px;
+    line-height: 38px;
+    list-style: none outside none;
+    margin-right: 16px;
+    position: relative;
+}
+#nbaHeader #nbaStoreNav > ul > li > a {
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 0.75em;
+    padding: 0;
+    text-shadow: 0 -1px 0 #000000;
+}
+#nbaHeader #nbaStoreNav > ul > li:hover > a {
+    color: #000000;
+    position: relative;
+    text-shadow: none;
+    z-index: 1;
+}
+#nbaHeader #nbaStoreNav > ul > li:hover > a:hover {
+    color: #0066DD;
+    text-decoration: underline;
+}
+#nbaHeader #nbaStoreNav > ul > li:hover > a.nbaPreventDefault {
+    color: #000000;
+    text-decoration: none;
+}
+#nbaHeader #nbaStoreNav .nbaNavDropdown {
+    left: -999em;
+    position: absolute;
+}
+#nbaHeader #nbaStoreNav li:hover .nbaNavDropdown {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 5px solid #006FA2;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
+    left: -10px;
+    right: auto;
+    top: 36px;
+    width: 193px;
+}
+#nbaHeader #nbaStoreNav li.nbaMenuLeft:hover .nbaNavDropdown {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 5px solid #006FA2;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
+    left: auto;
+    right: 2px;
+    top: 40px;
+    width: 193px;
+}
+#nbaHeader #nbaStoreNav .nbaNavDropdown a {
+    color: #000000;
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 16px;
+    margin: 0.8em 0;
+    text-shadow: none;
+}
+#nbaHeader #nbaStoreNav .nbaNavDropdown a:hover {
+    color: #0066DD;
+    text-decoration: underline;
+}
+#nbaHeader #nbaStoreNav .nbaNavDropdown .nbaNavSubheading {
+    color: #323232;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.6;
+    padding: 4px 16px 0;
+}
+#nbaHeader .nbaNavDropdown ul {
+    padding: 0 16px;
+}
+#nbaHeader #nbaStoreNav .nbaNavDropdown li {
+    display: block;
+    line-height: 1.6;
+}
+#nbaHeader.nbaThird #nbaGlobalNav > ul > li.nbaGlobal.nbaHover:before {
+    display: none;
+}
+#nbaHeader.nbaThird #nbaGlobalNav > ul > li > a {
+    font-weight: bold;
+}
+#nbaHeader.nbaThird #nbaGlobalNav > ul > li > a, #nbaHeader #nbaGlobalNav .nbaNavDropdown a, .nbaLogin a {
+    text-decoration: none;
+}
+#nbaHeader.nbaThird, #nbaHeader.nbaThird #nbaGlobalNav > ul > li > a, #nbaHeader.nbaThird #nbaSearch label {
+    font-size: 12px;
+}
+#nbaHeader.nbaThird .nbaSocial .nbaLogin a {
+    font-size: 11px;
+}
+#nbaHeader.nbaThird, #nbaHeader.nbaThird #nbaGlobalNav > ul > li > a, #nbaHeader.nbaThird #nbaSearch label {
+    font-size: 12px;
+}
+#nbaHeader.nbaThird .nbaSocial .nbaLogin a {
+    font-size: 11px;
+}
+#nbaAllAccess .nbaWelcomeOffers .nbaAARightCol INPUT {
+    margin-right: 5px !important;
+}
+#nbaHeader #nbaGlobalNav {
+    padding-left: 106px;
+}
+#nbaHeader #nbaGlobalNav > ul > li:first-child {
+    margin-right: 14px;
+}
+#nbaImgHeader {
+    line-height: 0;
+    position: relative;
+    top: 0;
+    z-index: 1;
+}
+#nbaImgHeader img {
+    width: 1000px;
+}
+#nbaImgHeader > .nbaAd.nbaOne, #nbaImgHeader > .nbaAd.nbaTwo {
+    height: 60px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 234px;
+}
+#nbaImgHeader > .nbaAd.nbaOne {
+    left: 0;
+}
+#nbaImgHeader > .nbaAd.nbaTwo {
+    height: 48px;
+    left: 423px;
+    position: absolute;
+    top: 0;
+    width: 155px;
+}
+#nbaImgHeader > .nbaAd.nbaThree {
+    right: 0;
+}
+#nbaFooter {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+    padding: 0 1px;
+}
+#nbaTheme #nbaFooter a {
+    color: #C2C2C2;
+    font-weight: normal;
+    text-decoration: none;
+}
+#nbaTheme #nbaFooter a:hover {
+    text-decoration: underline;
+}
+#nbaFooter h3 {
+    color: #FFFFFF;
+    font-size: 12px;
+    padding-bottom: 12px;
+}
+#nbaFooter ul {
+    list-style: none outside none;
+}
+#nbaTheme #nbaFooter li {
+    color: #C2C2C2;
+    font-size: 12px;
+}
+#nbaTheme #nbaFooter li a {
+    font-size: 12px;
+}
+#nbaFooter .nbaContainer {
+    background: none repeat scroll 0 0 #252525;
+    border-bottom: 1px solid #090909;
+    border-left: 1px solid #333333;
+    border-right: 1px solid #333333;
+    padding: 35px 28px;
+}
+#nbaFooter .nbaContainer.nbaLast {
+    border-bottom: 0 none;
+    border-top: 1px solid #303030;
+    padding-bottom: 50px;
+}
+#nbaFooter section {
+    border-bottom: 1px solid #323232;
+    margin-bottom: 30px;
+    margin-left: -29px;
+    padding-left: 29px;
+    width: 969px;
+}
+#nbaFooter section:after {
+    border-bottom: 1px solid #000000;
+    content: "";
+    display: block;
+    margin-left: -30px;
+    margin-top: 30px;
+    width: 1000px;
+}
+#nbaFooter .nbaRow {
+    clear: left;
+    margin-bottom: 35px;
+}
+#nbaFooter .nbaRow.nbaLast {
+    margin-bottom: 0;
+}
+#nbaFooter .nbaRow > div {
+    float: left;
+    margin-right: 20px;
+    width: 300px;
+}
+#nbaFooter .nbaRow > .nbaSplit > div {
+    float: left;
+    margin-right: 10px;
+    width: 145px;
+}
+#nbaFooter .nbaRow > .nbaLast, #nbaFooter .nbaRow > .nbaSplit > .nbaLast {
+    margin-right: 0;
+}
+#nbaFooter .nbaRow.nbaSponsored.nbaLong {
+    border-bottom: 1px solid #323232;
+    margin-left: -30px;
+    width: 1000px;
+}
+#nbaFooter .nbaRow.nbaSponsored.nbaLong:after {
+    border-bottom: 1px solid #000000;
+    content: "";
+    padding-top: 30px;
+    width: 1000px;
+}
+#nbaFooter .nbaRow.nbaSponsored.nbaLong > ul {
+    list-style: none outside none;
+    margin: 0 auto;
+    width: 918px;
+}
+#nbaFooter .nbaRow.nbaSponsored.nbaLong ul li {
+    display: inline;
+    float: left;
+    margin: 0 3px;
+}
+#nbaFooter .nbaInside li {
+    border-bottom: 1px solid #020202;
+    border-top: 1px solid #333333;
+    color: #C2C2C2;
+    overflow: hidden;
+    padding-bottom: 8px;
+    padding-top: 6px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+#nbaFooter .nbaInside .nbaLast {
+    border-bottom: 0 none;
+}
+#nbaFooter .nbaInside .nbaFirst {
+    border-top: 0 none;
+    padding-top: 0;
+}
+#nbaFooter .nbaInside .nbaLinkWatch {
+    display: inline;
+    padding-left: 0;
+}
+#nbaFooter .nbaInside .nbaLinkWatch:before {
+    float: left;
+    position: static;
+}
+#nbaFooter .nbaNews li {
+    border-bottom: 1px solid #020202;
+    border-top: 1px solid #333333;
+    color: #FFFFFF;
+    height: 28px;
+    line-height: 1.4;
+    overflow: hidden;
+    padding-bottom: 8px;
+    padding-top: 4px;
+}
+#nbaFooter .nbaNews li .nbaTwoLiner {
+    color: #FFFFFF;
+    display: inline-block;
+    height: 2.8em;
+    overflow: hidden;
+}
+#nbaFooter .nbaNews .nbaLast {
+    border-bottom: 0 none;
+}
+#nbaFooter .nbaNews .nbaFirst {
+    border-top: 0 none;
+    padding-top: 0;
+}
+#nbaFooter .nbaNews .nbaLinkWatch {
+    display: inline-block;
+    padding-left: 0;
+}
+#nbaFooter .nbaNews .nbaLinkWatch:before {
+    float: left;
+    margin-right: 3px;
+    margin-top: 2px;
+    position: static;
+}
+#nbaFooter .nbaSponsored li {
+    background: none repeat scroll 0 0 #3B3B3B;
+    height: 100px;
+    margin-bottom: 6px;
+    overflow: hidden;
+    width: 300px;
+}
+#nbaFooter .nbaPersonalities li {
+    background: none repeat scroll 0 0 #1A1A1A;
+    display: block;
+    height: 65px;
+    margin-bottom: 5px;
+}
+#nbaFooter .nbaPersonalities li:before, #nbaFooter .nbaPersonalities li:after {
+    content: "";
+    display: table;
+}
+#nbaFooter .nbaPersonalities li:after {
+    clear: both;
+}
+#nbaFooter .nbaPersonalities .nbaContainer {
+    background: none repeat scroll 0 center transparent;
+    border: 0 none;
+    float: left;
+    padding: 0;
+    width: 196px;
+}
+#nbaFooter .nbaPersonalities .nbaContainer h3 {
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+#nbaFooter .nbaPersonalities .nbaContainer p {
+    color: #C2C2C2;
+    height: 3em;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+#nbaFooter .nbaPersonalities .nbaContainer a {
+    text-decoration: underline;
+}
+#nbaFooter .nbaPersonalities .nbaThumbnail {
+    float: left;
+    height: 64px;
+    margin: 0;
+    width: 85px;
+}
+#nbaFooter .nbaPersonalize h4 {
+    color: #FFFFFF;
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 8px 8px 4px;
+}
+#nbaFooter .nbaPersonalize p {
+    color: #C2C2C2;
+    font-size: 0.75em;
+    line-height: 1.3;
+    padding: 0 8px 4px;
+}
+#nbaFooter .nbaPersonalize .nbaFacebookConnect {
+    margin: 8px 0 0 8px;
+    text-indent: 120%;
+}
+#nbaFooter .nbaWnba h3, #nbaFooter .nbaDLeague h3 {
+    display: inline-block;
+    padding-right: 25px;
+    position: relative;
+}
+#nbaFooter .nbaWnba h3 {
+    padding-right: 20px;
+}
+#nbaFooter .nbaWnba h3 span, #nbaFooter .nbaDLeague h3 span {
+    color: #FFFFFF;
+}
+#nbaFooter .nbaWnba h3:before {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/themes/default/footer/footer-sprite.png") repeat scroll 0 0 transparent;
+    content: "";
+    display: block;
+    height: 24px;
+    position: absolute;
+    right: 0;
+    top: -4px;
+    width: 15px;
+}
+#nbaFooter .nbaDLeague h3:before {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/themes/default/footer/footer-sprite.png") repeat scroll -16px 0 transparent;
+    content: "";
+    display: block;
+    height: 24px;
+    position: absolute;
+    right: 0;
+    top: -4px;
+    width: 21px;
+}
+#nbaHomepage #nbaFooter .nbaDLeague h4 a, #nbaHomepage #nbaFooter .nbaWnba h4 a {
+    color: #FFFFFF;
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 8px 0 4px;
+}
+#nbaHomepage #nbaFooter .nbaDLeague p, #nbaHomepage #nbaFooter .nbaWnba p {
+    color: #C2C2C2;
+    font-size: 0.75em;
+    line-height: 1.3;
+    padding: 0 0 4px;
+}
+#nbaFooter .nbaDLeague .nbaContent, #nbaFooter .nbaWnba .nbaContent {
+    height: 84px;
+    overflow: hidden;
+}
+#nbaFooter .nbaWnba .nbaBullets li, #nbaFooter .nbaDLeague .nbaBullets li {
+    color: #FFFFFF;
+    line-height: 1.2;
+    list-style: disc inside none;
+    margin-left: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#nbaFooter .nbaDLeague .nbaThumbnail.nbaLinkWatch, #nbaFooter .nbaWnba .nbaThumbnail.nbaLinkWatch {
+    display: block;
+    padding-left: 0;
+    position: relative;
+}
+#nbaFooter .nbaDLeague .nbaThumbnail.nbaLinkWatch:before, #nbaFooter .nbaWnba .nbaThumbnail.nbaLinkWatch:before {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/themes/default/footer/footer-sprite.png") repeat scroll -36px 0 transparent;
+    bottom: 8px;
+    float: none;
+    height: 27px;
+    left: auto;
+    position: absolute;
+    right: 8px;
+    top: auto;
+    width: 29px;
+}
+#nbaFooter #nbaFooterNav {
+    clear: left;
+}
+#nbaFooter #nbaFooterNav h3 {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#nbaFooter #nbaFooterNav .nbaSplit {
+    float: left;
+    margin-right: 20px;
+    width: 300px;
+}
+#nbaFooter #nbaFooterNav .nbaSplit > ul {
+    float: left;
+    margin-right: 10px;
+    width: 145px;
+}
+#nbaFooter #nbaFooterNav ul ul li {
+    font-size: 12px;
+    line-height: 1.4;
+}
+#nbaFooter #nbaFooterNav ul ul li a {
+    color: #C2C2C2;
+    font-size: 12px;
+    font-weight: normal;
+}
+#nbaFooter #nbaFooterNav .nbaSplit .nbaLast, #nbaFooter #nbaFooterNav .nbaSplit.nbaLast {
+    margin-right: 0;
+}
+#nbaFooter .nbaLegal {
+    clear: left;
+    color: #FFFFFF;
+}
+#nbaFooter .nbaLegal p {
+    color: #FFFFFF;
+    font-size: 10px;
+    line-height: 1.6;
+    padding-bottom: 10px;
+}
+#nbaFooter .nbaLegal a {
+    color: #FFFFFF;
+    font-size: 10px;
+}
+#nbaFooter .nbaLegal .nbaAdInfo, #nbaFooter .nbaLegal .nbaAdInfo a {
+    color: #C2C2C2;
+}
+#nbaFooter .nbaLegal .nbaTurnerLogo {
+    background: url("http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/872/dep/nba-cms3-desktop/elements/themes/default/footer/footer-sprite.png") repeat scroll -64px 0 transparent;
+    display: block;
+    height: 16px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    text-indent: 100%;
+    white-space: nowrap;
+    width: 67px;
+}
+#nbaFooter .nbaLegal .nbaAdInfo a.nbaAdChoices {
+    background: url("http://i2.cdn.turner.com/nba/nba/.element/img/2.0/sect/adChoices/logo_ad_choices_footer.png") no-repeat scroll right 2px transparent;
+    display: inline-block;
+    height: 20px;
+    padding-right: 16px;
+}
+#nbaFooter.nbaThird .nbaRow > div {
+    width: 100%;
+}
+#nbaFooter.nbaThird #nbaFooterNav > div {
+    float: left;
+    margin-right: 20px;
+    width: 300px;
+}
+#nbaFooter.nbaThird #nbaFooterNav ul ul li a, #nbaFooter.nbaThird #nbaFooterNav h3 {
+    font-size: 12px;
+}
+#nbaFooter.nbaThird #nbaFooterNav ul ul li a {
+    text-decoration: none;
+}
+#nbaFooter.nbaThird .nbaLegal {
+    margin-top: 20px;
+}
+.ui-helper-hidden {
+    display: none;
+}
+.ui-helper-hidden-accessible {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+}
+.ui-helper-reset {
+    border: 0 none;
+    font-size: 100%;
+    line-height: 1.3;
+    list-style: none outside none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    text-decoration: none;
+}
+.ui-helper-clearfix:before, .ui-helper-clearfix:after {
+    content: "";
+    display: table;
+}
+.ui-helper-clearfix:after {
+    clear: both;
+}
+.ui-helper-clearfix {
+}
+.ui-helper-zfix {
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.ui-state-disabled {
+    cursor: default !important;
+}
+.ui-icon {
+    background-repeat: no-repeat;
+    display: block;
+    overflow: hidden;
+    text-indent: -99999px;
+}
+.ui-widget-overlay {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.ui-widget {
+    font-family: "Helvetica Neue",Helvetica Neue,Helvetica,Arial,Liberation Sans,sans-serif;
+    font-size: 1.1em;
+}
+.ui-widget .ui-widget {
+    font-size: 1em;
+}
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+    font-family: "Helvetica Neue",Helvetica Neue,Helvetica,Arial,Liberation Sans,sans-serif;
+    font-size: 1em;
+}
+.ui-widget-content {
+    background: url("@/dep/nba-cms3-desktop/elements/global/lib/jquery_ui/ui-bg_flat_75_ffffff_40x100.png@") repeat-x scroll 50% 50% #FFFFFF;
+    border: 1px solid #AAAAAA;
+    color: #222222;
+}
+.ui-widget-content a {
+    color: #222222;
+}
+.ui-widget-header {
+    background: url("@/dep/nba-cms3-desktop/elements/global/lib/jquery_ui/ui-bg_highlight-soft_75_cccccc_1x100.png@") repeat-x scroll 50% 50% #CCCCCC;
+    border: 1px solid #AAAAAA;
+    color: #222222;
+    font-weight: bold;
+}
+.ui-widget-header a {
+    color: #222222;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: url("@/dep/nba-cms3-desktop/elements/global/lib/jquery_ui/ui-bg_glass_75_e6e6e6_1x400.png@") repeat-x scroll 50% 50% #E6E6E6;
+    border: 1px solid #D3D3D3;
+    color: #555555;
+    font-weight: normal;
+}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+    color: #555555;
+    text-decoration: none;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    background: none repeat scroll 0 0 #DADADA;
+    border: 1px solid #999999;
+    color: #212121;
+    font-weight: normal;
+}
+.ui-state-hover a, .ui-state-hover a:hover {
+    color: #212121;
+    text-decoration: none;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    background: url("@/dep/nba-cms3-desktop/elements/global/lib/jquery_ui/ui-bg_glass_65_ffffff_1x400.png@") repeat-x scroll 50% 50% #FFFFFF;
+    border: 1px solid #AAAAAA;
+    color: #212121;
+    font-weight: normal;
+}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: #212121;
+    text-decoration: none;
+}
+.ui-widget *:active {
+    outline: 0 none;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    background: url("@/dep/nba-cms3-desktop/elements/global/lib/jquery_ui/ui-bg_glass_55_fbf9ee_1x400.png@") repeat-x scroll 50% 50% #FBF9EE;
+    border: 1px solid #FCEFA1;
+    color: #363636;
+}
+.ui-state-highlight a, .ui-widget-content .ui-state-highlight a, .ui-widget-header .ui-state-highlight a {
+    color: #363636;
+}
+.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error {
+    background: url("@/dep/nba-cms3-desktop/elements/global/lib/jquery_ui/ui-bg_glass_95_fef1ec_1x400.png@") repeat-x scroll 50% 50% #FEF1EC;
+    border: 1px solid #CD0A0A;
+    color: #CD0A0A;
+}
+.ui-state-error a, .ui-widget-content .ui-state-error a, .ui-widget-header .ui-state-error a {
+    color: #CD0A0A;
+}
+.ui-state-error-text, .ui-widget-content .ui-state-error-text, .ui-widget-header .ui-state-error-text {
+    color: #CD0A0A;
+}
+.ui-priority-primary, .ui-widget-content .ui-priority-primary, .ui-widget-header .ui-priority-primary {
+    font-weight: bold;
+}
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary, .ui-widget-header .ui-priority-secondary {
+    font-weight: normal;
+    opacity: 0.7;
+}
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled {
+    background-image: none;
+    opacity: 0.35;
+}
+.ui-icon {
+    background-image: url("@/dep/nba-cms3-desktop/elements/global/lib/jquery_ui/ui-icons_222222_256x240.png@");
+    height: 16px;
+    width: 16px;
+}
+.ui-widget-content .ui-icon {
+    background-image: url("@/dep/nba-cms3-desktop/elements/global/lib/jquery_ui/ui-icons_222222_256x240.png@");
+}
+.ui-widget-header .ui-icon {
+    background-image: url("@/dep/nba-cms3-desktop/elements/global/lib/jquery_ui/ui-icons_222222_256x240.png@");
+}
+.ui-state-default .ui-icon {
+    background-image: url("@/dep/nba-cms3-desktop/elements/global/lib/jquery_ui/ui-icons_888888_256x240.png@");
+}
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
+    background-image: url("@/dep/nba-cms3-desktop/elements/global/lib/jquery_ui/ui-icons_454545_256x240.png@");
+}
+.ui-state-active .ui-icon {
+    background-image: url("@/dep/nba-cms3-desktop/elements/global/lib/jquery_ui/ui-icons_454545_256x240.png@");
+}
+.ui-state-highlight .ui-icon {
+    background-image: url("@/dep/nba-cms3-desktop/elements/global/lib/jquery_ui/ui-icons_2e83ff_256x240.png@");
+}
+.ui-state-error .ui-icon, .ui-state-error-text .ui-icon {
+    background-image: url("@/dep/nba-cms3-desktop/elements/global/lib/jquery_ui/ui-icons_cd0a0a_256x240.png@");
+}
+.ui-icon-carat-1-n {
+    background-position: 0 0;
+}
+.ui-icon-carat-1-ne {
+    background-position: -16px 0;
+}
+.ui-icon-carat-1-e {
+    background-position: -32px 0;
+}
+.ui-icon-carat-1-se {
+    background-position: -48px 0;
+}
+.ui-icon-carat-1-s {
+    background-position: -64px 0;
+}
+.ui-icon-carat-1-sw {
+    background-position: -80px 0;
+}
+.ui-icon-carat-1-w {
+    background-position: -96px 0;
+}
+.ui-icon-carat-1-nw {
+    background-position: -112px 0;
+}
+.ui-icon-carat-2-n-s {
+    background-position: -128px 0;
+}
+.ui-icon-carat-2-e-w {
+    background-position: -144px 0;
+}
+.ui-icon-triangle-1-n {
+    background-position: 0 -16px;
+}
+.ui-icon-triangle-1-ne {
+    background-position: -16px -16px;
+}
+.ui-icon-triangle-1-e {
+    background-position: -32px -16px;
+}
+.ui-icon-triangle-1-se {
+    background-position: -48px -16px;
+}
+.ui-icon-triangle-1-s {
+    background-position: -64px -16px;
+}
+.ui-icon-triangle-1-sw {
+    background-position: -80px -16px;
+}
+.ui-icon-triangle-1-w {
+    background-position: -96px -16px;
+}
+.ui-icon-triangle-1-nw {
+    background-position: -112px -16px;
+}
+.ui-icon-triangle-2-n-s {
+    background-position: -128px -16px;
+}
+.ui-icon-triangle-2-e-w {
+    background-position: -144px -16px;
+}
+.ui-icon-arrow-1-n {
+    background-position: 0 -32px;
+}
+.ui-icon-arrow-1-ne {
+    background-position: -16px -32px;
+}
+.ui-icon-arrow-1-e {
+    background-position: -32px -32px;
+}
+.ui-icon-arrow-1-se {
+    background-position: -48px -32px;
+}
+.ui-icon-arrow-1-s {
+    background-position: -64px -32px;
+}
+.ui-icon-arrow-1-sw {
+    background-position: -80px -32px;
+}
+.ui-icon-arrow-1-w {
+    background-position: -96px -32px;
+}
+.ui-icon-arrow-1-nw {
+    background-position: -112px -32px;
+}
+.ui-icon-arrow-2-n-s {
+    background-position: -128px -32px;
+}
+.ui-icon-arrow-2-ne-sw {
+    background-position: -144px -32px;
+}
+.ui-icon-arrow-2-e-w {
+    background-position: -160px -32px;
+}
+.ui-icon-arrow-2-se-nw {
+    background-position: -176px -32px;
+}
+.ui-icon-arrowstop-1-n {
+    background-position: -192px -32px;
+}
+.ui-icon-arrowstop-1-e {
+    background-position: -208px -32px;
+}
+.ui-icon-arrowstop-1-s {
+    background-position: -224px -32px;
+}
+.ui-icon-arrowstop-1-w {
+    background-position: -240px -32px;
+}
+.ui-icon-arrowthick-1-n {
+    background-position: 0 -48px;
+}
+.ui-icon-arrowthick-1-ne {
+    background-position: -16px -48px;
+}
+.ui-icon-arrowthick-1-e {
+    background-position: -32px -48px;
+}
+.ui-icon-arrowthick-1-se {
+    background-position: -48px -48px;
+}
+.ui-icon-arrowthick-1-s {
+    background-position: -64px -48px;
+}
+.ui-icon-arrowthick-1-sw {
+    background-position: -80px -48px;
+}
+.ui-icon-arrowthick-1-w {
+    background-position: -96px -48px;
+}
+.ui-icon-arrowthick-1-nw {
+    background-position: -112px -48px;
+}
+.ui-icon-arrowthick-2-n-s {
+    background-position: -128px -48px;
+}
+.ui-icon-arrowthick-2-ne-sw {
+    background-position: -144px -48px;
+}
+.ui-icon-arrowthick-2-e-w {
+    background-position: -160px -48px;
+}
+.ui-icon-arrowthick-2-se-nw {
+    background-position: -176px -48px;
+}
+.ui-icon-arrowthickstop-1-n {
+    background-position: -192px -48px;
+}
+.ui-icon-arrowthickstop-1-e {
+    background-position: -208px -48px;
+}
+.ui-icon-arrowthickstop-1-s {
+    background-position: -224px -48px;
+}
+.ui-icon-arrowthickstop-1-w {
+    background-position: -240px -48px;
+}
+.ui-icon-arrowreturnthick-1-w {
+    background-position: 0 -64px;
+}
+.ui-icon-arrowreturnthick-1-n {
+    background-position: -16px -64px;
+}
+.ui-icon-arrowreturnthick-1-e {
+    background-position: -32px -64px;
+}
+.ui-icon-arrowreturnthick-1-s {
+    background-position: -48px -64px;
+}
+.ui-icon-arrowreturn-1-w {
+    background-position: -64px -64px;
+}
+.ui-icon-arrowreturn-1-n {
+    background-position: -80px -64px;
+}
+.ui-icon-arrowreturn-1-e {
+    background-position: -96px -64px;
+}
+.ui-icon-arrowreturn-1-s {
+    background-position: -112px -64px;
+}
+.ui-icon-arrowrefresh-1-w {
+    background-position: -128px -64px;
+}
+.ui-icon-arrowrefresh-1-n {
+    background-position: -144px -64px;
+}
+.ui-icon-arrowrefresh-1-e {
+    background-position: -160px -64px;
+}
+.ui-icon-arrowrefresh-1-s {
+    background-position: -176px -64px;
+}
+.ui-icon-arrow-4 {
+    background-position: 0 -80px;
+}
+.ui-icon-arrow-4-diag {
+    background-position: -16px -80px;
+}
+.ui-icon-extlink {
+    background-position: -32px -80px;
+}
+.ui-icon-newwin {
+    background-position: -48px -80px;
+}
+.ui-icon-refresh {
+    background-position: -64px -80px;
+}
+.ui-icon-shuffle {
+    background-position: -80px -80px;
+}
+.ui-icon-transfer-e-w {
+    background-position: -96px -80px;
+}
+.ui-icon-transferthick-e-w {
+    background-position: -112px -80px;
+}
+.ui-icon-folder-collapsed {
+    background-position: 0 -96px;
+}
+.ui-icon-folder-open {
+    background-position: -16px -96px;
+}
+.ui-icon-document {
+    background-position: -32px -96px;
+}
+.ui-icon-document-b {
+    background-position: -48px -96px;
+}
+.ui-icon-note {
+    background-position: -64px -96px;
+}
+.ui-icon-mail-closed {
+    background-position: -80px -96px;
+}
+.ui-icon-mail-open {
+    background-position: -96px -96px;
+}
+.ui-icon-suitcase {
+    background-position: -112px -96px;
+}
+.ui-icon-comment {
+    background-position: -128px -96px;
+}
+.ui-icon-person {
+    background-position: -144px -96px;
+}
+.ui-icon-print {
+    background-position: -160px -96px;
+}
+.ui-icon-trash {
+    background-position: -176px -96px;
+}
+.ui-icon-locked {
+    background-position: -192px -96px;
+}
+.ui-icon-unlocked {
+    background-position: -208px -96px;
+}
+.ui-icon-bookmark {
+    background-position: -224px -96px;
+}
+.ui-icon-tag {
+    background-position: -240px -96px;
+}
+.ui-icon-home {
+    background-position: 0 -112px;
+}
+.ui-icon-flag {
+    background-position: -16px -112px;
+}
+.ui-icon-calendar {
+    background-position: -32px -112px;
+}
+.ui-icon-cart {
+    background-position: -48px -112px;
+}
+.ui-icon-pencil {
+    background-position: -64px -112px;
+}
+.ui-icon-clock {
+    background-position: -80px -112px;
+}
+.ui-icon-disk {
+    background-position: -96px -112px;
+}
+.ui-icon-calculator {
+    background-position: -112px -112px;
+}
+.ui-icon-zoomin {
+    background-position: -128px -112px;
+}
+.ui-icon-zoomout {
+    background-position: -144px -112px;
+}
+.ui-icon-search {
+    background-position: -160px -112px;
+}
+.ui-icon-wrench {
+    background-position: -176px -112px;
+}
+.ui-icon-gear {
+    background-position: -192px -112px;
+}
+.ui-icon-heart {
+    background-position: -208px -112px;
+}
+.ui-icon-star {
+    background-position: -224px -112px;
+}
+.ui-icon-link {
+    background-position: -240px -112px;
+}
+.ui-icon-cancel {
+    background-position: 0 -128px;
+}
+.ui-icon-plus {
+    background-position: -16px -128px;
+}
+.ui-icon-plusthick {
+    background-position: -32px -128px;
+}
+.ui-icon-minus {
+    background-position: -48px -128px;
+}
+.ui-icon-minusthick {
+    background-position: -64px -128px;
+}
+.ui-icon-close {
+    background-position: -80px -128px;
+}
+.ui-icon-closethick {
+    background-position: -96px -128px;
+}
+.ui-icon-key {
+    background-position: -112px -128px;
+}
+.ui-icon-lightbulb {
+    background-position: -128px -128px;
+}
+.ui-icon-scissors {
+    background-position: -144px -128px;
+}
+.ui-icon-clipboard {
+    background-position: -160px -128px;
+}
+.ui-icon-copy {
+    background-position: -176px -128px;
+}
+.ui-icon-contact {
+    background-position: -192px -128px;
+}
+.ui-icon-image {
+    background-position: -208px -128px;
+}
+.ui-icon-video {
+    background-position: -224px -128px;
+}
+.ui-icon-script {
+    background-position: -240px -128px;
+}
+.ui-icon-alert {
+    background-position: 0 -144px;
+}
+.ui-icon-info {
+    background-position: -16px -144px;
+}
+.ui-icon-notice {
+    background-position: -32px -144px;
+}
+.ui-icon-help {
+    background-position: -48px -144px;
+}
+.ui-icon-check {
+    background-position: -64px -144px;
+}
+.ui-icon-bullet {
+    background-position: -80px -144px;
+}
+.ui-icon-radio-off {
+    background-position: -96px -144px;
+}
+.ui-icon-radio-on {
+    background-position: -112px -144px;
+}
+.ui-icon-pin-w {
+    background-position: -128px -144px;
+}
+.ui-icon-pin-s {
+    background-position: -144px -144px;
+}
+.ui-icon-play {
+    background-position: 0 -160px;
+}
+.ui-icon-pause {
+    background-position: -16px -160px;
+}
+.ui-icon-seek-next {
+    background-position: -32px -160px;
+}
+.ui-icon-seek-prev {
+    background-position: -48px -160px;
+}
+.ui-icon-seek-end {
+    background-position: -64px -160px;
+}
+.ui-icon-seek-start {
+    background-position: -80px -160px;
+}
+.ui-icon-seek-first {
+    background-position: -80px -160px;
+}
+.ui-icon-stop {
+    background-position: -96px -160px;
+}
+.ui-icon-eject {
+    background-position: -112px -160px;
+}
+.ui-icon-volume-off {
+    background-position: -128px -160px;
+}
+.ui-icon-volume-on {
+    background-position: -144px -160px;
+}
+.ui-icon-power {
+    background-position: 0 -176px;
+}
+.ui-icon-signal-diag {
+    background-position: -16px -176px;
+}
+.ui-icon-signal {
+    background-position: -32px -176px;
+}
+.ui-icon-battery-0 {
+    background-position: -48px -176px;
+}
+.ui-icon-battery-1 {
+    background-position: -64px -176px;
+}
+.ui-icon-battery-2 {
+    background-position: -80px -176px;
+}
+.ui-icon-battery-3 {
+    background-position: -96px -176px;
+}
+.ui-icon-circle-plus {
+    background-position: 0 -192px;
+}
+.ui-icon-circle-minus {
+    background-position: -16px -192px;
+}
+.ui-icon-circle-close {
+    background-position: -32px -192px;
+}
+.ui-icon-circle-triangle-e {
+    background-position: -48px -192px;
+}
+.ui-icon-circle-triangle-s {
+    background-position: -64px -192px;
+}
+.ui-icon-circle-triangle-w {
+    background-position: -80px -192px;
+}
+.ui-icon-circle-triangle-n {
+    background-position: -96px -192px;
+}
+.ui-icon-circle-arrow-e {
+    background-position: -112px -192px;
+}
+.ui-icon-circle-arrow-s {
+    background-position: -128px -192px;
+}
+.ui-icon-circle-arrow-w {
+    background-position: -144px -192px;
+}
+.ui-icon-circle-arrow-n {
+    background-position: -160px -192px;
+}
+.ui-icon-circle-zoomin {
+    background-position: -176px -192px;
+}
+.ui-icon-circle-zoomout {
+    background-position: -192px -192px;
+}
+.ui-icon-circle-check {
+    background-position: -208px -192px;
+}
+.ui-icon-circlesmall-plus {
+    background-position: 0 -208px;
+}
+.ui-icon-circlesmall-minus {
+    background-position: -16px -208px;
+}
+.ui-icon-circlesmall-close {
+    background-position: -32px -208px;
+}
+.ui-icon-squaresmall-plus {
+    background-position: -48px -208px;
+}
+.ui-icon-squaresmall-minus {
+    background-position: -64px -208px;
+}
+.ui-icon-squaresmall-close {
+    background-position: -80px -208px;
+}
+.ui-icon-grip-dotted-vertical {
+    background-position: 0 -224px;
+}
+.ui-icon-grip-dotted-horizontal {
+    background-position: -16px -224px;
+}
+.ui-icon-grip-solid-vertical {
+    background-position: -32px -224px;
+}
+.ui-icon-grip-solid-horizontal {
+    background-position: -48px -224px;
+}
+.ui-icon-gripsmall-diagonal-se {
+    background-position: -64px -224px;
+}
+.ui-icon-grip-diagonal-se {
+    background-position: -80px -224px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius: 4px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 4px;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+    border-bottom-left-radius: 4px;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 4px;
+}
+.ui-widget-overlay {
+    background: url("@/dep/nba-cms3-desktop/elements/global/lib/jquery_ui/ui-bg_flat_0_aaaaaa_40x100.png@") repeat-x scroll 50% 50% #AAAAAA;
+    opacity: 0.3;
+}
+.ui-widget-shadow {
+    background: url("@/dep/nba-cms3-desktop/elements/global/lib/jquery_ui/ui-bg_flat_0_aaaaaa_40x100.png@") repeat-x scroll 50% 50% #AAAAAA;
+    border-radius: 8px 8px 8px 8px;
+    margin: -8px 0 0 -8px;
+    opacity: 0.3;
+    padding: 8px;
+}
+.ui-selectmenu {
+    display: inline-block;
+    height: 2.2em;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.ui-selectmenu-icon {
+    margin-top: -8px;
+    position: absolute;
+    right: 6px;
+    top: 50%;
+}
+.ui-selectmenu-menu {
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    z-index: 1005;
+}
+.ui-selectmenu-menu ul {
+    list-style: none outside none;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
+    position: relative;
+}
+.ui-selectmenu-open {
+    display: block;
+}
+.ui-selectmenu-menu-popup {
+    margin-top: -1px;
+}
+.ui-selectmenu-menu li {
+    border-bottom: 1px dotted transparent;
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+    border-top: 1px dotted transparent;
+    display: block;
+    font-weight: normal !important;
+    margin: 0;
+    padding: 0;
+}
+.ui-selectmenu-menu li a, .ui-selectmenu-status {
+    display: block;
+    line-height: 1.4em;
+    outline: 0 none;
+    padding: 0.405em 2.1em 0.405em 1em;
+    text-decoration: none;
+}
+.ui-selectmenu-menu li.ui-state-disabled a, .ui-state-disabled {
+    cursor: default;
+}
+.ui-selectmenu-menu li.ui-selectmenu-hasIcon a, .ui-selectmenu-hasIcon .ui-selectmenu-status {
+    margin-left: 5px;
+    padding-left: 20px;
+    position: relative;
+}
+.ui-selectmenu-menu li .ui-icon, .ui-selectmenu-status .ui-icon {
+    left: 0;
+    margin-top: -8px;
+    position: absolute;
+    top: 1em;
+}
+.ui-selectmenu-status {
+    line-height: 1.4em;
+}
+.ui-selectmenu-menu li span, .ui-selectmenu-status span {
+    display: block;
+    margin-bottom: 0.2em;
+}
+.ui-selectmenu-menu li .ui-selectmenu-item-header {
+    font-weight: bold;
+}
+.ui-selectmenu-menu li .ui-selectmenu-item-footer {
+    opacity: 0.8;
+}
+.ui-selectmenu-menu .ui-selectmenu-group {
+    font-size: 1em;
+}
+.ui-selectmenu-menu .ui-selectmenu-group .ui-selectmenu-group-label {
+    display: block;
+    font-weight: bold;
+    line-height: 1.4em;
+    padding: 0.6em 0.5em 0;
+}
+.ui-selectmenu-menu .ui-selectmenu-group ul {
+    margin: 0;
+    padding: 0;
+}
+* html .ui-selectmenu-menu li {
+    border-color: pink;
+    width: 100%;
+}
+* html .ui-selectmenu-menu li a {
+    position: relative;
+}
+* + html .ui-state-disabled, * + html .ui-state-disabled a {
+    color: silver;
+}

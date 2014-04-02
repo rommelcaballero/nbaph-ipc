@@ -1,0 +1,55 @@
+<Msg_file LeagueID="00" League="NBA" Season="2010-11" SeasonType="Playoffs">
+  <Game Number="0">
+    <Msg_season_leaders>
+      <Player_steal_leader Person_id="1938" Last_name="Ginobili" First_name=" Manu" Team_id="1610612759" Team_name="Spurs" Team_abr="SAS" Games="5" Steal_avg="2.60" Steals="13" />
+      <Player_steal_leader Person_id="2749" Last_name="Nelson" First_name=" Jameer" Team_id="1610612753" Team_name="Magic" Team_abr="ORL" Games="6" Steal_avg="2.00" Steals="12" />
+      <Player_steal_leader Person_id="201950" Last_name="Holiday" First_name=" Jrue" Team_id="1610612755" Team_name="76ers" Team_abr="PHI" Games="5" Steal_avg="2.00" Steals="10" />
+      <Player_steal_leader Person_id="2754" Last_name="Allen" First_name=" Tony" Team_id="1610612763" Team_name="Grizzlies" Team_abr="MEM" Games="13" Steal_avg="1.92" Steals="25" />
+      <Player_steal_leader Person_id="467" Last_name="Kidd" First_name=" Jason" Team_id="1610612742" Team_name="Mavericks" Team_abr="DAL" Games="21" Steal_avg="1.90" Steals="40" />
+      <Player_steal_leader Person_id="708" Last_name="Garnett" First_name=" Kevin" Team_id="1610612738" Team_name="Celtics" Team_abr="BOS" Games="9" Steal_avg="1.89" Steals="17" />
+      <Player_steal_leader Person_id="101108" Last_name="Paul" First_name=" Chris" Team_id="1610612740" Team_name="Hornets" Team_abr="NOH" Games="6" Steal_avg="1.83" Steals="11" />
+      <Player_steal_leader Person_id="2544" Last_name="James" First_name=" LeBron" Team_id="1610612748" Team_name="Heat" Team_abr="MIA" Games="21" Steal_avg="1.67" Steals="35" />
+      <Player_steal_leader Person_id="2548" Last_name="Wade" First_name=" Dwyane" Team_id="1610612748" Team_name="Heat" Team_abr="MIA" Games="21" Steal_avg="1.62" Steals="34" />
+      <Player_steal_leader Person_id="977" Last_name="Bryant" First_name=" Kobe" Team_id="1610612747" Team_name="Lakers" Team_abr="LAL" Games="10" Steal_avg="1.60" Steals="16" />
+      <Player_steal_leader Person_id="201588" Last_name="Hill" First_name=" George" Team_id="1610612759" Team_name="Spurs" Team_abr="SAS" Games="6" Steal_avg="1.50" Steals="9" />
+      <Player_steal_leader Person_id="2736" Last_name="Deng" First_name=" Luol" Team_id="1610612741" Team_name="Bulls" Team_abr="CHI" Games="16" Steal_avg="1.50" Steals="24" />
+      <Player_steal_leader Person_id="201566" Last_name="Westbrook" First_name=" Russell" Team_id="1610612760" Team_name="Thunder" Team_abr="OKC" Games="17" Steal_avg="1.41" Steals="24" />
+      <Player_steal_leader Person_id="202331" Last_name="George" First_name=" Paul" Team_id="1610612754" Team_name="Pacers" Team_abr="IND" Games="5" Steal_avg="1.40" Steals="7" />
+      <Player_steal_leader Person_id="965" Last_name="Fisher" First_name=" Derek" Team_id="1610612747" Team_name="Lakers" Team_abr="LAL" Games="10" Steal_avg="1.40" Steals="14" />
+      <Player_steal_leader Person_id="201565" Last_name="Rose" First_name=" Derrick" Team_id="1610612741" Team_name="Bulls" Team_abr="CHI" Games="16" Steal_avg="1.38" Steals="22" />
+      <Player_steal_leader Person_id="200746" Last_name="Aldridge" First_name=" LaMarcus" Team_id="1610612757" Team_name="Trail Blazers" Team_abr="POR" Games="6" Steal_avg="1.33" Steals="8" />
+      <Player_steal_leader Person_id="2222" Last_name="Wallace" First_name=" Gerald" Team_id="1610612757" Team_name="Trail Blazers" Team_abr="POR" Games="6" Steal_avg="1.33" Steals="8" />
+      <Player_steal_leader Person_id="2225" Last_name="Parker" First_name=" Tony" Team_id="1610612759" Team_name="Spurs" Team_abr="SAS" Games="6" Steal_avg="1.33" Steals="8" />
+      <Player_steal_leader Person_id="1718" Last_name="Pierce" First_name=" Paul" Team_id="1610612738" Team_name="Celtics" Team_abr="BOS" Games="9" Steal_avg="1.33" Steals="12" />
+      <Player_steal_leader Person_id="2772" Last_name="Ariza" First_name=" Trevor" Team_id="1610612740" Team_name="Hornets" Team_abr="NOH" Games="6" Steal_avg="1.33" Steals="8" />
+      <Player_steal_leader Person_id="2045" Last_name="Turkoglu" First_name=" Hedo" Team_id="1610612753" Team_name="Magic" Team_abr="ORL" Games="6" Steal_avg="1.33" Steals="8" />
+      <Player_steal_leader Person_id="201596" Last_name="Chalmers" First_name=" Mario" Team_id="1610612748" Team_name="Heat" Team_abr="MIA" Games="21" Steal_avg="1.29" Steals="27" />
+      <Player_steal_leader Person_id="201611" Last_name="Walker" First_name=" Bill" Team_id="1610612752" Team_name="Knicks" Team_abr="NYK" Games="4" Steal_avg="1.25" Steals="5" />
+      <Player_steal_leader Person_id="2546" Last_name="Anthony" First_name=" Carmelo" Team_id="1610612752" Team_name="Knicks" Team_abr="NYK" Games="4" Steal_avg="1.25" Steals="5" />
+      <Player_steal_leader Person_id="1891" Last_name="Terry" First_name=" Jason" Team_id="1610612742" Team_name="Mavericks" Team_abr="DAL" Games="21" Steal_avg="1.24" Steals="26" />
+      <Player_steal_leader Person_id="201935" Last_name="Harden" First_name=" James" Team_id="1610612760" Team_name="Thunder" Team_abr="OKC" Games="17" Steal_avg="1.24" Steals="21" />
+      <Player_steal_leader Person_id="951" Last_name="Allen" First_name=" Ray" Team_id="1610612738" Team_name="Celtics" Team_abr="BOS" Games="9" Steal_avg="1.22" Steals="11" />
+      <Player_steal_leader Person_id="101122" Last_name="Granger" First_name=" Danny" Team_id="1610612754" Team_name="Pacers" Team_abr="IND" Games="5" Steal_avg="1.20" Steals="6" />
+      <Player_steal_leader Person_id="201946" Last_name="Hansbrough" First_name=" Tyler" Team_id="1610612754" Team_name="Pacers" Team_abr="IND" Games="5" Steal_avg="1.20" Steals="6" />
+      <Player_steal_leader Person_id="101109" Last_name="Felton" First_name=" Raymond" Team_id="1610612743" Team_name="Nuggets" Team_abr="DEN" Games="5" Steal_avg="1.20" Steals="6" />
+      <Player_steal_leader Person_id="200765" Last_name="Rondo" First_name=" Rajon" Team_id="1610612738" Team_name="Celtics" Team_abr="BOS" Games="9" Steal_avg="1.11" Steals="10" />
+      <Player_steal_leader Person_id="1897" Last_name="World Peace" First_name=" Metta" Team_id="1610612747" Team_name="Lakers" Team_abr="LAL" Games="9" Steal_avg="1.11" Steals="10" />
+      <Player_steal_leader Person_id="2207" Last_name="Johnson" First_name=" Joe" Team_id="1610612737" Team_name="Hawks" Team_abr="ATL" Games="12" Steal_avg="1.08" Steals="13" />
+      <Player_steal_leader Person_id="2216" Last_name="Randolph" First_name=" Zach" Team_id="1610612763" Team_name="Grizzlies" Team_abr="MEM" Games="13" Steal_avg="1.08" Steals="14" />
+      <Player_steal_leader Person_id="201144" Last_name="Conley" First_name=" Mike" Team_id="1610612763" Team_name="Grizzlies" Team_abr="MEM" Games="13" Steal_avg="1.08" Steals="14" />
+      <Player_steal_leader Person_id="2746" Last_name="Smith" First_name=" Josh" Team_id="1610612737" Team_name="Hawks" Team_abr="ATL" Games="12" Steal_avg="1.08" Steals="13" />
+      <Player_steal_leader Person_id="201188" Last_name="Gasol" First_name=" Marc" Team_id="1610612763" Team_name="Grizzlies" Team_abr="MEM" Games="13" Steal_avg="1.08" Steals="14" />
+      <Player_steal_leader Person_id="101150" Last_name="Williams" First_name=" Louis" Team_id="1610612755" Team_name="76ers" Team_abr="PHI" Games="5" Steal_avg="1.00" Steals="5" />
+      <Player_steal_leader Person_id="200761" Last_name="Williams" First_name=" Shawne" Team_id="1610612752" Team_name="Knicks" Team_abr="NYK" Games="4" Steal_avg="1.00" Steals="4" />
+      <Player_steal_leader Person_id="1890" Last_name="Marion" First_name=" Shawn" Team_id="1610612742" Team_name="Mavericks" Team_abr="DAL" Games="21" Steal_avg="1.00" Steals="21" />
+      <Player_steal_leader Person_id="2403" Last_name="Nene" First_name="" Team_id="1610612743" Team_name="Nuggets" Team_abr="DEN" Games="5" Steal_avg="1.00" Steals="5" />
+      <Player_steal_leader Person_id="2731" Last_name="Okafor" First_name=" Emeka" Team_id="1610612740" Team_name="Hornets" Team_abr="NOH" Games="6" Steal_avg="1.00" Steals="6" />
+      <Player_steal_leader Person_id="2738" Last_name="Iguodala" First_name=" Andre" Team_id="1610612755" Team_name="76ers" Team_abr="PHI" Games="5" Steal_avg="1.00" Steals="5" />
+      <Player_steal_leader Person_id="201149" Last_name="Noah" First_name=" Joakim" Team_id="1610612741" Team_name="Bulls" Team_abr="CHI" Games="16" Steal_avg="1.00" Steals="16" />
+      <Player_steal_leader Person_id="201951" Last_name="Lawson" First_name=" Ty" Team_id="1610612743" Team_name="Nuggets" Team_abr="DEN" Games="5" Steal_avg="1.00" Steals="5" />
+      <Player_steal_leader Person_id="201954" Last_name="Collison" First_name=" Darren" Team_id="1610612754" Team_name="Pacers" Team_abr="IND" Games="5" Steal_avg="1.00" Steals="5" />
+      <Player_steal_leader Person_id="200757" Last_name="Sefolosha" First_name=" Thabo" Team_id="1610612760" Team_name="Thunder" Team_abr="OKC" Games="17" Steal_avg="0.94" Steals="16" />
+      <Player_steal_leader Person_id="201142" Last_name="Durant" First_name=" Kevin" Team_id="1610612760" Team_name="Thunder" Team_abr="OKC" Games="17" Steal_avg="0.94" Steals="16" />
+    </Msg_season_leaders>
+  </Game>
+</Msg_file>

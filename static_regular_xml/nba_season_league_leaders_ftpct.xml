@@ -1,0 +1,54 @@
+<Msg_file LeagueID="00" League="NBA" Season="2010-11" SeasonType="Regular Season">
+  <Game Number="0">
+    <Msg_season_leaders>
+      <Player_ftpct_leader Person_id="201939" Last_name="Curry" First_name=" Stephen" Team_id="1610612744" Team_name="Warriors" Team_abr="GSW" Games="74" FT_made="212" FT_attempted="227" FT_pct="0.934" />
+      <Player_ftpct_leader Person_id="1497" Last_name="Billups" First_name=" Chauncey" Team_id="1610612752" Team_name="Knicks" Team_abr="NYK" Games="72" FT_made="384" FT_attempted="419" FT_pct="0.916" />
+      <Player_ftpct_leader Person_id="959" Last_name="Nash" First_name=" Steve" Team_id="1610612756" Team_name="Suns" Team_abr="PHX" Games="75" FT_made="227" FT_attempted="249" FT_pct="0.912" />
+      <Player_ftpct_leader Person_id="201571" Last_name="Augustin" First_name=" D.J." Team_id="1610612766" Team_name="Bobcats" Team_abr="CHA" Games="82" FT_made="269" FT_attempted="297" FT_pct="0.906" />
+      <Player_ftpct_leader Person_id="201975" Last_name="Meeks" First_name=" Jodie" Team_id="1610612755" Team_name="76ers" Team_abr="PHI" Games="74" FT_made="152" FT_attempted="170" FT_pct="0.894" />
+      <Player_ftpct_leader Person_id="200751" Last_name="Foye" First_name=" Randy" Team_id="1610612746" Team_name="Clippers" Team_abr="LAC" Games="63" FT_made="133" FT_attempted="149" FT_pct="0.893" />
+      <Player_ftpct_leader Person_id="1717" Last_name="Nowitzki" First_name=" Dirk" Team_id="1610612742" Team_name="Mavericks" Team_abr="DAL" Games="73" FT_made="395" FT_attempted="443" FT_pct="0.892" />
+      <Player_ftpct_leader Person_id="2755" Last_name="Martin" First_name=" Kevin" Team_id="1610612745" Team_name="Rockets" Team_abr="HOU" Games="80" FT_made="594" FT_attempted="669" FT_pct="0.888" />
+      <Player_ftpct_leader Person_id="951" Last_name="Allen" First_name=" Ray" Team_id="1610612738" Team_name="Celtics" Team_abr="BOS" Games="80" FT_made="193" FT_attempted="219" FT_pct="0.881" />
+      <Player_ftpct_leader Person_id="201142" Last_name="Durant" First_name=" Kevin" Team_id="1610612760" Team_name="Thunder" Team_abr="OKC" Games="78" FT_made="594" FT_attempted="675" FT_pct="0.880" />
+      <Player_ftpct_leader Person_id="101108" Last_name="Paul" First_name=" Chris" Team_id="1610612740" Team_name="Hornets" Team_abr="NOH" Games="80" FT_made="337" FT_attempted="384" FT_pct="0.878" />
+      <Player_ftpct_leader Person_id="1938" Last_name="Ginobili" First_name=" Manu" Team_id="1610612759" Team_name="Spurs" Team_abr="SAS" Games="80" FT_made="357" FT_attempted="410" FT_pct="0.871" />
+      <Player_ftpct_leader Person_id="201954" Last_name="Collison" First_name=" Darren" Team_id="1610612754" Team_name="Pacers" Team_abr="IND" Games="79" FT_made="202" FT_attempted="232" FT_pct="0.871" />
+      <Player_ftpct_leader Person_id="201155" Last_name="Stuckey" First_name=" Rodney" Team_id="1610612765" Team_name="Pistons" Team_abr="DET" Games="70" FT_made="330" FT_attempted="381" FT_pct="0.866" />
+      <Player_ftpct_leader Person_id="2757" Last_name="Udrih" First_name=" Beno" Team_id="1610612758" Team_name="Kings" Team_abr="SAC" Games="79" FT_made="197" FT_attempted="228" FT_pct="0.864" />
+      <Player_ftpct_leader Person_id="201164" Last_name="Fernandez" First_name=" Rudy" Team_id="1610612757" Team_name="Trail Blazers" Team_abr="POR" Games="78" FT_made="126" FT_attempted="146" FT_pct="0.863" />
+      <Player_ftpct_leader Person_id="201588" Last_name="Hill" First_name=" George" Team_id="1610612759" Team_name="Spurs" Team_abr="SAS" Games="76" FT_made="233" FT_attempted="270" FT_pct="0.863" />
+      <Player_ftpct_leader Person_id="201568" Last_name="Gallinari" First_name=" Danilo" Team_id="1610612743" Team_name="Nuggets" Team_abr="DEN" Games="62" FT_made="337" FT_attempted="391" FT_pct="0.862" />
+      <Player_ftpct_leader Person_id="708" Last_name="Garnett" First_name=" Kevin" Team_id="1610612738" Team_name="Celtics" Team_abr="BOS" Games="71" FT_made="187" FT_attempted="217" FT_pct="0.862" />
+      <Player_ftpct_leader Person_id="1718" Last_name="Pierce" First_name=" Paul" Team_id="1610612738" Team_name="Celtics" Team_abr="BOS" Games="80" FT_made="386" FT_attempted="449" FT_pct="0.860" />
+      <Player_ftpct_leader Person_id="201565" Last_name="Rose" First_name=" Derrick" Team_id="1610612741" Team_name="Bulls" Team_abr="CHI" Games="81" FT_made="476" FT_attempted="555" FT_pct="0.858" />
+      <Player_ftpct_leader Person_id="2037" Last_name="Crawford" First_name=" Jamal" Team_id="1610612737" Team_name="Hawks" Team_abr="ATL" Games="76" FT_made="222" FT_attempted="260" FT_pct="0.854" />
+      <Player_ftpct_leader Person_id="2590" Last_name="Williams" First_name=" Mo" Team_id="1610612746" Team_name="Clippers" Team_abr="LAC" Games="58" FT_made="151" FT_attempted="177" FT_pct="0.853" />
+      <Player_ftpct_leader Person_id="1889" Last_name="Miller" First_name=" Andre" Team_id="1610612757" Team_name="Trail Blazers" Team_abr="POR" Games="81" FT_made="249" FT_attempted="292" FT_pct="0.853" />
+      <Player_ftpct_leader Person_id="101127" Last_name="Jack" First_name=" Jarrett" Team_id="1610612740" Team_name="Hornets" Team_abr="NOH" Games="83" FT_made="182" FT_attempted="214" FT_pct="0.850" />
+      <Player_ftpct_leader Person_id="1891" Last_name="Terry" First_name=" Jason" Team_id="1610612742" Team_name="Mavericks" Team_abr="DAL" Games="82" FT_made="182" FT_attempted="214" FT_pct="0.850" />
+      <Player_ftpct_leader Person_id="2732" Last_name="Gordon" First_name=" Ben" Team_id="1610612765" Team_name="Pistons" Team_abr="DET" Games="82" FT_made="136" FT_attempted="160" FT_pct="0.850" />
+      <Player_ftpct_leader Person_id="201567" Last_name="Love" First_name=" Kevin" Team_id="1610612750" Team_name="Timberwolves" Team_abr="MIN" Games="73" FT_made="424" FT_attempted="499" FT_pct="0.850" />
+      <Player_ftpct_leader Person_id="1888" Last_name="Hamilton" First_name=" Richard" Team_id="1610612765" Team_name="Pistons" Team_abr="DET" Games="55" FT_made="146" FT_attempted="172" FT_pct="0.849" />
+      <Player_ftpct_leader Person_id="101122" Last_name="Granger" First_name=" Danny" Team_id="1610612754" Team_name="Pacers" Team_abr="IND" Games="79" FT_made="395" FT_attempted="466" FT_pct="0.848" />
+      <Player_ftpct_leader Person_id="200826" Last_name="Barea" First_name=" Jose" Team_id="1610612742" Team_name="Mavericks" Team_abr="DAL" Games="81" FT_made="133" FT_attempted="157" FT_pct="0.847" />
+      <Player_ftpct_leader Person_id="201167" Last_name="Afflalo" First_name=" Arron" Team_id="1610612743" Team_name="Nuggets" Team_abr="DEN" Games="69" FT_made="138" FT_attempted="163" FT_pct="0.847" />
+      <Player_ftpct_leader Person_id="101107" Last_name="Williams" First_name=" Marvin" Team_id="1610612737" Team_name="Hawks" Team_abr="ATL" Games="65" FT_made="147" FT_attempted="174" FT_pct="0.845" />
+      <Player_ftpct_leader Person_id="101114" Last_name="Williams" First_name=" Deron" Team_id="1610612751" Team_name="Nets" Team_abr="NJN" Games="65" FT_made="348" FT_attempted="412" FT_pct="0.845" />
+      <Player_ftpct_leader Person_id="202083" Last_name="Matthews" First_name=" Wesley" Team_id="1610612757" Team_name="Trail Blazers" Team_abr="POR" Games="82" FT_made="266" FT_attempted="315" FT_pct="0.844" />
+      <Player_ftpct_leader Person_id="201935" Last_name="Harden" First_name=" James" Team_id="1610612760" Team_name="Thunder" Team_abr="OKC" Games="82" FT_made="289" FT_attempted="343" FT_pct="0.843" />
+      <Player_ftpct_leader Person_id="201566" Last_name="Westbrook" First_name=" Russell" Team_id="1610612760" Team_name="Thunder" Team_abr="OKC" Games="82" FT_made="531" FT_attempted="631" FT_pct="0.842" />
+      <Player_ftpct_leader Person_id="201587" Last_name="Batum" First_name=" Nicolas" Team_id="1610612757" Team_name="Trail Blazers" Team_abr="POR" Games="80" FT_made="138" FT_attempted="164" FT_pct="0.841" />
+      <Player_ftpct_leader Person_id="2546" Last_name="Anthony" First_name=" Carmelo" Team_id="1610612752" Team_name="Knicks" Team_abr="NYK" Games="77" FT_made="507" FT_attempted="605" FT_pct="0.838" />
+      <Player_ftpct_leader Person_id="1894" Last_name="Maggette" First_name=" Corey" Team_id="1610612749" Team_name="Bucks" Team_abr="MIL" Games="67" FT_made="271" FT_attempted="325" FT_pct="0.834" />
+      <Player_ftpct_leader Person_id="2734" Last_name="Harris" First_name=" Devin" Team_id="1610612762" Team_name="Jazz" Team_abr="UTA" Games="71" FT_made="335" FT_attempted="402" FT_pct="0.833" />
+      <Player_ftpct_leader Person_id="255" Last_name="Hill" First_name=" Grant" Team_id="1610612756" Team_name="Suns" Team_abr="PHX" Games="80" FT_made="213" FT_attempted="257" FT_pct="0.829" />
+      <Player_ftpct_leader Person_id="977" Last_name="Bryant" First_name=" Kobe" Team_id="1610612747" Team_name="Lakers" Team_abr="LAL" Games="82" FT_made="483" FT_attempted="583" FT_pct="0.828" />
+      <Player_ftpct_leader Person_id="201569" Last_name="Gordon" First_name=" Eric" Team_id="1610612746" Team_name="Clippers" Team_abr="LAC" Games="56" FT_made="287" FT_attempted="348" FT_pct="0.825" />
+      <Player_ftpct_leader Person_id="2200" Last_name="Gasol" First_name=" Pau" Team_id="1610612747" Team_name="Lakers" Team_abr="LAL" Games="82" FT_made="354" FT_attempted="430" FT_pct="0.823" />
+      <Player_ftpct_leader Person_id="101150" Last_name="Williams" First_name=" Louis" Team_id="1610612755" Team_name="76ers" Team_abr="PHI" Games="75" FT_made="293" FT_attempted="356" FT_pct="0.823" />
+      <Player_ftpct_leader Person_id="201950" Last_name="Holiday" First_name=" Jrue" Team_id="1610612755" Team_name="76ers" Team_abr="PHI" Games="82" FT_made="172" FT_attempted="209" FT_pct="0.823" />
+      <Player_ftpct_leader Person_id="201196" Last_name="Sessions" First_name=" Ramon" Team_id="1610612739" Team_name="Cavaliers" Team_abr="CLE" Games="81" FT_made="348" FT_attempted="423" FT_pct="0.823" />
+    </Msg_season_leaders>
+  </Game>
+</Msg_file>

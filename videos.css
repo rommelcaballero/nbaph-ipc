@@ -1,0 +1,35 @@
+.clear{clear:both;}
+.video-display{background:#252525;min-height:100px; padding:30px 20px 00px;}
+.mostlikes-video{padding:0px 5px 5px 5px; width:320px;}
+.mostlikes-video, .main-video{float:left;}
+.top-playlist{
+	background: none repeat scroll 0 0 #fff;
+    height: 84px;
+    margin: 4px;
+    padding: 8px;
+    width: 305px;
+    overflow: hidden;
+}
+.top-playlist-content{margin-left: 4px; width:150px;}
+.top-playlist-content span.description{color:#525252; font-size:11px; display: block;} 
+.top-playlist-content a span.title{color:#525252; font-size:14px;}
+.top-playlist-content a:hover span.title{color:#29A4E9;}
+.top-playlist-image a:hover .top-playlist-content span.title{color:#29A4E9;}
+.top-playlist-col{float:left;}
+.top-playlist-title{height:22px; color:#fff; font-size: 16px; padding:1px 5px; font-family: arial,helvetica;}
+
+.more-playlist{background:#f9f9f9; min-height:100px; padding:10px 10px 0;}	
+.more-playlist-col1{background:#f9f9f9; width: 635px; padding:0px 0 0 5px; float:left; min-height: 345px;}
+.more-playlist-col2{ float:left; padding:5px; background:#252525;}
+.more-thumbs{display:inline-block; margin: 0 4px 10px 0; width:150px;}
+.more-thumbs span.img{display: block;}
+
+.more-thumbs span.title{display: block; font-size: 10px; color:#525252; font-weight: bold; min-height: 28px;}
+.more-thumbs span.duration{display: block; font-size: 10px; color:#525252;}
+.more-thumbs a:hover span.title{color:#29A4E9;}
+
+.sns-title{color:#fff; display:block;  margin:0 0 0 5px; width:315px;}	
+.vid-details{width: 630px;padding:10px 0;}
+.vid-details span.title{display:block; font-size: 16px; color:#fff;}
+.vid-details span.intro{display:block; font-size:12px; color:#fff;padding:3px 0 3px;}
+.vid-details span.duration{display:block; font-size:12px; color:#fff;padding:3px 0 3px;}

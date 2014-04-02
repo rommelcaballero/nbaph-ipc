@@ -1,0 +1,9 @@
+<Msg_file>
+  <Game Number="0021000003">
+    <Msg_game_info>
+      <Game_info Game_id="0021000003" Game_date="10/26/2010" Game_time="10:30 PM" Arena_name="Staples Center" Location="Los Angeles, CA" />
+      <Home_team Team_id="1610612747" Team_city="Los Angeles" Team_name="Lakers" Team_abr="LAL" />
+      <Visitor_team Team_id="1610612745" Team_city="Houston" Team_name="Rockets" Team_abr="HOU" />
+    </Msg_game_info>
+  </Game>
+</Msg_file>

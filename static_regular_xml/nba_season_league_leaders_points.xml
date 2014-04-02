@@ -1,0 +1,54 @@
+<Msg_file LeagueID="00" League="NBA" Season="2010-11" SeasonType="Regular Season">
+  <Game Number="0">
+    <Msg_season_leaders>
+      <Player_points_leader Person_id="201142" Last_name="Durant" First_name=" Kevin" Team_id="1610612760" Team_name="Thunder" Team_abr="OKC" Games="78" FG_made="711" FT_made="594" Points_avg="27.7" Points="2161" />
+      <Player_points_leader Person_id="2544" Last_name="James" First_name=" LeBron" Team_id="1610612748" Team_name="Heat" Team_abr="MIA" Games="79" FG_made="758" FT_made="503" Points_avg="26.7" Points="2111" />
+      <Player_points_leader Person_id="2546" Last_name="Anthony" First_name=" Carmelo" Team_id="1610612752" Team_name="Knicks" Team_abr="NYK" Games="77" FG_made="684" FT_made="507" Points_avg="25.6" Points="1970" />
+      <Player_points_leader Person_id="2548" Last_name="Wade" First_name=" Dwyane" Team_id="1610612748" Team_name="Heat" Team_abr="MIA" Games="76" FG_made="692" FT_made="494" Points_avg="25.5" Points="1941" />
+      <Player_points_leader Person_id="2405" Last_name="Stoudemire" First_name=" Amar'e" Team_id="1610612752" Team_name="Knicks" Team_abr="NYK" Games="78" FG_made="744" FT_made="473" Points_avg="25.3" Points="1971" />
+      <Player_points_leader Person_id="977" Last_name="Bryant" First_name=" Kobe" Team_id="1610612747" Team_name="Lakers" Team_abr="LAL" Games="82" FG_made="740" FT_made="483" Points_avg="25.3" Points="2078" />
+      <Player_points_leader Person_id="201565" Last_name="Rose" First_name=" Derrick" Team_id="1610612741" Team_name="Bulls" Team_abr="CHI" Games="81" FG_made="711" FT_made="476" Points_avg="25.0" Points="2026" />
+      <Player_points_leader Person_id="101145" Last_name="Ellis" First_name=" Monta" Team_id="1610612744" Team_name="Warriors" Team_abr="GSW" Games="80" FG_made="726" FT_made="340" Points_avg="24.1" Points="1929" />
+      <Player_points_leader Person_id="2755" Last_name="Martin" First_name=" Kevin" Team_id="1610612745" Team_name="Rockets" Team_abr="HOU" Games="80" FG_made="553" FT_made="594" Points_avg="23.4" Points="1876" />
+      <Player_points_leader Person_id="1717" Last_name="Nowitzki" First_name=" Dirk" Team_id="1610612742" Team_name="Mavericks" Team_abr="DAL" Games="73" FG_made="610" FT_made="395" Points_avg="23.0" Points="1681" />
+      <Player_points_leader Person_id="2730" Last_name="Howard" First_name=" Dwight" Team_id="1610612753" Team_name="Magic" Team_abr="ORL" Games="78" FG_made="619" FT_made="546" Points_avg="22.9" Points="1784" />
+      <Player_points_leader Person_id="201933" Last_name="Griffin" First_name=" Blake" Team_id="1610612746" Team_name="Clippers" Team_abr="LAC" Games="82" FG_made="696" FT_made="446" Points_avg="22.5" Points="1845" />
+      <Player_points_leader Person_id="201566" Last_name="Westbrook" First_name=" Russell" Team_id="1610612760" Team_name="Thunder" Team_abr="OKC" Games="82" FG_made="614" FT_made="531" Points_avg="21.9" Points="1793" />
+      <Player_points_leader Person_id="200746" Last_name="Aldridge" First_name=" LaMarcus" Team_id="1610612757" Team_name="Trail Blazers" Team_abr="POR" Games="81" FG_made="707" FT_made="351" Points_avg="21.8" Points="1769" />
+      <Player_points_leader Person_id="200745" Last_name="Bargnani" First_name=" Andrea" Team_id="1610612761" Team_name="Raptors" Team_abr="TOR" Games="66" FG_made="525" FT_made="287" Points_avg="21.4" Points="1414" />
+      <Player_points_leader Person_id="101122" Last_name="Granger" First_name=" Danny" Team_id="1610612754" Team_name="Pacers" Team_abr="IND" Games="79" FG_made="535" FT_made="395" Points_avg="20.5" Points="1622" />
+      <Player_points_leader Person_id="201572" Last_name="Lopez" First_name=" Brook" Team_id="1610612751" Team_name="Nets" Team_abr="NJN" Games="82" FG_made="644" FT_made="385" Points_avg="20.4" Points="1673" />
+      <Player_points_leader Person_id="201567" Last_name="Love" First_name=" Kevin" Team_id="1610612750" Team_name="Timberwolves" Team_abr="MIN" Games="73" FG_made="482" FT_made="424" Points_avg="20.2" Points="1476" />
+      <Player_points_leader Person_id="2216" Last_name="Randolph" First_name=" Zach" Team_id="1610612763" Team_name="Grizzlies" Team_abr="MEM" Games="75" FG_made="598" FT_made="300" Points_avg="20.1" Points="1504" />
+      <Player_points_leader Person_id="201563" Last_name="Beasley" First_name=" Michael" Team_id="1610612750" Team_name="Timberwolves" Team_abr="MIN" Games="73" FG_made="561" FT_made="219" Points_avg="19.2" Points="1401" />
+      <Player_points_leader Person_id="2561" Last_name="West" First_name=" David" Team_id="1610612740" Team_name="Hornets" Team_abr="NOH" Games="70" FG_made="528" FT_made="264" Points_avg="18.9" Points="1322" />
+      <Player_points_leader Person_id="1718" Last_name="Pierce" First_name=" Paul" Team_id="1610612738" Team_name="Celtics" Team_abr="BOS" Games="80" FG_made="507" FT_made="386" Points_avg="18.9" Points="1511" />
+      <Player_points_leader Person_id="2200" Last_name="Gasol" First_name=" Pau" Team_id="1610612747" Team_name="Lakers" Team_abr="LAL" Games="82" FG_made="593" FT_made="354" Points_avg="18.8" Points="1541" />
+      <Player_points_leader Person_id="2547" Last_name="Bosh" First_name=" Chris" Team_id="1610612748" Team_name="Heat" Team_abr="MIA" Games="77" FG_made="524" FT_made="384" Points_avg="18.7" Points="1438" />
+      <Player_points_leader Person_id="2744" Last_name="Jefferson" First_name=" Al" Team_id="1610612762" Team_name="Jazz" Team_abr="UTA" Games="82" FG_made="654" FT_made="220" Points_avg="18.6" Points="1528" />
+      <Player_points_leader Person_id="201939" Last_name="Curry" First_name=" Stephen" Team_id="1610612744" Team_name="Warriors" Team_abr="GSW" Games="74" FG_made="505" FT_made="212" Points_avg="18.6" Points="1373" />
+      <Player_points_leader Person_id="2449" Last_name="Scola" First_name=" Luis" Team_id="1610612745" Team_name="Rockets" Team_abr="HOU" Games="74" FG_made="569" FT_made="214" Points_avg="18.3" Points="1352" />
+      <Player_points_leader Person_id="2207" Last_name="Johnson" First_name=" Joe" Team_id="1610612737" Team_name="Hawks" Team_abr="ATL" Games="72" FG_made="514" FT_made="195" Points_avg="18.2" Points="1312" />
+      <Player_points_leader Person_id="2225" Last_name="Parker" First_name=" Tony" Team_id="1610612759" Team_name="Spurs" Team_abr="SAS" Games="78" FG_made="555" FT_made="233" Points_avg="17.5" Points="1368" />
+      <Player_points_leader Person_id="1938" Last_name="Ginobili" First_name=" Manu" Team_id="1610612759" Team_name="Spurs" Team_abr="SAS" Games="80" FG_made="441" FT_made="357" Points_avg="17.4" Points="1393" />
+      <Player_points_leader Person_id="2736" Last_name="Deng" First_name=" Luol" Team_id="1610612741" Team_name="Bulls" Team_abr="CHI" Games="82" FG_made="531" FT_made="253" Points_avg="17.4" Points="1430" />
+      <Player_points_leader Person_id="200794" Last_name="Millsap" First_name=" Paul" Team_id="1610612762" Team_name="Jazz" Team_abr="UTA" Games="76" FG_made="525" FT_made="256" Points_avg="17.3" Points="1315" />
+      <Player_points_leader Person_id="201942" Last_name="DeRozan" First_name=" DeMar" Team_id="1610612761" Team_name="Raptors" Team_abr="TOR" Games="82" FG_made="539" FT_made="327" Points_avg="17.2" Points="1410" />
+      <Player_points_leader Person_id="1497" Last_name="Billups" First_name=" Chauncey" Team_id="1610612752" Team_name="Knicks" Team_abr="NYK" Games="72" FG_made="339" FT_made="384" Points_avg="16.8" Points="1208" />
+      <Player_points_leader Person_id="101135" Last_name="Lee" First_name=" David" Team_id="1610612744" Team_name="Warriors" Team_abr="GSW" Games="73" FG_made="496" FT_made="210" Points_avg="16.5" Points="1203" />
+      <Player_points_leader Person_id="951" Last_name="Allen" First_name=" Ray" Team_id="1610612738" Team_name="Celtics" Team_abr="BOS" Games="80" FG_made="480" FT_made="193" Points_avg="16.5" Points="1321" />
+      <Player_points_leader Person_id="2746" Last_name="Smith" First_name=" Josh" Team_id="1610612737" Team_name="Hawks" Team_abr="ATL" Games="77" FG_made="497" FT_made="229" Points_avg="16.5" Points="1274" />
+      <Player_points_leader Person_id="2748" Last_name="Wright" First_name=" Dorell" Team_id="1610612744" Team_name="Warriors" Team_abr="GSW" Games="82" FG_made="485" FT_made="180" Points_avg="16.4" Points="1344" />
+      <Player_points_leader Person_id="202083" Last_name="Matthews" First_name=" Wesley" Team_id="1610612757" Team_name="Trail Blazers" Team_abr="POR" Games="82" FG_made="440" FT_made="266" Points_avg="15.9" Points="1300" />
+      <Player_points_leader Person_id="1891" Last_name="Terry" First_name=" Jason" Team_id="1610612742" Team_name="Mavericks" Team_abr="DAL" Games="82" FG_made="492" FT_made="182" Points_avg="15.8" Points="1293" />
+      <Player_points_leader Person_id="101108" Last_name="Paul" First_name=" Chris" Team_id="1610612740" Team_name="Hornets" Team_abr="NOH" Games="80" FG_made="430" FT_made="337" Points_avg="15.8" Points="1268" />
+      <Player_points_leader Person_id="2222" Last_name="Wallace" First_name=" Gerald" Team_id="1610612757" Team_name="Trail Blazers" Team_abr="POR" Games="71" FG_made="386" FT_made="279" Points_avg="15.7" Points="1113" />
+      <Player_points_leader Person_id="2202" Last_name="Richardson" First_name=" Jason" Team_id="1610612753" Team_name="Magic" Team_abr="ORL" Games="80" FG_made="472" FT_made="116" Points_avg="15.6" Points="1249" />
+      <Player_points_leader Person_id="201155" Last_name="Stuckey" First_name=" Rodney" Team_id="1610612765" Team_name="Pistons" Team_abr="DET" Games="70" FG_made="363" FT_made="330" Points_avg="15.5" Points="1082" />
+      <Player_points_leader Person_id="101109" Last_name="Felton" First_name=" Raymond" Team_id="1610612743" Team_name="Nuggets" Team_abr="DEN" Games="75" FG_made="427" FT_made="194" Points_avg="15.5" Points="1164" />
+      <Player_points_leader Person_id="201143" Last_name="Horford" First_name=" Al" Team_id="1610612737" Team_name="Hawks" Team_abr="ATL" Games="77" FG_made="513" FT_made="150" Points_avg="15.3" Points="1178" />
+      <Player_points_leader Person_id="201163" Last_name="Chandler" First_name=" Wilson" Team_id="1610612743" Team_name="Nuggets" Team_abr="DEN" Games="72" FG_made="429" FT_made="130" Points_avg="15.3" Points="1100" />
+      <Player_points_leader Person_id="2734" Last_name="Harris" First_name=" Devin" Team_id="1610612762" Team_name="Jazz" Team_abr="UTA" Games="71" FG_made="343" FT_made="335" Points_avg="15.2" Points="1079" />
+    </Msg_season_leaders>
+  </Game>
+</Msg_file>

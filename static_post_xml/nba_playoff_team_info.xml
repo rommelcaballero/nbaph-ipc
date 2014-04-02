@@ -1,0 +1,20 @@
+<TeamInfo LeagueID="00" League="NBA" Season="2010-11" SeasonType="Playoffs">
+  <Teams>
+    <Team TeamID="1610612741" Team_name="Bulls" Team_city="Chicago" Short_name="Chicago" Abbreviation="CHI" Team_Code="bulls" Conference="East" Division="Central" State="IL" Country="USA" Home_Arena="United Center" />
+    <Team TeamID="1610612754" Team_name="Pacers" Team_city="Indiana" Short_name="Indiana" Abbreviation="IND" Team_Code="pacers" Conference="East" Division="Central" State="IN" Country="USA" Home_Arena="Conseco Fieldhouse" />
+    <Team TeamID="1610612748" Team_name="Heat" Team_city="Miami" Short_name="Miami" Abbreviation="MIA" Team_Code="heat" Conference="East" Division="Southeast" State="FL" Country="USA" Home_Arena="American Airlines Arena" />
+    <Team TeamID="1610612755" Team_name="76ers" Team_city="Philadelphia" Short_name="Philadelphia" Abbreviation="PHI" Team_Code="sixers" Conference="East" Division="Atlantic" State="PA" Country="USA" Home_Arena="Wells Fargo Center" />
+    <Team TeamID="1610612738" Team_name="Celtics" Team_city="Boston" Short_name="Boston" Abbreviation="BOS" Team_Code="celtics" Conference="East" Division="Atlantic" State="MA" Country="USA" Home_Arena="TD Garden" />
+    <Team TeamID="1610612752" Team_name="Knicks" Team_city="New York" Short_name="New York" Abbreviation="NYK" Team_Code="knicks" Conference="East" Division="Atlantic" State="NY" Country="USA" Home_Arena="Madison Square Garden" />
+    <Team TeamID="1610612753" Team_name="Magic" Team_city="Orlando" Short_name="Orlando" Abbreviation="ORL" Team_Code="magic" Conference="East" Division="Southeast" State="FL" Country="USA" Home_Arena="Amway Center" />
+    <Team TeamID="1610612737" Team_name="Hawks" Team_city="Atlanta" Short_name="Atlanta" Abbreviation="ATL" Team_Code="hawks" Conference="East" Division="Southeast" State="GA" Country="USA" Home_Arena="Philips Arena" />
+    <Team TeamID="1610612740" Team_name="Hornets" Team_city="New Orleans" Short_name="New Orleans" Abbreviation="NOH" Team_Code="hornets" Conference="West" Division="Southwest" State="LA" Country="USA" Home_Arena="New Orleans Arena" />
+    <Team TeamID="1610612742" Team_name="Mavericks" Team_city="Dallas" Short_name="Dallas" Abbreviation="DAL" Team_Code="mavericks" Conference="West" Division="Southwest" State="TX" Country="USA" Home_Arena="American Airlines Center" />
+    <Team TeamID="1610612743" Team_name="Nuggets" Team_city="Denver" Short_name="Denver" Abbreviation="DEN" Team_Code="nuggets" Conference="West" Division="Northwest" State="CO" Country="USA" Home_Arena="Pepsi Center" />
+    <Team TeamID="1610612747" Team_name="Lakers" Team_city="Los Angeles" Short_name="L.A. Lakers" Abbreviation="LAL" Team_Code="lakers" Conference="West" Division="Pacific" State="CA" Country="USA" Home_Arena="Staples Center" />
+    <Team TeamID="1610612757" Team_name="Trail Blazers" Team_city="Portland" Short_name="Portland" Abbreviation="POR" Team_Code="blazers" Conference="West" Division="Northwest" State="OR" Country="USA" Home_Arena="Rose Garden" />
+    <Team TeamID="1610612759" Team_name="Spurs" Team_city="San Antonio" Short_name="San Antonio" Abbreviation="SAS" Team_Code="spurs" Conference="West" Division="Southwest" State="TX" Country="USA" Home_Arena="AT&amp;T Center" />
+    <Team TeamID="1610612760" Team_name="Thunder" Team_city="Oklahoma City" Short_name="Oklahoma City" Abbreviation="OKC" Team_Code="thunder" Conference="West" Division="Northwest" State="OK" Country="USA" Home_Arena="Chesapeake Energy Arena" />
+    <Team TeamID="1610612763" Team_name="Grizzlies" Team_city="Memphis" Short_name="Memphis" Abbreviation="MEM" Team_Code="grizzlies" Conference="West" Division="Southwest" State="TN" Country="USA" Home_Arena="FedExForum" />
+  </Teams>
+</TeamInfo>

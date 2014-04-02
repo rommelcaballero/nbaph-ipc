@@ -1,0 +1,17 @@
+<Msg_file LeagueID="00" League="NBA" Season="2010-11" SeasonType="Regular Season">
+  <Game Number="0">
+    <Msg_Daily_leaders>
+      <Player_steal_leader Person_id="200769" Last_name="Brown" First_name="Shannon" Team_id="1610612747" Team_name="Lakers" Team_city="Los Angeles" Team_abr="LAL" Steals="4" />
+      <Player_steal_leader Person_id="1897" Last_name="World Peace" First_name="Metta" Team_id="1610612747" Team_name="Lakers" Team_city="Los Angeles" Team_abr="LAL" Steals="4" />
+      <Player_steal_leader Person_id="708" Last_name="Garnett" First_name="Kevin" Team_id="1610612738" Team_name="Celtics" Team_city="Boston" Team_abr="BOS" Steals="3" />
+      <Player_steal_leader Person_id="980" Last_name="Ilgauskas" First_name="Zydrunas" Team_id="1610612748" Team_name="Heat" Team_city="Miami" Team_abr="MIA" Steals="3" />
+      <Player_steal_leader Person_id="2548" Last_name="Wade" First_name="Dwyane" Team_id="1610612748" Team_name="Heat" Team_city="Miami" Team_abr="MIA" Steals="3" />
+      <Player_steal_leader Person_id="200750" Last_name="Roy" First_name="Brandon" Team_id="1610612757" Team_name="Trail Blazers" Team_city="Portland" Team_abr="POR" Steals="3" />
+      <Player_steal_leader Person_id="201164" Last_name="Fernandez" First_name="Rudy" Team_id="1610612757" Team_name="Trail Blazers" Team_city="Portland" Team_abr="POR" Steals="3" />
+      <Player_steal_leader Person_id="201584" Last_name="Lee" First_name="Courtney" Team_id="1610612745" Team_name="Rockets" Team_city="Houston" Team_abr="HOU" Steals="3" />
+      <Player_steal_leader Person_id="200765" Last_name="Rondo" First_name="Rajon" Team_id="1610612738" Team_name="Celtics" Team_city="Boston" Team_abr="BOS" Steals="2" />
+      <Player_steal_leader Person_id="200746" Last_name="Aldridge" First_name="LaMarcus" Team_id="1610612757" Team_name="Trail Blazers" Team_city="Portland" Team_abr="POR" Steals="2" />
+      <Player_steal_leader Person_id="1802" Last_name="Miller" First_name="Brad" Team_id="1610612745" Team_name="Rockets" Team_city="Houston" Team_abr="HOU" Steals="2" />
+    </Msg_Daily_leaders>
+  </Game>
+</Msg_file>

@@ -1,0 +1,29 @@
+<Msg_file LeagueID="00" League="NBA" Season="2010-11" SeasonType="Playoffs">
+  <Game Number="0">
+    <Msg_game_info>
+      <Game_info Game_id="0041000111" Game_date="04/16/2011" Game_time="3:30 PM" Home_time="3:30 PM" Visitor_time="3:30 PM" Arena_name="American Airlines Arena" Location="Miami, FL" PPD_Status="I" />
+      <Home_team Team_id="1610612748" Team_city="Miami" Team_name="Heat" Team_abr="MIA" />
+      <Visitor_team Team_id="1610612755" Team_city="Philadelphia" Team_name="76ers" Team_abr="PHI" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0041000112" Game_date="04/18/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="American Airlines Arena" Location="Miami, FL" PPD_Status="I" />
+      <Home_team Team_id="1610612748" Team_city="Miami" Team_name="Heat" Team_abr="MIA" />
+      <Visitor_team Team_id="1610612755" Team_city="Philadelphia" Team_name="76ers" Team_abr="PHI" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0041000113" Game_date="04/21/2011" Game_time="8:00 PM" Home_time="8:00 PM" Visitor_time="8:00 PM" Arena_name="Wells Fargo Center" Location="Philadelphia, PA" PPD_Status="I" />
+      <Home_team Team_id="1610612755" Team_city="Philadelphia" Team_name="76ers" Team_abr="PHI" />
+      <Visitor_team Team_id="1610612748" Team_city="Miami" Team_name="Heat" Team_abr="MIA" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0041000114" Game_date="04/24/2011" Game_time="1:00 PM" Home_time="1:00 PM" Visitor_time="1:00 PM" Arena_name="Wells Fargo Center" Location="Philadelphia, PA" PPD_Status="I" />
+      <Home_team Team_id="1610612755" Team_city="Philadelphia" Team_name="76ers" Team_abr="PHI" />
+      <Visitor_team Team_id="1610612748" Team_city="Miami" Team_name="Heat" Team_abr="MIA" />
+    </Msg_game_info>
+    <Msg_game_info>
+      <Game_info Game_id="0041000115" Game_date="04/27/2011" Game_time="7:00 PM" Home_time="7:00 PM" Visitor_time="7:00 PM" Arena_name="American Airlines Arena" Location="Miami, FL" PPD_Status="I" />
+      <Home_team Team_id="1610612748" Team_city="Miami" Team_name="Heat" Team_abr="MIA" />
+      <Visitor_team Team_id="1610612755" Team_city="Philadelphia" Team_name="76ers" Team_abr="PHI" />
+    </Msg_game_info>
+  </Game>
+</Msg_file>
