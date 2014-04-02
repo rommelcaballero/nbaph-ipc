@@ -2,7 +2,8 @@
 	$part_page = "index";
 	$beta = false;
 	include('queries/index-queries-new.php');
-	if(count($wall_videos) > 0):
+	//if(count($wall_videos) > 0):
+	if($wall_videos_count > 0):
 		session_start();
 		$csrf = md5("nbaph-".@date("Y-m-d")."-".@$_SERVER['HTTP_X_FORWARDED_FOR']."-".@$_SERVER['REMOTE_ADDR']);
 		$_SESSION['_csrf'] = $csrf;
@@ -78,7 +79,8 @@
 		</div><!-- wrapper -->		
 		<?php include("layouts/background_ads.php"); ?>
 		
-		<?php if(count($wall_videos) > 0) include("wall.php"); ?>
+		<?php //if(count($wall_videos) > 0) include("wall.php"); ?>
+		<?php if($wall_videos_count > 0) include("wall.php"); ?>
 		
 	</body>
 
