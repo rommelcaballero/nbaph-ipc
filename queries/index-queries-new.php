@@ -28,7 +28,7 @@ include('lib.php');
       $count += 1;
    }
 
-   /*
+   /*-
    $results = mysqli_query($connect, "SELECT VideoID, Thumbnail, Title, Link FROM videos where Section = 'Highlights' and Thumbnail <>'' ORDER BY SortOrder DESC, DatePosted DESC LIMIT 0, 12");
 
    $vid_total = mysqli_num_rows($results);
