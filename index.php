@@ -76,7 +76,7 @@
 	          	</div>
           	</div><!-- main_content -->   
           	    
-		</div><!-- wrapper -->		
+		</div><!-- wrapper --->		
 		<?php include("layouts/background_ads.php"); ?>
 		
 		<?php //if(count($wall_videos) > 0) include("wall.php"); ?>
