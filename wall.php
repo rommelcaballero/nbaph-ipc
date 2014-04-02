@@ -1,7 +1,7 @@
 <?php if($wall_videos[0]['wall_type'] == 'mp4'): ?>
 <style>
 	.ui-button {
-	    font-size: 14px !important; /* change font size */					    
+	    font-size: 14px !important; /* change font size. */					    
 	    color:#0054AF !important;
 	}
 	.ui-dialog-titlebar{display: none;}	
