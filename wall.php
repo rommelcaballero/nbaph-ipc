@@ -136,7 +136,7 @@
 	.ui-widget-header{border: none;}
 	.ui-widget-overlay{opacity:0.8; background: #000;}
 	.ui-icon{z-index: 100; width:32px  !important; height:32px !important; background:url(/media/2.0/button_close.png) 0 -32px no-repeat !important; top:23%  !important; margin-left:-16px !important;}	
-	.ui-dialog-titlebar-close{ width:10px !important; height:10px !important; }
+	.ui-dialog-titlebar-close{ width:32px !important; height:32px !important; }
 	/*.*/
 </style>
 
