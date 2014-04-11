@@ -1,7 +1,7 @@
 <?php
 include('sqli.php');
 include('lib.php');
- 
+
    $results = mysqli_query($connect, "SELECT Content, AdsDesc FROM ads_list WHERE (AdsDesc='nba_homepage_top_leaderboard' or AdsDesc='nba_homepage_top_medallion' or AdsDesc='nba_homepage_middle_leaderboard' or AdsDesc='nba_homepage_middle_medallion1' or AdsDesc='nba_homepage_middle_medallion2' or AdsDesc='nba_homepage_bottom_leaderboard') AND Status='s' ");
 
    $ads_list = array();
@@ -28,7 +28,7 @@ include('lib.php');
       $count += 1;
    }
 
-   /*-
+   /*
    $results = mysqli_query($connect, "SELECT VideoID, Thumbnail, Title, Link FROM videos where Section = 'Highlights' and Thumbnail <>'' ORDER BY SortOrder DESC, DatePosted DESC LIMIT 0, 12");
 
    $vid_total = mysqli_num_rows($results);
@@ -108,10 +108,10 @@ include('lib.php');
 
    //$results = mysqli_query($connect, "select BlogID, Blogger, BlogTitle, BlogLink, BlogExcerpt from writers left join writers_stories using (Blogger) group by Blogger order by Position, DatePosted desc limit 0, 20");
    
-   $sql_string = "(SELECT  'blog' tablename, b.DatePosted, bo.Position, b.DisplayOn, b.BlogID, b.Blogger, b.BlogTitle, b.BlogLink, b.BlogExcerpt, bo.aws_photo_name 
+   $sql_string = "(SELECT  'blog' tablename, b.DatePosted, bo.Position, b.DisplayOn, b.BlogID, b.Blogger, b.BlogTitle, b.BlogLink, b.BlogExcerpt 
    FROM blog b JOIN blogorder bo ON bo.Blogger = b.Blogger ORDER BY b.DisplayOn DESC LIMIT 5)
    UNION
-   (SELECT  'personalities' tablename, p.DatePosted, po.Position, p.DisplayOn, p.BlogID, p.Blogger, p.BlogTitle, p.BlogLink, p.BlogExcerpt, po.aws_photo_name
+   (SELECT  'personalities' tablename, p.DatePosted, po.Position, p.DisplayOn, p.BlogID, p.Blogger, p.BlogTitle, p.BlogLink, p.BlogExcerpt 
    FROM personalities p JOIN personalitiesorder po ON po.Blogger = p.Blogger ORDER BY p.DisplayOn DESC LIMIT 5)
    ORDER BY DisplayOn DESC;";
 
@@ -127,7 +127,6 @@ include('lib.php');
          $person_array[$blog_cnt]['BlogTitle'] = $row['BlogTitle'];
          $person_array[$blog_cnt]['BlogLink'] = $row['BlogLink'];
          $person_array[$blog_cnt]['BlogExcerpt'] = $row['BlogExcerpt'];
-         $person_array[$blog_cnt]['aws_photo_name'] = $row['aws_photo_name'];		 
          $blog_cnt += 1;
          $last_blogger = $row['Blogger'];
       
@@ -193,14 +192,12 @@ include('lib.php');
 	$result_bgads = mysqli_query($connect, $query_bgads) or die(mysqli_error());
 	$found_bgads = mysqli_num_rows($result_bgads);
 
-	$result = mysqli_query($connect,"select * from wall_videos where status=1");
-	$wall_videos_count = mysqli_num_rows($result);
+	$result = mysqli_query($connect,"select * from wall_videos where status =1 and impression_target>impression_count order by date_created desc limit 0, 1");
 	$wall_videos = array();
 	while($row = mysqli_fetch_array($result)){
 	  $wall_videos[] = $row;
 	}
-	//if(count($wall_videos)>0){
-	if($wall_videos_count > 0){
+	if(count($wall_videos)>0){
 	   if((strtotime(date("H:i")) >= strtotime($wall_videos[0]['start_time'])) &&
 		(strtotime(date("H:i")) <= strtotime($wall_videos[0]['end_time']))){
 			
@@ -213,3 +210,4 @@ include('lib.php');
 
 mysqli_close($connect);
 ?>
+

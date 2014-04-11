@@ -1,7 +1,7 @@
 <?php if($wall_videos[0]['wall_type'] == 'mp4'): ?>
 <style>
 	.ui-button {
-	    font-size: 14px !important; /* change font size. */					    
+	    font-size: 14px !important; /* change font size */					    
 	    color:#0054AF !important;
 	}
 	.ui-dialog-titlebar{display: none;}	
@@ -125,30 +125,24 @@
 </script>
 <?php elseif($wall_videos[0]['wall_type'] == 'swf'): ?>
 <?php /* elseif($wall_videos[0]['wall_type'] == 'swf' && $_GET['test-wall'] == 1): */ ?>
-
 <style>
-	.ui-dialog{background: transparent; border: none; width:1320px !important;}
+	.ui-dialog{background: transparent; border: none;}
 	.ui-dialog-titlebar{background: transparent; border: none; padding:0 !important;}	
 	
-	.ui-dialog-titlebar-close{ z-index:100; right:6em !important; display: none; margin-right:-15px !important;}
+	.ui-dialog-titlebar-close{right:6em !important; display: none; margin-right:-15px !important;}
 
-	.ui-dialog-content{overflow: hidden !important;}
+	.ui-dialog-content{overflow: none !important;}
 	.ui-widget-header{border: none;}
 	.ui-widget-overlay{opacity:0.8; background: #000;}
-	.ui-icon{z-index: 100; width:32px  !important; height:32px !important; background:url(/media/2.0/button_close.png) 0 -32px no-repeat !important; top:23%  !important; margin-left:-16px !important;}	
-	.ui-dialog-titlebar-close{ width:32px !important; height:32px !important; }
+	.ui-icon{width:32px !important; height:32px !important; background:url(/media/2.0/button_close.png) 0 -32px no-repeat !important; top:23%  !important; margin-left:-16px !important;}	
+	.ui-dialog-titlebar-close{width:32px !important; height:32px !important; }
 	/*.*/
 </style>
-
-
-<div class='dialog' style="display:none; margin-left: -170px; top: -40px;">	
-<embed id='wall-video' src="<?php echo $base; ?>ftp-web/wall/<?php echo $wall_videos[0]['filename']; ?>" width="<?php echo $wall_videos[0]['wall_width']; ?>" height="<?php echo $wall_videos[0]['wall_height']; ?>" wmode="transparent" style="left:50%; margin-left:-800px; margin-top:0;  position:fixed; width:1600;" />
+<div class='dialog' style="display:none; ">	
+	<embed id='wall-video' src="<?php echo $base; ?>ftp-web/wall/<?php echo $wall_videos[0]['filename']; ?>" width="<?php echo $wall_videos[0]['wall_width']; ?>" height="<?php echo $wall_videos[0]['wall_height']; ?>" wmode="transparent" />
 </div>
-
 <script>
-	$(window).load(function(){	
-	
-		
+	$(window).load(function(){			
 		function setCookie(cname,cvalue,exhours){
 			var d = new Date();
 			d.setTime(d.getTime()+(exhours*60*60*1000));
@@ -179,7 +173,6 @@
 					
 					var myVar=setInterval(function(){
 						show_close_button();
-						
 					},<?php echo $wall_videos[0]['duration']; ?>);
 					function show_close_button(){						
 						
@@ -217,6 +210,5 @@
 		}
 		checkCookie("wall-<?php echo $wall_videos[0]['date_created']; ?>");		
 	});
-
 </script>
 <?php endif ?>

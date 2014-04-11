@@ -2,8 +2,7 @@
 	$part_page = "index";
 	$beta = false;
 	include('queries/index-queries-new.php');
-	//if(count($wall_videos) > 0):
-	if($wall_videos_count > 0):
+	if(count($wall_videos) > 0):
 		session_start();
 		$csrf = md5("nbaph-".@date("Y-m-d")."-".@$_SERVER['HTTP_X_FORWARDED_FOR']."-".@$_SERVER['REMOTE_ADDR']);
 		$_SESSION['_csrf'] = $csrf;
@@ -21,11 +20,11 @@
 	<meta http-equiv="Cache-control" content="public">
 
 
-	<link rel="stylesheet" type="text/css" href="/css/style.css">
-	<link rel="stylesheet" type="text/css" href="/css/style-index.css">
-	<link rel="stylesheet" type="text/css" href="/css/style-new.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style-index.css">
+	<link rel="stylesheet" type="text/css" href="style-new.css">
 	
-	<link rel="stylesheet" href="/css/jquery-ui.css" />
+	<link rel="stylesheet" href="jquery-ui.css" />
 	<script type="text/javascript" src="jquery-1.9.1.js"></script>
 	<script type="text/javascript" src="jquery-ui.js"></script>
 	<script type="text/javascript" src="carousel-index.js"></script>
@@ -76,12 +75,12 @@
 	          	</div>
           	</div><!-- main_content -->   
           	    
-		</div><!-- wrapper --->		
+		</div><!-- wrapper -->		
 		<?php include("layouts/background_ads.php"); ?>
 		
-		<?php //if(count($wall_videos) > 0) include("wall.php"); ?>
-		<?php if($wall_videos_count > 0) include("wall.php"); ?>
+		<?php if(count($wall_videos) > 0) include("wall.php"); ?>
 		
 	</body>
 
 </html>
+
