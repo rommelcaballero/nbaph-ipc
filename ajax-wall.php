@@ -1,4 +1,4 @@
-<?php	
+<?php
 	session_start();	
 	include("sqli.php");
 	
@@ -27,10 +27,7 @@
 								'message' => "Invalid wall"
 							));
 						}else{															
-							$qstr = "Update wall_videos set impression_count = (impression_count + 1) where id = ". mysqli_real_escape_string($connect, $wall_id) . ";";
-							
-							mysqli_query($connect, $qstr) or die(mysqli_error());
-							
+							mysqli_query($connect, "update wall_videos set impression_count=impression_count+1 where id='$wall_id'");							
 							echo json_encode(array(
 								'success' => true,
 								'message' => "impression counted"
