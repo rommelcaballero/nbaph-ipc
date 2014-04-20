@@ -80,7 +80,7 @@ include('queries/news_article-queries.php');
                               <b><?php echo stripslashes($article['Title']); ?></b>
                           </div>
 
-                          <div style="font-size: 14px; color: #444; border-bottom: 1px solid #d8d8d8; padding: 10px">                               
+                          <div style="font-size: 14px; color: #444; border-bottom: 1px solid #d8d8d8; padding: 10px; width: 670px;">                               
 								<?php 
 								$remote_addr = $_SERVER['REMOTE_ADDR'];
 								
