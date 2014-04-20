@@ -237,7 +237,7 @@
 						<div class="header_nav_dropdown" id="header_nav_standings">
 							<div><a href="http://ph.global.nba.com/stats/league/teamDivStandings.xhtml">By Division</a></div>
 							<div><a href="http://ph.global.nba.com/stats/league/teamConfStandings.xhtml">By Conference</a></div>
-							<div><a href="http://ph.global.nba.com/stats/league/playoffs/picture.xhtml">Playoff Picture</a></div>
+							<div><a href"http://ph.global.nba.com/stats/league/playoffs/index.xhtml">Playoffs</a></div>
 						</div>				  
 					</div>
 				</li>
