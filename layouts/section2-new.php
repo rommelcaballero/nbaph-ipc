@@ -119,12 +119,18 @@
                             <div class='personality-carousel-container'>
                                 <div class='personality-carousel' id='stories' style="overflow:hidden; height:170px;">
                                     <?php foreach($person_array as $k => $v): ?>                                    
+
+					<?php
+						$writer_pic = strtolower(urlencode(str_replace("ñ", "n", $v['Blogger'])));
+						$writer_pic = preg_replace("/[^A-Za-z0-9 ]/", '', $writer_pic);
+					?>
+
                                     <span class='personality-story-excerpt'>                                        
                                         <!--img class='personality-photo' src="images/writers/< ?php echo $blogger_pic; ?>.jpg" border="0" /-->
                                         <?php if($v['tablename']=='blog'): ?>
-                                        <img class='personality-photo' src="/images/blogs/<?php echo $v['aws_photo_name']; ?>" border="0" />
+                                        <img class='personality-photo' src="/images/blogs/<?php echo $writer_pic;?>.jpg" border="0" />
                                         <?php else: ?>
-                                        <img class='personality-photo' src="/images/personalities/<?php echo $v['aws_photo_name']; ?>" border="0" />
+                                        <img class='personality-photo' src="/images/personalities/<?php echo $writer_pic;?>.jpg" border="0" />
                                         <?php endif; ?>
                                         <p>
                                         <a href="/<?php echo ($v['tablename'] == 'blog')?"bloggers":"writers-content"; ?>/<?php echo $v['BlogID']; ?>/<?php echo seoUrl(trim(stripslashes($v['BlogTitle']))); ?>" target="_blank"><?php echo stripslashes($v['BlogTitle']); ?></a><br/> 
