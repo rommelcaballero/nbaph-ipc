@@ -1,7 +1,8 @@
 <?php
 	session_start();	
-	include("sqli.php");
-	
+	include('sqli.php');
+
+
 	$action = isset($_GET['action'])?$_GET['action']:false;
 	if(!$action){
 		echo json_encode(array(
@@ -27,7 +28,10 @@
 								'message' => "Invalid wall"
 							));
 						}else{															
-							mysqli_query($connect, "update wall_videos set impression_count=impression_count+1 where id='$wall_id'");							
+							$qstr = "Update wall_videos set impression_count = impression_count+1 where id = '$wall_id'";
+							
+							mysqli_query($connect, $qstr) or die(mysqli_error());
+
 							echo json_encode(array(
 								'success' => true,
 								'message' => "impression counted"
@@ -37,7 +41,7 @@
 				}else{
 					echo json_encode(array(
 						'success' => false,
-						'message' => "Forgery not allowed"
+						'message' => "Forgery not allowed 02"
 					));
 				}				
 				break;

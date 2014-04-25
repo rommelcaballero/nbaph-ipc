@@ -191,18 +191,9 @@
 				beforeClose: function(event, ui) {						
 					$("body").removeClass("stop-scrolling");
 					wallcookie=""; // bypass any intervals
-					if(wallcookie == ""){						
+					if(wallcookie == ""){
+						<?php $up='1';?>
 						setCookie(c_name,"wall",1);
-						// make ajax call to count impressions
-						
-						$.ajax({
-							'url':'<?php echo $base; ?>ajax-wall.php?action=impr',
-							'type':'POST',
-							'dataType':'json',
-							'data':{wall_id:<?php echo $wall_videos[0]['id']; ?>, csrf:"<?php echo $csrf; ?>"}
-						}).done(function(ret){
-							console.log(ret);
-						});						
 					}			
 				}
 			});
@@ -210,5 +201,15 @@
 		}
 		checkCookie("wall-<?php echo $wall_videos[0]['date_created']; ?>");		
 	});
+
 </script>
+<?php
+//call to make impressions
+if($up == '1')
+include_once('wall-add.php');
+$up = '';
+?>
+
 <?php endif ?>
+
+

@@ -2,12 +2,12 @@
 	$part_page = "index";
 	$beta = false;
 	include('queries/index-queries-new.php');
+
 	if(count($wall_videos) > 0):
 		session_start();
 		$csrf = md5("nbaph-".@date("Y-m-d")."-".@$_SERVER['HTTP_X_FORWARDED_FOR']."-".@$_SERVER['REMOTE_ADDR']);
 		$_SESSION['_csrf'] = $csrf;
 	endif; 
-	
 ?>
 
 <!DOCTYPE html>
