@@ -20,10 +20,10 @@ if(isset($sess)){
 unset($sess);
 $qstr = "Update wall_videos set impression_count = (impression_count + 1) where id = ". mysqli_real_escape_string($connect, $wall_id) . ";";
 $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
-
+$uri = $_SERVER['REQUEST_URI'];
 if (preg_match('/healthchecker/',$userAgent)){
 //do nothing
-}else{
+}elseif($up=='1' & $uri=='/'){
 mysqli_query($connect, $qstr) or die(mysqli_error());
 }
 
