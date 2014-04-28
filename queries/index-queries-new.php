@@ -1,6 +1,6 @@
 <?php
-include('sqli.php');
-include('lib.php');
+include_once('sqli.php');
+include_once('lib.php');
 
    $results = mysqli_query($connect, "SELECT Content, AdsDesc FROM ads_list WHERE (AdsDesc='nba_homepage_top_leaderboard' or AdsDesc='nba_homepage_top_medallion' or AdsDesc='nba_homepage_middle_leaderboard' or AdsDesc='nba_homepage_middle_medallion1' or AdsDesc='nba_homepage_middle_medallion2' or AdsDesc='nba_homepage_bottom_leaderboard') AND Status='s' ");
 
@@ -127,6 +127,7 @@ include('lib.php');
          $person_array[$blog_cnt]['BlogTitle'] = $row['BlogTitle'];
          $person_array[$blog_cnt]['BlogLink'] = $row['BlogLink'];
          $person_array[$blog_cnt]['BlogExcerpt'] = $row['BlogExcerpt'];
+  	 $person_array[$blog_cnt]['aws_photo_name'] = $row['aws_photo_name'];
          $blog_cnt += 1;
          $last_blogger = $row['Blogger'];
       
@@ -192,7 +193,8 @@ include('lib.php');
 	$result_bgads = mysqli_query($connect, $query_bgads) or die(mysqli_error());
 	$found_bgads = mysqli_num_rows($result_bgads);
 
-	$result = mysqli_query($connect,"select * from wall_videos where status =1 and impression_target>impression_count order by date_created desc limit 0, 1");
+//	$result = mysqli_query($connect,"select * from wall_videos where status =1 and impression_target>impression_count order by date_created desc limit 0, 1");
+        $result = mysqli_query($connect,"select * from wall_videos where status =1 and impression_target>impression_count order by rand() "); //for multiple and random
 	$wall_videos = array();
 	while($row = mysqli_fetch_array($result)){
 	  $wall_videos[] = $row;
