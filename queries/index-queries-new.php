@@ -193,16 +193,26 @@ include_once('lib.php');
 	$result_bgads = mysqli_query($connect, $query_bgads) or die(mysqli_error());
 	$found_bgads = mysqli_num_rows($result_bgads);
 
-//	$result = mysqli_query($connect,"select * from wall_videos where status =1 and impression_target>impression_count order by date_created desc limit 0, 1");
-        $result = mysqli_query($connect,"select * from wall_videos where status =1 and impression_target>impression_count order by rand() "); //for multiple and random
+//	$result = mysqli_query($connect,"select * from wall_videos where status = '1' and impression_target>impression_count order by date_created desc limit 0, 1");// for single ad only
+        $result = mysqli_query($connect,"select * from wall_videos where status = '1' and impression_target > impression_count order by rand() "); //for multiple and random
+	$num_wall_videos = mysqli_num_rows($result);
 	$wall_videos = array();
 	while($row = mysqli_fetch_array($result)){
 	  $wall_videos[] = $row;
+	  $wall_id = $row['id'];
+          $wall_filename = $row['filename'];
+	  $wall_type = $row['wall_type'];
+	  $wall_width = $row['wall_width'];
+	  $wall_height = $row['wall_height'];
+	  $wall_start = $row['start_time'];
+          $wall_end = $row['end_time'];
+	  $wall_created = $row['date_created'];
+	  $wall_duration = $row['duration'];
 	}
-	if(count($wall_videos)>0){
+	//if(count($wall_videos)>0){
+        if($num_wall_videos > 0){
 	   if((strtotime(date("H:i")) >= strtotime($wall_videos[0]['start_time'])) &&
 		(strtotime(date("H:i")) <= strtotime($wall_videos[0]['end_time']))){
-			
 		}else{
 			$wall_videos = array();
 		}

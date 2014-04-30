@@ -123,7 +123,8 @@
 		checkCookie("wall-<?php echo $wall_videos[0]['date_created']; ?>");
 	});
 </script>
-<?php elseif($wall_videos[0]['wall_type'] == 'swf'): ?>
+<?php elseif($wall_type == 'swf'): ?>
+<?php /*elseif($wall_videos[0]['wall_type'] == 'swf'):*/ ?>
 <?php /* elseif($wall_videos[0]['wall_type'] == 'swf' && $_GET['test-wall'] == 1): */ ?>
 <style>
 	.ui-dialog{background: transparent; border: none;}
@@ -139,8 +140,9 @@
 	/*.*/
 </style>
 <div class='dialog' style="display:none; ">	
-	<embed id='wall-video' src="<?php echo $base; ?>ftp-web/wall/<?php echo $wall_videos[0]['filename']; ?>" width="<?php echo $wall_videos[0]['wall_width']; ?>" height="<?php echo $wall_videos[0]['wall_height']; ?>" wmode="transparent" />
+	<embed id='wall-video' src="<?php echo $base; ?>ftp-web/wall/<?php echo $wall_filename; ?>" width="<?php echo $wall_width; ?>" height="<?php echo $wall_height; ?>" wmode="transparent" />
 </div>
+
 <script>
 	$(window).load(function(){			
 		function setCookie(cname,cvalue,exhours){
@@ -163,8 +165,8 @@
 			
 			$("div.dialog").dialog({
 				modal : true,
-				width:<?php echo ($wall_videos[0]['wall_width'] + 100); ?>,
-				height:<?php echo ($wall_videos[0]['wall_height'] + 100); ?>,
+				width:<?php echo $wall_width + 100; ?>,
+				height:<?php echo $wall_height + 100; ?>,
 				resizable:false,
 				draggable:false,
 				show: { effect: 'drop', direction: "up",duration:800 },
@@ -173,7 +175,7 @@
 					
 					var myVar=setInterval(function(){
 						show_close_button();
-					},<?php echo $wall_videos[0]['duration']; ?>);
+					},<?php echo $wall_duration; ?>);
 					function show_close_button(){						
 						
 						$(".ui-dialog-titlebar-close").animate({
@@ -199,14 +201,14 @@
 			});
 		
 		}
-		checkCookie("wall-<?php echo $wall_videos[0]['date_created']; ?>");		
+		checkCookie("wall-<?php echo $wall_created; ?>");		
 	});
 
 </script>
 <?php
 //call to make impressions
 if($up == '1')
-include_once('wall-add.php');
+include('wall-add.php');
 $up = '';
 ?>
 

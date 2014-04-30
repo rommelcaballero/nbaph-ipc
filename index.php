@@ -1,13 +1,38 @@
 <?php
+
+session_start();
+$timeout = 1800; // Number of seconds until it times out.
+ 
+// Check if the timeout field exists.
+if(isset($_SESSION['timeout'])) {
+    // See if the number of seconds since the last
+    // visit is larger than the timeout period.
+    $duration = time() - (int)$_SESSION['timeout'];
+    if($duration > $timeout) {
+        // Destroy the session and restart it.
+        session_start();
+	unset($_SESSION['_csrf']);
+	$start = '1';
+    }
+}
+ 
+// Update the timout field with the current time.
+$_SESSION['timeout'] = time();
+
 	$part_page = "index";
 	$beta = false;
 	include('queries/index-queries-new.php');
 
-	if(count($wall_videos) > 0):
-		session_start();
-		$csrf = md5("nbaph-".@date("Y-m-d")."-".@$_SERVER['HTTP_X_FORWARDED_FOR']."-".@$_SERVER['REMOTE_ADDR']);
-		$_SESSION['_csrf'] = $csrf;
-	endif; 
+	//if(count($wall_videos) > 0):
+	if($start=='1' || (!isset($_SESSION['_csrf'])) ){
+		if($num_wall_videos > 0){
+                	$csrf = md5("nbaph-".@date("Y-m-d")."-".@$_SERVER['HTTP_X_FORWARDED_FOR']."-".@$_SERVER['REMOTE_ADDR']);
+                	$_SESSION['_csrf'] = $csrf;
+			$go = '1';
+		}
+	}
+
+
 ?>
 
 <!DOCTYPE html>
@@ -77,9 +102,18 @@
           	    
 		</div><!-- wrapper -->		
 		<?php include("layouts/background_ads.php"); ?>
-		
-		<?php if(count($wall_videos) > 0) include("wall.php"); ?>
-		
+            
+                <?php //if(count($wall_videos) > 0) include("wall.php"); ?>  	
+<?php 
+		if($go == '1'){
+			if($num_wall_videos > 0) {
+                        	include("wall.php");
+				$go ='';
+				$start = '';
+                        }
+		}
+
+?>	
 	</body>
 
 </html>
