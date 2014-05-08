@@ -29,15 +29,7 @@
 </script> 
 <!-- END: Override Section --> 
 <!-- BEGIN: SiteCatalyst code version: H.20.3. -->
-<script language="JavaScript" type="text/javascript" src="http://i.cdn.turner.com/nba/nba/.element/js/2.0/global/omniture/s_code.js"></script>
-<script language="JavaScript" type="text/javascript">
- /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
- var s_code=s.t();if(s_code)document.write(s_code);
- if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-');
-</script>
-<noscript>
- <a href="http://www.nba.com/" title="NBA.com"><img src="http://metrics.nba.com/b/ss/nbag-i-philippines/1/H.20.3--NS/0" height="1" width="1" border="0" alt="" /></a>
-</noscript>
+
 <!-- END: SiteCatalyst code version: H.20.3. -->
 
 <!--- Popup Ads by Ambient Digital --->
