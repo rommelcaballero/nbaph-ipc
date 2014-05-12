@@ -124,6 +124,15 @@
 	});
 </script>
 <?php elseif($wall_type == 'swf'): ?>
+
+<?php
+//call to make impressions
+if($up == '1'){
+include('wall-add.php');
+$up = '';
+}
+?>
+
 <?php /*elseif($wall_videos[0]['wall_type'] == 'swf'):*/ ?>
 <?php /* elseif($wall_videos[0]['wall_type'] == 'swf' && $_GET['test-wall'] == 1): */ ?>
 <style>
@@ -194,7 +203,7 @@
 					$("body").removeClass("stop-scrolling");
 					wallcookie=""; // bypass any intervals
 					if(wallcookie == ""){
-						<?php $up='1';?>
+						<?php //$up='1';?>
 						setCookie(c_name,"wall",1);
 					}			
 				}
@@ -207,9 +216,10 @@
 </script>
 <?php
 //call to make impressions
-if($up == '1')
-include('wall-add.php');
-$up = '';
+//if($up == '1'){
+//include('wall-add.php');
+//$up = '';
+//}
 ?>
 
 <?php endif ?>
