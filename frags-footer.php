@@ -1,7 +1,8 @@
 <div id="footer">
 
    <div id="footer_copyright">
-      Copyright 2012 NBA Media Ventures, LLC <span>|</span> NBA Media Ventures, LLC. All rights reserved. No portion of this site may be duplicated, redistributed or manipulated in any form.<br>
+	<?php $year = date('Y'); ?>
+      Copyright <?php echo $year; ?> NBA Media Ventures, LLC <span>|</span> NBA Media Ventures, LLC. All rights reserved. No portion of this site may be duplicated, redistributed or manipulated in any form.<br>
    By accessing any information beyond this page, you agree to abide by the <a href="http://www.nba.com/news/privacy_policy.html">Privacy Policy</a> and <a href="http://www.nba.com/news/termsofuse.html">Terms of Use</a>.<br>
    </div>
 
