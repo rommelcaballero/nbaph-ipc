@@ -292,11 +292,11 @@
 					<a href="http://ph.nba.com/local-events" class="header_nav_link">Events</a>
 					<div class="header_nav_spacer">
 						<div class="header_nav_dropdown" id="header_nav_events">
-							<div><a href="http://ph.nba.com/nbaglobalgamesphilippines2013">NBA Global Games Philippines 2013</a></div>
+							<!--<div><a href="http://ph.nba.com/nbaglobalgamesphilippines2013">NBA Global Games Philippines 2013</a></div>-->
 							<div><a href="http://ph.nba.com/local-events">LOCAL EVENTS</a></div>
 							<div><a href="http://jrnba.asia/philippines/" target="_blank">JR. NBA</a></div>
 							<div><a href="http://www.nba.com/nbafit/" target="_blank">NBA FIT</a></div>
-							<div><a href="http://www.nba3x.com/ph/register.php" target="_blank">NBA 3X</a></div>
+							<!--<div><a href="http://www.nba3x.com/ph/register.php" target="_blank">NBA 3X</a></div>-->
 						</div>
 					</div>
 				</li>
