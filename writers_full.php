@@ -57,7 +57,7 @@ include('queries/writers_full-queries.php');
 						$blog_postedby = $blog_array[$i]['Blogger'];
 						$blog_date = $blog_array[$i]['DatePosted'];
 						$b_title = $blog_title;
-						$blog_title = "<a href=\"writers-content/$blog_id/".seoUrl(strtolower($blog_title))."\" class=\"blog_title_link\">$blog_title</a>";
+						//$blog_title = "<a href=\"writers-content/$blog_id/".seoUrl(strtolower($blog_title))."\" class=\"blog_title_link\">$blog_title</a>";
 						
 						if($sblog_id){
 							$blog_content = $blog_content;
@@ -138,7 +138,7 @@ include('queries/writers_full-queries.php');
 								/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 								var disqus_shortname = 'ph-nba-com'; // required: replace example with your forum shortname	
 								<?php $xbase = 'http://ph.nba.com/'; ?>
-								var disqus_url = '<?php echo $xbase; ?>writers-content/<?php echo $sblog_id; ?>/<?php  echo seoUrl($blog_title); ?>/<?php echo trim(urlencode($blog_postedby)); ?>';
+				 var disqus_url = '<?php echo $xbase; ?>writers-content/<?php echo $sblog_id; ?>/<?php  echo seoUrl($blog_title); ?>/<?php echo trim(urlencode($blog_postedby)); ?>';
 								/* * * DON'T EDIT BELOW THIS LINE * * */
 								(function() {
 									var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -188,8 +188,11 @@ include('queries/writers_full-queries.php');
 							   <!-- end column content -->
 							   <div class="moreblogs_content" >
 
+
+
 								  <?php
-								   if(count($more_array) > 0)
+				   				   //if(count($more_array) > 0)
+								   if($cnt_more_array > 0)
 							  {
 										for ($i = 0; $i < count($more_array); $i += 1)
 								 {
@@ -210,7 +213,7 @@ include('queries/writers_full-queries.php');
 								 ?>
 									<div class="moreblog_item" >
 										
-										<div class="moreblog_title" ><a href="writers-content/<?php echo $mpinoy_id; ?>/<?php echo seoUrl(strtolower($mpinoy_title)); ?>"  ><?php echo $mpinoy_title; ?></a></div>
+<div class="moreblog_title" ><a href="<?php echo $base; ?>writers-content/<?php echo $mpinoy_id; ?>/<?php echo seoUrl(strtolower($mpinoy_title)); ?>"  ><?php echo $mpinoy_title; ?></a></div>
 										<div class="moreblog_posted" ><?php echo date("l F d, Y", strtotime($more_array[$i]['DatePosted'])); ?></div>
 
 									</div>
@@ -350,3 +353,6 @@ include('queries/writers_full-queries.php');
 		<?php include("layouts/background_ads.php"); ?>
 	</body>
 </html>
+
+?>
+
