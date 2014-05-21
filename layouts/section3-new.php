@@ -19,7 +19,8 @@
                               	          echo $news_array[$count]['Link'];
                                     else
                               	          //echo "news_article.php?newsid=" . $row['NewsID'];
-                                         echo "news-article/".$news_array[$count]['NewsID']."/".seoUrl(trim($news_array[$count]['NewsTitle']));
+                                         echo $base . "news-article/".$news_array[$count]['NewsID']."/".seoUrl(trim($news_array[$count]['NewsTitle']));
+			
                            	?>"><?php echo stripslashes($news_array[$count]['Title']); ?></a>
                           </td>
                      </tr>
@@ -114,7 +115,7 @@
 	          	?>
 		        	<tr style="<?php echo $style; ?>">
 		            	<td>
-		                	<a href="<?php echo $features_array[$count]['Link']; ?>"><?php echo stripslashes($features_array[$count]['Title']); ?></a>
+		                	<a href="<?php echo str_replace('/news-archives','',$features_array[$count]['Link']); ?>"><?php echo stripslashes($features_array[$count]['Title']); ?></a>
 		                </td>
 	             	</tr>
 	          	<?php endfor; ?>

@@ -1,7 +1,7 @@
 <?php
-include('sql.php');
+include('sqli2.php');
 
-if ($_GET['start_date']) {
+if (@$_GET['start_date']) {
    $start_date = explode("-", $_GET['start_date']);
 }
 else {
@@ -57,9 +57,12 @@ include('layouts/header.php');
 
       <div style="width: 958px; height: 90px; margin: 0 auto; text-align: center">
  		<?php
-		$results = mysql_query("SELECT Content FROM ads_list WHERE AdsDesc='nba_Features_top_leaderboard' AND Status='s' ");
-		$row = mysql_fetch_array($results);
+		$results = mysqli_query($connect,"SELECT Content FROM ads_list WHERE AdsDesc='nba_Features_top_leaderboard' AND Status='s' ");
+		$num = mysqli_num_rows($results);
+		$row = mysqli_fetch_array($results);
+		if($num>0){
 		echo $row['Content'];
+		}
 		?>
         
       </div>
@@ -77,10 +80,14 @@ include('layouts/header.php');
          
          <!-- left start -->
          <div class="lfloat" style=" width: 185px; height: 600px; background: #fff">
-			<?php
-		$results = mysql_query("SELECT Content FROM ads_list WHERE AdsDesc='nba_Features_skyscraper' AND Status='s' ");
-		$row = mysql_fetch_array($results);
-		echo $row['Content'];
+		<?php
+		$results = mysqli_query($connect,"SELECT Content FROM ads_list WHERE AdsDesc='nba_Features_skyscraper' AND Status='s' ");
+		$num = mysqli_num_rows($results);
+		while($row=mysqli_fetch_array($results)){
+		if($num>0){
+                echo $row['Content'] . '<br>';
+                }
+		}
 		?>
          </div>
          <!-- left end -->
@@ -95,12 +102,12 @@ $page = 0;
 if ($current_page)
    $page = $current_page * $page_max;
 
-$results = mysql_query("select * from features");
-$total = mysql_num_rows($results) / $page_max;
+$results = mysqli_query($connect,"select * from features");
+$total = mysqli_num_rows($results) / $page_max;
 
 if ($page > 0) {
 ?>               
-            	<a href="nba-features/<?php echo ($current_page - 1); ?>"><img src="images/left.png"> Previous</a>
+            	<a href="/nba-features/<?php echo ($current_page - 1); ?>"><img src="<?php echo $base; ?>images/left.png"> Previous</a>
 <?php
 }
 
@@ -112,14 +119,14 @@ if ($page > 0 || $current_page + 1 < $total) {
 
 if ($current_page + 1 < $total) {
 ?>
-            	<a href="nba-features/<?php echo ($current_page + 1); ?>">Next <img src="images/right.png"></a>
+            	<a href="/nba-features/<?php echo ($current_page + 1); ?>">Next <img src="<?php echo $base; ?>images/right.png"></a>
 <?php
 }
 
-$results = mysql_query("select * from features order by Title limit $page, $page_max");
+$results = mysqli_query($connect,"select * from features order by Title limit $page, $page_max");
 $count = 0;
 
- 				while ($row = mysql_fetch_array($results)) {
+ 				while ($row = mysqli_fetch_array($results)) {
 				?>
                
                <div>
@@ -138,8 +145,8 @@ $count = 0;
          <div style="float: left; width: 300px; margin-left: 10px">
             <div style="width: 300px;">
 				<?php
-				$results = mysql_query("SELECT Content FROM ads_list WHERE AdsDesc='nba_Features_medallion1' AND Status='s' ");
-				$row = mysql_fetch_array($results);
+				$results = mysqli_query($connect,"SELECT Content FROM ads_list WHERE AdsDesc='nba_Features_medallion1' AND Status='s' ");
+				$row = mysqli_fetch_array($results);
 				echo $row['Content'];
 				?>
             </div>
@@ -148,8 +155,8 @@ $count = 0;
 
             <div style="width: 300px; height: 100px">
 <?php
-$results = mysql_query("select * from ads where Dimensions = '300x100' order by RAND() limit 0, 1");
-$row = mysql_fetch_array($results);
+$results = mysqli_query($connect,"select * from ads where Dimensions = '300x100' order by RAND() limit 0, 1");
+$row = mysqli_fetch_array($results);
 ?>
                <a href="<?php echo $row['Link']; ?>"><img src="ads/<?php echo $row['Image']; ?>"></a>
             </div>
@@ -163,8 +170,8 @@ $row = mysql_fetch_array($results);
       <!-- top half end -->
       <div style="background:#252525; margin-top:10px;">
 		<?php
-		$results = mysql_query("SELECT Content FROM ads_list WHERE AdsDesc='nba_Features_bottom_leaderboard' AND Status='s' ");
-		$row = mysql_fetch_array($results);
+		$results = mysqli_query($connect,"SELECT Content FROM ads_list WHERE AdsDesc='nba_Features_bottom_leaderboard' AND Status='s' ");
+		$row = mysqli_fetch_array($results);
 		$footer_ads = $row['Content'];
         include('layouts/links.php');
         include('layouts/footer.php');
@@ -185,49 +192,49 @@ var video_count = 0;
 $("#headline_left").click(function() {
    $("#headline_pics").data("scrollable").prev();
 
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_empty.png");
+   $("#headline_circle_" + headline_count).prop("src", "<?php echo $base; ?>images/circle_empty.png");
 
    headline_count -= 1;
    if (headline_count < 0)
       headline_count = 2;
 
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_filled.png");
+   $("#headline_circle_" + headline_count).prop("src", "<?php echo $base; ?>images/circle_filled.png");
 });
 
 $("#headline_right").click(function() {
    $("#headline_pics").data("scrollable").next();
 
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_empty.png");
+   $("#headline_circle_" + headline_count).prop("src", "<?php echo $base; ?>images/circle_empty.png");
 
    headline_count += 1;
    if (headline_count > 2)
       headline_count = 0;
 
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_filled.png");
+   $("#headline_circle_" + headline_count).prop("src", "<?php echo $base; ?>images/circle_filled.png");
 });
 
 $("#video_left").click(function() {
    $("#" + video_section).data("scrollable").prev();
 
-   $("#video_circle_" + video_count).prop("src", "images/circle_empty.png");
+   $("#video_circle_" + video_count).prop("src", "<?php echo $base; ?>images/circle_empty.png");
 
    video_count -= 1;
    if (video_count < 0)
       video_count = 2;
 
-   $("#video_circle_" + video_count).prop("src", "images/circle_filled.png");
+   $("#video_circle_" + video_count).prop("src", "<?php echo $base; ?>images/circle_filled.png");
 });
 
 $("#video_right").click(function() {
    $("#" + video_section).data("scrollable").next();
 
-   $("#video_circle_" + video_count).prop("src", "images/circle_empty.png");
+   $("#video_circle_" + video_count).prop("src", "<?php echo $base; ?>images/circle_empty.png");
 
    video_count += 1;
    if (video_count > 2)
       video_count = 0;
 
-   $("#video_circle_" + video_count).prop("src", "images/circle_filled.png");
+   $("#video_circle_" + video_count).prop("src", "<?php echo $base; ?>images/circle_filled.png");
 });
 
 var video_tab = "video_list_highlights";
@@ -275,5 +282,5 @@ include('nav_js.php');
 </body>
 </html>
 <?php
-mysql_close($connect);
+//mysql_close($connect);
 ?>

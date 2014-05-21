@@ -71,8 +71,9 @@ include('layouts/header.php');
            		
               	<b>News Archives</b><br>
             	<b>NBA News Archives:</b>
-            	<?php echo date("m|d|y", mktime(0, 0, 0, $start_date[1], $start_date[2], $start_date[0])); ?> to
-            	<?php echo date("m|d|y", mktime(0, 0, 0, $start_date[1], $start_date[2] + 6, $start_date[0])); ?><br>
+		<?php  $start_date = array(@date("Y"), @date("m"), @date("d") - @date("w"));  ?>
+            	<?php echo date("m/d/Y", mktime(0, 0, 0, $start_date[1], $start_date[2] - 6, $start_date[0])); ?> to
+            	<?php echo date("m/d/Y", mktime(0, 0, 0, $start_date[1], $start_date[2], $start_date[0])); ?><br>
             	<a href="news-archives/<?php echo date("Y-m-d", mktime(0, 0, 0, $start_date[1], $start_date[2] - 7, $start_date[0])); ?>"><img src="images/left.png"> Previous Week</a> |
             	<?php if (($start_date) && (time() > strtotime(date("Y-m-d", mktime(0, 0, 0, $start_date[1], $start_date[2] + 7, $start_date[0]))))) { ?>
             	<a href="news-archives/<?php echo date("Y-m-d", mktime(0, 0, 0, $start_date[1], $start_date[2] + 7, $start_date[0])); ?>">Next Week <img src="images/right.png"></a>
