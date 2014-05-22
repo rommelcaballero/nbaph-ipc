@@ -19,11 +19,11 @@ include('queries/archives-queries.php');
 <link rel="stylesheet" type="text/css" href="/css/ie7_style.css">
 <![endif]-->
 
-<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="jquery.tools.min.js"></script>
-<script type="text/javascript" src="jquery.imgpreload.js"></script>
-<script type="text/javascript" src="colorbox/jquery.colorbox.js"></script>
-<script type="text/javascript" src="java.js"></script>
+<script type="text/javascript" src="/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/jquery.tools.min.js"></script>
+<script type="text/javascript" src="/jquery.imgpreload.js"></script>
+<script type="text/javascript" src="/colorbox/jquery.colorbox.js"></script>
+<script type="text/javascript" src="/java.js"></script>
 </head>
 
 <body>
@@ -70,15 +70,13 @@ include('layouts/header.php');
          <div class="lfloat" id="archive_center" style="width: 415px; margin-left: 10px; font-size: 12px; color: #444">
            		
               	<b>News Archives</b><br>
-            	<b>NBA News Archives:</b>
-		<?php  $start_date = array(@date("Y"), @date("m"), @date("d") - @date("w"));  ?>
-            	<?php echo date("m/d/Y", mktime(0, 0, 0, $start_date[1], $start_date[2] - 6, $start_date[0])); ?> to
-            	<?php echo date("m/d/Y", mktime(0, 0, 0, $start_date[1], $start_date[2], $start_date[0])); ?><br>
-            	<a href="news-archives/<?php echo date("Y-m-d", mktime(0, 0, 0, $start_date[1], $start_date[2] - 7, $start_date[0])); ?>"><img src="images/left.png"> Previous Week</a> |
+
+		<a href="/news-archives/<?php echo date("Y-m-d", mktime(0, 0, 0, $start_date[1], $start_date[2] - 7, $start_date[0])); ?>"><img src="/images/left.png"> Previous Week</a> |
             	<?php if (($start_date) && (time() > strtotime(date("Y-m-d", mktime(0, 0, 0, $start_date[1], $start_date[2] + 7, $start_date[0]))))) { ?>
-            	<a href="news-archives/<?php echo date("Y-m-d", mktime(0, 0, 0, $start_date[1], $start_date[2] + 7, $start_date[0])); ?>">Next Week <img src="images/right.png"></a>
+            	<a href="/news-archives/<?php echo date("Y-m-d", mktime(0, 0, 0, $start_date[1], $start_date[2] + 7, $start_date[0])); ?>">Next Week <img src="/images/right.png"></a>
             	<?php } ?>
 
+		<br>
                 <?php
 $date = "";
 
@@ -86,7 +84,7 @@ $date = "";
 				   $current = explode(" ", $news_array[$count]['DatePosted']);
 				
 				   if ($news_array[$count]['Source'] == 'PH') {
-						$link_3 = "news-article/".$news_array[$count]['NewsID']."/".seoUrl(strtolower($news_array[$count]['Title']));
+						$link_3 = "/news-article/".$news_array[$count]['NewsID']."/".seoUrl(strtolower($news_array[$count]['Title']));
 					} else {
 						$link_3 = $news_array[$count]['Link'];
 					}
@@ -97,6 +95,7 @@ $date = "";
                    echo "<!-- close div -->\n";
                   }
                   echo "<!-- open div -->\n";
+				          echo '<br>';
 					  echo '<div class="archive_section">' . "\n";
 					  $ex = explode("-", $current[0]);
 					  echo date("l F d, Y", mktime(0, 0, 0, $ex[1], $ex[2], $ex[0]));
@@ -132,7 +131,7 @@ $date = "";
             <div style="height: 10px"></div>
 
             <div style="width: 300px; height: 100px">
-               <a href="<?php echo $ad['Link']; ?>"><img src="ads/<?php echo $ad['Image']; ?>"></a>
+               <a href="<?php echo $ad['Link']; ?>"><img src="/ads/<?php echo $ad['Image']; ?>"></a>
             </div>
          </div>
          <!-- right end -->
@@ -163,49 +162,49 @@ var video_count = 0;
 $("#headline_left").click(function() {
    $("#headline_pics").data("scrollable").prev();
 
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_empty.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_empty.png");
 
    headline_count -= 1;
    if (headline_count < 0)
       headline_count = 2;
 
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_filled.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_filled.png");
 });
 
 $("#headline_right").click(function() {
    $("#headline_pics").data("scrollable").next();
 
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_empty.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_empty.png");
 
    headline_count += 1;
    if (headline_count > 2)
       headline_count = 0;
 
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_filled.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_filled.png");
 });
 
 $("#video_left").click(function() {
    $("#" + video_section).data("scrollable").prev();
 
-   $("#video_circle_" + video_count).prop("src", "images/circle_empty.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_empty.png");
 
    video_count -= 1;
    if (video_count < 0)
       video_count = 2;
 
-   $("#video_circle_" + video_count).prop("src", "images/circle_filled.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_filled.png");
 });
 
 $("#video_right").click(function() {
    $("#" + video_section).data("scrollable").next();
 
-   $("#video_circle_" + video_count).prop("src", "images/circle_empty.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_empty.png");
 
    video_count += 1;
    if (video_count > 2)
       video_count = 0;
 
-   $("#video_circle_" + video_count).prop("src", "images/circle_filled.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_filled.png");
 });
 
 var video_tab = "video_list_highlights";
