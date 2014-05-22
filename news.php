@@ -51,7 +51,7 @@ include('queries/news-queries.php');
                          }
                          if ($main_article['Photo']) {
                          ?>
-                         <div style="text-align: right">
+                         <div style="text-align: left">
                               <div style="width: 100%; height: 300px; background: #ccc"><a href="<?php echo $link; ?>"><img src="<?php echo $main_article['Photo']; ?>" border="0"></a></div>
                               <b><?php echo $main_article['PhotoCredit']; ?></b>
                          </div>
