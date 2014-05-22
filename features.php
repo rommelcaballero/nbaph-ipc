@@ -107,7 +107,7 @@ $total = mysqli_num_rows($results) / $page_max;
 
 if ($page > 0) {
 ?>               
-            	<a href="/nba-features/<?php echo ($current_page - 1); ?>"><img src="<?php echo $base; ?>images/left.png"> Previous</a>
+            	<a href="/nba-features/<?php echo ($current_page - 1); ?>"><img src="/images/left.png"> Previous</a>
 <?php
 }
 
@@ -119,7 +119,7 @@ if ($page > 0 || $current_page + 1 < $total) {
 
 if ($current_page + 1 < $total) {
 ?>
-            	<a href="/nba-features/<?php echo ($current_page + 1); ?>">Next <img src="<?php echo $base; ?>images/right.png"></a>
+            	<a href="/nba-features/<?php echo ($current_page + 1); ?>">Next <img src="/images/right.png"></a>
 <?php
 }
 
@@ -192,49 +192,49 @@ var video_count = 0;
 $("#headline_left").click(function() {
    $("#headline_pics").data("scrollable").prev();
 
-   $("#headline_circle_" + headline_count).prop("src", "<?php echo $base; ?>images/circle_empty.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_empty.png");
 
    headline_count -= 1;
    if (headline_count < 0)
       headline_count = 2;
 
-   $("#headline_circle_" + headline_count).prop("src", "<?php echo $base; ?>images/circle_filled.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_filled.png");
 });
 
 $("#headline_right").click(function() {
    $("#headline_pics").data("scrollable").next();
 
-   $("#headline_circle_" + headline_count).prop("src", "<?php echo $base; ?>images/circle_empty.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_empty.png");
 
    headline_count += 1;
    if (headline_count > 2)
       headline_count = 0;
 
-   $("#headline_circle_" + headline_count).prop("src", "<?php echo $base; ?>images/circle_filled.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_filled.png");
 });
 
 $("#video_left").click(function() {
    $("#" + video_section).data("scrollable").prev();
 
-   $("#video_circle_" + video_count).prop("src", "<?php echo $base; ?>images/circle_empty.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_empty.png");
 
    video_count -= 1;
    if (video_count < 0)
       video_count = 2;
 
-   $("#video_circle_" + video_count).prop("src", "<?php echo $base; ?>images/circle_filled.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_filled.png");
 });
 
 $("#video_right").click(function() {
    $("#" + video_section).data("scrollable").next();
 
-   $("#video_circle_" + video_count).prop("src", "<?php echo $base; ?>images/circle_empty.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_empty.png");
 
    video_count += 1;
    if (video_count > 2)
       video_count = 0;
 
-   $("#video_circle_" + video_count).prop("src", "<?php echo $base; ?>images/circle_filled.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_filled.png");
 });
 
 var video_tab = "video_list_highlights";
