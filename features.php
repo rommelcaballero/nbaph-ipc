@@ -158,7 +158,7 @@ $count = 0;
 $results = mysqli_query($connect,"select * from ads where Dimensions = '300x100' order by RAND() limit 0, 1");
 $row = mysqli_fetch_array($results);
 ?>
-               <a href="<?php echo $row['Link']; ?>"><img src="ads/<?php echo $row['Image']; ?>"></a>
+               <a href="<?php echo $row['Link']; ?>"><img src="/ads/<?php echo $row['Image']; ?>"></a>
             </div>
          </div>
          <!-- right end -->
