@@ -62,9 +62,9 @@ include('queries/blogs_full-queries.php');
 						$link = "";
 					}else{
 						$blog_content = $blog_intro;
-						$blog_content .= "<br><a href=\"bloggers/$blog_id/".seoUrl($blog_title)."\" class=\"blog_title_link\">read more</a>";
+						$blog_content .= "<br><a href=\"/bloggers/$blog_id/".seoUrl($blog_title)."\" class=\"blog_title_link\">read more</a>";
 						$link = $blog_id;
-						$blog_title = "<a href=\"bloggers/$blog_id/".seoUrl($blog_title)."\" class=\"blog_title_link\">$blog_title</a>";
+						$blog_title = "<a href=\"/bloggers/$blog_id/".seoUrl($blog_title)."\" class=\"blog_title_link\">$blog_title</a>";
 					}
 				?>
 				<!-- pb writer <?php echo $ctr; ?> -->
@@ -206,7 +206,7 @@ include('queries/blogs_full-queries.php');
 			?>
 			<div class="moreblog_item" >
 				
-				<div class="moreblog_title" ><a href="bloggers/<?php echo $mpinoy_id; ?>/<?php echo seoUrl(strtolower($mpinoy_title)); ?>"  ><?php echo $mpinoy_title; ?></a></div>
+				<div class="moreblog_title" ><a href="/bloggers/<?php echo $mpinoy_id; ?>/<?php echo seoUrl(strtolower($mpinoy_title)); ?>"  ><?php echo $mpinoy_title; ?></a></div>
 				<div class="moreblog_posted" ><?php echo date("l F d, Y", strtotime($more_array[$i]['DatePosted'])); ?></div>
 
 			</div>
