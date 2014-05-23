@@ -18,11 +18,11 @@ include('queries/blogs-queries.php');
 <!--[if IE 7]>
 <link rel="stylesheet" type="text/css" href="/css/ie7_style.css">
 <![endif]-->
-<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="jquery.tools.min.js"></script>
-<script type="text/javascript" src="jquery.imgpreload.js"></script>
-<script type="text/javascript" src="colorbox/jquery.colorbox.js"></script>
-<script type="text/javascript" src="java.js"></script>
+<script type="text/javascript" src="/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/jquery.tools.min.js"></script>
+<script type="text/javascript" src="/jquery.imgpreload.js"></script>
+<script type="text/javascript" src="/colorbox/jquery.colorbox.js"></script>
+<script type="text/javascript" src="/java.js"></script>
 </head>
 
 <body>
@@ -104,7 +104,7 @@ $blogger_pic = $blog_array[$i]['aws_photo_name'];
 <?php
 	} else {
 ?>
-                                       <a href="bloggers/<?php echo $blog_array[$i]['BlogID']; ?>/<?php echo seoUrl(strtolower($blog_array[$i]['BlogTitle'])); ?>"><?php echo stripslashes($blog_array[$i]['BlogTitle']); ?></a>
+                                       <a href="/bloggers/<?php echo $blog_array[$i]['BlogID']; ?>/<?php echo seoUrl(strtolower($blog_array[$i]['BlogTitle'])); ?>"><?php echo stripslashes($blog_array[$i]['BlogTitle']); ?></a>
 <?php
 	}
 ?>
@@ -127,7 +127,7 @@ $blogger_pic = $blog_array[$i]['aws_photo_name'];
 	} else {
 ?>
 				    <div class="writer_links">
-                                       <a href="bloggers/<?php echo $blog_array[$i]['BlogID']; ?>/<?php echo seoUrl(strtolower($blog_array[$i]['BlogTitle'])); ?>">Full Story</a> | <a href="bloggers/<?php echo urlencode($blog_array[$i]['Blogger']); ?>">Archive</a>
+                                       <a href="/bloggers/<?php echo $blog_array[$i]['BlogID']; ?>/<?php echo seoUrl(strtolower($blog_array[$i]['BlogTitle'])); ?>">Full Story</a> | <a href="bloggers/<?php echo urlencode($blog_array[$i]['Blogger']); ?>">Archive</a>
                                     </div>
 <?php
 	}
@@ -173,7 +173,7 @@ $blogger_pic = $blog_array[$i]['aws_photo_name'];
 if ($ad['Link']) {
 ?>
             <div style="width: 300px; height: 100px">
-               <a href="<?php echo $ad['Link']; ?>"><img src="ads/<?php echo $ad['Image']; ?>"></a>
+               <a href="<?php echo $ad['Link']; ?>"><img src="/ads/<?php echo $ad['Image']; ?>"></a>
             </div>
 <?php
 }
