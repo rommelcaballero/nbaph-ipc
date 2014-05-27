@@ -16,7 +16,7 @@
                  }
                 else
                  {
-                    $offr_link = "off-court-news/".$other_array[$count]["OffcourtID"]."/".seoUrl(stripslashes($other_array[$count]['Title'])); 
+                    $offr_link = "/off-court-news/".$other_array[$count]["OffcourtID"]."/".seoUrl(stripslashes($other_array[$count]['Title'])); 
                  }
             ?>
                 <div style="padding: 0px 0px 5px 0px;" ><a href="<?php echo $offr_link; ?>"><?php echo stripslashes($other_array[$count]['Title']); ?></a></div>

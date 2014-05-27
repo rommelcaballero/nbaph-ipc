@@ -17,7 +17,7 @@ include('queries/offcourt_news-queries.php');
    }
    else
    {
-      $offm_link = "off-court-news/".$offcourt_id."/".seoUrl($offcourt_title);
+      $offm_link = "/off-court-news/".$offcourt_id."/".seoUrl($offcourt_title);
    }
 
    $offm_img = $found_array['Photo'];
@@ -36,11 +36,11 @@ include('queries/offcourt_news-queries.php');
 <!--[if IE 7]>
 <link rel="stylesheet" type="text/css" href="/css/ie7_style.css">
 <![endif]-->
-<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="jquery.tools.min.js"></script>
-<script type="text/javascript" src="jquery.imgpreload.js"></script>
-<script type="text/javascript" src="colorbox/jquery.colorbox.js"></script>
-<script type="text/javascript" src="java.js"></script>
+<script type="text/javascript" src="/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/jquery.tools.min.js"></script>
+<script type="text/javascript" src="/jquery.imgpreload.js"></script>
+<script type="text/javascript" src="/colorbox/jquery.colorbox.js"></script>
+<script type="text/javascript" src="/java.js"></script>
 </head>
 
 <body>
@@ -195,7 +195,7 @@ include('layouts/header.php');
                 }
                else
                 {
-                  $off_link = "off-court-news/".$offcourt_array[$i]["OffcourtID"]."/".seoUrl($offcourt_array[$i]['Title']);
+                  $off_link = "/off-court-news/".$offcourt_array[$i]["OffcourtID"]."/".seoUrl($offcourt_array[$i]['Title']);
                 }
 
                 ?>
