@@ -31,10 +31,12 @@ if($found <= 0) {
    $query_more = "SELECT * FROM personalities WHERE Blogger='".mysqli_real_escape_string($connect, $blog_array[0]['Blogger'])."' and DisplayOn <= NOW() ORDER BY DatePosted DESC LIMIT 0, 20";
    $result_more = mysqli_query($connect, $query_more) or die(mysqli_error()); 
 
+   $cnt_more_array = mysqli_num_rows($result_more);
    $more_array = array();
    $count = 0;
 
    while($row = mysqli_fetch_array($result_more)) {
+	
       $more_array[$count]['BlogID'] = $row['BlogID'];
       $more_array[$count]['BlogTitle'] = $row['BlogTitle'];
       $more_array[$count]['Blogger'] = $row['Blogger'];
