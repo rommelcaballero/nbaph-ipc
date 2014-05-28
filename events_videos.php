@@ -48,7 +48,7 @@ include('layouts/header.php');
 
       <div style="height: 10px"></div>
 
-      <div style="width: 958px; height: 90px; margin: 0 auto; text-align: center; ">
+      <div style="width: 975px; min-height: 90px; margin: 0 auto; text-align: center; ">
       <?php
       echo $ads_list['Content'];
       ?>
@@ -150,7 +150,7 @@ include('layouts/header.php');
                              ?>" width="300" height="200"></div>
 
                              <div style="padding-top: 10px" >
-                                <span class="blue"><a href="events-videos/<?php echo $video_array[$i]['VideoID']; ?>/<?php echo seoUrl($video_array[$i]['Title']); ?>" ><?php echo stripslashes($video_array[$i]['Title']); ?></a></span>
+                                <span class="blue"><a href="/events-videos/<?php echo $video_array[$i]['VideoID']; ?>/<?php echo seoUrl($video_array[$i]['Title']); ?>" ><?php echo stripslashes($video_array[$i]['Title']); ?></a></span>
                                 <?php
                                 $ex = explode("-", $video_array[$i]['DatePosted']);
                                 echo date("F j, Y", mktime(0, 0, 0, $ex[1], $ex[2], $ex[0]));

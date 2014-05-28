@@ -232,7 +232,7 @@ if($found_oa > 0) {
 
         ?>
 
-        <div class="blue" style="padding-bottom: 3px" ><a href="local-events/<?php echo $more_array[$count]['EventID']; ?>/<?php echo seoUrl(trim(stripslashes($more_array[$count]['Title']))); ?>" ><?php echo trim(stripslashes($more_array[$count]['Title'])); ?></a></div>
+        <div class="blue" style="padding-bottom: 3px" ><a href="/local-events/<?php echo $more_array[$count]['EventID']; ?>/<?php echo seoUrl(trim(stripslashes($more_array[$count]['Title']))); ?>" ><?php echo trim(stripslashes($more_array[$count]['Title'])); ?></a></div>
 
         <?php
          }//end while

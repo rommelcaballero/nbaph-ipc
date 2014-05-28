@@ -28,7 +28,7 @@ include('queries/events-general-queries.php');
 
 <body>
 <?php
-include('layouts/popups.php');
+//include('layouts/popups.php');
 ?>
 
 <div id="wrapper">
@@ -40,7 +40,7 @@ include('layouts/header.php');
 
       <div style="height: 10px"></div>
 
-      <div style="width: 958px; height: 90px; margin: 0 auto; text-align: center; ">
+      <div style="width: 975px; min-height: 90px; margin: 0 auto; text-align: center; ">
       <?php
       echo $ads_list['nba_Events_top_leaderboard']['Content'];
       ?>
@@ -68,13 +68,13 @@ include('layouts/header.php');
                ?>
 
                 <div style="width: 630px; text-align: center; background-color: #fef5f5; " >
-                   <center><div ><a href="local-events/<?php echo $events_row['EventID']; ?>/<?php echo seoUrl($events_row['Title']); ?>"><img src="<?php
+                   <center><div ><a href="/local-events/<?php echo $events_row['EventID']; ?>/<?php echo seoUrl($events_row['Title']); ?>"><img src="<?php
                   echo $event_image;
                   ?>"></a></div></center>
                 </div>
 
                 <div class="blue" style="padding: 5px 0px 0px 0px; font-weight: bold; " >
-                   <a href="local-events/<?php echo $events_row['EventID']; ?>/<?php echo seoUrl($events_row['Title']); ?>" ><?php echo $events_row['Title']; ?></a>
+                   <a href="/local-events/<?php echo $events_row['EventID']; ?>/<?php echo seoUrl($events_row['Title']); ?>" ><?php echo $events_row['Title']; ?></a>
                 </div>
 
                 <div style="font-size: 12px; ">
@@ -84,7 +84,7 @@ include('layouts/header.php');
                    if (strlen(stripslashes($events_row['Intro'])) > 200)
                       echo "...";
                    ?>
-                   <span class="blue" ><a href="local-events/<?php echo $events_row['EventID']; ?>/<?php echo seoUrl($events_row['Title']); ?>" >Read full article.</a></span>
+                   <span class="blue" ><a href="/local-events/<?php echo $events_row['EventID']; ?>/<?php echo seoUrl($events_row['Title']); ?>" >Read full article.</a></span>
 
                 </div>
 
@@ -112,7 +112,7 @@ include('layouts/header.php');
                               <?php
                               $preg = array('/width=\"[\d]{1,4}\"/i', '/height=\"[\d]{1,4}\"/i');
                               $with = array('width="277"', 'height="159"');
-                              echo preg_replace($preg, $with, $video_row['EmbedCode']);
+				echo preg_replace($preg, $with, $video_row['EmbedCode']);
                               ?>
                               </div>
 
@@ -163,9 +163,7 @@ include('layouts/header.php');
                                              echo '<tr>';
                                           }
                                         ?>
-                                                 <td><a href="events-photos/<?php echo $photo_array[$count]['AlbumID']; ?>/<?php echo $photo_array[$count]['PhotoID']; ?>/<?php echo seoUrl($photo_array[$count]['Caption']); ?>" title="<?php echo $photo_array[$count]['Caption']; ?>"><img src="<?php
-                                                 echo $phoimg;
-                                                 ?>" width="135" height="90"></a></td>
+                                                 <td><a href="/events-photos/<?php echo $photo_array[$count]['AlbumID']; ?>/<?php echo $photo_array[$count]['PhotoID']; ?>/<?php echo seoUrl($photo_array[$count]['Caption']); ?>" title="<?php echo $photo_array[$count]['Caption']; ?>"><img src="<?php echo $phoimg; ?>" width="160" height="90"></a></td>
 
                                         <?php
                                           if ($count % 2 == 0) {

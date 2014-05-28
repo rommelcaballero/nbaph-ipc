@@ -157,7 +157,7 @@ $sql="SELECT DATE_FORMAT(StartDate, '%d') AS StartDate, DATE_FORMAT(EndDate, '%d
 
       }
 
-$pn = array('<img src="images/calendar_prev.gif" class="calendarPrev" border="0" style="margin: 3px 0px 3px 0px;">'=>NULL, '<img src="images/calendar_next.gif" border="0" style="margin: 3px 20px 3px 0px;" class="calendarNext">'=>NULL);
+$pn = array('<img src="/images/calendar_prev.gif" class="calendarPrev" border="0" style="margin: 3px 0px 3px 0px;">'=>NULL, '<img src="/images/calendar_next.gif" border="0" style="margin: 3px 20px 3px 0px;" class="calendarNext">'=>NULL);
 
 $monthly_calendar = generate_calendar(date('Y', $time), date('n', $time), $days, 3, NULL, 0, $pn);
 

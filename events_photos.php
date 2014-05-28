@@ -43,7 +43,7 @@ position:absolute;
 <script type="text/javascript" src="/java.js"></script>
 </head>
 
-<body>
+<body onload='$("#PrevPhoto").click(); $("#NextPhoto").click();'>
 <?php
 include('layouts/popups.php');
 ?>
@@ -57,7 +57,7 @@ include('layouts/header.php');
 
       <div style="height: 10px"></div>
 
-      <div style="width: 958px; height: 90px; margin: 0 auto; text-align: center; ">
+      <div style="width: 975px; min-height: 90px; margin: 0 auto; text-align: center; ">
       <?php
       echo $ads_list['nba_EventsPhotos_top_leaderboard']['Content'];
       ?>
@@ -158,15 +158,12 @@ include('layouts/header.php');
 
                                 <?php
                            $img_arr = array();
-                            $phoimg = $disp['Filename'];
+                           $phoimg = $disp['Filename'];
                            $img_arr[] = $phoimg;
                         ?>
 
-                                <div class="EventImage image1"><img src="<?php
-                                //echo resizePic($phoimg, 600, 600, '');
-                                echo $phoimg;
-                                ?>" alt="<?php echo ucwords(stripslashes($disp['Caption'])); ?>"></div>
-                                <div class="EventCaption" style="width: 590px"><?php echo $disp['Caption']; ?></div>
+                                <div class="EventImage image1"><img src="<?php //echo resizePic($phoimg, 600, 600, ''); echo $phoimg; ?>" alt="<?php echo ucwords(stripslashes($disp['Caption'])); ?>"></div>
+				<div class="EventCaption" style="width: 590px"><?php echo $disp['Caption']; ?></div>
                                 <div class="EventCredits" style="width: 590px"><?php echo $disp['Credits']; ?></div>
 
                             </div>
@@ -259,12 +256,12 @@ include('layouts/header.php');
                        }
                     ?>
                          <td style="padding-bottom: 30px; vertical-align: top; width: 305px">
-                            <div><a href="events-photos/<?php echo $gallery_array[$count]['AlbumID']; ?>/<?php echo seoUrl(stripslashes($gallery_array[$count]['AlbumName'])); ?>" title="<?php echo $gallery_array[$count]['Caption']; ?>"><img src="<?php
+                            <div><a href="/events-photos/<?php echo $gallery_array[$count]['AlbumID']; ?>/<?php echo seoUrl(stripslashes($gallery_array[$count]['AlbumName'])); ?>" title="<?php echo $gallery_array[$count]['Caption']; ?>"><img src="<?php
                             echo $phoimg;
                             ?>" width="301" height="200" alt="<?php echo ucwords(stripslashes($row['AlbumName'])); ?>"></a></div>
 
                             <div style="padding-top: 10px; font-size: 10pt;  ">
-                                <span class="blue"><a href="events-photos/<?php echo $gallery_array[$count]['AlbumID']; ?>/<?php echo seoUrl(stripslashes($gallery_array[$count]['AlbumName'])); ?>"><?php echo ucwords(stripslashes($gallery_array[$count]['AlbumName'])); ?></a></span>
+                                <span class="blue"><a href="/events-photos/<?php echo $gallery_array[$count]['AlbumID']; ?>/<?php echo seoUrl(stripslashes($gallery_array[$count]['AlbumName'])); ?>"><?php echo ucwords(stripslashes($gallery_array[$count]['AlbumName'])); ?></a></span>
                                 <?php
                                  $ex = explode("-", $gallery_array[$count]['DateAdded']);
                                  echo date("F j, Y", mktime(0, 0, 0, $ex[1], $ex[2], $ex[0]));
@@ -442,7 +439,7 @@ if ($photo_id) {
 ?>
    $("#gallery_pics").data("scrollable").seekTo(<?php echo $photo_targ; ?>, 1);
    gallery_count = <?php echo $photo_targ; ?>;
-   $("#ChangeCount").html(gallery_count + 1);
+   $("#ChangeCount").html(gallery_count);
 <?php
 }?>
 
