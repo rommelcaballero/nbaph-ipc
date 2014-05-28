@@ -1,3 +1,19 @@
+<?php
+	$www = @$_GET['www'];
+	
+        $part_page = "index";
+        $beta = false;
+        include('queries/index-queries-new.php');
+
+                if($num_wall_videos > 0){
+                        $csrf = md5("nbaph-".@date("Y-m-d")."-".@$_SERVER['HTTP_X_FORWARDED_FOR']."-".@$_SERVER['REMOTE_ADDR']);
+                        $_SESSION['_csrf'] = $csrf;
+                        $up = '1';
+                }
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,8 +22,7 @@
 	
 	<META http-equiv="X-UA-Compatible" content="IE=9" />
 	<meta http-equiv="Cache-control" content="public">
-
-
+	
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="style-index.css">
 	<link rel="stylesheet" type="text/css" href="style-new.css">
@@ -17,27 +32,23 @@
 	<script type="text/javascript" src="jquery-ui.js"></script>
 	<script type="text/javascript" src="carousel-index.js"></script>
 	
-<?php //include('leaderboards_js.php'); ?>
+	<?php //include('leaderboards_js.php'); ?>
 	</head>
 	<body>
 
 
 <?php
-        $part_page = "index";
-        $beta = false;
-        include('queries/index-queries-new.php');
+if($up=='1' & $www==''){
+//include('wall.php');
+//$go ='';
+$start='';
+}
 
-                if($num_wall_videos > 0){
-                        $csrf = md5("nbaph-".@date("Y-m-d")."-".@$_SERVER['HTTP_X_FORWARDED_FOR']."-".@$_SERVER['REMOTE_ADDR']);
-                        $_SESSION['_csrf'] = $csrf;
-                        $up = '1';
-			include("wall.php");
-                        $go = '';
-                        $start = '';
-                }
+if($www!=="ph"){
+//exit();
+}
+
 ?>
-
-
 
 
 		<?php //include('layouts/popups.php'); ?>
@@ -95,8 +106,32 @@
   //                      }
 //		}
 
-?>	
+?>
+
+<script type='text/javascript'>
+(function() {
+var useSSL = 'https:' == document.location.protocol;
+var src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+})();
+</script>
+
+<script type='text/javascript'>
+googletag.defineSlot('/7741304/Interstitial_NBA_Homepage', [1, 1], 'div-gpt-ad-1401002731227-0').addService(googletag.pubads());
+googletag.pubads().enableSyncRendering();
+googletag.enableServices();
+</script>
+
+<!-- Interstitial_NBA_Homepage -->
+<div id='div-gpt-ad-1401002731227-0' style='width:1px; height:1px;'>
+<script type='text/javascript'>
+googletag.display('div-gpt-ad-1401002731227-0');
+</script>
+</div>
+	
 	</body>
 
 </html>
+
 
