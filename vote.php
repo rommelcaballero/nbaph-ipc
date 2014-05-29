@@ -8,20 +8,20 @@ include('queries/vote-queries.php');
 <head>
 <title>NBA Philippines</title>
 
-<link rel="stylesheet" type="text/css" href="/css/style.css">
-<link rel="stylesheet" type="text/css" href="/css/style-vote.css">
-<link rel="stylesheet" type="text/css" href="/css/colorbox/colorbox.css">
+<link rel="stylesheet" type="text/css" href="/style.css">
+<link rel="stylesheet" type="text/css" href="/style-vote.css">
+<link rel="stylesheet" type="text/css" href="/colorbox/colorbox.css">
 <!--[if IE]>
-<link rel="stylesheet" type="text/css" href="/css/ie_style.css">
+<link rel="stylesheet" type="text/css" href="/ie_style.css">
 <![endif]-->
 <!--[if IE 7]>
-<link rel="stylesheet" type="text/css" href="/css/ie7_style.css">
+<link rel="stylesheet" type="text/css" href="/ie7_style.css">
 <![endif]-->
-<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="jquery.tools.min.js"></script>
-<script type="text/javascript" src="jquery.imgpreload.js"></script>
-<script type="text/javascript" src="colorbox/jquery.colorbox.js"></script>
-<script type="text/javascript" src="java.js"></script>
+<script type="text/javascript" src="/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/jquery.tools.min.js"></script>
+<script type="text/javascript" src="/jquery.imgpreload.js"></script>
+<script type="text/javascript" src="/colorbox/jquery.colorbox.js"></script>
+<script type="text/javascript" src="/java.js"></script>
 <script>
 
 //option
@@ -34,7 +34,7 @@ $(document).ready(function() {
       //alert(playerid+" --- "+ imgsrc +" --- "+imgid);
       $("#"+imgid).hide(300).html('<img src="'+imgsrc+'">').fadeIn('slow');
 
-      $("#vote_info_" + imgid).html('<img src="images/loader.gif" width="190" height="190">');
+      $("#vote_info_" + imgid).html('<img src="/images/loader.gif" width="190" height="190">');
       $.ajax({
       url: "vote_info_content.php?id="+playerid,
       cache: false,
@@ -47,11 +47,12 @@ $(document).ready(function() {
    });
 
    $("#vote_reset").click(function(){
-      $("#c").html('<img src="images/default_vote.png">');
-      $("#pg").html('<img src="images/default_vote.png">');
-      $("#pf").html('<img src="images/default_vote.png">');
-      $("#sf").html('<img src="images/default_vote.png">');
-      $("#sg").html('<img src="images/default_vote.png">');
+      $("#c").html('<img src="/images/default_vote.png">');
+      $("#pg").html('<img src="/images/default_vote.png">');
+      $("#pf").html('<img src="/images/default_vote.png">');
+      $("#sf").html('<img src="/images/default_vote.png">');
+      $("#sg").html('<img src="/images/default_vote.png">');
+
    });
 
    $("#vote_sub").click(function(){
@@ -89,7 +90,7 @@ include('layouts/header.php');
 
            <div style="height: 10px"></div>
 
-          <div style="width: 980px; height: 90px; margin: 0 auto; text-align: center;">
+          <div style="width: 980px; min-height: 90px; margin: 0 auto; text-align: center;">
         <!-- ADS 728 x 90 | 210x90 -->
           <?php
          echo $ads_list['nba_Vote_top_leaderboard']['Content'];
@@ -111,7 +112,7 @@ include('layouts/header.php');
             <!-- Vote block start CENTER-->
                 <div style="width: 672px; height: 240px; margin: 30px 0px; overflow: hidden;">
                <div style="width: 270px; height: 240px; float: left; overflow: hidden;" id="c">
-                  <img src="images/default_vote.png">
+                  <img src="/images/default_vote.png">
                </div>
                <div style="width: 395px; height: 240px; float: right;font-weight: bold; font-size: 16px; color:#666; padding-left: 5px;">
                   POSITION: <span style="color: #2b75c2; font-weight: bold; font-size: 16px;">CENTER</span>
@@ -122,10 +123,12 @@ include('layouts/header.php');
                         <?php
                            for ($count = 0; $count < 5; $count += 1){
                               echo "<span class=\"option\">";
+			      if($starting_array['Center'][$count]['StartingfiveID']){
                               echo "<input type=\"radio\" name=\"option_c\" id=\"option_c\" value=\"".$starting_array['Center'][$count]['StartingfiveID']."\"> ".$starting_array['Center'][$count]['PlayerName']."";
+			      }
                               echo "<input type=\"hidden\" id=\"imgsrc_".$starting_array['Center'][$count]['StartingfiveID']."\" value=\"".$starting_array['Center'][$count]['Filename']."\">";
                               echo "<input type=\"hidden\" id=\"imgid_".$starting_array['Center'][$count]['StartingfiveID']."\" value=\"c\">";
-                              echo "</span>";
+                              echo "</span><br>";
                            }
                         ?>
                      </div>
@@ -142,7 +145,7 @@ include('layouts/header.php');
             <!-- Vote block start POWER FORWARD-->
                 <div style="width: 672px; height: 240px; margin: 10px 0px; overflow: hidden;">
                <div style="width: 270px; height: 240px; float: left; overflow: hidden;" id="pf">
-                  <img src="images/default_vote.png">
+                  <img src="/images/default_vote.png">
                </div>
                <div style="width: 395px; height: 240px; float: right;font-weight: bold; font-size: 16px; color:#666; padding-left: 5px;">
                   POSITION: <span style="color: #2b75c2; font-weight: bold; font-size: 16px;">POWER FORWARD</span>
@@ -156,7 +159,7 @@ include('layouts/header.php');
                               echo "<input type=\"radio\" name=\"option_pf\" id=\"option_pf\" value=\"".$starting_array['Power Forward'][$count]['StartingfiveID']."\"> ".$starting_array['Power Forward'][$count]['PlayerName']."";
                               echo "<input type=\"hidden\" id=\"imgsrc_".$starting_array['Power Forward'][$count]['StartingfiveID']."\" value=\"".$starting_array['Power Forward'][$count]['Filename']."\">";
                               echo "<input type=\"hidden\" id=\"imgid_".$starting_array['Power Forward'][$count]['StartingfiveID']."\" value=\"pf\">";
-                              echo "</span>";
+                              echo "</span><br>";
                            }
                         ?>
                      </div>
@@ -172,7 +175,7 @@ include('layouts/header.php');
             <!-- Vote block start SMALL FORWARD-->
                 <div style="width: 672px; height: 240px; margin: 10px 0px; overflow: hidden;">
                <div style="width: 270px; height: 240px; float: left; overflow: hidden;" id="sf">
-                  <img src="images/default_vote.png">
+                  <img src="/images/default_vote.png">
                </div>
                <div style="width: 395px; height: 240px; float: right;font-weight: bold; font-size: 16px; color:#666; padding-left: 5px;">
                   POSITION: <span style="color: #2b75c2; font-weight: bold; font-size: 16px;">SMALL FORWARD</span>
@@ -186,7 +189,7 @@ include('layouts/header.php');
                               echo "<input type=\"radio\" name=\"option_sf\" id=\"option_sf\" value=\"".$starting_array['Small Forward'][$count]['StartingfiveID']."\"> ".$starting_array['Small Forward'][$count]['PlayerName']."";
                               echo "<input type=\"hidden\" id=\"imgsrc_".$starting_array['Small Forward'][$count]['StartingfiveID']."\" value=\"".$starting_array['Small Forward'][$count]['Filename']."\">";
                               echo "<input type=\"hidden\" id=\"imgid_".$starting_array['Small Forward'][$count]['StartingfiveID']."\" value=\"sf\">";
-                              echo "</span>";
+                              echo "</span><br>";
                            }
                         ?>
                      </div>
@@ -202,7 +205,7 @@ include('layouts/header.php');
             <!-- Vote block start SHOOTING GUARD-->
                 <div style="width: 672px; height: 240px; margin: 10px 0px; overflow: hidden;">
                <div style="width: 270px; height: 240px; float: left; overflow: hidden;" id="sg">
-                  <img src="images/default_vote.png">
+                  <img src="/images/default_vote.png">
                </div>
                <div style="width: 395px; height: 240px; float: right;font-weight: bold; font-size: 16px; color:#666; padding-left: 5px;">
                   POSITION: <span style="color: #2b75c2; font-weight: bold; font-size: 16px;"> SHOOTING GUARD</span>
@@ -216,7 +219,7 @@ include('layouts/header.php');
                               echo "<input type=\"radio\" name=\"option_sg\" id=\"option_sg\" value=\"".$starting_array['Shooting Guard'][$count]['StartingfiveID']."\"> ".$starting_array['Shooting Guard'][$count]['PlayerName']."";
                               echo "<input type=\"hidden\" id=\"imgsrc_".$starting_array['Shooting Guard'][$count]['StartingfiveID']."\" value=\"".$starting_array['Shooting Guard'][$count]['Filename']."\">";
                               echo "<input type=\"hidden\" id=\"imgid_".$starting_array['Shooting Guard'][$count]['StartingfiveID']."\" value=\"sg\">";
-                              echo "</span>";
+                              echo "</span><br>";
                            }
                         ?>
                      </div>
@@ -232,7 +235,7 @@ include('layouts/header.php');
             <!-- Vote block start POINT GUARD-->
                 <div style="width: 672px; height: 240px; margin: 10px 0px; overflow: hidden;">
                <div style="width: 270px; height: 240px; float: left; overflow: hidden;"  id="pg">
-                  <img src="images/default_vote.png">
+                  <img src="/images/default_vote.png">
                </div>
                <div style="width: 395px; height: 240px; float: right;font-weight: bold; font-size: 16px; color:#666; padding-left: 5px;">
                   POSITION: <span style="color: #2b75c2; font-weight: bold; font-size: 16px;"> POINT GUARD</span>
@@ -246,7 +249,7 @@ include('layouts/header.php');
                               echo "<input type=\"radio\" name=\"option_pg\" id=\"option_pg\" value=\"".$starting_array['Point Guard'][$count]['StartingfiveID']."\"> ".$starting_array['Point Guard'][$count]['PlayerName']."";
                               echo "<input type=\"hidden\" id=\"imgsrc_".$starting_array['Point Guard'][$count]['StartingfiveID']."\" value=\"".$starting_array['Point Guard'][$count]['Filename']."\">";
                               echo "<input type=\"hidden\" id=\"imgid_".$starting_array['Point Guard'][$count]['StartingfiveID']."\" value=\"pg\">";
-                              echo "</span>";
+                              echo "</span><br>";
                            }
                         ?>
                      </div>
@@ -264,21 +267,21 @@ include('layouts/header.php');
             if(!isset($_SESSION['voteStatus']) && !isset($_POST['vote_sub'])){
             ?>
 
-               <input class="vote_btns" type="reset" name="vote_reset" value="" id="vote_reset" style="border: 0px; background: url('images/reset_new.png'); width: 140px; height: 30px;">
+               <input class="vote_btns" type="reset" name="vote_reset" value="" id="vote_reset" style="border: 0px; background: url('/images/reset_new.png'); width: 140px; height: 30px;">
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               <input class="vote_btns" type="submit" name="vote_sub" id="vote_sub" value="" style="border: 0px; background: url('images/vote_new.png'); width: 140px; height: 30px;">
+               <input class="vote_btns" type="submit" name="vote_sub" id="vote_sub" value="" style="border: 0px; background: url('/images/vote_new.png'); width: 140px; height: 30px;">
             <?php
             }else{
             if($success==''){
 
             ?>
             <h1 style="text-align: center; color: #F00;">You have already voted!<br> View the results!<br>
-               <a href="startingfive.php" style="text-decoration: none;"><span style="text-align: center; font-size: 18px; color: #2b75c2; margin: 0px; padding: 0px;">Click Here</span></a></h1>
+               <a href="/startingfive.php" style="text-decoration: none;"><span style="text-align: center; font-size: 18px; color: #2b75c2; margin: 0px; padding: 0px;">Click Here</span></a></h1>
             <?php
             }else{
             ?>
             <h1 style="text-align: center; color: #F00;"><?php echo $success;?><br> View the results!<br>
-               <a href="startingfive.php" style="text-decoration: none;"><span style="text-align: center; font-size: 18px; color: #2b75c2; margin: 0px; padding: 0px;">Click Here</span></a></h1>
+               <a href="/startingfive.php" style="text-decoration: none;"><span style="text-align: center; font-size: 18px; color: #2b75c2; margin: 0px; padding: 0px;">Click Here</span></a></h1>
 
             <?php
             }
@@ -306,8 +309,8 @@ include('layouts/header.php');
          ?>
 
                 <!-- writers start -->
-                <div style="width: 300px; padding: 5px 0 2px 0; background: url('images/rounded_bottom_300.png') bottom center no-repeat">
-                   <div class="article_header" style="background: url('images/rounded_top_300.png'); width: 270px; height: 15px">
+                <div style="width: 300px; padding: 5px 0 2px 0; background: url('/images/rounded_bottom_300.png') bottom center no-repeat">
+                   <div class="article_header" style="background: url('/images/rounded_top_300.png'); width: 270px; height: 15px">
                       NBA WRITERS
                    </div>
 
@@ -335,11 +338,12 @@ include('layouts/header.php');
                             <table>
     <?php
     for ($count = 0; $count < count($write_array); $count += 1) {
-      $blogger_pic = strtolower(urlencode($write_array[$count]['Blogger']));
+      $blogger_pic = str_replace("+","",strtolower(urlencode($write_array[$count]['Blogger'])));
+      
     ?>
                                <tr>
                                   <td style="width: 55px; vertical-align: top; padding-top: 10px; " >
-                                     <div style="width: 45px; height: 75px;"><img src="images/personalities/<?php echo $blogger_pic; ?>.jpg" border="0"></div>
+                                     <div style="width: 45px; height: 75px;"><img src="/images/personalities/<?php echo $blogger_pic; ?>.jpg" border="0"></div>
                                   </td>
                                   <td style="vertical-align: top;  padding-top: 10px;  " >
                                      <div class="writer_title">
@@ -348,7 +352,7 @@ include('layouts/header.php');
 ?>
                                         <a href="<?php echo stripslashes($write_array[$count]['BlogLink']); ?>" target="_blank"><?php echo stripslashes($write_array[$count]['BlogTitle']); ?></a>
 <?php } else { ?>
-               <a href="writers-content/<?php echo $write_array[$count]['BlogID']; ?>/<?php echo seoUrl(stripslashes($write_array[$count]['BlogTitle'])); ?>"><?php echo stripslashes($write_array[$count]['BlogTitle']); ?></a>
+               <a href="/writers-content/<?php echo $write_array[$count]['BlogID']; ?>/<?php echo seoUrl(stripslashes($write_array[$count]['BlogTitle'])); ?>"><?php echo stripslashes($write_array[$count]['BlogTitle']); ?></a>
 <?php }  ?>
                                      </div>
 
@@ -377,11 +381,11 @@ include('layouts/header.php');
                             <table>
     <?php
     for ($count = 0; $count < count($write_array); $count += 1) {
-      $blogger_pic = strtolower(urlencode($blog_array[$count]['Blogger']));
+      $blogger_pic = str_replace("+","",strtolower(urlencode($blog_array[$count]['Blogger'])));
     ?>
                                <tr>
                                   <td style="width: 55px; vertical-align: top; padding-top: 10px; " >
-                                     <div style="width: 45px; height: 75px;"><img src="images/blogs/<?php echo $blogger_pic; ?>.jpg" border="0"></div>
+                                     <div style="width: 45px; height: 75px;"><img src="/images/blogs/<?php echo $blogger_pic; ?>.jpg" border="0"></div>
                                   </td>
                                   <td>
                                      <div class="writer_title">
@@ -390,7 +394,7 @@ include('layouts/header.php');
 ?>
                                         <a href="<?php echo stripslashes($blog_array[$count]['BlogLink']); ?>" target="_blank"><?php echo stripslashes($blog_array[$count]['BlogTitle']); ?></a>
 <?php } else { ?>
-               <a href="bloggers/<?php echo $blog_array[$count]['BlogID']; ?>/<?php echo seoUrl(stripslashes($blog_array[$count]['BlogTitle'])); ?>"><?php echo stripslashes($blog_array[$count]['BlogTitle']); ?></a>
+               <a href="/bloggers/<?php echo $blog_array[$count]['BlogID']; ?>/<?php echo seoUrl(stripslashes($blog_array[$count]['BlogTitle'])); ?>"><?php echo stripslashes($blog_array[$count]['BlogTitle']); ?></a>
 <?php }  ?>
                                      </div>
 
@@ -418,8 +422,8 @@ include('layouts/header.php');
                    <!-- writers content end -->
                 </div>
                 <!-- writers end -->
-            <div style="width: 300px; padding: 5px 0 2px 0; background: url('images/rounded_bottom_330.png') bottom center no-repeat">
-                   <div class="article_header" style="background: url('images/rounded_top_300.png') no-repeat; width: 300px; height: 15px;">
+            <div style="width: 300px; padding: 5px 0 2px 0; background: url('/images/rounded_bottom_330.png') bottom center no-repeat">
+                   <div class="article_header" style="background: url('/images/rounded_top_300.png') no-repeat; width: 300px; height: 15px;">
                       PHOTO GALLERY
                    </div>
 
@@ -428,7 +432,7 @@ include('layouts/header.php');
                       <table cellspacing="0" cellpadding="0">
                          <tr>
                             <td style="width: 13px">
-                               <img src="images/left_btn_small.png" id="gallery_left" class="pointer">
+                               <img src="/images/left_btn_small.png" id="gallery_left" class="pointer">
                             </td>
                             <td style="width: 255px; padding: 0 5px">
                                <div class="scroll" id="gallery_pics" style="width: 255px; height: 255px; ">
@@ -444,7 +448,7 @@ include('layouts/header.php');
                                         <table cellspacing="0" cellpadding="0" style="width: 255px; height: 255px">
                                            <tr>
                                               <td style="text-align: center">
-                                                 <a  title="<?php echo stripslashes($gallery_array[$count]['Caption']); ?>" href="photos.php?gallery_id=<?php echo $gallery_array[$count]['GalleryID']; ?>"><img src="<?php echo $filename; ?>"></a>
+                                                 <a  title="<?php echo stripslashes($gallery_array[$count]['Caption']); ?>" href="/photos.php?gallery_id=<?php echo $gallery_array[$count]['GalleryID']; ?>"><img src="<?php echo $filename; ?>"></a>
                                               </td>
                                            </tr>
                                         </table>
@@ -456,7 +460,7 @@ include('layouts/header.php');
                                </div>
                             </td>
                             <td style="width: 13px; text-align: right">
-                               <img src="images/right_btn_small.png" id="gallery_right" class="pointer">
+                               <img src="/images/right_btn_small.png" id="gallery_right" class="pointer">
                             </td>
                          </tr>
                          <tr>

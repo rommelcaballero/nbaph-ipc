@@ -21,11 +21,11 @@ include('queries/photos-queries.php');
 <!--[if IE 7]>
 <link rel="stylesheet" type="text/css" href="/css/ie7_style.css">
 <![endif]-->
-<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="jquery.tools.min.js"></script>
-<script type="text/javascript" src="jquery.imgpreload.js"></script>
-<script type="text/javascript" src="colorbox/jquery.colorbox.js"></script>
-<script type="text/javascript" src="java.js"></script>
+<script type="text/javascript" src="/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/jquery.tools.min.js"></script>
+<script type="text/javascript" src="/jquery.imgpreload.js"></script>
+<script type="text/javascript" src="/colorbox/jquery.colorbox.js"></script>
+<script type="text/javascript" src="/java.js"></script>
 </head>
 
 <body>
@@ -287,7 +287,7 @@ include('layouts/header.php');
 if ($ad['Link']) {
 ?>
             <div style="width: 300px; height: 100px">
-               <a href="<?php echo $ad['Link']; ?>"><img src="ads/<?php echo $ad['Image']; ?>"></a>
+               <a href="<?php echo $ad['Link']; ?>"><img src="/ads/<?php echo $ad['Image']; ?>"></a>
             </div>
 <?php
 }
@@ -318,6 +318,7 @@ if ($ad['Link']) {
 
 <script type="text/javascript">
 <!--
+
 var gallery_count = 0;
 var gallery_array = new Array(<?php
 for ($i = 0; $i < count($img_arr); $i += 1) {
