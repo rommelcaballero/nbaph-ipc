@@ -10,7 +10,7 @@ if(isset($_POST['vote_sub'])){
    if(!isset($_SESSION['voteStatus'])){
       $votes=array($_POST['option_c'], $_POST['option_pf'], $_POST['option_sf'], $_POST['option_sg'], $_POST['option_pg']);
 
-      print_r($votes);
+      //print_r($votes);
 
       foreach($votes as $key){
          $key = mysqli_real_escape_string($connect, $key);
