@@ -12,20 +12,20 @@ include('queries/startingfive-queries.php');
 
 <base href="<?php  echo $base; ?>">
 
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" type="text/css" href="style-startingfive.css">
-<link rel="stylesheet" type="text/css" href="colorbox/colorbox.css">
+<link rel="stylesheet" type="text/css" href="/style.css">
+<link rel="stylesheet" type="text/css" href="/style-vote.css">
+<link rel="stylesheet" type="text/css" href="/colorbox/colorbox.css">
 <!--[if IE]>
-<link rel="stylesheet" type="text/css" href="ie_style.css">
+<link rel="stylesheet" type="text/css" href="/ie_style.css">
 <![endif]-->
 <!--[if IE 7]>
-<link rel="stylesheet" type="text/css" href="ie7_style.css">
+<link rel="stylesheet" type="text/css" href="/ie7_style.css">
 <![endif]-->
-<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="jquery.tools.min.js"></script>
-<script type="text/javascript" src="jquery.imgpreload.js"></script>
-<script type="text/javascript" src="colorbox/jquery.colorbox.js"></script>
-<script type="text/javascript" src="java.js"></script>
+<script type="text/javascript" src="/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/jquery.tools.min.js"></script>
+<script type="text/javascript" src="/jquery.imgpreload.js"></script>
+<script type="text/javascript" src="/colorbox/jquery.colorbox.js"></script>
+<script type="text/javascript" src="/java.js"></script>
 <script>
 function view_comments(id){
    var selected_id = "#content_" + id;
@@ -35,11 +35,11 @@ function view_comments(id){
       $(selected_id).animate({ height : "0" }, 'slow',function() {
          $(selected_id).html("");
       });
-      $(selector_id).html("<img src=\"images/arrow_down.png\">");
+      $(selector_id).html("<img src=\"/images/arrow_down.png\">");
    } else {
       $(selected_id).animate({ height : "250" }, 'slow');
-      $(selected_id).html('<table><tr><td><img src="images/270x240n_sfive.png" width="30" height="30"></td><td style="background: #ececec;"><span style="font-size: 14px;">Chris Ituah</span> <span style="font-size: 12px;">posted about 4 hours ago</span></td></tr><tr><td></td><td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id nulla eu risus vestibulum dapibus. Nunc at augue est, ut scelerisque tellus. Maecenas quis turpis enim. Suspendisse accumsan euismod ultricies. Fusce tristique auctor tristique. Phasellus et orci egestas tortor commodo scelerisque. Quisque ornare dictum augue eu rhoncus. Nam suscipit nibh ut metus faucibus sodales. Nulla sit amet lorem eleifend libero mattis dictum vitae at lacus. Maecenas eu auctor felis. Donec interdum lobortis vehicula. Vivamus non ipsum nec mi tempus ullamcorper. Fusce purus tellus, convallis ac elementum elementum, vehicula a velit. Vivamus condimentum placerat nisi id lobortis. Fusce adipiscing mattis justo, et tempus quam fringilla euismod. Donec vestibulum nunc tincidunt quam iaculis quis aliquet purus tincidunt. Fusce quis dui a nisi consequat ornare sit amet eget augue. Mauris fringilla accumsan nibh et rhoncus. Nulla quis velit sed mi vehicula rhoncus ac ac elit. Duis nibh quam, accumsan eu pharetra ac, volutpat ac metus. Phasellus eget mauris erat, eget dictum quam. Aliquam nec lorem elit, eget porttitor ante. Integer nec enim sapien.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id nulla eu risus vestibulum dapibus. Nunc at augue est, ut scelerisque tellus. Maecenas quis turpis enim. Suspendisse accumsan euismod ultricies. Fusce tristique auctor tristique. Phasellus et orci egestas tortor commodo scelerisque. Quisque ornare dictum augue eu rhoncus. Nam suscipit nibh ut metus faucibus sodales. Nulla sit amet lorem eleifend libero mattis dictum vitae at lacus. Maecenas eu auctor felis. Donec interdum lobortis vehicula. Vivamus non ipsum nec mi tempus ullamcorper. Fusce purus tellus, convallis ac elementum elementum, vehicula a velit. Vivamus condimentum placerat nisi id lobortis. Fusce adipiscing mattis justo, et tempus quam fringilla euismod. Donec vestibulum nunc tincidunt quam iaculis quis aliquet purus tincidunt. Fusce quis dui a nisi consequat ornare sit amet eget augue. Mauris fringilla accumsan nibh et rhoncus. Nulla quis velit sed mi vehicula rhoncus ac ac elit. Duis nibh quam, accumsan eu pharetra ac, volutpat ac metus. Phasellus eget mauris erat, eget dictum quam. Aliquam nec lorem elit, eget porttitor ante. Integer nec enim sapien.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id nulla eu risus vestibulum dapibus. Nunc at augue est, ut scelerisque tellus. Maecenas quis turpis enim. Suspendisse accumsan euismod ultricies. Fusce tristique auctor tristique. Phasellus et orci egestas tortor commodo scelerisque. Quisque ornare dictum augue eu rhoncus. Nam suscipit nibh ut metus faucibus sodales. Nulla sit amet lorem eleifend libero mattis dictum vitae at lacus. Maecenas eu auctor felis. Donec interdum lobortis vehicula. Vivamus non ipsum nec mi tempus ullamcorper. Fusce purus tellus, convallis ac elementum elementum, vehicula a velit. Vivamus condimentum placerat nisi id lobortis. Fusce adipiscing mattis justo, et tempus quam fringilla euismod. Donec vestibulum nunc tincidunt quam iaculis quis aliquet purus tincidunt. Fusce quis dui a nisi consequat ornare sit amet eget augue. Mauris fringilla accumsan nibh et rhoncus. Nulla quis velit sed mi vehicula rhoncus ac ac elit. Duis nibh quam, accumsan eu pharetra ac, volutpat ac metus. Phasellus eget mauris erat, eget dictum quam. Aliquam nec lorem elit, eget porttitor ante. Integer nec enim sapien.</td></tr></table>'); // Comments should be here...
-      $(selector_id).html("<img src=\"images/arrow_up.png\">");
+      $(selected_id).html('<table><tr><td><img src="/images/270x240n_sfive.png" width="30" height="30"></td><td style="background: #ececec;"><span style="font-size: 14px;">Chris Ituah</span> <span style="font-size: 12px;">posted about 4 hours ago</span></td></tr><tr><td></td><td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id nulla eu risus vestibulum dapibus. Nunc at augue est, ut scelerisque tellus. Maecenas quis turpis enim. Suspendisse accumsan euismod ultricies. Fusce tristique auctor tristique. Phasellus et orci egestas tortor commodo scelerisque. Quisque ornare dictum augue eu rhoncus. Nam suscipit nibh ut metus faucibus sodales. Nulla sit amet lorem eleifend libero mattis dictum vitae at lacus. Maecenas eu auctor felis. Donec interdum lobortis vehicula. Vivamus non ipsum nec mi tempus ullamcorper. Fusce purus tellus, convallis ac elementum elementum, vehicula a velit. Vivamus condimentum placerat nisi id lobortis. Fusce adipiscing mattis justo, et tempus quam fringilla euismod. Donec vestibulum nunc tincidunt quam iaculis quis aliquet purus tincidunt. Fusce quis dui a nisi consequat ornare sit amet eget augue. Mauris fringilla accumsan nibh et rhoncus. Nulla quis velit sed mi vehicula rhoncus ac ac elit. Duis nibh quam, accumsan eu pharetra ac, volutpat ac metus. Phasellus eget mauris erat, eget dictum quam. Aliquam nec lorem elit, eget porttitor ante. Integer nec enim sapien.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id nulla eu risus vestibulum dapibus. Nunc at augue est, ut scelerisque tellus. Maecenas quis turpis enim. Suspendisse accumsan euismod ultricies. Fusce tristique auctor tristique. Phasellus et orci egestas tortor commodo scelerisque. Quisque ornare dictum augue eu rhoncus. Nam suscipit nibh ut metus faucibus sodales. Nulla sit amet lorem eleifend libero mattis dictum vitae at lacus. Maecenas eu auctor felis. Donec interdum lobortis vehicula. Vivamus non ipsum nec mi tempus ullamcorper. Fusce purus tellus, convallis ac elementum elementum, vehicula a velit. Vivamus condimentum placerat nisi id lobortis. Fusce adipiscing mattis justo, et tempus quam fringilla euismod. Donec vestibulum nunc tincidunt quam iaculis quis aliquet purus tincidunt. Fusce quis dui a nisi consequat ornare sit amet eget augue. Mauris fringilla accumsan nibh et rhoncus. Nulla quis velit sed mi vehicula rhoncus ac ac elit. Duis nibh quam, accumsan eu pharetra ac, volutpat ac metus. Phasellus eget mauris erat, eget dictum quam. Aliquam nec lorem elit, eget porttitor ante. Integer nec enim sapien.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id nulla eu risus vestibulum dapibus. Nunc at augue est, ut scelerisque tellus. Maecenas quis turpis enim. Suspendisse accumsan euismod ultricies. Fusce tristique auctor tristique. Phasellus et orci egestas tortor commodo scelerisque. Quisque ornare dictum augue eu rhoncus. Nam suscipit nibh ut metus faucibus sodales. Nulla sit amet lorem eleifend libero mattis dictum vitae at lacus. Maecenas eu auctor felis. Donec interdum lobortis vehicula. Vivamus non ipsum nec mi tempus ullamcorper. Fusce purus tellus, convallis ac elementum elementum, vehicula a velit. Vivamus condimentum placerat nisi id lobortis. Fusce adipiscing mattis justo, et tempus quam fringilla euismod. Donec vestibulum nunc tincidunt quam iaculis quis aliquet purus tincidunt. Fusce quis dui a nisi consequat ornare sit amet eget augue. Mauris fringilla accumsan nibh et rhoncus. Nulla quis velit sed mi vehicula rhoncus ac ac elit. Duis nibh quam, accumsan eu pharetra ac, volutpat ac metus. Phasellus eget mauris erat, eget dictum quam. Aliquam nec lorem elit, eget porttitor ante. Integer nec enim sapien.</td></tr></table>'); // Comments should be here...
+      $(selector_id).html("<img src=\"/images/arrow_up.png\">");
    }
 }
 
@@ -68,7 +68,7 @@ function showVotes(divid,sfid){
       divname='pg';
    }
 
-   $("#content_" + divname).html('<img src="images/loader.gif" width="110" height="80">');
+   $("#content_" + divname).html('<img src="/images/loader.gif" width="110" height="80">');
 
    $.ajax({
       url: "votes_content.php?posid="+divid+"&sfid="+sfid,
@@ -259,11 +259,11 @@ include('layouts/header.php');
                             <table>
     <?php
    for ($count = 0; $count < 3; $count += 1) {
-      $blogger_pic = strtolower(urlencode(str_replace("ñ", "n", $write_array[$count]['Blogger'])));
+      $blogger_pic = strtolower(urlencode(str_replace(" ", "", $write_array[$count]['Blogger'])));
     ?>
                                <tr>
                                   <td style="width: 55px; vertical-align: top; padding-top: 10px; " >
-                                     <div style="width: 45px; height: 75px;"><img src="images/personalities/<?php echo $blogger_pic; ?>.jpg" border="0"></div>
+                                     <div style="width: 45px; height: 75px;"><img src="/images/personalities/<?php echo $blogger_pic; ?>.jpg" border="0"></div>
                                   </td>
                                   <td style="vertical-align: top;  padding-top: 10px;  " >
                                      <div class="writer_title">
@@ -272,12 +272,12 @@ include('layouts/header.php');
 ?>
                                         <a href="<?php echo stripslashes($write_array[$count]['BlogLink']); ?>" target="_blank"><?php echo stripslashes($write_array[$count]['BlogTitle']); ?></a>
 <?php } else { ?>
-               <a href="writers-content/<?php echo $write_array[$count]['BlogID']; ?>/<?php echo seoUrl($write_array[$count]['BlogTitle']); ?>"><?php echo stripslashes($write_array[$count]['BlogTitle']); ?></a>
+               <a href="/writers-content/<?php echo $write_array[$count]['BlogID']; ?>/<?php echo seoUrl($write_array[$count]['BlogTitle']); ?>"><?php echo stripslashes($write_array[$count]['BlogTitle']); ?></a>
 <?php }  ?>
                                      </div>
 
                                      <div class="writer_content">
-                                        <b><?php echo stripslashes(strtoupper(str_replace("ñ", "Ñ", $write_array[$count]['Blogger']))); ?></b>
+                                        <b><?php echo stripslashes(strtoupper(str_replace(" ", "", $write_array[$count]['Blogger']))); ?></b>
 
                                         <div style="padding-top: 5px">
                                            <?php echo stripslashes($write_array[$count]['BlogExcerpt']); ?>
@@ -301,11 +301,11 @@ include('layouts/header.php');
                             <table>
     <?php
    for ($count = 0; $count < 3; $count += 1) {
-      $blogger_pic = strtolower(urlencode(str_replace("ñ", "n", $blog_array[$count]['Blogger'])));
+      $blogger_pic = strtolower(urlencode(str_replace(" ", "", $blog_array[$count]['Blogger'])));
     ?>
                                <tr>
                                   <td style="width: 55px; vertical-align: top; padding-top: 10px; " >
-                                     <div style="width: 45px; height: 75px;"><img src="images/blogs/<?php echo $blogger_pic; ?>.jpg" border="0"></div>
+                                     <div style="width: 45px; height: 75px;"><img src="/images/blogs/<?php echo $blogger_pic; ?>.jpg" border="0"></div>
                                   </td>
                                   <td>
                                      <div class="writer_title">
@@ -314,12 +314,12 @@ include('layouts/header.php');
 ?>
                                         <a href="<?php echo stripslashes($blog_array[$count]['BlogLink']); ?>" target="_blank"><?php echo stripslashes($blog_array[$count]['BlogTitle']); ?></a>
 <?php } else { ?>
-               <a href="bloggers/<?php echo $blog_array[$count]['BlogID']; ?>/<?php echo seoUrl(stripslashes($blog_array[$count]['BlogTitle'])); ?>"><?php echo stripslashes($blog_array[$count]['BlogTitle']); ?></a>
+               <a href="/bloggers/<?php echo $blog_array[$count]['BlogID']; ?>/<?php echo seoUrl(stripslashes($blog_array[$count]['BlogTitle'])); ?>"><?php echo stripslashes($blog_array[$count]['BlogTitle']); ?></a>
 <?php }  ?>
                                      </div>
 
                                      <div class="writer_content">
-                                        <b><?php echo stripslashes(strtoupper(str_replace("ñ", "Ñ", $blog_array[$count]['Blogger']))); ?></b>
+                                        <b><?php echo stripslashes(strtoupper(str_replace(" ", "", $blog_array[$count]['Blogger']))); ?></b>
 
                                         <div style="padding-top: 5px">
                                            <?php echo stripslashes($blog_array[$count]['BlogExcerpt']); ?>
@@ -342,8 +342,8 @@ include('layouts/header.php');
                    <!-- writers content end -->
                 </div>
                 <!-- writers end -->
-            <div style="width: 300px; padding: 5px 0 2px 0; background: url('images/rounded_bottom_330.png') bottom center no-repeat">
-                   <div class="article_header" style="background: url('images/rounded_top_300.png') no-repeat; width: 300px; height: 15px;">
+            <div style="width: 300px; padding: 5px 0 2px 0; background: url('/images/rounded_bottom_330.png') bottom center no-repeat">
+                   <div class="article_header" style="background: url('/images/rounded_top_300.png') no-repeat; width: 300px; height: 15px;">
                       PHOTO GALLERY
                    </div>
 
@@ -352,7 +352,7 @@ include('layouts/header.php');
                       <table cellspacing="0" cellpadding="0">
                          <tr>
                             <td style="width: 13px">
-                               <img src="images/left_btn_small.png" id="gallery_left" class="pointer">
+                               <img src="/images/left_btn_small.png" id="gallery_left" class="pointer">
                             </td>
                             <td style="width: 255px; padding: 0 5px">
                                <div class="scroll" id="gallery_pics" style="width: 255px; height: 255px; ">
@@ -368,7 +368,7 @@ include('layouts/header.php');
                                         <table cellspacing="0" cellpadding="0" style="width: 255px; height: 255px">
                                            <tr>
                                               <td style="text-align: center">
-                                                 <a title="<?php echo stripslashes($gallery_array[$count]['Caption']); ?>" href="photos.php?gallery_id=<?php echo $gallery_array[$count]['GalleryID']; ?>"><img src="<?php echo $filename; ?>" width="255" height="255"></a>
+                                                 <a title="<?php echo stripslashes($gallery_array[$count]['Caption']); ?>" href="/photos.php?gallery_id=<?php echo $gallery_array[$count]['GalleryID']; ?>"><img src="<?php echo $filename; ?>" width="255" height="255"></a>
                                               </td>
                                            </tr>
                                         </table>
@@ -380,7 +380,7 @@ include('layouts/header.php');
                                </div>
                             </td>
                             <td style="width: 13px; text-align: right">
-                               <img src="images/right_btn_small.png" id="gallery_right" class="pointer">
+                               <img src="/images/right_btn_small.png" id="gallery_right" class="pointer">
                             </td>
                          </tr>
                          <tr>
@@ -443,69 +443,69 @@ var video_count = 0;
 $("#headline_left").click(function() {
    $("#headline_pics").data("scrollable").prev();
 
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_empty.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_empty.png");
 
    headline_count -= 1;
    if (headline_count < 0)
       headline_count = 2;
 
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_filled.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_filled.png");
 });
 
 $("#headline_right").click(function() {
    $("#headline_pics").data("scrollable").next();
 
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_empty.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_empty.png");
 
    headline_count += 1;
    if (headline_count > 2)
       headline_count = 0;
 
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_filled.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_filled.png");
 });
 
 $(".headline_circle").click(function() {
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_empty.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_empty.png");
 
    var num = parseInt($(this).prop("id").substring($(this).prop("id").length - 1));
    $("#headline_pics").data("scrollable").seekTo(num);
    headline_count = num;
 
-   $("#headline_circle_" + headline_count).prop("src", "images/circle_filled.png");
+   $("#headline_circle_" + headline_count).prop("src", "/images/circle_filled.png");
 });
 
 $("#video_left").click(function() {
    $("#" + video_section).data("scrollable").prev();
 
-   $("#video_circle_" + video_count).prop("src", "images/circle_empty.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_empty.png");
 
    video_count -= 1;
    if (video_count < 0)
       video_count = 2;
 
-   $("#video_circle_" + video_count).prop("src", "images/circle_filled.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_filled.png");
 });
 
 $("#video_right").click(function() {
    $("#" + video_section).data("scrollable").next();
 
-   $("#video_circle_" + video_count).prop("src", "images/circle_empty.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_empty.png");
 
    video_count += 1;
    if (video_count > 2)
       video_count = 0;
 
-   $("#video_circle_" + video_count).prop("src", "images/circle_filled.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_filled.png");
 });
 
 $(".video_circle").click(function() {
-   $("#video_circle_" + video_count).prop("src", "images/circle_empty.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_empty.png");
 
    var num = parseInt($(this).prop("id").substring($(this).prop("id").length - 1));
    $("#" + video_section).data("scrollable").seekTo(num);
    video_count = num;
 
-   $("#video_circle_" + video_count).prop("src", "images/circle_filled.png");
+   $("#video_circle_" + video_count).prop("src", "/images/circle_filled.png");
 });
 
 var video_tab = "video_list_highlights";
@@ -530,8 +530,8 @@ $(".video_element").click(function() {
       $("#" + video_section).css({display: "block"});
       $("#" + video_section).data("scrollable").begin();
 
-      $("#video_circle_" + video_count).prop("src", "images/circle_empty.png");
-      $("#video_circle_0").prop("src", "images/circle_filled.png");
+      $("#video_circle_" + video_count).prop("src", "/images/circle_empty.png");
+      $("#video_circle_0").prop("src", "/images/circle_filled.png");
 
       video_count = 0;
    }
