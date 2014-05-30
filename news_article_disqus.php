@@ -56,7 +56,7 @@ if(file_exists($cachefile))
 
           <div id="main_content">
                <div style="height: 10px"></div>
-               <div style="width: 980px; padding:10px; height: 90px; text-align: center; ">
+               <div style="width: 980px; padding:10px; min-height: 90px; text-align: center; ">
                     <?php echo $ads_list['nba_NewsArticle_top_leaderboard']['Content']; ?>
                </div>
                <div style="height: 10px"></div>

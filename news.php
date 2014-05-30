@@ -31,7 +31,7 @@ include('queries/news-queries.php');
           <?php include('layouts/header.php');?>
           <div id="main_content"  >
                <div style="height: 10px"></div>
-               <div style="width: 958px; height: 90px; text-align: center; margin: 0 auto; ">
+               <div style="width: 958px; min-height: 90px; text-align: center; margin: 0 auto; ">
                     <?php echo $ads_list['nba_news_top_leaderboard']['Content']; ?>
                </div>
                <div style="height: 10px"></div>

@@ -38,7 +38,7 @@ include('layouts/header.php');
    <div id="main_content">
       <div style="height: 10px"></div>
 
-      <div style="width: 958px; height: 90px; margin: 0 auto; text-align: center">
+      <div style="width: 958px; min-height: 90px; margin: 0 auto; text-align: center">
 		<?php
 		echo $ads_list['nba_Blogs_top_leaderboard']['Content'];
 		?>

@@ -46,7 +46,7 @@ include('queries/news-queries.php');
                p.blue{font-size:16px; margin:0 0 4px; padding:0;}
                .story .right .date{font-style: italic; color:#9e9e9e; display: block; margin-top:4px;}
                </style>
-               <div style="width: 980px; height: 90px; text-align: center; margin: 0 auto; padding:20px 10px 10px 10px; ">
+               <div style="width: 980px; min-height: 90px; text-align: center; margin: 0 auto; padding:20px 10px 10px 10px; ">
                     <?php echo $ads_list['nba_news_top_leaderboard']['Content']; ?>
                </div>
                <div class="blue" style="font-size: 20px; width: 960px; margin: 0 auto; padding:20px 0 20px;">

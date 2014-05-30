@@ -39,7 +39,7 @@ include('queries/news_article-queries.php');
 
           <div id="main_content">
                <div style="height: 10px"></div>
-               <div style="width: 980px; padding:10px; height: 90px; text-align: center; ">
+               <div style="width: 980px; padding:10px; min-height: 90px; text-align: center; ">
                     <?php echo $ads_list['nba_NewsArticle_top_leaderboard']['Content']; ?>
                </div>
                <div style="height: 10px"></div>
@@ -50,7 +50,7 @@ include('queries/news_article-queries.php');
                <!-- top half start -->
                <div style="width: 980px; padding:10px; margin: 0 auto">
                <!-- left start -->
-                    <div style="float: left; width: 67%; font-size: 12px;">                         
+                    <div style="float: left; width: 68%; font-size: 12px;">                         
                          <?php if(!(is_null($article['Photo']) || ($article['Photo'] == ""))) : ?>
                          <div style="text-align: center; padding:0 10px 10px;">
                             <div style="width: 100%; height: 300px;">

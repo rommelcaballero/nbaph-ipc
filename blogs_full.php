@@ -8,7 +8,7 @@ include('queries/blogs_full-queries.php');
 <html>
 <head>
 <title>NBA Philippines</title>
-
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="stylesheet" type="text/css" href="/css/style.css">
 <link rel="stylesheet" type="text/css" href="/css/style-writers_full.css">
 <link rel="stylesheet" type="text/css" href="/css/colorbox/colorbox.css">
@@ -33,7 +33,7 @@ include('queries/blogs_full-queries.php');
 
 		<div id="main_content">
 			<div style="height: 10px"></div>
-			<div style="width: 980px; height: 90px; margin: 0 auto; text-align: center; padding: 10px;">
+			<div style="width: 980px; min-height: 90px; margin: 0 auto; text-align: center; padding: 10px;">
 			<?php echo $ads_list['nba_BlogsFull_top_leaderboard']['Content']; ?>
 			</div>
 			<div style="height: 10px"></div>
