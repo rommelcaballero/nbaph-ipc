@@ -214,13 +214,13 @@
           var carousel_width = <?php echo count($column_array); ?> * 154;          
           var carousel_position = 0;
           $(".carousel-center ul").css({width:carousel_width+"px"});
-          $("#nav-prev").click(function(){
+          $("#nav-next").click(function(){
                if((Number(carousel_position)+Number(carousel_block)+1) <= Number(carousel_width)){
                     carousel_position += carousel_block;
                     $("#carousel ul").animate({marginLeft:'-'+carousel_position+'px'},speed);                                        
                }
           });
-          $("#nav-next").click(function(){
+          $("#nav-prev").click(function(){
                if(Number(carousel_position) > 0){
                     carousel_position -= carousel_block;
                     $("#carousel ul").animate({marginLeft:'-'+carousel_position+'px'},speed);                    
