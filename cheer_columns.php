@@ -10,20 +10,20 @@ include('queries/cheer-general-queries.php');
 <head>
 <title>NBA Philippines</title>
 
-<link rel="stylesheet" type="text/css" href="/css/style.css">
-<link rel="stylesheet" type="text/css" href="/css/style-cheer.css">
-<link rel="stylesheet" type="text/css" href="/css/colorbox/colorbox.css">
+<link rel="stylesheet" type="text/css" href="/style.css">
+<link rel="stylesheet" type="text/css" href="/style-cheer.css">
+<link rel="stylesheet" type="text/css" href="/colorbox/colorbox.css">
 <!--[if IE]>
-<link rel="stylesheet" type="text/css" href="/css/ie_style.css">
+<link rel="stylesheet" type="text/css" href="/ie_style.css">
 <![endif]-->
 <!--[if IE 7]>
-<link rel="stylesheet" type="text/css" href="/css/ie7_style.css">
+<link rel="stylesheet" type="text/css" href="/ie7_style.css">
 <![endif]-->
-<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="jquery.tools.min.js"></script>
-<script type="text/javascript" src="jquery.imgpreload.js"></script>
-<script type="text/javascript" src="colorbox/jquery.colorbox.js"></script>
-<script type="text/javascript" src="java.js"></script>
+<script type="text/javascript" src="/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/jquery.tools.min.js"></script>
+<script type="text/javascript" src="/jquery.imgpreload.js"></script>
+<script type="text/javascript" src="/colorbox/jquery.colorbox.js"></script>
+<script type="text/javascript" src="/java.js"></script>
 </head>
 
 <body>
@@ -67,7 +67,7 @@ include('layouts/header.php');
          <!-- left start -->
          <div style="float: left; width: 622px; ">
 
-             <div style="width: 622px; background-image: url(images/cheer_columnsbg.gif); background-repeat: repeat-x;  " ><img src="images/cheer_columns.gif"  border="0" /></div>
+             <div style="width: 622px; background-image: url(/images/cheer_columnsbg.gif); background-repeat: repeat-x;  " ><img src="/images/cheer_columns.gif"  border="0" /></div>
 
              <!-- cheer photos list -->
 
@@ -102,9 +102,9 @@ include('layouts/header.php');
                     else
                      {
                         $blog_content = $blog_intro;
-                        $blog_content .= "<br><a href=\"cheerdancers-columns/$blog_id/" . seoUrl($blog_title) . "\" class=\"blog_title_link\">read more</a>";
+                        $blog_content .= "<br><a href=\"/cheerdancers-columns/$blog_id/" . seoUrl($blog_title) . "\" class=\"blog_title_link\">read more</a>";
                         $link = $blog_id;
-                        $blog_title = "<a href=\"cheerdancers-columns/$blog_id/" . seoUrl($blog_title) . "\" class=\"blog_title_link\">$blog_title</a>";
+                        $blog_title = "<a href=\"/cheerdancers-columns/$blog_id/" . seoUrl($blog_title) . "\" class=\"blog_title_link\">$blog_title</a>";
                      }
 
             ?>

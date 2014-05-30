@@ -11,14 +11,14 @@ include('queries/cheer-general-queries.php');
 <head>
 <title>NBA Philippines</title>
 
-<link rel="stylesheet" type="text/css" href="/css/style.css">
-<link rel="stylesheet" type="text/css" href="/css/style-cheer.css">
-<link rel="stylesheet" type="text/css" href="/css/colorbox/colorbox.css">
+<link rel="stylesheet" type="text/css" href="/style.css">
+<link rel="stylesheet" type="text/css" href="/style-cheer.css">
+<link rel="stylesheet" type="text/css" href="/colorbox/colorbox.css">
 <!--[if IE]>
-<link rel="stylesheet" type="text/css" href="/css/ie_style.css">
+<link rel="stylesheet" type="text/css" href="/ie_style.css">
 <![endif]-->
 <!--[if IE 7]>
-<link rel="stylesheet" type="text/css" href="/css/ie7_style.css">
+<link rel="stylesheet" type="text/css" href="/ie7_style.css">
 <![endif]-->
 <style type="text/css">
 <!--
@@ -38,11 +38,11 @@ position:absolute;
 }
 -->
 </style>
-<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="jquery.tools.min.js"></script>
-<script type="text/javascript" src="jquery.imgpreload.js"></script>
-<script type="text/javascript" src="colorbox/jquery.colorbox.js"></script>
-<script type="text/javascript" src="java.js"></script>
+<script type="text/javascript" src="/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/jquery.tools.min.js"></script>
+<script type="text/javascript" src="/jquery.imgpreload.js"></script>
+<script type="text/javascript" src="/colorbox/jquery.colorbox.js"></script>
+<script type="text/javascript" src="/java.js"></script>
 </head>
 
 <body>
@@ -77,7 +77,7 @@ include('layouts/header.php');
          <!-- left start -->
          <div style="float: left; width: 622px; ">
 
-             <div style="width: 622px; background-image: url(images/cheer_photosbg.gif); background-repeat: repeat-x;  " ><img src="images/cheer_photos.gif"  border="0" /></div>
+             <div style="width: 622px; background-image: url(/images/cheer_photosbg.gif); background-repeat: repeat-x;  " ><img src="/images/cheer_photos.gif"  border="0" /></div>
 
              <!-- cheer photos list -->
              <div id="CheerPhotosList" >
@@ -240,13 +240,13 @@ include('layouts/header.php');
           ?>
                  <div class="lfloat" style="width: 300px; margin-bottom: 20px; <?php if ($count % 2 == 0) { echo "margin-right: 11px; "; }?>" >
 
-                    <div><a href="cheerdancers-photos/<?php echo $album_idl; ?>/<?php echo seoUrl($album_name); ?>" ><img src="<?php
+                    <div><a href="/cheerdancers-photos/<?php echo $album_idl; ?>/<?php echo seoUrl($album_name); ?>" ><img src="<?php
                      echo $album_img;
                   ?>" width="300" height="215" alt="<?php echo $album_name; ?>" title="<?php echo $album_name; ?>" ></a></div>
 
                     <div >
-                       <span class="cheervid_title"><a href="cheerdancers-photos/<?php echo $album_idl; ?>/<?php echo seoUrl($album_name); ?>" ><?php echo ucwords(trim($album_name)); ?></a></span>
-                       <span class="cheervid_time" style="font-size: 9pt; font-weight: bold; " ><?php echo "&nbsp;&nbsp;".$album_date; ?></span>
+                       <span class="cheervid_title"><a href="/cheerdancers-photos/<?php echo $album_idl; ?>/<?php echo seoUrl($album_name); ?>" ><?php echo ucwords(trim($album_name)); ?></a></span><br>
+                       <span class="cheervid_time" style="font-size: 9pt; font-weight: bold; " ><?php echo $album_date; ?></span>
                     </div>
 
                  </div>

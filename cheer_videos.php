@@ -10,20 +10,20 @@ include('queries/cheer-general-queries.php');
 <head>
 <title>NBA Philippines</title>
 
-<link rel="stylesheet" type="text/css" href="/css/style.css">
-<link rel="stylesheet" type="text/css" href="/css/style-cheer_videos.css">
-<link rel="stylesheet" type="text/css" href="/css/colorbox/colorbox.css">
+<link rel="stylesheet" type="text/css" href="/style.css">
+<link rel="stylesheet" type="text/css" href="/style-cheer_videos.css">
+<link rel="stylesheet" type="text/css" href="/colorbox/colorbox.css">
 <!--[if IE]>
-<link rel="stylesheet" type="text/css" href="/css/ie_style.css">
+<link rel="stylesheet" type="text/css" href="/ie_style.css">
 <![endif]-->
 <!--[if IE 7]>
-<link rel="stylesheet" type="text/css" href="/css/ie7_style.css">
+<link rel="stylesheet" type="text/css" href="/ie7_style.css">
 <![endif]-->
-<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="jquery.tools.min.js"></script>
-<script type="text/javascript" src="jquery.imgpreload.js"></script>
-<script type="text/javascript" src="colorbox/jquery.colorbox.js"></script>
-<script type="text/javascript" src="java.js"></script>
+<script type="text/javascript" src="/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/jquery.tools.min.js"></script>
+<script type="text/javascript" src="/jquery.imgpreload.js"></script>
+<script type="text/javascript" src="/colorbox/jquery.colorbox.js"></script>
+<script type="text/javascript" src="/java.js"></script>
 </head>
 
 <body>
@@ -94,7 +94,7 @@ include('layouts/header.php');
                 </div>
 
                 <div class="cheervid_caption" >
-                   <?php echo $video_caption; ?>
+                   <?php //echo $video_caption; ?>
                 </div>
 
             <div class="addthis_div">
@@ -179,14 +179,14 @@ include('layouts/header.php');
 
                     <div class="lfloat" style="width: 185px; margin: 0px 0px 20px 10px; height:200px;"  >
 
-                        <div><a href="cheerdancers-videos/<?php echo $other_id; ?>/<?php echo seoUrl($other_title); ?>" ><img src="<?php
+                        <div><a href="/cheerdancers-videos/<?php echo $other_id; ?>/<?php echo seoUrl($other_title); ?>" ><img src="<?php
                            echo $other_image;
                            //echo resizeCrop("/images/cheer_videos/".$other_id.".jpg", 185, 137, '');
                         ?>" alt="<?php echo strtoupper($other_title); ?>" title="<?php echo strtoupper($other_title); ?>" class="btnimg" /></a></div>
 
                         <div style="margin: 0px; padding: 2px 5px 0px 5px; line-height: normal; " >
 
-                           <span class="cheervid_title" style="font-size: 8pt; font-weight: normal;" ><a href="cheerdancers-videos/<?php echo $other_id; ?>/<?php echo seoUrl($other_title); ?>" ><?php echo strtoupper($other_title); ?></a></span>
+                           <span class="cheervid_title" style="font-size: 8pt; font-weight: normal;" ><a href="/cheerdancers-videos/<?php echo $other_id; ?>/<?php echo seoUrl($other_title); ?>" ><?php echo strtoupper($other_title); ?></a></span>
 
                             <span class="cheervid_caption" >
                                - <?php echo ucfirst($other_title); ?>

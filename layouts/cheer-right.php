@@ -42,13 +42,13 @@
        <!-- column 1 -->
         <div class="column_item" >
 
-            <div class="lfloat" ><a href="cheerdancers-columns/<?php echo $column_id; ?>/<?php  echo seoUrl($column_title); ?>/<?php echo trim(urlencode($column_writer)); ?>"><img src="<?php
+            <div class="lfloat" ><a href="/cheerdancers-columns/<?php echo $column_id; ?>/<?php  echo seoUrl($column_title); ?>/<?php echo trim(urlencode($column_writer)); ?>"><img src="<?php
                echo $column_array[$count]['ImageThumb'];
             ?>" alt="Closer to finished" title="Closer to finished" width="76" height="76" /></a></div>
 
             <div class="lfloat" style="width: 189px; margin-left: 10px; " >
 
-                <div class="column_title" ><a href="cheerdancers-columns/<?php echo $column_id; ?>/<?php echo seoUrl($column_title); ?>" ><?php echo $column_title; ?></a></div>
+                <div class="column_title" ><a href="/cheerdancers-columns/<?php echo $column_id; ?>/<?php echo seoUrl($column_title); ?>" ><?php echo $column_title; ?></a></div>
 
                 <div class="column_dancer" ><?php echo $column_writer; ?></div>
 
