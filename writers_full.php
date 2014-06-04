@@ -10,14 +10,14 @@ include('queries/writers_full-queries.php');
 	<head>
 		<title>NBA Philippines</title> 
 		
-		<link rel="stylesheet" type="text/css" href="/css/style.css">
-		<link rel="stylesheet" type="text/css" href="/css/style-writers_full.css">
-		<link rel="stylesheet" type="text/css" href="/css/colorbox/colorbox.css">
+		<link rel="stylesheet" type="text/css" href="/style.css">
+		<link rel="stylesheet" type="text/css" href="/style-writers_full.css">
+		<link rel="stylesheet" type="text/css" href="/colorbox/colorbox.css">
 		<!--[if IE]>
-		<link rel="stylesheet" type="text/css" href="/css/ie_style.css">
+		<link rel="stylesheet" type="text/css" href="/ie_style.css">
 		<![endif]-->
 		<!--[if IE 7]>
-		<link rel="stylesheet" type="text/css" href="/css/ie7_style.css">
+		<link rel="stylesheet" type="text/css" href="/ie7_style.css">
 		<![endif]-->
 		<script type="text/javascript" src="/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript" src="/jquery.tools.min.js"></script>
@@ -33,7 +33,7 @@ include('queries/writers_full-queries.php');
 
 			<div id="main_content">
 				<div style="height: 10px"></div>
-				<div style="width: 980px; height: 90px; padding:10px; margin: 0 auto; text-align: center">
+				<div style="width: 980px; min-height: 90px; padding:10px; margin: 0 auto; text-align: center">
 					<?php echo $ads_list['nba_WritersFull_top_leaderboard']['Content'];	?>
 				</div>
 				<div style="height: 10px"></div>
@@ -64,7 +64,7 @@ include('queries/writers_full-queries.php');
 							$link = "";
 						}else{
 							$blog_content = $blog_intro;
-							$blog_content .= "<br><a href=\"writers-content/$blog_id/".seoUrl(strtolower($blog_title))."\" class=\"blog_title_link\">read more</a>";
+							$blog_content .= "<br><a href=\"/writers-content/$blog_id/".seoUrl(strtolower($blog_title))."\" class=\"blog_title_link\">read more</a>";
 							$link = $blog_id;
 						}
 					?>
