@@ -1,6 +1,4 @@
 <?php
-
-
 $part_page = "writers";
 
 include('queries/writers-queries.php');
@@ -11,14 +9,14 @@ include('queries/writers-queries.php');
 <head>
 <title>NBA Philippines</title>
 
-<link rel="stylesheet" type="text/css" href="/css/style.css">
-<link rel="stylesheet" type="text/css" href="/css/style-writers.css">
-<link rel="stylesheet" type="text/css" href="/css/colorbox/colorbox.css">
+<link rel="stylesheet" type="text/css" href="/style.css">
+<link rel="stylesheet" type="text/css" href="/style-writers.css">
+<link rel="stylesheet" type="text/css" href="/colorbox/colorbox.css">
 <!--[if IE]>
-<link rel="stylesheet" type="text/css" href="/css/ie_style.css">
+<link rel="stylesheet" type="text/css" href="/ie_style.css">
 <![endif]-->
 <!--[if IE 7]>
-<link rel="stylesheet" type="text/css" href="/css/ie7_style.css">
+<link rel="stylesheet" type="text/css" href="/ie7_style.css">
 <![endif]-->
 <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="jquery.tools.min.js"></script>
@@ -40,7 +38,7 @@ include('layouts/header.php');
    <div id="main_content">
       <div style="height: 10px"></div>
 
-      <div style="width: 958px; height: 90px; margin: 0 auto; text-align: center">
+      <div style="width: 958px; min-height: 90px; margin: 0 auto; text-align: center">
 		<?php
 		echo $ads_list['nba_writers_top_leaderboard']['Content'];
 		?>
@@ -66,7 +64,6 @@ include('layouts/header.php');
                   <table cellspacing="0" style="width: 100%">
 <?php
 $count = count($blog_array);
-
 for ($i = 0; $i < $count; $i += 1) {
 
   // $blogger_pic = strtolower(urlencode(str_replace("ñ", "n", $blog_array[$i]['Blogger'])));
@@ -112,7 +109,7 @@ if ($blogger_pic) {
 <?php
 	} else {
 ?>
-                                       <a href="writers-content/<?php echo $blog_array[$i]['BlogID']; ?>/<?php echo seoUrl(strtolower($blog_array[$i]['BlogTitle'])); ?>"><?php echo stripslashes($blog_array[$i]['BlogTitle']); ?></a>
+                                       <a href="/writers-content/<?php echo $blog_array[$i]['BlogID']; ?>/<?php echo seoUrl(strtolower($blog_array[$i]['BlogTitle'])); ?>"><?php echo stripslashes($blog_array[$i]['BlogTitle']); ?></a>
 <?php
 	}
 ?>                                 </div>
@@ -134,7 +131,7 @@ if ($blogger_pic) {
 	} else {
 ?>
 				    <div class="writer_links">
-                                       <a href="writers-content/<?php echo $blog_array[$i]['BlogID']; ?>/<?php echo seoUrl(strtolower($blog_array[$i]['BlogTitle'])); ?>">Full Story</a> | <a href="writers-content/<?php echo urlencode($blog_array[$i]['Blogger']); ?>">Archive</a>
+                                       <a href="/writers-content/<?php echo $blog_array[$i]['BlogID']; ?>/<?php echo seoUrl(strtolower($blog_array[$i]['BlogTitle'])); ?>">Full Story</a> | <a href="writers-content/<?php echo urlencode($blog_array[$i]['Blogger']); ?>">Archive</a>
 
                                     </div>
 <?php
