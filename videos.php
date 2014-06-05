@@ -635,7 +635,8 @@
 			requestAds();
 		});	
 		</script>
-		
+
+<?php include('google_dfp.php'); ?>		
 	</body>
 
 </html>

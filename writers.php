@@ -301,6 +301,6 @@ include('nav_js.php');
 <?php
 include("layouts/background_ads.php");
 ?>
-
+<?php include('google_dfp.php'); ?>
 </body>
 </html>

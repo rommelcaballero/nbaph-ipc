@@ -203,7 +203,10 @@ console.log("<?php var_export($geo_data,1); ?>");
 
 <?php
 include("layouts/background_ads.php");
+include('google_dfp.php');
+
 ?>
+
 	
 </body>
 </html>

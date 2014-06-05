@@ -10,16 +10,16 @@ include('queries/events-general-queries.php');
 <head>
 <title>NBA Philippines</title>
 
-<link rel="stylesheet" type="text/css" href="/css/style.css">
-<link rel="stylesheet" type="text/css" href="/css/style-events.css">
-<link rel="stylesheet" type="text/css" href="/css/jscal2.css" />
-<link rel="stylesheet" type="text/css" href="/css/border-radius.css" />
-<link rel="stylesheet" type="text/css" href="/css/colorbox/colorbox.css">
+<link rel="stylesheet" type="text/css" href="/style.css">
+<link rel="stylesheet" type="text/css" href="/style-events.css">
+<link rel="stylesheet" type="text/css" href="/jscal2.css" />
+<link rel="stylesheet" type="text/css" href="/border-radius.css" />
+<link rel="stylesheet" type="text/css" href="/colorbox/colorbox.css">
 <!--[if IE]>
-<link rel="stylesheet" type="text/css" href="/css/ie_style.css">
+<link rel="stylesheet" type="text/css" href="/ie_style.css">
 <![endif]-->
 <!--[if IE 7]>
-<link rel="stylesheet" type="text/css" href="/css/ie7_style.css">
+<link rel="stylesheet" type="text/css" href="/ie7_style.css">
 <![endif]-->
 <style type="text/css">
 <!--
@@ -307,6 +307,6 @@ include('nav_js.php');
 <?php
 include("layouts/background_ads.php");
 ?>
-
+<?php include('google_dfp.php'); ?>
 </body>
 </html>
