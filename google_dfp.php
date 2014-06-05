@@ -19,5 +19,5 @@ googletag.enableServices();
 googletag.display('div-gpt-ad-1401002731227-0');
 </script>
 </div>
-';
+
 
