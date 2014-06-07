@@ -61,7 +61,7 @@ include('layouts/header.php');
       <div style="width: 958px; margin: 0 auto; padding-bottom: 15px; ">
 
          <!-- left start -->
-         <div class="lfloat" style="width: 632px; ">
+         <div class="lfloat" style="width: 632px; z-index: 1000; ">
 
             <div class="addthis_div" style="padding-bottom: 5px">
                <!--div class="addthis_position">
@@ -274,6 +274,7 @@ include('nav_js.php');
 <?php
 include("layouts/background_ads.php");
 ?>
+</div></div>
 <?php include('google_dfp.php'); ?>
 </body>
 </html>
