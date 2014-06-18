@@ -57,11 +57,13 @@ if($www!=="ph"){
 			<div id="main_content" > 
 				<div id='header'>
 	      	  		<div style="height: 10px"></div>
-	          		<div style="width: 958px; min-height: 90px; margin: 0 auto; text-align: center; ">
+	          		<div style="width: 958px; min-height: 130px; margin: 0 auto; text-align: center; ">
 						<?php echo $ads_list['nba_homepage_top_leaderboard'];?>
 	          		</div>    	          		
 					<div style="width: 995px;  margin: 0 auto; text-align: center; background: #fff; padding-left:5px;">
+						<!--
 						<iframe src="http://ph.global.nba.com/hpscoreboardiframe.html" align="center" frameborder="0" width="1000" height="143" scrolling="no" marginwidth="0" marginheight="0" style="text-align:center; align: center; margin: 0; padding: 0; marginwidth:0"></iframe>
+						-->
 					</div>
 				</div>
 
