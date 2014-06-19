@@ -10,7 +10,7 @@ include_once('lib.php');
       $ads_list[$row['AdsDesc']] = $row['Content'];
    }
 
-   $results = mysqli_query($connect, "SELECT CarouselID, Title, Image, Link, Source, Intro, ImageThumb, Video FROM carousel ORDER BY DatePosted DESC LIMIT 0, 12");
+   $results = mysqli_query($connect, "SELECT CarouselID, Title, Image, Link, Source, Intro, ImageThumb, Video FROM carousel ORDER BY DatePosted DESC  LIMIT 0, 32");
    
    $carousel = "";
    $carousel_array = array();
@@ -189,7 +189,7 @@ include_once('lib.php');
 	  $count += 1;
 	}
 	$grounded = 1;
-	$query_bgads = "SELECT AdsID, Title, Link, Image, BgColor FROM background_ads WHERE Status='s' AND Page='".mysqli_real_escape_string($connect, trim($part_page))."' ORDER BY DateUpdated DESC, DateAdded DESC LIMIT 0, 1 ";
+	$query_bgads = "SELECT AdsID, Title, Link, Image, BgColor FROM background_ads WHERE Status='s' AND Page='".mysqli_real_escape_string($connect,trim($part_page))."' ORDER BY DateUpdated DESC, DateAdded DESC LIMIT 0, 1 ";
 	$result_bgads = mysqli_query($connect, $query_bgads) or die(mysqli_error());
 	$found_bgads = mysqli_num_rows($result_bgads);
 
