@@ -1,5 +1,5 @@
 <!-- top half container start -->
-<div class="container"  style='margin-top:-30px; width:1000px;'>       					
+<div class="container"  style='margin-top:6px; width:1000px;'>       					
 	<div class='section-container' style="float: left; width: 674px; margin-left: 5px; ">
 		<div style="width: 674px;">
 			<div style="width: 672px; height: 376px; overflow: hidden; border-top:1px solid #d8d8d8; border-left: 1px solid #d8d8d8; border-right: 1px solid #d8d8d8;">
@@ -37,7 +37,7 @@
 			</div>    
 				
 			<div style="width: 652px;  padding: 5px 10px; border-top:1px solid #d8d8d8; border-left: 1px solid #d8d8d8; border-right: 1px solid #d8d8d8;">
-				<table cellspacing="0" cellpadding="0" style="width: 650px; padding-top: 10px">
+                        <table cellspacing="0" cellpadding="0" style="width: 650px; padding-top: 10px">
 	     			<tr>
 	        			<td style="width: 25px">
 	           				<!--img src="images/left_btn.png" id="headline_left" class="pointer" /-->
@@ -78,14 +78,37 @@
 					$(".carousel").each(function(){
 						if($(this).attr("id") == ("carousel"+(id+1))){							
 							$(this).show('slide', {direction: 'right'}, 500);
+							num = id;
 						}else{
 							$(this).hide('slide',{direction:'left'},500);
 						}	
 					})
 					
 				};
+				var num = 0;
+				setInterval(function(){
+					 num += 1;
+
+					if(num % 4 == 0){
+						$("#headline_right").click();
+					}
+
+					
+					if(num > 31){
+						/*$("#news").animate({left:-8});*/
+						changeCarouselHeadline(0);
+						num = 0;
+						for(i=1;i<=8;i++){
+						$("#headline_left").click();
+						}
+
+
+					}	
+      					 changeCarouselHeadline(num);
+    				},10000);
+
 				$(function(){
-					$("div[id=news]").carousel({circleContainer:$("div[id=news-circle-indicator]"),itemWidth:150,itemCount:12,itemMove:4,btnNext:$("span[id=headline_right]"),btnPrev:$("span[id=headline_left]")});					
+					$("div[id=news]").carousel({circleContainer:$("div[id=news-circle-indicator]"),itemWidth:150,itemCount:32,itemMove:4,btnNext:$("span[id=headline_right]"),btnPrev:$("span[id=headline_left]")});					
 				});			
 			</script>
 		</div>
