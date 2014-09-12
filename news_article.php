@@ -24,6 +24,16 @@ include('queries/news_article-queries.php');
 <!--[if IE 7]>
 <link rel="stylesheet" type="text/css" href="/css/ie7_style.css">
 <![endif]-->
+
+	<!-- 1. skin -->
+	<link rel="stylesheet" href="//releases.flowplayer.org/5.4.4/skin/minimalist.css">
+	 
+	<!-- 2. jquery library -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	 
+	<!-- 3. flowplayer -->
+	<script src="//releases.flowplayer.org/5.4.4/flowplayer.min.js"></script>
+
 <script type="text/javascript" src="/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="/jquery.tools.min.js"></script>
 <script type="text/javascript" src="/jquery.imgpreload.js"></script>
@@ -75,7 +85,7 @@ include('queries/news_article-queries.php');
 								$geoLocBlocked = ($geo_data['geoplugin_countryCode'] != 'PH' || $test_geoip_none_ph);
 								
 								$content = stripslashes($article['Body']);
-								
+								/*
 								if($geoLocBlocked){
 									$reg = '/^\r+|\n+/';
 									$out = "";
@@ -87,6 +97,7 @@ include('queries/news_article-queries.php');
 										</div>";	
 									$content = preg_replace($reg, $out, $content);							
 								}
+								*/
 								echo $content; 							   
 								?>
                           </div>
