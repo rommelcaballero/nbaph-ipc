@@ -153,7 +153,7 @@ include_once('lib.php');
       }
    }*/
 
-   $results = mysqli_query($connect, "select AdID, Image, Link from ads where Dimensions = '300x100' order by RAND() limit 0, 2");
+   $results = mysqli_query($connect, "select AdID, Image, Link from ads where Dimensions = '300x100' order by RAND() limit 0, 3");
 
    $ads_array = array();
    $count = 0;
