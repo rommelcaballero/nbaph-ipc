@@ -5,6 +5,7 @@
 			<div style="width: 672px; height: 376px; overflow: hidden; border-top:1px solid #d8d8d8; border-left: 1px solid #d8d8d8; border-right: 1px solid #d8d8d8;">
 				<?php
 				$cthumbs = array(); 
+				echo $cthumbs;
 				for ($count = 1; $count <= count($carousel_array); $count++): 						
 					$cthumbs[$count-1]['Title'] = stripslashes($carousel_array[$count - 1]['Title']);
 					$cthumbs[$count-1]['Main'] = stripslashes($carousel_array[$count - 1]['Image']); 
@@ -128,16 +129,27 @@
 		 		}
 
 		 	?>
-			</div>    
+			</div> 
+			
+
 			<div style="height: 10px"></div>
-			<?php if ($ads_array[0]['Link']): ?>                
+
+
+			<?php //if ($ads_array[0]['Link']): ?> 
+			<?php
+			$pictures = array("http://da39oqihf9mt5.cloudfront.net/ads/nbacafemanila1.jpg", "http://da39oqihf9mt5.cloudfront.net/ads/nbacafemanila3.jpg");
+			?>
+
 			<div style="width: 300px; height: 100px">
-					<a href="<?php echo $ads_array[0]['Link']; ?>"><img src="ads/<?php echo $ads_array[0]['Image']; ?>"></a>
+			<?php echo '<a href="http://on.fb.me/1xLPSyh"><img src="'.$pictures[array_rand($pictures)].'" /></a>'; ?>
+					<!--a href="<?php echo $ads_array2[0]['Link']; ?>"><img src="/ads/<?php echo $ads_array2[0]['Image']; ?>"></a-->
 					<!--a href="/pre-season.php?register=1"><img src="media/2.0/300x100-banner-4.jpg"></a-->					
 					<!--a href="/nbaglobalgamesphilippines2013"><img src="media/2.0/300x100-banner-5.jpg"></a-->					
 					<!--a href="/allstar2014"><img src="media/2.0/allstar/2014/300x100-banner-5.jpg"></a-->					
 			</div>
-			<?php endif; ?>
+			<?php //endif; ?>
+
+
 			<div style="height: 10px"></div>
 			<div style="width: 300px; padding: 5px 0 0px 0; height:147px;">
 				<div class="article_header" style="background: url('images/rounded_top_300.png'); width: 270px; height: 15px">
