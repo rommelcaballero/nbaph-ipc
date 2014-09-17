@@ -2,7 +2,9 @@
 <div class="container"  style='margin-top:6px; width:1000px;'>       					
 	<div class='section-container' style="float: left; width: 674px; margin-left: 5px; ">
 		<div style="width: 674px;">
-			<div style="width: 672px; height: 376px; overflow: hidden; border-top:1px solid #d8d8d8; border-left: 1px solid #d8d8d8; border-right: 1px solid #d8d8d8;">
+		<div id="top_container" style="position:relative">
+			<img src="/images/carouselmats.png">
+			<div style="transform:scale(0.89);position:absolute;width: 672px; height: 376px; overflow: hidden; border-top:1px solid #302E2E; border-left: 1px solid #302E2E; border-right: 1px solid #302E2E;top:79px;left:-3px">
 				<?php
 				$cthumbs = array(); 
 				echo $cthumbs;
@@ -35,7 +37,8 @@
    				endfor;					
 				$carousel .= '<div class="clear"></div>';
 				?>
-			</div>    
+			</div> 			
+		</div>
 				
 			<div style="width: 652px;  padding: 5px 10px; border-top:1px solid #d8d8d8; border-left: 1px solid #d8d8d8; border-right: 1px solid #d8d8d8;">
                         <table cellspacing="0" cellpadding="0" style="width: 650px; padding-top: 10px">
@@ -138,6 +141,7 @@
 			<?php //if ($ads_array[0]['Link']): ?> 
 			<?php
 			$pictures = array("http://da39oqihf9mt5.cloudfront.net/ads/nbacafemanila1.jpg", "http://da39oqihf9mt5.cloudfront.net/ads/nbacafemanila3.jpg");
+			shuffle($pictures);
 			?>
 
 			<div style="width: 300px; height: 100px">
