@@ -8,6 +8,19 @@ include('queries/blogs_full-queries.php');
 <html>
 <head>
 <title>NBA Philippines</title>
+<?php
+if($found > 0){
+	for ($i = 0; $i < count($blog_array); $i += 1){	
+		$blog_metadesc = $blog_array[$i]['metadesc'];
+		$blog_metakey = $blog_array[$i]['metakey'];
+	echo '
+		<meta charset="UTF-8">
+		<meta name="description" content="',$blog_metadesc,'">
+		<meta name="keywords" content="',$blog_metakey,'">
+	';
+	}		
+}
+?>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="stylesheet" type="text/css" href="/css/style.css">
 <link rel="stylesheet" type="text/css" href="/css/style-writers_full.css">

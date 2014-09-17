@@ -25,6 +25,8 @@ while($row = mysqli_fetch_array($result)) {
   $blog_array[$count]['BlogExcerpt'] = ucfirst(trim(stripslashes($row['BlogExcerpt'])));
   $blog_array[$count]['Blogger'] = strtolower(trim(stripslashes($row['Blogger'])));
   $blog_array[$count]['DatePosted'] = date("l / F d / Y", strtotime($row['DatePosted'])); 
+  $blog_array[$count]['metadesc'] = ucfirst(trim(stripslashes($row['metadesc'])));
+  $blog_array[$count]['metakey'] = ucfirst(trim(stripslashes($row['metakey'])));
   $count += 1;
 }
 
