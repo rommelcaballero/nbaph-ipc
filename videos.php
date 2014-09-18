@@ -366,7 +366,7 @@
 														if(response.data[a]['small_image'] !== ""){
 															html_result += "		<span class='img'><img src='/ftp-web/" + response.data[a]['small_image'] + "' title='" + response.data[a]['description'] +"' style='width:150px; height:84px;'/></span>";
 														}else{
-															html_result += "		<span class='img'><img src='/ftp-web/default.jpg' title='" + response.data[a]['description'] +"' style='width:150px; height:84px;'/></span>";	
+															html_result += "		<span class='img'><img src='/ftp-web/default2.jpg' title='" + response.data[a]['description'] +"' style='width:150px; height:84px;'/></span>";	
 														}	
 														html_result += "		<span class='title'>" + response.data[a]['title'] + "</span>";
 														html_result += "		<span class='duration'>" + response.data[a]['duration'] + "</span>";							
