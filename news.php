@@ -35,9 +35,14 @@ include('queries/news-queries.php');
                     <?php echo $ads_list['nba_news_top_leaderboard']['Content']; ?>
                </div>
                <div style="height: 10px"></div>
+			    <div id="bluecontainer" style=" position: relative;">
                <div class="blue" style="font-size: 17px; border-bottom: 1px solid #d8d8d8; width: 920px; margin: 0 auto; padding: 10px 0 0">
                     <b>LATEST HEADLINES - NBA NEWS</b>
                </div>
+			   <div id="bluecontainerlogo" style=" position: absolute; left: 468px; top: -7px;">
+						<a href="http://www.facebook.com/AcerPH"><img src="/images/pressacerlogo.png"></a>
+				</div>
+			   </div>
                <div style="height: 20px"></div>
                <!-- top half start -->
                <div style="width: 920px; margin: 0 auto">

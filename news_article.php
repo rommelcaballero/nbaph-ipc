@@ -58,7 +58,7 @@ include('queries/news_article-queries.php');
 						<b>LATEST HEADLINES - NBA NEWS</b>
 					</div>
 					<div id="bluecontainerlogo" style=" position: absolute; left: 468px; top: -7px;">
-						<img src="/images/pressacerlogo.png">
+						<a href="http://www.facebook.com/AcerPH"><img src="/images/pressacerlogo.png"></a>
 					</div>
 				</div>
                
