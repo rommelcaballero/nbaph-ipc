@@ -10,7 +10,10 @@ include('lib.php');
 	$id = isset($_GET['id'])?filter_var($_GET['id'],FILTER_VALIDATE_INT):0;
 	if($id > 0){
 		$result = mysqli_query($connect, "SELECT id,filename,description,title,media_game_date,duration,player,large_image,format FROM new_videos WHERE id=". $id);
-		while($row = mysqli_fetch_array($result)){
+		while($row = mysqli_fetch_array($result)){			
+			if($row['large_image']==''){
+				$row['large_image']="default2.jpg";
+				}
 			$current_video = array(
 				'id' => $row['id'],
 				'filename' => $row['filename'],
@@ -26,6 +29,9 @@ include('lib.php');
 	}else{
 		$result = mysqli_query($connect, "SELECT id,filename,description,title,media_game_date,duration,player,large_image,format FROM new_videos Order by date_created desc limit 1");
 		while($row = mysqli_fetch_array($result)){
+			if($row['large_image']==''){
+				$row['large_image']="default2.jpg";
+			}
 			$current_video = array(
 				'id' => $row['id'],
 				'filename' => $row['filename'],
@@ -47,6 +53,9 @@ include('lib.php');
 	// query video list here
 	$result = mysqli_query($connect, "SELECT id,filename,description,title,media_game_date,duration,player,small_image FROM new_videos where v_upload_complete=1 and s_img_upload_complete=1 order by date_created desc, likes desc limit ".(($page-1)*12).", 12");	
 	while($row = mysqli_fetch_array($result)){
+		if($row['small_image']==''){
+				$row['small_image']="default2.jpg";
+			}
 		$playlist_video[] = array(
 			'id' => $row['id'],
 			'filename' => $row['filename'],
@@ -63,6 +72,9 @@ include('lib.php');
 	//3 most new
 	$result = mysqli_query($connect, "SELECT id,filename,description,title,media_game_date,duration,player,small_image FROM new_videos where v_upload_complete=1 and s_img_upload_complete=1 order by date_created desc, id desc, media_game_date desc limit 0, 3");	
 	while($row = mysqli_fetch_array($result)){
+		if($row['small_image']==''){
+				$row['small_image']="default2.jpg";
+			}
 		$most_recent_video[] = array(
 			'id' => $row['id'],
 			'filename' => $row['filename'],
@@ -78,6 +90,9 @@ include('lib.php');
 	//most like
 	$result = mysqli_query($connect,"SELECT id,filename,description,title,media_game_date,duration,player, small_image FROM new_videos where v_upload_complete=1 and s_img_upload_complete=1 and likes > 0 order by date_format(date_created,'%m-%d-%Y') desc, likes desc limit 0, 3");	
 	while($row = mysqli_fetch_array($result)){
+		if($row['small_image']==''){
+				$row['small_image']="default2.jpg";
+			}
 		$most_likes[] = array(
 			'id' => $row['id'],
 			'filename' => $row['filename'],
