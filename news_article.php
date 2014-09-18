@@ -53,9 +53,14 @@ include('queries/news_article-queries.php');
                     <?php echo $ads_list['nba_NewsArticle_top_leaderboard']['Content']; ?>
                </div>
                <div style="height: 10px"></div>
-               <div class="blue" style="font-size: 17px; margin: 0 auto; width:980px; padding:0 20px;">
-                    <b>LATEST HEADLINES - NBA NEWS</b>
-               </div>
+               <div id="bluecontainer" style=" position: relative;">
+					<div class="blue" style="font-size: 17px; margin: 0 auto; width:980px; padding:0 20px;">
+						<b>LATEST HEADLINES - NBA NEWS</b>
+					</div>
+					<div id="bluecontainerlogo" style=" position: absolute; left: 468px; top: -7px;">
+						<img src="/images/pressacerlogo.png">
+					</div>
+				</div>
                
                <!-- top half start -->
                <div style="width: 980px; padding:10px; margin: 0 auto">
