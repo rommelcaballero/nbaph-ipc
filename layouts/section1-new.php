@@ -140,7 +140,7 @@
 
 			<?php //if ($ads_array[0]['Link']): ?> 
 			<?php
-			$pictures = array("http://da39oqihf9mt5.cloudfront.net/ads/nbacafemanila1.jpg", "http://da39oqihf9mt5.cloudfront.net/ads/nbacafemanila3.jpg");
+			$pictures = array("/ads/nbacafemanila1.jpg", "/ads/nbacafemanila2.jpg", "/ads/nbacafemanila3.jpg");
 			shuffle($pictures);
 			?>
 
