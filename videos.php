@@ -397,11 +397,11 @@
 							<div class='top-playlist'>
 								<div class='top-playlist-col top-playlist-image'>
 									<a href='/videos/?id=<?php echo $most_recent_video[$a]['id']; ?>'>
-									<?php //if(file_exists("./ftp-web/".$most_recent_video[$a]['small_image']) && trim($most_recent_video[$a]['small_image']) != "" ): ?>
+									<?php if(file_exists("./ftp-web/".$most_recent_video[$a]['small_image']) && trim($most_recent_video[$a]['small_image']) != "" ): ?>
 									<img src="/ftp-web/<?php echo $most_recent_video[$a]['small_image']; ?>" title="<?php echo $most_recent_video[$a]['description']; ?>" width='150' height='84'/>
-									<?php //else: ?>
-									<!--img src="/ftp-web/default.jpg" title="<?php echo $most_recent_video[$a]['description']; ?>" width='150' height='84'/-->	
-									<?php //endif; ?>
+									<?php else: ?>
+									<img src="/ftp-web/default.jpg" title="<?php echo $most_recent_video[$a]['description']; ?>" width='150' height='84'/>	
+									<?php endif; ?>
 									</a>
 								</div>
 								<div class='top-playlist-col top-playlist-content'>
