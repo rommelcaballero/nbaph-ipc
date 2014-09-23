@@ -61,8 +61,17 @@
                                 <?php while($row = mysqli_fetch_array($new_vid_array)): ?>
                                     <div class="pics_details">
                                         <div class="pics_actual" style="float:left;">
-                                            <a href="/videos/?id=<?php echo $row['id']; ?>">                                              
-                                              <img src="/ftp-web/<?php echo $row['small_image']; ?>"  width="132" height="70" border="0" title="<?php echo $row['description']; ?>">                                             
+                                            <a href="/videos/?id=<?php echo $row['id']; ?>">
+
+											<?php if($row['small_image']!=''){ ?>
+
+                                              <img src="/ftp-web/<?php echo $row['small_image']; ?>"  width="132" height="70" border="0" title="<?php echo $row['description']; ?>"> 
+											  
+											 <?php } else { ?>
+								
+											  <img src="/ftp-web/default2.jpg"  width="132" height="70" border="0" title="<?php echo $row['description']; ?>">			
+
+											 <?php } ?>
                                             </a>
                                         </div>
                                         <a href="/videos/?id=<?php echo($row['id']); ?>"><?php echo stripslashes($row['title']); ?></a>
