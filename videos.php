@@ -159,7 +159,7 @@
 							<span class='intro'><?php echo stripslashes($current_video['description']); ?></span>
 							<span class='duration'><?php echo $current_video['duration']; ?></span>
 							<div id="acer" style="position:absolute;top: 21px;left: 696px;">
-								<a href="http://www.facebook.com/AcerPH"><img src="/images/pressacerlogo.png"></a>
+								<!--<a href="http://www.facebook.com/AcerPH"><img src="/images/pressacerlogo.png"></a>-->
 							</div>
 						</div>
 
@@ -643,3 +643,4 @@
 	</body>
 
 </html>
+

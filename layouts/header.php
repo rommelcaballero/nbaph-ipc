@@ -1,3 +1,17 @@
+<head>
+    <!-- Font face import -->
+    <link href="/styles/custom/fontface.css" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="">
+    
+    <title>Home Page</title>
+	
+   
+  </head>
+
+
 <div id="header">
     <div id="header_content">
         <div id="nba_header" style="z-index: 1000;">
@@ -201,11 +215,11 @@
 					<a href="http://ph.global.nba.com/stats/league/leagueSchedule.xhtml" class="header_nav_link">Scores &amp; Schedules</a>                
 					<div class="header_nav_spacer">
 						<div class="header_nav_dropdown" id="header_nav_scores" style="width: 150px">	
-							<div><a href="http://ph.global.nba.com/stats/league/scoreboard.xhtml">Scores/Results</a></div>
-							<div><a href="http://ph.global.nba.com/stats/league/leagueSchedule.xhtml">Schedule</a></div>
-							<div><a href="http://ph.global.nba.com/stats/league/leagueScheduleBySeasonAndMonth.xhtml">Full Schedule</a></div>
+							<div><a href="http://ph.global-prev2.nba.com/stats/league/scoreboard.xhtml">Scores/Results</a></div>
+							<div><a href="http://ph.global-prev2.nba.com/stats/league/leagueSchedule.xhtml">Schedule</a></div>
+							<!--<div><a href="http://ph.global.nba.com/stats/league/leagueScheduleBySeasonAndMonth.xhtml">Full Schedule</a></div>
 							<div><a href="http://ph.global.nba.com/stats/teams/index.xhtml">Team Schedule</a></div>
-							<div><a href="http://ph.global.nba.com/stats/league/scoreboard.xhtml">Live Game Schedule</a></div>
+							<div><a href="http://ph.global.nba.com/stats/league/scoreboard.xhtml">Live Game Schedule</a></div>-->
 						</div>
 					</div>
 				</li>
@@ -220,38 +234,38 @@
 				</li>
 				<li class="header_nav_divider"></li>
 				<li class="header_nav_section" id="nav_players">
-					<a href="http://ph.global.nba.com/stats/players/index.xhtml" class="header_nav_link">Players</a>
+					<a href="http://ph.glob-prev2.nba.com/stats/players/index.xhtml" class="header_nav_link">Players</a>
 
 					<div class="header_nav_spacer">
 						<div class="header_nav_dropdown" id="header_nav_players">
-							<div><a href="http://ph.global.nba.com/stats/players/index.xhtml">Players</a></div>			
-							<div><a href="http://ph.global.nba.com/stats/teams/index.xhtml">Team Rosters</a></div> 
+							<div><a href="http://ph.global-prev2.nba.com/stats/players/index.xhtml">Players</a></div>			
+							<div><a href="http://ph.global-prev2.nba.com/stats/teams/index.xhtml">Team Rosters</a></div> 
 						</div>
 				  
 					</div>
 				</li>
 				<li class="header_nav_divider"></li>
 				<li class="header_nav_section" id="nav_standings">
-					<a href="http://ph.global.nba.com/stats/league/teamDivStandings.xhtml" class="header_nav_link">Standings</a>
+					<a href="http://ph.glob-prev2.nba.com/stats/league/teamDivStandings.xhtml" class="header_nav_link">Standings</a>
 					<div class="header_nav_spacer">
 						<div class="header_nav_dropdown" id="header_nav_standings">
-							<div><a href="http://ph.global.nba.com/stats/league/teamDivStandings.xhtml">By Division</a></div>
-							<div><a href="http://ph.global.nba.com/stats/league/teamConfStandings.xhtml">By Conference</a></div>
-							<div><a href="http://ph.global.nba.com/stats/league/playoffs/index.xhtml">Playoffs</a></div>
+							<!--<div><a href="http://ph.global.nba.com/stats/league/teamDivStandings.xhtml">By Division</a></div>
+							<div><a href="http://ph.global.nba.com/stats/league/teamConfStandings.xhtml">By Conference</a></div>-->
+							<div><a href="http://ph.global-prev2.nba.com/stats/league/playoffs/index.xhtml">Playoffs</a></div>
 						</div>				  
 					</div>
 				</li>
 				<li class="header_nav_divider"></li>
 				<li class="header_nav_section" id="nav_stats">
-					<a href="http://ph.global.nba.com/stats/league/seasonLeadersSummary.xhtml" class="header_nav_link">Stats</a>
+					<a href="http://ph.glob-prev2.nba.com/stats/league/seasonLeadersSummary.xhtml" class="header_nav_link">Stats</a>
 					<div class="header_nav_spacer">
 						<div class="header_nav_dropdown" id="header_nav_stats">					  
-							<div><a href="http://ph.global.nba.com/stats/league/seasonLeadersSummary.xhtml?tz=GMT-5&dst=1&locale=en">Stats Summary</a></div>
-							<div><a href="http://ph.global.nba.com/stats/league/seasonLeadersFull.xhtml?locale=en">Individual Stats</a></div>  
-							<div><a href="http://ph.global.nba.com/stats/league/dailyLeaders.xhtml?locale=en">Daily Leader</a></div>
-							<div><a href="http://ph.global.nba.com/stats/league/seasonLeadersSummary.xhtml?locale=en">Season Leader</a></div>
-							<div><a href="http://ph.global.nba.com/stats/teams/index.xhtml?locale=en">Team Stats</a></div>
-							<div><a href="http://ph.global.nba.com/stats/teams/index.xhtml?locale=en">Team Leaders</a></div>
+							<div><a href="http://ph.glob-prev2.nba.com/stats/league/seasonLeadersSummary.xhtml?tz=GMT-5&dst=1&locale=en">Stats Summary</a></div>
+							<div><a href="http://ph.global-prev2.nba.com/stats/league/seasonLeadersFull.xhtml?locale=en">Individual Stats</a></div>  
+							<div><a href="http://ph.global-prev2.com/stats/league/dailyLeaders.xhtml?locale=en">Daily Leader</a></div>
+							<div><a href="http://ph.global-prev2.nba.com/stats/league/seasonLeadersSummary.xhtml?locale=en">Season Leader</a></div>
+							<div><a href="http://ph.global-prev2.nba.com/stats/teams/index.xhtml?locale=en">Team Stats</a></div>
+							<div><a href="http://ph.global-prev2.nba.com/stats/teams/index.xhtml?locale=en">Team Leaders</a></div>
 						</div>				  
 					</div>
 				</li>
