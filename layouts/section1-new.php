@@ -148,7 +148,7 @@
 			<div style="width: 300px; height: 100px; position: relative">
 			<?php 
 			//echo '<a href="http://on.fb.me/1xLPSyh"><img src="'.$pictures[array_rand($pictures)].'" /></a>'; 
-			echo '<a href="#"><img src="'.$pictures[array_rand($pictures)].'" /></a>';
+			echo '<a href="http://on.fb.me/10YZjMg"><img src="'.$pictures[array_rand($pictures)].'" /></a>';
 				date_default_timezone_set('Asia/Manila');
 				$datetoday1 = date('Y-m-d H:i:s');
 				$datetoday = strtotime($datetoday1);
