@@ -2,6 +2,8 @@
 <div class="container"  style='margin-top:6px; width:1000px;'>       					
 	<div class='section-container' style="float: left; width: 674px; margin-left: 5px; ">
 		<div style="width: 674px;">
+		<div id="top_container" style="position:relative">
+			<!--<img src="/images/carouselmats.png">-->
 			<div style="width: 672px; height: 376px; overflow: hidden; border-top:1px solid #d8d8d8; border-left: 1px solid #d8d8d8; border-right: 1px solid #d8d8d8;">
 				<?php
 				$cthumbs = array(); 
@@ -35,7 +37,8 @@
    				endfor;					
 				$carousel .= '<div class="clear"></div>';
 				?>
-			</div>    
+			</div> 			
+		</div>
 				
 			<div style="width: 652px;  padding: 5px 10px; border-top:1px solid #d8d8d8; border-left: 1px solid #d8d8d8; border-right: 1px solid #d8d8d8;">
                         <table cellspacing="0" cellpadding="0" style="width: 650px; padding-top: 10px">
@@ -137,12 +140,46 @@
 
 			<?php //if ($ads_array[0]['Link']): ?> 
 			<?php
-			$pictures = array("http://da39oqihf9mt5.cloudfront.net/ads/nbacafemanila1.jpg", "http://da39oqihf9mt5.cloudfront.net/ads/nbacafemanila3.jpg");
+			//$pictures = array("/ads/nbacafemanila1.jpg", "/ads/nbacafemanila2.jpg", "/ads/nbacafemanila3.jpg");
+			$pictures = array("/images/mangtomas1.jpg");
 			shuffle($pictures);
 			?>
 
-			<div style="width: 300px; height: 100px">
-			<?php echo '<a href="http://on.fb.me/1xLPSyh"><img src="'.$pictures[array_rand($pictures)].'" /></a>'; ?>
+			<div style="width: 300px; height: 100px; position: relative">
+			<?php 
+			//echo '<a href="http://on.fb.me/1xLPSyh"><img src="'.$pictures[array_rand($pictures)].'" /></a>'; 
+			echo '<a href="#"><img src="'.$pictures[array_rand($pictures)].'" /></a>';
+				date_default_timezone_set('Asia/Manila');
+				$datetoday1 = date('Y-m-d H:i:s');
+				$datetoday = strtotime($datetoday1);
+				$targetdate1 = "2014-10-28 23:59:59";
+				$targetdate = strtotime($targetdate1);
+				$daysremaining = ($targetdate - $datetoday) / 86400;
+			?>
+				<div style="position: absolute;top: 43px;">
+					<?php if($daysremaining > 0){  ?>
+					<script src="countdown.js" type="text/javascript"></script>		
+					<script type="application/javascript">
+									var myCountdown1 = new Countdown({
+								 	time: 86400 * <?php echo $daysremaining; ?>,
+									width:300, 
+									height:60,  
+									rangeHi:"day",
+									style:"flip",	
+
+									labels	:	{
+											font  	: "Arial",
+											color 	: "#000000",
+											offset : -5, 
+											textScale 	: 0.7,
+											weight	: "normal"	
+										}	
+
+									});
+
+					</script>
+					<?php }  ?>
+				</div>
 					<!--a href="<?php echo $ads_array2[0]['Link']; ?>"><img src="/ads/<?php echo $ads_array2[0]['Image']; ?>"></a-->
 					<!--a href="/pre-season.php?register=1"><img src="media/2.0/300x100-banner-4.jpg"></a-->					
 					<!--a href="/nbaglobalgamesphilippines2013"><img src="media/2.0/300x100-banner-5.jpg"></a-->					
