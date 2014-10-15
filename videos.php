@@ -36,7 +36,8 @@
 	<meta property="og:image:url" content="<?php echo $base; ?>ftp-web/<?php echo $current_video['large_image'] ?>"/>	
 	<meta property="og:image" content="<?php echo $base; ?>ftp-web/<?php echo $current_video['large_image'] ?>"/>	
 	<meta property="fb:admins" content="668328204" />
-
+	<link rel="stylesheet" href="https://s3-ap-southeast-1.amazonaws.com/nbaphfiles/sib2/style2.css">
+	<?php include('static_nav2.php');?>
 	<link rel="stylesheet" type="text/css" href="/css/style.css">	
 	<link rel="stylesheet" type="text/css" href="/css/style-new.css">
 	<link rel="stylesheet" type="text/css" href="/css/videos.css">
@@ -47,12 +48,12 @@
 	<link rel="stylesheet" type="text/css" href="/css/ie7_style.css">
 	<![endif]-->
 	
-	<script type="text/javascript" src="jquery-1.7.1.min.js"></script>	
+	<!--<script type="text/javascript" src="jquery-1.7.1.min.js"></script>-->	
 	<!-- 1. skin -->
 	<link rel="stylesheet" href="//releases.flowplayer.org/5.4.4/skin/minimalist.css">
 	 
 	<!-- 2. jquery library -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> this affects the header . do not add-->
 	 
 	<!-- 3. flowplayer -->
 	<script src="//releases.flowplayer.org/5.4.4/flowplayer.min.js"></script>
@@ -108,7 +109,9 @@
 	
 		<?php include('layouts/popups.php'); ?>
 		<div id="wrapper">
-			<?php include('layouts/header.php'); ?>
+			<?php include('static_nav.php');?>
+			<?php include('nbaph_header.php');?>
+			<?php //include('layouts/header.php'); ?>
 			<div id="main_content" > 				
 				<div class='video-display' >
 					<div class='main-video'>						
@@ -123,11 +126,12 @@
 							</script>
 						</div-->							
 						<div class="player-box" style="width:630px; height:360px;" data-engine="flash">
-							<?php if(($geoLocBlocked == true) && ($bypass_geoblock != '123')): ?>	
+							<?php //if(($geoLocBlocked == true) && ($bypass_geoblock != '123')): ?>	
+							<!--
 								<div style="width:100%; height:100%; background:#000;">
 									<span style='display:block; width:60%; padding-top:150px; margin:0 auto; color:#fff; text-transform:uppercase; text-align:center;'>The video you were trying to watch cannot be viewed from your current country or location</span>
-								</div>
-							<?php else: ?>
+								</div> -->
+							<?php //else: ?>
 								<video id='contentElement' width="630" height="360" controls>
 									<source type="video/quicktime" src="/ftp-web/<?php echo $current_video['filename'].".".strtolower($current_video['format']); ?>"></source>								
 									<source type="video/mp4" src="/ftp-web/<?php echo $current_video['filename'].".".strtolower($current_video['format']); ?>"></source>								
@@ -138,7 +142,7 @@
 									left: 0px;
 									width: 630px;				
 									height: 360px;'></div>								
-							<?php endif; ?>								
+							<?php //endif; ?>								
 						</div>		
 						<?php else: ?>
 						<div class='player-vid' id='player-vid' style="width: 630px; height: 360px"></div>												
@@ -643,4 +647,3 @@
 	</body>
 
 </html>
-

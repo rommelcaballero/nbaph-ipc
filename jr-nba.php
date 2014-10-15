@@ -16,7 +16,9 @@
     <meta property="og:image:url" content="http://ph.nba.com/media/2.0/banner_rockets_vs_pacers_v2.jpg"/>   
     <meta property="og:image" content="http://ph.nba.com/media/2.0/banner_rockets_vs_pacers_v2.jpg"/>   
     <meta property="fb:admins" content="668328204" />
-
+	
+	<link rel="stylesheet" href="https://s3-ap-southeast-1.amazonaws.com/nbaphfiles/sib2/style2.css">
+	<?php include('static_nav2.php');?>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="style-index.css">
     <link rel="stylesheet" type="text/css" href="style-new.css">
@@ -27,7 +29,7 @@
     <link rel="stylesheet" type="text/css" href="ie7_style.css">
     <![endif]-->
 
-    <!--script type="text/javascript" src="jquery-1.7.1.min.js"></script-->
+    <!--<script type="text/javascript" src="jquery-1.7.1.min.js"></script>-->
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
     <script src="http://code.jquery.com/jquery-1.7.1.js"></script>
     <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
@@ -48,7 +50,10 @@
 
     <?php include('layouts/popups.php'); ?>
     <div id="wrapper">
-        <?php include('layouts/header.php'); ?>	        
+		<?php include('static_nav.php');?>
+		<?php include('nbaph_header.php');?>
+
+        <?php //include('layouts/header.php'); ?>	        
         <div id="main_content" ><!-- main_content -->             
             <?php                                  
                 include ("jr-nba-layout/index.php");                                                        

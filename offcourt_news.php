@@ -26,7 +26,8 @@ include('queries/offcourt_news-queries.php');
 <html>
 <head>
 <title>NBA Philippines</title>
-
+<link rel="stylesheet" href="https://s3-ap-southeast-1.amazonaws.com/nbaphfiles/sib2/style2.css">
+<?php include('static_nav2.php');?>
 <link rel="stylesheet" type="text/css" href="/style.css">
 <link rel="stylesheet" type="text/css" href="/style-offcourt_news.css">
 <link rel="stylesheet" type="text/css" href="/colorbox/colorbox.css">
@@ -36,11 +37,11 @@ include('queries/offcourt_news-queries.php');
 <!--[if IE 7]>
 <link rel="stylesheet" type="text/css" href="/ie7_style.css">
 <![endif]-->
-<script type="text/javascript" src="/jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="/jquery.tools.min.js"></script>
-<script type="text/javascript" src="/jquery.imgpreload.js"></script>
-<script type="text/javascript" src="/colorbox/jquery.colorbox.js"></script>
-<script type="text/javascript" src="/java.js"></script>
+<!--<script type="text/javascript" src="/jquery-1.7.1.min.js"></script>-->
+<script type="text/javascript" src="jquery.tools.min.js"></script>
+<script type="text/javascript" src="jquery.imgpreload.js"></script>
+<script type="text/javascript" src="colorbox/jquery.colorbox.js"></script>
+<script type="text/javascript" src="java.js"></script>
 </head>
 
 <body>
@@ -49,8 +50,10 @@ include('layouts/popups.php');
 ?>
 
 <div id="wrapper">
+<?php include('static_nav.php');?>
+<?php include('nbaph_header.php');?>
 <?php
-include('layouts/header.php');
+//include('layouts/header.php');
 ?>
 
    <div id="main_content">

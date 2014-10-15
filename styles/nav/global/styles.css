@@ -1,0 +1,102 @@
+/*this file is to style the stats navigation menu without the rest of the styles and also put everything into a specific qualifier to minimize the impact on 
+the licensee site. It should be 99% the same as the styles that are consolidated with the exception of having a specific parent class */
+
+
+#global-nav #edition_wrapper{
+    display:none;
+    height:46px;
+    line-height:45px;
+    background-color: grey;
+    color:#fff;
+    clear: both;
+}
+#global-nav #edition_wrapper.edition_open{
+  display:block;
+}
+#global-nav #edition{
+  margin-left:20px;
+}
+
+#global-nav #edition.edition_open,
+#global-nav #edition_message.edition_open{
+  display:block;
+}
+#global-nav #edition.edition_closed,
+#global-nav #edition_message.edition_closed{
+  display:none;
+}
+
+
+#global-nav {
+	margin-bottom: 0;
+	background: #002954;
+}
+
+#global-nav .container {
+  min-height: 40px;  /*different than consolidated ??*/
+}
+
+
+#global-nav .navbar-toggle {
+	display: none;
+}
+#global-nav .nav {
+	list-style: none;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#global-nav .navbar-nav li {
+	float: left;
+	display: block;
+	position: relative;
+}
+
+#global-nav .navbar-nav li.dropdown ul li{
+	float: none;
+}
+#global-nav .nav.navbar-nav li a{
+	color: #fff;
+	padding-top: 4px;
+	padding-bottom: 0;
+	line-height: 20px;
+	position:relative;
+	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+
+}
+#global-nav .nav.navbar-nav li a:hover {
+	background-color: #1a477b;
+	text-decoration: none;
+	outline: 0;
+}
+#global-nav ul.dropdown-menu {
+	z-index: 1010;
+	background:#1a477b;
+	position: absolute;
+	top: 40px;
+	left:0;
+	float:left;
+	min-width: 160px;
+	padding: 0;
+	list-style: none;
+	display: none;
+}
+
+#global-nav ul.dropdown-menu li{
+  border: 1px solid #002954;
+}
+
+#global-nav .nav.navbar-nav li ul li a {
+	padding: 0 15px;
+}
+#global-nav li.dropdown:hover  ul.dropdown-menu {
+	display: block;
+}
+
+@media(max-width:767px) {
+  .hidden-sm{
+	  display: none;
+  }	
+}

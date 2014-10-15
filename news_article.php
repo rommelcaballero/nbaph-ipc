@@ -13,17 +13,13 @@ include('queries/news_article-queries.php');
 <html>
 <head>
 <title>NBA Philippines</title>
-
+<link rel="stylesheet" href="https://s3-ap-southeast-1.amazonaws.com/nbaphfiles/sib2/style2.css">
+<?php include('static_nav2.php');?>
 <link rel="stylesheet" type="text/css" href="/css/style.css">
 <link rel="stylesheet" type="text/css" href="/css/style-new.css">
-<!--link rel="stylesheet" type="text/css" href="style-news.css"-->
-<link rel="stylesheet" type="text/css" href="/css/colorbox/colorbox.css">
-<!--[if IE]>
-<link rel="stylesheet" type="text/css" href="/css/ie_style.css">
-<![endif]-->
-<!--[if IE 7]>
-<link rel="stylesheet" type="text/css" href="/css/ie7_style.css">
-<![endif]-->
+<link rel="stylesheet" type="text/css" href="/css/style-news.css">
+<link rel="stylesheet" type="text/css" href="/colorbox/colorbox.css">
+
 
 	<!-- 1. skin -->
 	<link rel="stylesheet" href="//releases.flowplayer.org/5.4.4/skin/minimalist.css">
@@ -45,7 +41,9 @@ include('queries/news_article-queries.php');
   
 <?php include('layouts/popups.php'); ?>
      <div id="wrapper">
-          <?php include('layouts/header.php'); ?>
+		<?php include('static_nav.php');?>
+		<?php include('nbaph_header.php');?>
+         
 
           <div id="main_content">
                <div style="height: 10px"></div>
@@ -58,7 +56,7 @@ include('queries/news_article-queries.php');
 						<b>LATEST HEADLINES - NBA NEWS</b>
 					</div>
 					<div id="bluecontainerlogo" style=" position: absolute; left: 468px; top: -7px;">
-						<a href="http://www.facebook.com/AcerPH"><img src="/images/pressacerlogo.png"></a>
+						<!--<a href="http://www.facebook.com/AcerPH"><img src="/images/pressacerlogo.png"></a>-->
 					</div>
 				</div>
                

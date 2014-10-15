@@ -9,7 +9,26 @@ include('queries/writers_full-queries.php');
 <html>
 	<head>
 		<title>NBA Philippines</title> 
-		
+<?php
+if($found > 0){
+	for ($i = 0; $i < count($blog_array); $i += 1){	
+		$blog_metadesc = $blog_array[$i]['metadesc'];
+		$blog_metakey = $blog_array[$i]['metakey'];
+	echo '
+		<meta charset="UTF-8">
+		<meta name="description" content="',$blog_metadesc,'">
+		<meta name="keywords" content="',$blog_metakey,'">
+	';
+	}		
+}
+		?>	
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" /> 	
+	
+		<META http-equiv="X-UA-Compatible" content="IE=9" />
+		<meta http-equiv="Cache-control" content="public">
+
+		<link rel="stylesheet" href="https://s3-ap-southeast-1.amazonaws.com/nbaphfiles/sib2/style2.css">
+		<?php include('static_nav2.php');?>		
 		<link rel="stylesheet" type="text/css" href="/style.css">
 		<link rel="stylesheet" type="text/css" href="/style-writers_full.css">
 		<link rel="stylesheet" type="text/css" href="/colorbox/colorbox.css">
@@ -19,7 +38,7 @@ include('queries/writers_full-queries.php');
 		<!--[if IE 7]>
 		<link rel="stylesheet" type="text/css" href="/ie7_style.css">
 		<![endif]-->
-		<script type="text/javascript" src="/jquery-1.7.1.min.js"></script>
+		<!--<script type="text/javascript" src="/jquery-1.7.1.min.js"></script>-->
 		<script type="text/javascript" src="/jquery.tools.min.js"></script>
 		<script type="text/javascript" src="/jquery.imgpreload.js"></script>
 		<script type="text/javascript" src="/colorbox/jquery.colorbox.js"></script>
@@ -29,7 +48,9 @@ include('queries/writers_full-queries.php');
 		
 		<?php include('layouts/popups.php');?>
 		<div id="wrapper">
-			<?php include('layouts/header.php'); ?>
+		<?php include('static_nav.php');?>
+		<?php include('nbaph_header.php');?>
+			<?php //include('layouts/header.php'); ?>
 
 			<div id="main_content">
 				<div style="height: 10px"></div>
