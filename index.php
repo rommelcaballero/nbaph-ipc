@@ -98,16 +98,15 @@ if($www!=="ph"){
 				<div align="center" style="display: inline;padding-left: 200px;">				
 		
 				<div style="display: inline-flex;height: 100%;vertical-align: top;padding-left: 10px;">
-				<div style="display:inline;padding-right:12px">
+				<div style="display:inline;padding-right:12px;vertical-align:top">
 				<iframe src="http://ph.glob-prev2.nba.com/articles/licensee_widget_leaders.html" width="300px" frameborder="0" height="600px" scrolling="no" style=""> </iframe>
 				</div>
-				<div style="display:inline">
+				<div style="display:inline;vertical-align:top;">
 				<iframe src="http://ph.glob-prev2.nba.com/articles/licensee_widget_standings.html" width="300px" frameborder="0" height="680px" scrolling="no"> </iframe>
 				</div>
 				</div>			
 
 				</div>
-
 	          		<?php include("layouts/starting5.php"); ?>
 	          	</div>
 	          	<div>
