@@ -81,7 +81,7 @@
                 <li><a target="_blank" href="http://nba.clarosports.com/nba/inicio/">Mexico</a></li>
                 <li><a target="_blank" href="http://www.sportal.co.nz/nba">New Zealand</a></li>
                 <li><a target="_blank" href="http://ph.nba.com/">Philippines</a></li>
-                <li><a target="_blank" href="http://www.nba.com/brasil/ "> Portuguese</a></li>
+                <!--<li><a target="_blank" href="http://www.nba.com/brasil/ "> Portuguese</a></li>-->
                 <li><a target="_blank" href="http://www.ajansspor.com/nba/">Turkey</a></li>       
               </ul>
             </li>

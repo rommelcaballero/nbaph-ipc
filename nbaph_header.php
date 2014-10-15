@@ -1,7 +1,7 @@
 <div id="nbaph_header">
 
    <div id="nbaph_header_logo">
-      <img src="https://s3-ap-southeast-1.amazonaws.com/nbaphfiles/sib2/images/header_nba_logo.png" alt="NBA Logo">
+      <a href="http://ph.nba.com"><img src="https://s3-ap-southeast-1.amazonaws.com/nbaphfiles/sib2/images/header_nba_logo.png" alt="NBA Logo"></a>
    </div>
 
    <div id="nbaph_header_country"> PHILIPPINES </div>
@@ -53,7 +53,7 @@
          </li>
 
          <li> 
-            <a href="#" class="mobilenav">Players</a> 
+            <a href="http://ph.glob-prev2.nba.com/playerindex" class="mobilenav">Players</a> 
             <ul class="nbaph_submenu_mobile">
                <li><a href="http://ph.glob-prev2.nba.com/playerindex/">Players</a></li>
                <li><a href="http://ph.glob-prev2.nba.com/teamindex/">Team Rosters</a></li>
@@ -70,7 +70,7 @@
          </li>
 
          <li> 
-            <a href="#" class="mobilenav">Stats</a> 
+            <a href="http://ph.glob-prev2.nba.com/statistics" class="mobilenav">Stats</a> 
             <ul class="nbaph_submenu_mobile">
                <li><a href="http://ph.glob-prev2.nba.com/statistics/">Individual Stats</a></li>
                <li><a href="http://ph.glob-prev2.nba.com/statistics/teamstats/">Team Stats</a></li>
@@ -141,12 +141,18 @@
          </li>
 
          <li>
-            <a href=""> Players <img src="https://s3-ap-southeast-1.amazonaws.com/nbaphfiles/sib2/images/header_link_arrow.png" class="nbaph_header_nav_arrow" alt="link arrow"> </a>
+            <a href="http://ph.glob-prev2.nba.com/playerindex"> Players <img src="https://s3-ap-southeast-1.amazonaws.com/nbaphfiles/sib2/images/header_link_arrow.png" class="nbaph_header_nav_arrow" alt="link arrow"> </a>
 
             <ul class="nbaph_submenu">
                <li><a href="http://ph.glob-prev2.nba.com/playerindex">Players</a></li>
                <li><a href="http://ph.glob-prev2.nba.com/teamindex/">Team Rosters</a></li>
             </ul>
+         </li>
+
+		 <li>
+            <a href="http://ph.glob-prev2.nba.com/teamindex"> Teams <!--<img src="https://s3-ap-southeast-1.amazonaws.com/nbaphfiles/sib2/images/header_link_arrow.png" class="nbaph_header_nav_arrow" alt="link arrow">--> </a>
+			
+
          </li>
 
          <li>
@@ -159,7 +165,7 @@
          </li>
 
          <li>
-            <a href=""> Stats <img src="https://s3-ap-southeast-1.amazonaws.com/nbaphfiles/sib2/images/header_link_arrow.png" class="nbaph_header_nav_arrow" alt="link arrow"></a>
+            <a href="http://ph.glob-prev2.nba.com/statistics"> Stats <img src="https://s3-ap-southeast-1.amazonaws.com/nbaphfiles/sib2/images/header_link_arrow.png" class="nbaph_header_nav_arrow" alt="link arrow"></a>
             <ul class="nbaph_submenu">
                <li><a href="http://ph.glob-prev2.nba.com/statistics/">Individual Stats</a></li>
                <li><a href="http://ph.glob-prev2.nba.com/statistics/teamstats/">Team Stats</a></li>

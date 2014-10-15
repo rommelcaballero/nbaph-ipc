@@ -97,12 +97,12 @@ if($www!=="ph"){
 				<!-- widgets -->
 				<div align="center" style="display: inline;padding-left: 200px;">				
 		
-				<div style="display:inline-block;margin:0 10px 0 0;">
-				<div style="display:inline;padding-right:6px">
+				<div style="display: inline-flex;height: 100%;vertical-align: top;padding-left: 10px;">
+				<div style="display:inline;padding-right:12px">
 				<iframe src="http://ph.glob-prev2.nba.com/articles/licensee_widget_leaders.html" width="300px" frameborder="0" height="600px" scrolling="no" style=""> </iframe>
 				</div>
 				<div style="display:inline">
-				<iframe src="http://ph.glob-prev2.nba.com/articles/licensee_widget_standings.html" width="300px" frameborder="0" height="600px" scrolling="no"> </iframe>
+				<iframe src="http://ph.glob-prev2.nba.com/articles/licensee_widget_standings.html" width="300px" frameborder="0" height="680px" scrolling="no"> </iframe>
 				</div>
 				</div>			
 
