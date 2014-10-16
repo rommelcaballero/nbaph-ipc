@@ -70,7 +70,7 @@ if($www!=="ph"){
 						<!--<iframe src="http://ph.global.nba.com/hpscoreboardiframe.html" align="center" frameborder="0" width="1000" height="143" scrolling="no" marginwidth="0" marginheight="0" style="text-align:center; align: center; margin: 0; padding: 0; marginwidth:0"></iframe>-->
 
 						<!-- new scoreboard> -->
-						<iframe src="http://ph.glob-prev2.nba.com/articles/licensee_widget_scoreboard.html" width="940px" frameBorder="0" height="160px" scrolling="no" > </iframe>
+						<iframe src="http://ph.global.nba.com/articles/licensee_widget_scoreboard.html" width="940px" frameBorder="0" height="160px" scrolling="no" > </iframe>
 						
 					</div>
 				</div>
@@ -99,10 +99,10 @@ if($www!=="ph"){
 		
 				<div style="display: inline-flex;height: 100%;vertical-align: top;padding-left: 10px;">
 				<div style="display:inline;padding-right:12px;vertical-align:top">
-				<iframe src="http://ph.glob-prev2.nba.com/articles/licensee_widget_leaders.html" width="300px" frameborder="0" height="600px" scrolling="no" style=""> </iframe>
+				<iframe src="http://ph.global.nba.com/articles/licensee_widget_leaders.html" width="300px" frameborder="0" height="600px" scrolling="no" style=""> </iframe>
 				</div>
 				<div style="display:inline;vertical-align:top;">
-				<iframe src="http://ph.glob-prev2.nba.com/articles/licensee_widget_standings.html" width="300px" frameborder="0" height="680px" scrolling="no"> </iframe>
+				<iframe src="http://ph.global.nba.com/articles/licensee_widget_standings.html" width="300px" frameborder="0" height="680px" scrolling="no"> </iframe>
 				</div>
 				</div>			
 
