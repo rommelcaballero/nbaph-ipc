@@ -106,7 +106,7 @@ if($found > 0){
 
 								$geoLocBlocked = ($geo_data['geoplugin_countryCode'] != 'PH' || $test_geoip_none_ph);
 								 
-								if($geoLocBlocked){
+								/*if($geoLocBlocked){
 									$reg = '/^\r+|\n+/';
 									$out = "";
 									$blog_content = preg_replace($reg, $out, $blog_content);
@@ -114,7 +114,7 @@ if($found > 0){
 									$reg = '#\<video (.*?)\</video\>#i';
 									$out = "<div style='width:630px; height:360px; background:#000;'><span style='display:block; width:60%; padding-top:150px; margin:0 auto; color:#fff; text-transform:uppercase; text-align:center;'>The video you were trying to watch cannot be viewed from your current country or location</span></div>";	
 									$blog_content = preg_replace($reg, $out, $blog_content);							
-								}
+								}*/
 								echo $blog_content; 						
 								?>
 							   <div class="clear_both" ></div>
