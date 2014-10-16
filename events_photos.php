@@ -10,6 +10,8 @@ include('queries/events-general-queries.php');
 <head>
 <title>NBA Philippines</title>
 
+<link rel="stylesheet" href="https://s3-ap-southeast-1.amazonaws.com/nbaphfiles/sib2/style2.css">
+<?php include('static_nav2.php');?>
 <link rel="stylesheet" type="text/css" href="/css/style.css">
 <link rel="stylesheet" type="text/css" href="/css/style-events.css">
 <link rel="stylesheet" type="text/css" href="/css/jscal2.css" />
@@ -36,7 +38,8 @@ width:20000em;
 position:absolute;
 }-->
 </style>
-<script type="text/javascript" src="/jquery-1.7.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.0.0.js"></script>
+<!--<script type="text/javascript" src="/jquery-1.7.1.min.js"></script>-->
 <script type="text/javascript" src="/jquery.tools.min.js"></script>
 <script type="text/javascript" src="/jquery.imgpreload.js"></script>
 <script type="text/javascript" src="/colorbox/jquery.colorbox.js"></script>
@@ -49,8 +52,11 @@ include('layouts/popups.php');
 ?>
 
 <div id="wrapper">
+		<?php include('static_nav.php');?>
+		<?php include('nbaph_header.php');?>
+
 <?php
-include('layouts/header.php');
+//include('layouts/header.php');
 ?>
 
    <div id="main_content">
