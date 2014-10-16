@@ -45,7 +45,7 @@ ul, li{ list-style: none; }
 }
 
 #nbaph_header {
-	max-width: 993px;
+	max-width: 100%;
 	/*height: 70px;*/
 	background: #1a477b;
 	position: relative;
@@ -108,7 +108,7 @@ ul, li{ list-style: none; }
 	margin: 0 auto;
 	background: #2a6cb6;
 	font-family: 'LatoRegular', 'Lato', sans-serif;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 #nbaph_header_nav a {
