@@ -4,7 +4,7 @@
       <a href="http://ph.nba.com"><img src="https://s3-ap-southeast-1.amazonaws.com/nbaphfiles/sib2/images/header_nba_logo.png" alt="NBA Logo">
    </div>
 
-   <div id="nbaph_header_country"><a href="http://ph.nba.com"> PHILIPPINES </a></div>
+   <div id="nbaph_header_country"><a href="http://ph.nba.com" style="white; text-decoration:none"> PHILIPPINES </a></div>
 
 
    <div id="nbaph_header_img_links">
