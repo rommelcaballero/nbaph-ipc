@@ -103,7 +103,7 @@ if($found > 0){
 
 						$geoLocBlocked = ($geo_data['geoplugin_countryCode'] != 'PH' || $test_geoip_none_ph);
 						 
-						if($geoLocBlocked){
+						/*if($geoLocBlocked){
 							$reg = '/^\r+|\n+/';
 							$out = "";
 							$blog_content = preg_replace($reg, $out, $blog_content);
@@ -114,7 +114,7 @@ if($found > 0){
 								</div>";	
 							$blog_content = preg_replace($reg, $out, $blog_content);
 							
-						}
+						}*/
 						
 						echo $blog_content; 	
 						?>
