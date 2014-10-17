@@ -54,10 +54,11 @@
 
          <li> 
             <a href="http://ph.global.nba.com/playerindex" class="mobilenav">Players</a> 
+			<!--
             <ul class="nbaph_submenu_mobile">
                <li><a href="http://ph.global.nba.com/playerindex/">Players</a></li>
                <li><a href="http://ph.global.nba.com/teamindex/">Team Rosters</a></li>
-            </ul>
+            </ul>-->
          </li>
 
          <li> 
