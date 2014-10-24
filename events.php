@@ -1,338 +1,495 @@
 <?php
-$part_page = "events";
-
-include('queries/events-queries.php');
-include('queries/events-general-queries.php');
-
+include('sql.php');
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
-<title>NBA Philippines</title>
-
-<link rel="stylesheet" type="text/css" href="/css/style.css">
-<link rel="stylesheet" type="text/css" href="/css/style-events.css">
-<link rel="stylesheet" type="text/css" href="/css/colorbox/colorbox.css">
-<!--[if IE]>
-<link rel="stylesheet" type="text/css" href="/css/ie_style.css">
-<![endif]-->
-<!--[if IE 7]>
-<link rel="stylesheet" type="text/css" href="/css/ie7_style.css">
-<![endif]-->
-<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="jquery.tools.min.js"></script>
-<script type="text/javascript" src="jquery.imgpreload.js"></script>
-<script type="text/javascript" src="colorbox/jquery.colorbox.js"></script>
-<script type="text/javascript" src="java.js"></script>
+<?php
+include('head.php');
+?>
+<link rel="stylesheet" href="events.css" />
+<link rel="stylesheet" href="style-events.css" />
 </head>
 
 <body>
 <?php
-include('layouts/popups.php');
+include('header.php');
 ?>
 
-<div id="wrapper">
+<div style="max-width: 993px; margin: 10px auto">
+   <div class="nbaph_article_title">
+      EVENTS
+   </div>
+
+   <div class="nbaph_article_wide_events">
+      <div class="nbaph_article_content" style="margin: 0">
+         <div class="nbaph_events_margin">
 <?php
-include('layouts/header.php');
+$results = $connect->query("select * from events order by EventID desc limit 0, 1");
+
+$row = $results->fetch_array();
+?>
+            <div id="nbaph_events_main">
+               <a href="events-article.php?id=<?php echo $row['EventID']; ?>">
+                  <img src="<?php echo $row['Image']; ?>" alt="<?php echo $row['Title']; ?>" />
+               </a>
+            </div>
+
+            <div id="nbaph_events_main_title">
+               <a href="events-article.php?id=<?php echo $row['EventID']; ?>"><?php echo $row['Title']; ?></a>
+            </div>
+
+            <div id="nbaph_events_main_caption">
+               <?php echo $row['Intro']; ?> <a href="events-article.php?id=<?php echo $row['EventID']; ?>">Read full article.</a>
+            </div>
+         </div>
+      </div>
+
+      <div class="clear"></div>
+
+      <div class="nbaph_mobile_only" style="width: 100%; margin-bottom: 20px">
+         <div class="nbaph_article_title">
+            EVENTS CALENDAR
+         </div>
+
+         <div id="calendarContainer_mobile" >
+             <center>
+              <?php
+              include('functions_calendar.php');
+
+              $calendar = query_calendar(NULL,NULL,NULL, $connect);
+
+              echo $calendar;
+              ?>
+             </center>
+         </div>
+      </div>
+
+      <div class="nbaph_article_title">
+         VIDEOS
+      </div>
+
+      <div class="nbaph_article_content" style="height: 100%; overflow: hidden">
+         <div id="nbaph_events_videos">
+<?php
+$results = $connect->query("select * from eventsvideos order by DatePosted desc limit 0, 3");
+
+while($row = $results->fetch_array()) {
+?>
+            <table class="nbaph_events_video">
+               <tr>
+                  <td class="nbaph_events_video_thumb">
+                     <img src="<?php echo $row['Image']; ?>" style="width: 100%" class="nbaph_hl" alt="highlights main" />
+                  </td>
+                  <td class="nbaph_events_video_details">
+                     <div class="nbaph_events_video_title">
+                        <a href="#"><?php echo $row['Title']; ?></a>
+                     </div>
+
+                     <div class="nbaph_events_video_caption">
+                        <?php echo $row['Caption']; ?>
+                     </div>
+                  </td>
+               </tr>
+            </table>
+
+            <table class="nbaph_events_video_mobile">
+               <tr>
+                  <td class="nbaph_events_video_thumb">
+                     <img src="<?php echo $row['Image']; ?>" style="width: 100%" class="nbaph_hl" alt="highlights main" />
+                  </td>
+               </tr>
+               <tr>
+                  <td class="nbaph_events_video_details">
+                     <div class="nbaph_events_video_title">
+                        <a href="#"><?php echo $row['Title']; ?></a>
+                     </div>
+
+                     <div class="nbaph_events_video_caption">
+                        <?php echo $row['Caption']; ?>
+                     </div>
+                  </td>
+               </tr>
+            </table>
+<?php
+}
 ?>
 
-   <div id="main_content">
-
-      <div style="height: 10px"></div>
-
-      <div style="width: 958px; height: 90px; margin: 0 auto; text-align: center; ">
-      <?php
-      echo $ads_list['nba_Events_top_leaderboard']['Content'];
-      ?>
-      </div>
-
-      <div style="height: 10px"></div>
-
-      <div style="font-size: 20px; width: 940px; margin: 0 auto; padding: 10px 0 0; color: #002954">
-         <b>Events</b>
-      </div>
-
-      <div style="height: 20px"></div>
-
-      <!-- top half start -->
-      <div style="width: 958px; margin: 0 auto; padding-bottom: 15px; ">
-
-          <!-- left start -->
-          <div class="lfloat" style="width: 632px; ">
-
-            <!-- main event -->
-            <div id="MainEvent" >
-               <?php
-               $event_image = $events_row['Image'];
-               $current_eventid = $events_row['EventID'];
-               ?>
-
-                <div style="width: 630px; text-align: center; background-color: #fef5f5; " >
-                   <center><div ><a href="local-events/<?php echo $events_row['EventID']; ?>/<?php echo seoUrl($events_row['Title']); ?>"><img src="<?php
-                  echo $event_image;
-                  ?>"></a></div></center>
-                </div>
-
-                <div class="blue" style="padding: 5px 0px 0px 0px; font-weight: bold; " >
-                   <a href="local-events/<?php echo $events_row['EventID']; ?>/<?php echo seoUrl($events_row['Title']); ?>" ><?php echo $events_row['Title']; ?></a>
-                </div>
-
-                <div style="font-size: 12px; ">
-               <?php
-                   echo substr(stripslashes($events_row['Intro']), 0, 200);
-
-                   if (strlen(stripslashes($events_row['Intro'])) > 200)
-                      echo "...";
-                   ?>
-                   <span class="blue" ><a href="local-events/<?php echo $events_row['EventID']; ?>/<?php echo seoUrl($events_row['Title']); ?>" >Read full article.</a></span>
-
-                </div>
-
-                <!-- table not exists -->
-            </div>
-            <!-- main event -->
-
-            <div style="height: 15px; ">&nbsp;</div>
-
-            <div style="width: 620px; ">
-
-               <div style="float: left; width: 300px; ">
-
-                  <!-- VIDEOS -->
-                  <div class="events_subsection">
-
-                      <div class="events_subsection_header" style="width: 300px; " >
-                        <div class="tab_wtitle" >Videos</div>
-                      </div>
-
-                      <div class="section_holder" >
-
-                          <div style="margin: 0px; padding: 9px 11px 0px 11px; font-size: 9pt; " >
-                              <div>
-                              <?php
-                              $preg = array('/width=\"[\d]{1,4}\"/i', '/height=\"[\d]{1,4}\"/i');
-                              $with = array('width="277"', 'height="159"');
-                              echo preg_replace($preg, $with, $video_row['EmbedCode']);
-                              ?>
-                              </div>
-
-                                <div style="padding: 10px 0; font-size: 14px; ">
-                                    <b><?php echo stripslashes($video_row['Title']); ?></b>
-                                </div>
-
-                                <div ><?php echo stripslashes($video_row['Caption']); ?></div>
-
-                          </div>
-
-                          <div class="more_abs"  >
-                            <a href="events-videos" >More Videos</a>
-                          </div>
-
-                      </div>
-
-                  </div>
-              <!-- END VIDEOS -->
-               </div>
-
-               <div style="float: left; width: 300px; margin-left: 20px; ">
-
-                  <!-- PHOTOS -->
-                  <div class="events_subsection">
-
-                      <div class="events_subsection_header" style="width: 300px; " >
-                        <div class="tab_wtitle" >Photos</div>
-                      </div>
-
-                      <div class="section_holder" >
-
-                          <div style="margin: 0px; padding: 9px 11px 0px 6px; font-size: 9pt; " >
-
-                               <div >
-
-                                    <table id="eventsphotos" class="centered" cellspacing="0" cellpadding="3" style="width: 279px; text-align: center">
-                                    <?php
-                                       for ($count = 0; $count < count($photo_array); $count += 1) {
-                                          //image
-                                          $phoimg = $photo_array[$count]['ImageThumb'];
-
-                                          if ($count % 2 == 0 && $count > 0) {
-                                             echo '<tr><td style="height: 5px"></td></tr>';
-                                          }
-
-                                          if ($count % 2 == 0) {
-                                             echo '<tr>';
-                                          }
-                                        ?>
-                                                 <td><a href="events-photos/<?php echo $photo_array[$count]['AlbumID']; ?>/<?php echo $photo_array[$count]['PhotoID']; ?>/<?php echo seoUrl($photo_array[$count]['Caption']); ?>" title="<?php echo $photo_array[$count]['Caption']; ?>"><img src="<?php
-                                                 echo $phoimg;
-                                                 ?>" width="135" height="90"></a></td>
-
-                                        <?php
-                                          if ($count % 2 == 0) {
-                                             echo '<td style="width: 9px"></td>';
-                                          }
-
-                                          if ($count % 2 == 1) {
-                                             echo '</tr>';
-                                          }
-                                       }
-                                       ?>
-                                    </table>
-                              </div>
-                          </div>
-
-                          <div class="more_abs"  >
-                            <a href="events-photos" >More Photos</a>
-                          </div>
-
-                      </div>
-
-                  </div>
-              <!-- END PHOTOS -->
-               </div>
-
-            </div>
-
-          </div>
-          <!-- left end -->
-
-          <!-- right start -->
-         <div class="lfloat" style="width: 300px; margin-left: 25px; ">
-            <?php include('layouts/events_sidebar.php'); ?>
+            <div class="clear"></div>
          </div>
-         <!-- right end -->
 
-         <div class="clear_left" > </div>
+         <div class="nbaph_article_pages">
+            <img src="imagesph/article_page_active.png" class="nbaph_entry_page" targ="events_videos" alt="page 1" entry="1" />
+            <img src="imagesph/article_page_dormant.png" class="nbaph_entry_page" targ="events_videos" alt="page 2" entry="2" />
+            <img src="imagesph/article_page_dormant.png" class="nbaph_entry_page" targ="events_videos" alt="page 3" entry="3" />
+         </div>
+      </div>
 
-     </div>
-     <!-- top half end  -->
-     <div>    
-      <?php
-      $footer_ads = $ads_list['nba_Events_bottom_leaderboard']['Content'];
-      include('layouts/links.php');
-      ?>
-      <?php include('layouts/footer.php');?>
+      <div class="nbaph_article_more_link">
+         <a href="events-videos.php">More Videos</a>
+      </div>
+
+      <div class="clear" style="margin: 10px 0"></div>
+
+      <div class="nbaph_standard_only">
+         <div class="nbaph_article_title">
+            PHOTOS
+         </div>
+
+         <div class="nbaph_article_content" style="height: 100%; overflow: hidden">
+            <div id="nbaph_events_photos">
+               <table class="nbaph_events_photo">
+                  <tr>
+<?php
+$results = $connect->query("select * from eventsphotos order by PhotoID desc limit 0, 9");
+
+while($row = $results->fetch_array()) {
+?>
+                  <td class="nbaph_events_photo_thumb">
+                     <img src="<?php echo $row['ImageSecond']; ?>" style="width: 100%" alt="highlights main" />
+                  </td>
+<?php
+}
+?>
+                  </tr>
+               </table>
+
+               <div class="clear"></div>
+            </div>
+
+            <div class="nbaph_article_pages">
+               <img src="imagesph/article_page_active.png" class="nbaph_entry_page" targ="events_photos" alt="page 1" entry="1" />
+               <img src="imagesph/article_page_dormant.png" class="nbaph_entry_page" targ="events_photos" alt="page 2" entry="2" />
+               <img src="imagesph/article_page_dormant.png" class="nbaph_entry_page" targ="events_photos" alt="page 3" entry="3" />
+            </div>
+         </div>
+
+         <div class="nbaph_article_more_link">
+            <a href="events-photos.php">More Photos</a>
+         </div>
       </div>
    </div>
 
+   <div class="nbaph_margin nbaph_standard_only">&nbsp;</div>
+   <div class="nbaph_margin nbaph_mid_only" style="width: 2%">&nbsp;</div>
+
+   <div class="nbaph_article_standard nbaph_standard_only" style="margin-top: 20px">
+      <div id='div-gpt-ad-1410756752515-0' class="nbaph_mrec" style='width:300px; height:250px; margin: 0 auto 10px'>
+         <script type='text/javascript'>
+         googletag.cmd.push(function() { googletag.display('div-gpt-ad-1410756752515-0'); });
+         </script>
+      </div>
+
+      <div class="nbaph_article_title">
+         EVENTS CALENDAR
+      </div>
+
+      <div id="calendarContainer_standard">
+          <center>
+           <?php
+           echo $calendar;
+           ?>
+          </center>
+      </div>
+
+      <div class="clear" style="margin: 15px"></div>
+
+      <div class="nbaph_article_title">
+         OTHER ARTICLES
+      </div>
+
+      <div class="nbaph_article_content">
+         <ul class="nbaph_news_title">
+<?php
+$results = $connect->query("select * from events order by DatePosted desc limit 1, 5");
+
+while ($row = $results->fetch_array()) {
+?>
+            <li><a href="events-article.php?id=<?php echo $row['EventID']; ?>"><?php echo stripslashes($row['Title']); ?></a></li>
+<?php
+}
+?>
+         </ul>
+      </div>
+
+      <div class="nbaph_article_more_link">
+         <a href="#">More Articles</a>
+      </div>
+   </div>
+
+   <div class="nbaph_article_standard nbaph_mid_only" style="margin-top: 20px">
+      <div class="nbaph_article_title">
+         EVENTS CALENDAR
+      </div>
+
+      <div id="calendarContainer_mid" >
+         <center>
+           <?php
+           echo $calendar;
+           ?>
+         </center>
+      </div>
+
+      <div class="clear" style="margin: 15px"></div>
+
+      <div class="nbaph_article_title">
+         OTHER ARTICLES
+      </div>
+
+      <div class="nbaph_article_content">
+         <ul class="nbaph_news_title">
+<?php
+$results = $connect->query("select * from events order by DatePosted desc limit 1, 5");
+
+while ($row = $results->fetch_array()) {
+?>
+            <li><a href="events-article.php?id=<?php echo $row['EventID']; ?>"><?php echo stripslashes($row['Title']); ?></a></li>
+<?php
+}
+?>
+         </ul>
+      </div>
+
+      <div class="nbaph_article_more_link">
+         <a href="#">More Articles</a>
+      </div>
+   </div>
+
+   <div class="clear"></div>
+
+   <div class="nbaph_article_wide_events nbaph_mid_only" style="width: 100%">
+      <div class="nbaph_article_title">
+         PHOTOS
+      </div>
+
+      <div class="nbaph_article_content" style="height: 100%; overflow: hidden">
+         <div id="nbaph_events_photos_mid">
+            <table class="nbaph_events_photo">
+               <tr>
+<?php
+$results = $connect->query("select * from eventsphotos order by PhotoID desc limit 0, 9");
+
+while($row = $results->fetch_array()) {
+?>
+               <td class="nbaph_events_photo_thumb">
+                  <img src="<?php echo $row['ImageSecond']; ?>" style="width: 100%" alt="highlights main" />
+               </td>
+<?php
+}
+?>
+               </tr>
+            </table>
+
+            <div class="clear"></div>
+         </div>
+
+         <div class="nbaph_article_pages">
+            <img src="imagesph/article_page_active.png" class="nbaph_entry_page" targ="events_photos" alt="page 1" entry="1" />
+            <img src="imagesph/article_page_dormant.png" class="nbaph_entry_page" targ="events_photos" alt="page 2" entry="2" />
+            <img src="imagesph/article_page_dormant.png" class="nbaph_entry_page" targ="events_photos" alt="page 3" entry="3" />
+         </div>
+      </div>
+
+      <div class="nbaph_article_more_link">
+         <a href="#">More Photos</a>
+      </div>
+   </div>
+
+   <div class="nbaph_article_wide_events nbaph_mobile_only" style="width: 100%">
+      <div class="nbaph_article_title">
+         PHOTOS
+      </div>
+
+      <div class="nbaph_article_content" style="height: 100%; overflow: hidden">
+         <div id="nbaph_events_photos_mobile">
+            <table class="nbaph_events_photo">
+               <tr>
+<?php
+$results = $connect->query("select * from eventsphotos order by PhotoID desc limit 0, 3");
+
+while($row = $results->fetch_array()) {
+?>
+               <td class="nbaph_events_photo_thumb">
+                  <img src="<?php echo $row['ImageSecond']; ?>" style="width: 100%" alt="highlights main" />
+               </td>
+<?php
+}
+?>
+               </tr>
+            </table>
+
+            <div class="clear"></div>
+         </div>
+
+         <div class="nbaph_article_pages">
+            <img src="imagesph/article_page_active.png" class="nbaph_entry_page" targ="events_photos" alt="page 1" entry="1" />
+            <img src="imagesph/article_page_dormant.png" class="nbaph_entry_page" targ="events_photos" alt="page 2" entry="2" />
+            <img src="imagesph/article_page_dormant.png" class="nbaph_entry_page" targ="events_photos" alt="page 3" entry="3" />
+         </div>
+      </div>
+
+      <div class="nbaph_article_more_link">
+         <a href="#">More Photos</a>
+      </div>
+   </div>
+
+   <div class="nbaph_article_wide_events nbaph_mobile_only" style="width: 100%">
+      <div class="nbaph_article_title">
+         OTHER ARTICLES
+      </div>
+
+      <div class="nbaph_article_content">
+         <ul class="nbaph_news_title">
+<?php
+$results = $connect->query("select * from events order by DatePosted desc limit 1, 5");
+
+while ($row = $results->fetch_array()) {
+?>
+            <li><a href="events-article.php?id=<?php echo $row['EventID']; ?>"><?php echo stripslashes($row['Title']); ?></a></li>
+<?php
+}
+?>
+         </ul>
+      </div>
+
+      <div class="nbaph_article_more_link">
+         <a href="#">More Articles</a>
+      </div>
+   </div>
+
+   <div class="clear"></div>
 </div>
+
+<div style="padding: 10px; max-width: 993px; margin:0 auto">                            
+   <div class="OUTBRAIN" data-src="http://ph.nba.com/news-article/3024/wolves-gm-optimistic-wont-rush-rubio-extension" data-widget-id="AR_1" data-ob-template="NBAPH" ></div>
+   <div class="OUTBRAIN" data-src="http://ph.nba.com/news-article/3024/wolves-gm-optimistic-wont-rush-rubio-extension" data-widget-id="AR_2" data-ob-template="NBAPH" ></div>
+   <script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script> 
+</div>
+<?php
+include('footer.php');
+?>
 
 <script type="text/javascript">
 <!--
-var shift = false;
+var currentTime = new Date();
+var cmonth = currentTime.getMonth() + 1;
+var cyear = currentTime.getFullYear();
 
-$("#guestbook").keydown(function(event) {
-   if (event.which == 16)
-      shift = true;
-});
+$(function(){
 
-$("#guestbook").keyup(function(event) {
-   if (event.which == 16)
-      shift = false;
-});
+   //$.ajaxSetup({ cache: false });
 
-$("#guestbook").keypress(function(event) {
-   if (event.which == 13 && shift == false) {
-      event.preventDefault();
-<?php
-if ($_SESSION['userid']) {
-?>
-      $("#guestbook").prop("disabled", "disabled");
-      $("#guestbook").css({background: "#ccc"});
+   //$("#featured > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 5000, true);
 
-      var dat = $("#guestbook_form").serialize();
+   function nextCal(data) {
 
-      $.post("guestbook.php", "message=" + $("#guestbook").val(), function(msg) {
-         $("#guestbook").prop("disabled", "");
-         $("#guestbook").css({background: "#fff"});
-
-         $("#guestbook_messages").html(msg + $("#guestbook_messages").html());
-      });
-<?php
-}else {
-?>
-      alert("Please log in to post.");
-<?php
-}?>
-   }
-});
-
-$("#guestbook").focus(function() {
-   if ($(this).val() == "Write your comment here") {
-      $(this).val("");
-   }
-});
-
-$("#guestbook").blur(function() {
-   if ($(this).val() == "") {
-      $(this).val("Write your comment here");
-   }
-});
-
-jQuery.fn.limitMaxlength = function(options){
-
-   var settings = jQuery.extend({
-      attribute: "maxlength",
-      onLimit: function(){},
-      onEdit: function(){}
-   }, options);
-
-   // Event handler to limit the textarea
-   var onEdit = function(){
-      var textarea = jQuery(this);
-      var maxlength = parseInt(textarea.attr(settings.attribute));
-
-      if(textarea.val().length > maxlength){
-         textarea.val(textarea.val().substr(0, maxlength));
-
-         // Call the onlimit handler within the scope of the textarea
-         jQuery.proxy(settings.onLimit, this)();
+      nmonth = cmonth + 1;
+      nyear = cyear;
+      if (nmonth > 12) {
+         nyear = cyear + 1;
+         nmonth = 1;
       }
 
-      // Call the onEdit handler within the scope of the textarea
-      jQuery.proxy(settings.onEdit, this)(maxlength - textarea.val().length);
+      $.get("get_calendar.php", { month: nmonth, year: nyear },
+         function(data){
+            $('div#calendarContainer_standard').html(data);
+            $('div#calendarContainer_mid').html(data);
+            $('div#calendarContainer_mobile').html(data);
+            $('img.calendarNext').on('click', nextCal);
+            $('img.calendarPrev').on('click', prevCal);
+            cmonth = nmonth;
+            cyear = nyear;
+         });
+
    }
 
-   this.each(onEdit);
+   function prevCal(data) {
 
-   return this.keyup(onEdit)
-            .keydown(onEdit)
-            .focus(onEdit)
-            .live('input paste', onEdit);
-}
-
-$(function() {
-
-   var onEditCallback = function(remaining){
-      //$(this).siblings('.charsRemaining').text("Characters remaining: " + remaining);
-
-      if(remaining > 0){
-         $(this).css('background-color', 'white');
+      pmonth = cmonth - 1;
+      pyear = cyear;
+      if (pmonth < 1) {
+         pyear = cyear - 1;
+         pmonth = 12;
       }
-      else {
-         $(this).css('background-color', 'red');
-      }
+
+      $.get("get_calendar.php", { month: pmonth, year: pyear },
+         function(data){
+
+            $('div#calendarContainer_standard').html(data);
+            $('div#calendarContainer_mid').html(data);
+            $('div#calendarContainer_mobile').html(data);
+            $('img.calendarPrev').on('click', prevCal);
+            $('img.calendarNext').on('click', nextCal);
+            cmonth = pmonth;
+            cyear = pyear;
+         });
+
    }
 
-   var onLimitCallback = function(){
-      $(this).css('background-color', 'red');
-   }
+   $('.linked-day').on('click', function(){
 
-   $('textarea[maxlength]').limitMaxlength({
-      onEdit: onEditCallback,
-      onLimit: onLimitCallback
+      var day = $(this).attr('day');
+      var month = $(this).attr('month');
+      var year = $(this).attr('year');
+
+      linkCal(month, day, year);
+
    });
+
+   //prevCal, newxCal on ajax.js
+   $("img.calendarNext").on('click', nextCal);
+   $("img.calendarPrev").on('click', prevCal);
 });
 
-<?php
-include('nav_js.php');
-?>
+//LINK DAYS
+linkCal=function(lmonth, lday, lyear) {
+
+    //organize the data properly
+   var data = 'action=link_calendar' + '&rand=' + Math.random() + '&month=' + lmonth  + '&year=' + lyear + '&day=' + lday
+
+    //show the loading sign
+   $('.calendar-events-placeholder').css({ opacity: 0.5 });
+
+   //start the ajax
+   $.ajax({
+      //this is the php file that processes the data and send mail
+      url: "get_calendar.php",
+
+      //GET method is used
+      type: "POST",
+
+      //pass the data
+      data: data,
+
+      //Do not cache the page
+      cache: false,
+
+      //success
+      success: function (html) {
+
+         var result = html;
+
+         $('.calendar-events-placeholder').css({ opacity: 1.0 });
+
+         if(result)
+         {
+
+            $('.calendar-events-placeholder').html(result);
+
+         }
+
+      }//end success
+
+   });//end ajax
+
+   //cancel the submit button default behaviours
+   return false;
+
+}
 -->
 </script>
-
-<?php
-include("layouts/background_ads.php");
-?>
-
 </body>
 </html>
+<?php
+$connect->close();
+?>

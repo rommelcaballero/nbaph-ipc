@@ -1,0 +1,154 @@
+.nbaph_article_wide_events {
+float: left;
+margin: 5px 0;
+color: #454545;
+}
+
+.nbaph_article_wide_events {
+width: 66%;
+}
+
+.nbaph_events_margin {
+padding: 15px;
+}
+
+#nbaph_events_main img{
+width: 100%;
+height: 100%;
+}
+
+#nbaph_events_main_title {
+margin: 10px 0;
+}
+
+#nbaph_events_main_title a {
+font-family: Oswald;
+font-size: 16px;
+color: #296cb5;
+}
+
+#nbaph_events_main_caption {
+font-family: Lato;
+font-size: 12px;
+color: #454545;
+margin: 10px 0;
+}
+
+#nbaph_events_main_caption a {
+color: #296cb5;
+text-decoration: underline;
+}
+
+#nbaph_events_videos {
+width: 300%;
+}
+
+.nbaph_events_video, .nbaph_events_video_mobile {
+width: 33.33%;
+border-collapse: collapse;
+float: left;
+}
+
+.nbaph_events_video_mobile {
+display: none;
+}
+
+.nbaph_events_video td {
+vertical-align: top;
+}
+
+.nbaph_events_video_thumb {
+width: 40%;
+}
+
+.nbaph_events_video_details {
+padding: 10px;
+}
+
+.nbaph_events_video_title a {
+font-family: Oswald;
+font-size: 13px;
+color: #296cb5;
+}
+
+.nbaph_events_video_caption {
+font-family: Lato;
+font-size: 12px;
+color: #454545;
+margin: 10px 0;
+}
+
+#nbaph_events_photos, #nbaph_events_photos_mid, #nbaph_events_photos_mobile {
+width: 300%;
+}
+
+.nbaph_events_photo {
+width: 100%;
+border-collapse: collapse;
+}
+
+.nbaph_events_photo_mobile {
+display: none;
+}
+
+.nbaph_events_photo td {
+vertical-align: top;
+width: 11%;
+padding: 5px;
+}
+
+.nbaph_mid_only {
+display: none;
+}
+
+@media only screen and (max-width:830px){
+   .nbaph_mid_only {
+   display: block;
+   width: 32%;
+   }
+
+   .nbaph_mobile_only {
+   display: none;
+   }
+}
+
+@media only screen and (max-width: 767px) {
+   .nbaph_article_wide_events {
+   width: 55%;
+   }
+
+   .nbaph_mid_only {
+   display: block;
+   width: 43%;
+   }
+
+   .nbaph_mobile_only {
+   display: none;
+   }
+
+   .nbaph_events_video {
+   display: none;
+   }
+
+   .nbaph_events_video_mobile {
+   display: block;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+   .nbaph_article_wide_events {
+   width: 100%;
+   }
+
+   .nbaph_mid_only {
+   display: none;
+   }
+
+   .nbaph_mobile_only {
+   display: block;
+   }
+}
+
+@media only screen and (max-width: 445px) {
+
+}

@@ -1,0 +1,103 @@
+#nbaph_scores_header {
+width: 100%;
+background: #1e518c;
+}
+
+#nbaph_scores_header_date {
+font-family: Oswald;
+font-size: 14px;
+color: #fff;
+}
+
+#nbaph_scores_header_date img {
+vertical-align: -4px;
+}
+
+#nbaph_scores_calendar_button {
+width: 96px;
+height: 31px;
+background: url('imagesph/schedule_calendar_button.png');
+cursor: pointer;
+position: absolute;
+top: 15px;
+right: 15px;
+}
+
+#nbaph_scores_current {
+font-family: Oswald;
+font-size: 20px;
+font-weight: bold;
+color: #777;
+margin: 25px 0;
+}
+
+.nbaph_scores_upcoming, .nbaph_scores_finished {
+width: 48%;
+float: left;
+padding-bottom: 20px;
+border-bottom: 1px solid #bd9c54;
+}
+
+.nbaph_scores_margin {
+width: 4%;
+float: left;
+}
+
+.nbaph_scores_upcoming_header {
+width: 100%;
+border-bottom: 1px solid #bd9c54;
+}
+
+.nbaph_scores_finished_header {
+width: 100%;
+border-bottom: 1px solid #bd9c54;
+}
+
+.nbaph_scores_upcoming_time, .nbaph_scores_finished_time {
+font-family: Oswald;
+font-size: 16px;
+color: #fff;
+padding: 5px 30px 5px 10px;
+}
+
+.nbaph_scores_upcoming_time {
+background: #1e518c;
+}
+
+.nbaph_scores_finished_time {
+background: #57595b;
+}
+
+.nbaph_scores_upcoming table, .nbaph_scores_finished table {
+font-family: Oswald;
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+.nbaph_scores_team_abr {
+font-size: 30px;
+color: #454545;
+}
+
+.nbaph_scores_zero {
+font-size: 12px;
+color: #777;
+}
+
+.nbaph_scores_vs {
+font-size: 20px;
+color: #777;
+width: 10%;
+text-align: center;
+}
+
+.nbaph_scores_20 {
+width: 20%;
+text-align: middle;
+}
+
+.nbaph_scores_25 {
+width: 25%;
+text-align: center;
+}

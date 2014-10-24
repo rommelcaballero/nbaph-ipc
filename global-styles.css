@@ -1,0 +1,166 @@
+/*this file is to style the stats navigation menu without the rest of the styles and also put everything into a specific qualifier to minimize the impact on 
+the licensee site. It should be 99% the same as the styles that are consolidated with the exception of having a specific parent class */
+
+
+#global-nav #edition_wrapper{
+    display:none;
+    height:46px;
+    line-height:45px;
+    background-color: grey;
+    color:#fff;
+    clear: both;
+}
+#global-nav #edition_wrapper.edition_open{
+  display:block;
+}
+#global-nav #edition{
+  margin-left:20px;
+}
+
+#global-nav #edition.edition_open,
+#global-nav #edition_message.edition_open{
+  display:block;
+}
+#global-nav #edition.edition_closed,
+#global-nav #edition_message.edition_closed{
+  display:none;
+}
+
+
+#global-nav {
+	margin-bottom: 0;
+	background: #002954;
+}
+
+#global-nav .container {
+  min-height: 40px;  /*different than consolidated ??*/
+}
+
+
+#global-nav .navbar-toggle {
+	display: none;
+}
+#global-nav .nav {
+	list-style: none;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#global-nav .navbar-nav li {
+	float: left;
+	display: block;
+	position: relative;
+}
+
+#global-nav .navbar-nav li.dropdown ul li{
+	float: none;
+}
+#global-nav .nav.navbar-nav li a{
+	color: #fff;
+	padding-top: 4px;
+	padding-bottom: 0;
+	line-height: 20px;
+	position:relative;
+	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+
+}
+#global-nav .nav.navbar-nav li a:hover {
+	background-color: #1a477b;
+	text-decoration: none;
+	outline: 0;
+}
+#global-nav ul.dropdown-menu {
+	z-index: 1010;
+	background:#1a477b;
+	position: absolute;
+	top: 40px;
+	left:0;
+	float:left;
+	min-width: 160px;
+	padding: 0;
+	list-style: none;
+	display: none;
+}
+
+#global-nav ul.dropdown-menu li{
+  border: 1px solid #002954;
+}
+
+#global-nav .nav.navbar-nav li ul li a {  
+	padding: 0 15px;
+}
+#global-nav li.dropdown:hover  ul.dropdown-menu {
+	display: block;
+}
+
+/*add style for mobile view*/
+#global-nav #edition-mobile {
+	display: none;
+}
+#global-nav form {
+	display: block;
+}
+#global-nav li.dropdown {
+	display: block;
+}
+
+@media(max-width:767px) {
+	/*
+  .hidden-sm {
+    display: none;
+  }*/
+  /*add style for mobile view*/
+  #global-nav { margin-bottom: 20px; }
+  #global-nav  .nav>li {
+      display: inline-block;
+    }
+  #global-nav  li.edition-site{
+      float: right;
+    }
+  #global-nav li.dropdown {
+    display: none;
+  }
+  #global-nav form{
+    display: none;
+  }
+ #global-nav  #edition_wrapper {
+      height:40px;
+      line-height: 40px;
+    }
+ #global-nav  #edition {
+      margin-left: 10px;
+      margin-right: 10px;
+      text-align:center;
+    }
+ #global-nav  #edition-mobile {
+	display: block;
+    }
+ #global-nav  .edition-label {
+      margin-right: 5px;
+      color: #bababa;
+    }
+ #global-nav  select#edition-select {
+      width: 50%;
+   /*   background-image: url(../../media/img/global/dropdown-button.svg);*/
+      background-repeat: no-repeat;
+      border: 2px solid #454545;
+      background-color: #454545;
+      color: #fff;
+      vertical-align: middle;
+      line-height: 20px;
+      height:30px;
+      margin-right: 5px;
+    }
+ #global-nav  .edition-go {
+      width: 10%;
+      height: 30px;
+      line-height: 26px;
+      background-color: #2a6cb6;
+      cursor: pointer;
+      text-align: center;
+      display: inline-block;
+    }
+    
+}

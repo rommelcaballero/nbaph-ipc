@@ -1,9 +1,0 @@
-<Msg_file>
-  <Game Number="0021000002">
-    <Msg_game_info>
-      <Game_info Game_id="0021000002" Game_date="10/26/2010" Game_time="10:00 PM" Arena_name="Rose Garden" Location="Portland, OR" />
-      <Home_team Team_id="1610612757" Team_city="Portland" Team_name="Trail Blazers" Team_abr="POR" />
-      <Visitor_team Team_id="1610612756" Team_city="Phoenix" Team_name="Suns" Team_abr="PHX" />
-    </Msg_game_info>
-  </Game>
-</Msg_file>

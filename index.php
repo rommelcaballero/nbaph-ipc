@@ -1,87 +1,120 @@
 <?php
-	$part_page = "index";
-	$beta = false;
-	include('queries/index-queries-new.php');
-	//if(count($wall_videos) > 0):
-	if($wall_videos_count > 0):
-		session_start();
-		$csrf = md5("nbaph-".@date("Y-m-d")."-".@$_SERVER['HTTP_X_FORWARDED_FOR']."-".@$_SERVER['REMOTE_ADDR']);
-		$_SESSION['_csrf'] = $csrf;
-	endif; 
-	
+include('./sql.php');
+
+/*
+swiping plugins:
+http://labs.rampinteractive.co.uk/touchSwipe/demos/
+
+http://ph.glob-prev2.nba.com/articles/licensee_widget_all_iframes.html
+*/
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<?php
+include('head.php');
+?>
+</head>
+
+<body>
+<?php
+include('header.php');
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title>NBA Philippines</title>
-	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" /> 	
-	
-	<META http-equiv="X-UA-Compatible" content="IE=9" />
-	<meta http-equiv="Cache-control" content="public">
+<div style="max-width: 993px; margin: 10px auto">
 
+<div style="margin: 10px 0">
+   <iframe src="http://ph.glob-prev2.nba.com/articles/licensee_widget_scoreboard.html" style="width: 100%; height: 100%" frameBorder="0" scrolling="no" > </iframe>
+</div>
 
-	<link rel="stylesheet" type="text/css" href="/css/style.css">
-	<link rel="stylesheet" type="text/css" href="/css/style-index.css">
-	<link rel="stylesheet" type="text/css" href="/css/style-new.css">
-	
-	<link rel="stylesheet" href="/css/jquery-ui.css" />
-	<script type="text/javascript" src="jquery-1.9.1.js"></script>
-	<script type="text/javascript" src="jquery-ui.js"></script>
-	<script type="text/javascript" src="carousel-index.js"></script>
-	
-<?php //include('leaderboards_js.php'); ?>
-	</head>
-	<body>
+<?php
+include('article_headline.php');
 
-		<?php //include('layouts/popups.php'); ?>
-		<div id="wrapper">
-			<?php include('layouts/header.php'); ?>
-			<div id="main_content" > 
-				<div id='header'>
-	      	  		<div style="height: 10px"></div>
-	          		<div style="width: 958px; min-height: 90px; margin: 0 auto; text-align: center; ">
-						<?php echo $ads_list['nba_homepage_top_leaderboard'];?>
-	          		</div>    	          		
-					<div style="width: 995px;  margin: 0 auto; text-align: center; background: #fff; padding-left:5px;">
-						<iframe src="http://ph.global.nba.com/hpscoreboardiframe.html" align="center" frameborder="0" width="1000" height="143" scrolling="no" marginwidth="0" marginheight="0" style="text-align:center; align: center; margin: 0; padding: 0; marginwidth:0"></iframe>
-					</div>
-				</div>
+include('mrec.php');
 
-				<div id='section1'>					
-					<?php include("layouts/section1-new.php"); ?>
-				</div>
-				<div id='section2'>
-					<?php  include("layouts/section2-new.php"); ?>
-				</div>
-				<div style="width: 958px; min-height: 100px; margin: 0 auto; text-align: center; ">
-		     		<?php echo $ads_list['nba_homepage_middle_leaderboard']; ?>
-	          	</div>
-	          	<div id='section3'>
-	          		<?php include("layouts/section3-new.php"); ?>
-	          	</div>
-	          	<div id='section4'>
-	          		<?php include("layouts/section4-new.php"); ?>
-	          	</div>
-	          	<div id="starting-five">
-	          		<?php include("layouts/starting5.php"); ?>
-	          	</div>
-	          	<div>
-		          	<?php 
-		          	$footer_ads = $ads_list['nba_homepage_bottom_leaderboard']; 
-		          	include('layouts/links.php'); 
-		          	include('layouts/footer.php');
-		          	?>
-		          	<div class='clear'></div>
-	          	</div>
-          	</div><!-- main_content -->   
-          	    
-		</div><!-- wrapper -->		
-		<?php include("layouts/background_ads.php"); ?>
-		
-		<?php //if(count($wall_videos) > 0) include("wall.php"); ?>
-		<?php if($wall_videos_count > 0) include("wall.php"); ?>
-		
-	</body>
+include('article_video.php');
+?>
+   <div class="nbaph_margin nbaph_standard_only">&nbsp;</div>
+<?php
+include('article_news.php');
+?>
+   <div class="nbaph_margin nbaph_mobile_only">&nbsp;</div>
+<?php
+include('article_standard_mobile.php');
 
+include('article_nbastore.php');
+?>
+   <div class="nbaph_margin nbaph_standard_only">&nbsp;</div>
+<?php
+include('article_standard.php');
+?>
+<div id="nbaph_prestream">
+<?php
+include('article_poll.php');
+?>
+   <div class="nbaph_margin" style="width: 3.04%">&nbsp;</div>
+<?php
+include('article_gallery.php');
+
+include('article_wide.php');
+?>
+</div>
+
+   <div class="clear nbaph_mobile_only"></div>
+   <div class="nbaph_margin nbaph_standard_only">&nbsp;</div>
+<?php
+$spec_id = "nbaph_standard_only";
+include('article_stream.php');
+?>
+   <div class="nbaph_margin nbaph_standard_only">&nbsp;</div>
+<?php
+include('article_events.php');
+?>
+   <div class="clear nbaph_standard_only"></div>
+<?php
+include('article_bench.php');
+?>
+   <div class="nbaph_margin">&nbsp;</div>
+<?php
+include('article_features.php');
+?>
+   <div class="clear nbaph_mobile_only"></div>
+   <div class="nbaph_margin nbaph_standard_only">&nbsp;</div>
+<?php
+$spec_id = "nbaph_mobile_only";
+include('article_stream.php');
+
+include('article_bench.php');
+?>
+   <div class="nbaph_margin nbaph_mobile_only">&nbsp;</div>
+<?php
+include('article_around.php');
+?>
+   <div class="clear"></div>
+
+   <div class="nbaph_article_standard">
+      <iframe src="http://ph.glob-prev2.nba.com/articles/licensee_widget_leaders.html" frameBorder="0" style="width: 100%; height: 600px" scrolling="no"  > </iframe>
+   </div>
+
+   <div class="nbaph_margin nbaph_standard_only">&nbsp;</div>
+
+   <div class="nbaph_article_standard">
+      <iframe src="http://ph.glob-prev2.nba.com/articles/licensee_widget_standings.html" frameBorder="0" style="width: 100%; height: 650px" scrolling="no" > </iframe>
+   </div>
+
+   <div class="clear"></div>
+</div>
+
+<div style="padding: 10px; max-width: 993px; margin:0 auto">                            
+   <div class="OUTBRAIN" data-src="http://ph.nba.com/news-article/3024/wolves-gm-optimistic-wont-rush-rubio-extension" data-widget-id="AR_1" data-ob-template="NBAPH" ></div>
+   <div class="OUTBRAIN" data-src="http://ph.nba.com/news-article/3024/wolves-gm-optimistic-wont-rush-rubio-extension" data-widget-id="AR_2" data-ob-template="NBAPH" ></div>
+   <script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script> 
+</div>
+<?php
+include('footer.php');
+?>
+</body>
 </html>
+<?php
+$connect->close();
+?>

@@ -1,6 +1,5 @@
 <?php
-
-include('sqli.php');
+include('sql.php');
 include "functions_calendar.php";
 
 $m = $_REQUEST['month'];
@@ -19,5 +18,5 @@ else
  }
 
  echo $html_calendar;
-mysqli_close($connect);
+$connect->close();
 ?>

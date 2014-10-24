@@ -1,9 +1,0 @@
-<Msg_file>
-  <Game Number="0021000001">
-    <Msg_game_info>
-      <Game_info Game_id="0021000001" Game_date="10/26/2010" Game_time="7:30 PM" Arena_name="TD Garden" Location="Boston, MA" />
-      <Home_team Team_id="1610612738" Team_city="Boston" Team_name="Celtics" Team_abr="BOS" />
-      <Visitor_team Team_id="1610612748" Team_city="Miami" Team_name="Heat" Team_abr="MIA" />
-    </Msg_game_info>
-  </Game>
-</Msg_file>
