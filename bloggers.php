@@ -35,7 +35,7 @@ while($row = $results->fetch_array()) {
                   <tr>
                      <td>
                         <div class="nbaph_news-writers_image">
-                           <img src="imagesph/article_writer.jpg" alt="article writer" />
+                           <img src="http://ph.nba.com/images/blogs/<?php echo strtolower(str_replace(" ", "", $row['Blogger'])); ?>.jpg" />
                         </div>
                      </td>
                      <td>

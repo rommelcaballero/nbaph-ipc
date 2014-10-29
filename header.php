@@ -174,8 +174,8 @@
          <li> 
             <a href="#" class="mobilenav">Scores &amp; Schedules</a> 
             <ul class="nbaph_submenu_mobile">
-               <li><a href="http://ph.glob-prev2.nba.com/scores/">Scores/Results</a></li>
-               <li><a href="http://ph.glob-prev2.nba.com/schedule/">Schedule</a></li>
+               <li><a href="http://ph.global.nba.com/scores/">Scores/Results</a></li>
+               <li><a href="http://ph.global.nba.com/schedule/">Schedule</a></li>
             </ul>
          </li>
 
@@ -188,27 +188,27 @@
          </li>
 
          <li> 
-            <a href="http://ph.glob-prev2.nba.com/playerindex/" class="mobilenav">Players</a> 
+            <a href="http://ph.global.nba.com/playerindex/" class="mobilenav">Players</a> 
             <ul class="nbaph_submenu_mobile">
-               <li><a href="http://ph.glob-prev2.nba.com/playerindex/">Players</a></li>
-               <li><a href="http://ph.glob-prev2.nba.com/teamindex/">Team Rosters</a></li>
+               <li><a href="http://ph.global.nba.com/playerindex/">Players</a></li>
+               <li><a href="http://ph.global.nba.com/teamindex/">Team Rosters</a></li>
             </ul>
          </li>
 
          <li> 
-            <a href="http://ph.glob-prev2.nba.com/teamindex/" class="mobilenav" datasolo="true">Teams</a>
+            <a href="http://ph.global.nba.com/teamindex/" class="mobilenav" datasolo="true">Teams</a>
          </li>
 
          <li> 
-            <a href="http://ph.glob-prev2.nba.com/standings/" class="mobilenav" datasolo="true">Standings</a>
+            <a href="http://ph.global.nba.com/standings/" class="mobilenav" datasolo="true">Standings</a>
          </li>
 
          <li> 
             <a href="#" class="mobilenav">Stats</a> 
             <ul class="nbaph_submenu_mobile">
-               <li><a href="http://ph.glob-prev2.nba.com/statistics/">Individual Stats</a></li>
-               <li><a href="http://ph.glob-prev2.nba.com/statistics/teamstats/">Team Stats</a></li>
-               <li><a href="http://ph.glob-prev2.nba.com/statistics/leagueleaders">League Leaders</a></li>
+               <li><a href="http://ph.global.nba.com/statistics/">Individual Stats</a></li>
+               <li><a href="http://ph.global.nba.com/statistics/teamstats/">Team Stats</a></li>
+               <li><a href="http://ph.global.nba.com/statistics/leagueleaders">League Leaders</a></li>
             </ul>
          </li>
 
@@ -259,10 +259,10 @@
          </li>
 
          <li>
-            <a href="http://ph.glob-prev2.nba.com/scores/"> Scores and Schedule <img src="imagesph/header_link_arrow.png" class="nbaph_header_nav_arrow" alt="link arrow" /></a>
+            <a href="http://ph.global.nba.com/scores/"> Scores and Schedule <img src="imagesph/header_link_arrow.png" class="nbaph_header_nav_arrow" alt="link arrow" /></a>
             <ul class="nbaph_submenu">
-               <li><a href="http://ph.glob-prev2.nba.com/scores/">Scores/Results</a></li>
-               <li><a href="http://ph.glob-prev2.nba.com/schedule/">Schedule</a></li>
+               <li><a href="http://ph.global.nba.com/scores/">Scores/Results</a></li>
+               <li><a href="http://ph.global.nba.com/schedule/">Schedule</a></li>
             </ul>
          </li>
 
@@ -275,28 +275,28 @@
          </li>
 
          <li>
-            <a href="http://ph.glob-prev2.nba.com/playerindex/"> Players <img src="imagesph/header_link_arrow.png" class="nbaph_header_nav_arrow" alt="link arrow" /> </a>
+            <a href="http://ph.global.nba.com/playerindex/"> Players <img src="imagesph/header_link_arrow.png" class="nbaph_header_nav_arrow" alt="link arrow" /> </a>
 
             <ul class="nbaph_submenu">
-               <li><a href="http://ph.glob-prev2.nba.com/playerindex/">Players</a></li>
-               <li><a href="http://ph.glob-prev2.nba.com/teamindex/">Team Rosters</a></li>
+               <li><a href="http://ph.global.nba.com/playerindex/">Players</a></li>
+               <li><a href="http://ph.global.nba.com/teamindex/">Team Rosters</a></li>
             </ul>
          </li>
 
          <li>
-            <a href="http://ph.glob-prev2.nba.com/teamindex/"> Teams </a>
+            <a href="http://ph.global.nba.com/teamindex/"> Teams </a>
          </li>
 
          <li>
-            <a href="http://ph.glob-prev2.nba.com/standings/"> Standings </a>
+            <a href="http://ph.global.nba.com/standings/"> Standings </a>
          </li>
 
          <li>
-            <a href="http://ph.glob-prev2.nba.com/statistics/"> Stats <img src="imagesph/header_link_arrow.png" class="nbaph_header_nav_arrow" alt="link arrow" /></a>
+            <a href="http://ph.global.nba.com/statistics/"> Stats <img src="imagesph/header_link_arrow.png" class="nbaph_header_nav_arrow" alt="link arrow" /></a>
             <ul class="nbaph_submenu">
-               <li><a href="http://ph.glob-prev2.nba.com/statistics/">Individual Stats</a></li>
-               <li><a href="http://ph.glob-prev2.nba.com/statistics/teamstats/">Team Stats</a></li>
-               <li><a href="http://ph.glob-prev2.nba.com/statistics/leagueleaders/">League Leaders</a></li>
+               <li><a href="http://ph.global.nba.com/statistics/">Individual Stats</a></li>
+               <li><a href="http://ph.global.nba.com/statistics/teamstats/">Team Stats</a></li>
+               <li><a href="http://ph.global.nba.com/statistics/leagueleaders/">League Leaders</a></li>
             </ul>
          </li>
 

@@ -162,6 +162,11 @@ text-decoration: none;
 
 #nbaph_header_ul li:last-child .nbaph_submenu{ margin-left: -9.5%; }
 
+#nbaph_widget_score {
+width: 100%;
+height: 100%;
+}
+
 .nbaph_submenu{
 	display: none;
 	position: absolute;
@@ -701,9 +706,13 @@ margin: 10px 0;
 }
 
 .nbaph_shop_more {
+display: none;
+}
+
+.nbaph_shop_more_standard {
 position: absolute;
 bottom: 0;
-left: 0;
+left: 55%;
 }
 
 #nbaph_gallery_panel {
@@ -882,6 +891,11 @@ width: 100%;
 }
 
 @media only screen and (max-width: 767px) {
+   #nbaph_widget_score {
+   width: 100%;
+   height: 225px;
+   }
+
    #nbaph_footer {
    width: 70%;
    font-size: 11px;
@@ -894,6 +908,16 @@ width: 100%;
    }
 
    .nbaph_leaderboard  {
+   display: none;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+   .nbaph_shop_more {
+   display: block;
+   }
+
+   .nbaph_shop_more_standard {
    display: none;
    }
 }

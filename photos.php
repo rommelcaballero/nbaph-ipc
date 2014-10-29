@@ -18,6 +18,7 @@ include('header.php');
 <div style="max-width: 993px; margin: 10px auto">
    <div class="nbaph_article_wide">
       <div class="nbaph_article_content">
+         <div id="nbaph_photo_galleries">
 <?php
 $results = $connect->query("select * from gallery order by GalleryID desc limit 0, 10");
 
@@ -27,23 +28,24 @@ while($row = $results->fetch_array()) {
    $res = $connect->query("select * from galleryphotos where GalleryID = '" . $row['GalleryID'] . "' limit 0, 1");
    $ph = $res->fetch_array();
 ?>
-         <div class="nbaph_photos_more <?php
-         if ($count % 2 == 0) {
-            echo 'left';
-         }
-         ?>">
-            <a href="photos-album.php?album=<?php echo $row['GalleryID']; ?>">
-               <img src="<?php echo $ph['ImageThumb']; ?>" alt="<?php echo $ph['Caption']; ?>" />
-            </a>
+            <div class="nbaph_photos_more <?php
+            if ($count % 2 == 0) {
+               echo 'left';
+            }
+            ?>">
+               <a href="photos-album.php?album=<?php echo $row['GalleryID']; ?>">
+                  <img src="<?php echo $ph['ImageThumb']; ?>" alt="<?php echo $ph['Caption']; ?>" />
+               </a>
 
-            <ul class="nbaph_photos_title">
-               <li><a href="photos-album.php?album=<?php echo $row['GalleryID']; ?>"><?php echo stripslashes($row['GalleryName']); ?></a></li>
-            </ul>
-         </div>
+               <ul class="nbaph_photos_title">
+                  <li><a href="photos-album.php?album=<?php echo $row['GalleryID']; ?>"><?php echo stripslashes($row['GalleryName']); ?></a></li>
+               </ul>
+            </div>
 <?php
    $count += 1;
 }
 ?>
+         </div>
 
          <div style="clear: both"></div>
 
@@ -68,6 +70,23 @@ include('mrec.php');
 <?php
 include('footer.php');
 ?>
+<script type="text/javascript">
+<!--
+var last = 1;
+
+$("#nbaph_photos_view_more").click(function() {
+   $.post("view_more.php", "last=" + last, function(msg) {
+      if (msg == "none") {
+         $("#nbaph_photos_view_more").css({display: "none"});
+      }
+      else {
+         $("#nbaph_photo_galleries").append(msg);
+         last += 1;
+      }
+   });
+});
+-->
+</script>
 </body>
 </html>
 <?php

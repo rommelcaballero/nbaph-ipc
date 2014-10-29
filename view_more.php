@@ -1,7 +1,7 @@
 <?php
 include('sql.php');
 
-$results = $connect->query("select * from gallery order by GalleryID desc limit " . (intval($_POST['last']) * 2) . ", 2");
+$results = $connect->query("select * from gallery order by GalleryID desc limit " . (intval($_POST['last']) * 10) . ", 10");
 
 $count = 0;
 

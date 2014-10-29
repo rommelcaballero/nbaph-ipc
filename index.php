@@ -42,11 +42,11 @@ include('article_news.php');
 <?php
 include('article_standard_mobile.php');
 
-include('article_nbastore.php');
+//include('article_nbastore.php');
 ?>
-   <div class="nbaph_margin nbaph_standard_only">&nbsp;</div>
+   <!-- div class="nbaph_margin nbaph_standard_only">&nbsp;</div -->
 <?php
-include('article_standard.php');
+//include('article_standard.php');
 ?>
 <div id="nbaph_prestream">
 <?php
@@ -91,6 +91,10 @@ include('article_bench.php');
 include('article_around.php');
 ?>
    <div class="clear"></div>
+<?php
+include('article_standard.php');
+?>
+   <div class="nbaph_margin nbaph_standard_only">&nbsp;</div>
 
    <div class="nbaph_article_standard">
       <iframe src="http://ph.glob-prev2.nba.com/articles/licensee_widget_leaders.html" frameBorder="0" style="width: 100%; height: 600px" scrolling="no"  > </iframe>
@@ -113,6 +117,23 @@ include('article_around.php');
 <?php
 include('footer.php');
 ?>
+<script type="text/javascript">
+<!--
+$("#nbaph_poll_submit").click(function() {
+   if ($('[name="poll"]').is(':checked')) {
+      var dat = $("#nbaph_poll_form").serialize();
+
+      $.post("poll_vote.php", dat, function(msg) {
+         $("#nbaph_poll_answers").html(msg);
+         $("#nbaph_poll_submit").css({display: "none"});
+      });
+   }
+   else {
+      alert("poll");
+   }
+});
+-->
+</script>
 </body>
 </html>
 <?php
