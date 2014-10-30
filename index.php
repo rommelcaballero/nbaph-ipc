@@ -33,7 +33,7 @@
 	<script type="text/javascript" src="carousel-index.js"></script>
 	   
 	</script>
-	<?php //include('leaderboards_js.php'); ?>
+	<?php include('leaderboards_js.php'); ?>
 	<?php //include('sibhead1.php');?>
 	</head>
 	<body>
