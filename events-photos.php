@@ -4,6 +4,7 @@ include('sql.php');
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
+<title>NBA Philippines | Event Photos</title>
 <?php
 include('head.php');
 ?>
@@ -68,6 +69,23 @@ include('mrec.php');
 <?php
 include('footer.php');
 ?>
+<script type="text/javascript">
+<!--
+var last = 1;
+
+$("#nbaph_photos_view_more").click(function() {
+   $.post("view_more_events.php", "last=" + last, function(msg) {
+      if (msg == "none") {
+         $("#nbaph_photos_view_more").css({display: "none"});
+      }
+      else {
+         $("#nbaph_photo_galleries").append(msg);
+         last += 1;
+      }
+   });
+});
+-->
+</script>
 </body>
 </html>
 <?php

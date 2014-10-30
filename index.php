@@ -11,6 +11,7 @@ http://ph.glob-prev2.nba.com/articles/licensee_widget_all_iframes.html
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
+<title>NBA Philippines</title>
 <?php
 include('head.php');
 ?>
@@ -24,7 +25,7 @@ include('header.php');
 <div style="max-width: 993px; margin: 10px auto">
 
 <div style="margin: 10px 0">
-   <iframe src="http://ph.glob-prev2.nba.com/articles/licensee_widget_scoreboard.html" style="width: 100%; height: 100%" frameBorder="0" scrolling="no" > </iframe>
+   <iframe src="http://ph.glob-prev2.nba.com/articles/licensee_widget_scoreboard.html" id="nbaph_widget_score" frameBorder="0" scrolling="no" > </iframe>
 </div>
 
 <?php
