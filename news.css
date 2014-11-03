@@ -225,6 +225,23 @@ color: #454545;
 width: 100%;
 }
 
+#nbaph_writers_more {
+
+}
+
+.nbaph_writers_more_entry {
+margin: 10px 0;
+padding: 0 5px;
+font-family: Lato;
+font-size: 12px;
+color: #454545;
+}
+
+.nbaph_writers_more_entry a {
+color: #296cb5;
+display: block;
+}
+
 @media only screen and (max-width: 830px){
    #nbaph_news-archives {
    width: 100%;

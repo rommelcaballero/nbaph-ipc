@@ -2,13 +2,12 @@
 include('sql.php');
 
 if ($_GET['id'] == "") {
-   header("Location: events.php");
+   header("Location: bloggers.php");
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
-<title>NBA Philippines | Events</title>
 <?php
 include('head.php');
 ?>
@@ -22,11 +21,11 @@ include('header.php');
 
 <div style="max-width: 993px; margin: 10px auto">
 <?php
-$results = $connect->query("select * from events where EventID = '" . $connect->real_escape_string($_GET['id']) . "'");
+$results = $connect->query("select * from blog where BlogID = '" . $connect->real_escape_string($_GET['id']) . "'");
 $row = $results->fetch_array();
 ?>
    <div id="nbaph_news-article_title" style="margin: 10px 0">
-      <?php echo stripslashes($row['Title']); ?>
+      <?php echo stripslashes($row['BlogTitle']); ?>
    </div>
 
    <div style="padding: 5px">
@@ -44,16 +43,13 @@ $row = $results->fetch_array();
 
    <div class="nbaph_article_wide">
       <div id="nbaph_news_body">
-         <div>
-            <img src="<?php echo $row['Image']; ?>" alt="<?php echo stripslashes($row['Title']); ?>" />
-         </div>
-
          <div style="margin: 15px 0">
-            <?php echo stripslashes($row['Description']); ?>
+            <?php echo stripslashes($row['BlogBody']); ?>
          </div>
       </div>
    </div>
 <?php
+
 include('mrec.php');
 ?>
    <div class="clear"></div>

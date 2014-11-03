@@ -53,12 +53,6 @@ include('mrec.php');
    <div class="clear"></div>
 </div>
 
-<div style="padding: 10px; max-width: 993px; margin:0 auto">                            
-   <div class="OUTBRAIN" data-src="http://ph.nba.com/news-article/3024/wolves-gm-optimistic-wont-rush-rubio-extension" data-widget-id="AR_1" data-ob-template="NBAPH" ></div>
-   <div class="OUTBRAIN" data-src="http://ph.nba.com/news-article/3024/wolves-gm-optimistic-wont-rush-rubio-extension" data-widget-id="AR_2" data-ob-template="NBAPH" ></div>
-   <script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script> 
-</div>
-
 <div id="nbaph_disqus" style="max-width: 993px; margin: 0 auto">
    <div id="disqus_thread" style='padding: 10px; width: 66%; padding:10px;'></div>
    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
@@ -69,7 +63,7 @@ include('mrec.php');
    var disqus_shortname = 'ph-nba-com'; // required: replace example with your forum shortname		
 
    //next line needs to be replaced with current url
-   var disqus_url = 'http://ph.nba.com/news-article/3052/offseason-report-card-miami-heat/';
+   var disqus_url = '<?php echo "http://" . $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"]; ?>';
    /* * * DON'T EDIT BELOW THIS LINE * * */
    (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

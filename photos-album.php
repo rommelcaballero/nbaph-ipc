@@ -90,11 +90,6 @@ include('mrec.php');
    <div style="clear: both"></div>
 </div>
 
-<div style="padding: 10px; max-width: 993px; margin:0 auto">                            
-   <div class="OUTBRAIN" data-src="http://ph.nba.com/news-article/3024/wolves-gm-optimistic-wont-rush-rubio-extension" data-widget-id="AR_1" data-ob-template="NBAPH" ></div>
-   <div class="OUTBRAIN" data-src="http://ph.nba.com/news-article/3024/wolves-gm-optimistic-wont-rush-rubio-extension" data-widget-id="AR_2" data-ob-template="NBAPH" ></div>
-   <script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script> 
-</div>
 <?php
 include('footer.php');
 ?>

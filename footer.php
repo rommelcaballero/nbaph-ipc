@@ -1,3 +1,9 @@
+<div style="padding: 10px; max-width: 993px; margin:0 auto">                            
+   <div class="OUTBRAIN" data-src="<?php echo "http://" . $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"]; ?>" data-widget-id="AR_1" data-ob-template="NBAPH" ></div>
+   <div class="OUTBRAIN" data-src="<?php echo "http://" . $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"]; ?>" data-widget-id="AR_2" data-ob-template="NBAPH" ></div>
+   <script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script> 
+</div>
+
 <div id="nbaph_footer">
    <div style="margin: 5px 0">
       Copyright 2014 NBA Media Ventures, LLC | NBA Media 

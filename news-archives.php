@@ -19,8 +19,8 @@ include('header.php');
 <div style="max-width: 993px; margin: 10px auto">
    <div id="nbaph_news-archives">
       <div id="nbaph_news-archives_weeks">
-         <div id="nbaph_news-archives_weeks_back"><img src="imagesph/arrow_left.png" alt="previous week" style="margin-right: 10px" /> Previous Week</div>
-         <div id="nbaph_news-archives_weeks_next">Next Week <img src="imagesph/arrow_right.png" alt="next week" style="margin-left: 10px" /></div>
+         <div id="nbaph_news-archives_weeks_back" style="cursor: pointer"><img src="imagesph/arrow_left.png" alt="previous week" style="margin-right: 10px" /> Previous Week</div>
+         <div id="nbaph_news-archives_weeks_next" style="cursor: pointer">Next Week <img src="imagesph/arrow_right.png" alt="next week" style="margin-left: 10px" /></div>
       </div>
 
       <div id="nbaph_news_archives_cells">
@@ -90,12 +90,6 @@ while($row = $results->fetch_array()) {
 include('mrec.php');
 ?>
    <div class="clear"></div>
-</div>
-
-<div style="padding: 10px; max-width: 993px; margin:0 auto">                            
-   <div class="OUTBRAIN" data-src="http://ph.nba.com/news-article/3024/wolves-gm-optimistic-wont-rush-rubio-extension" data-widget-id="AR_1" data-ob-template="NBAPH" ></div>
-   <div class="OUTBRAIN" data-src="http://ph.nba.com/news-article/3024/wolves-gm-optimistic-wont-rush-rubio-extension" data-widget-id="AR_2" data-ob-template="NBAPH" ></div>
-   <script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script> 
 </div>
 
 <?php

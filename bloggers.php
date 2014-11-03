@@ -24,7 +24,7 @@ include('header.php');
    <div class="nbaph_article_wide">
       <div class="nbaph_article_content">
 <?php
-$results = $connect->query("select * from blog where DisplayOn <= NOW() and BlogLink != '' order by DisplayOn desc limit 0, 8");
+$results = $connect->query("select * from blog where DisplayOn <= NOW() order by DisplayOn desc limit 0, 8");
 
 $count = 0;
 
@@ -52,7 +52,14 @@ while($row = $results->fetch_array()) {
                </table>
 
                <div class="nbaph_news-writers_title">
-                  <a href="<?php echo $row['BlogLink']; ?>" target="_blank"><?php echo stripslashes($row['BlogTitle']); ?></a>
+                  <a href="<?php
+                  if ($row['BlogLink']) {
+                     echo $row['BlogLink'];
+                  }
+                  else {
+                     echo 'bloggers_article.php?id=' . $row['BlogID'];
+                  }
+                  ?>" target="_blank"><?php echo stripslashes($row['BlogTitle']); ?></a>
                </div>
 
                <div class="nbaph_news-writers_summary">
@@ -62,7 +69,7 @@ while($row = $results->fetch_array()) {
                <div class="nbaph_news-writers_links">
                   <a href="<?php echo $row['BlogLink']; ?>" target="_blank">Full Story</a>
                   <div style="margin: 0 10px; display: inline-block">|</div>
-                  <a href="#">Archive</a>
+                  <a href="bloggers-archive.php?blog=<?php echo urlencode($row['Blogger']); ?>">Archive</a>
                </div>
             </div>
          </div>
@@ -86,11 +93,6 @@ include('mrec.php');
    <div style="clear: both"></div>
 </div>
 
-<div style="padding: 10px; max-width: 993px; margin:0 auto">                            
-   <div class="OUTBRAIN" data-src="http://ph.nba.com/news-article/3024/wolves-gm-optimistic-wont-rush-rubio-extension" data-widget-id="AR_1" data-ob-template="NBAPH" ></div>
-   <div class="OUTBRAIN" data-src="http://ph.nba.com/news-article/3024/wolves-gm-optimistic-wont-rush-rubio-extension" data-widget-id="AR_2" data-ob-template="NBAPH" ></div>
-   <script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script> 
-</div>
 <?php
 include('footer.php');
 ?>

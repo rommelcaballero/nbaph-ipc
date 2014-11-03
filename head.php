@@ -13,3 +13,18 @@
 <link rel="stylesheet" href="global-styles.css" />
 <link rel="stylesheet" href="fontface.css" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<script> 
+$(document).ready(function() {
+$("body").css("background", "#FFF url('/media/m/skinning-m.jpg') no-repeat fixed center 0");
+$("body").css("cursor", "pointer");
+$("body").css("z-index", "0");
+$('body').click(function() {
+            window.location.href="http://bit.ly/1xCdGA9";
+        })
+$('body>*').click(function(e) {
+            e.stopPropagation()
+})
+
+  });
+ </script>
