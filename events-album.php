@@ -9,6 +9,7 @@ include('sql.php');
 include('head.php');
 ?>
 <link rel="stylesheet" href="photos.css" />
+<link rel="stylesheet" href="style-events.css" />
 </head>
 
 <body>
@@ -84,9 +85,58 @@ for ($i = 2; $i <= $total_album; $i += 1) {
 
       <div class="nbaph_article_more_link"></div>
    </div>
+
+
+   <div class="nbaph_margin nbaph_standard_only">&nbsp;</div>
+
+   <div class="nbaph_article_standard" style="margin-top: 20px">
+      <div id='div-gpt-ad-1410756752515-0' class="nbaph_mrec" style='width:300px; height:250px; margin: 0 auto 10px'>
+         <script type='text/javascript'>
+         googletag.cmd.push(function() { googletag.display('div-gpt-ad-1410756752515-0'); });
+         </script>
+      </div>
+
+      <div class="nbaph_article_title">
+         EVENTS CALENDAR
+      </div>
+
+      <div id="calendarContainer_standard">
+          <center>
+            <?php
+            include('functions_calendar.php');
+
+            $calendar = query_calendar(NULL,NULL,NULL, $connect);
+
+            echo $calendar;
+            ?>
+          </center>
+      </div>
+
+      <div class="clear" style="margin: 15px"></div>
+
+      <div class="nbaph_article_title">
+         OTHER ARTICLES
+      </div>
+
+      <div class="nbaph_article_content">
+         <ul class="nbaph_news_title">
 <?php
-include('mrec.php');
+$results = $connect->query("select * from events order by DatePosted desc limit 1, 5");
+
+while ($row = $results->fetch_array()) {
 ?>
+            <li><a href="events-article.php?id=<?php echo $row['EventID']; ?>"><?php echo stripslashes($row['Title']); ?></a></li>
+<?php
+}
+?>
+         </ul>
+      </div>
+
+      <div class="nbaph_article_more_link">
+         <a href="events-article.php">More Articles</a>
+      </div>
+   </div>
+
    <div style="clear: both"></div>
 </div>
 

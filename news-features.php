@@ -18,7 +18,7 @@ include('header.php');
 
 <div style="max-width: 993px; margin: 10px auto">
 <?php
-$results = $connect->query("select * from features order by FeatureID desc limit 0, 11");
+$results = $connect->query("select * from offcourt order by OffcourtID desc limit 0, 11");
 
 include('news-features_headline.php');
 

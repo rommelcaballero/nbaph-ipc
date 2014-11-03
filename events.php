@@ -84,7 +84,7 @@ while($row = $results->fetch_array()) {
                   </td>
                   <td class="nbaph_events_video_details">
                      <div class="nbaph_events_video_title">
-                        <a href="#"><?php echo $row['Title']; ?></a>
+                        <a href="events-videos.php?video=<?php echo $row['VideoID']; ?>"><?php echo $row['Title']; ?></a>
                      </div>
 
                      <div class="nbaph_events_video_caption">

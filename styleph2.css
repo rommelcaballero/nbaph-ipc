@@ -38,10 +38,6 @@ p {
 margin: 14px 0;
 }
 
-strong {
-font-weight: bold;
-}
-
 #nbaph_topheader{
 	/*padding-top:8px;*/
 	max-width: 993px;
@@ -354,24 +350,6 @@ border-bottom: 1px solid #bd9c54;
 .nbaph_article_content {
 width: 100%;
 margin: 10px auto;
-}
-
-.nbaph_bench {
-font-family: 'LatoRegular','Lato',Arial;
-font-size: 13px;
-color: #444;
-}
-
-.nbaph_bench a {
-color: #296cb5;
-}
-
-.nbaph_bench img {
-width: 100%;
-}
-
-.nbaph_bench p, .nbaph_bench ul {
-padding: 0 5px;
 }
 
 .nbaph_tp, .nbaph_ep {
@@ -994,4 +972,50 @@ width: 100%;
    width: 95%;
    font-size: 11px;
    }
+}
+
+body {
+  background: url('/media/m/skinning-m.jpg') no-repeat fixed center;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  background-color: #000;
+}
+ 
+#main-container {
+  background: #fff;
+}
+ 
+#main-container .content-container {
+  background-color: #FFF;
+  padding: 0 5px;
+}
+ 
+h1.page-title {
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 6.66667px;
+  font-family: Oswald, sans-serif;
+  margin-top: 20px!important;
+  color: #444;
+}
+ 
+.sib-list.sib-list-league-leaders .no-one .player-info h3 {
+  font-family: Oswald,sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+ 
+.sib-list.sib-list-league-leaders .no-one .player-info h5 {
+  text-transform: capitalize;
+  position: relative;
+  bottom: 6px;
+  font-family: Lato,sans-serif;
+  font-size: .995em;
+  color: #444;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.1;
 }
