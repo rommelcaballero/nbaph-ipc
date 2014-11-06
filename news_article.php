@@ -92,13 +92,13 @@ include('queries/news_article-queries.php');
 								
 								$test_geoip_none_ph = isset($_GET['test-geoip'])?true:false;
 								$geo_data = unserialize(file_get_contents("http://www.geoplugin.net/php.gp?ip={$remote_addr}"));
-								$geoLocBlocked = ($geo_data['geoplugin_countryCode'] != 'PH' || $test_geoip_none_ph);
+								//$geoLocBlocked = ($geo_data['geoplugin_countryCode'] != 'PH' || $test_geoip_none_ph);
 								$ip = get_IP_address();
-							$details = json_decode(file_get_contents("http://ipinfo.io/{$ip}"));	
-							$city = $details->city;
-							$country = $details->country;
-							$location = $details->loc;
-							$geoLocBlocked = ($country != 'PH');
+								$details = json_decode(file_get_contents("http://ipinfo.io/{$ip}"));	
+								$city = $details->city;
+								$country = $details->country;
+								$location = $details->loc;
+								$geoLocBlocked = ($country != 'PH');
 								$content = stripslashes($article['Body']);
 							
 								if($geoLocBlocked){
