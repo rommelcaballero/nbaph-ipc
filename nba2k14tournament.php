@@ -69,11 +69,22 @@ if($www!=="ph"){
 
 <div id="container" style="position:relative">
 	<div id="img" style="width: 958px; min-height: 40px; margin: 0 auto; text-align: center;">
-			<img src="/images/bannerlayout.jpg" style="width:450px">
+			<img src="/images/bannerlayout.jpg" style="width:450px">		
 		<div id="learnmore"  style="position:absolute;top:423px;left:604px;">
-			<a href="/nba2k14tournament-learnmore.php"><img src="/images/learnmore.png" style="width:80px;"></a>
-		</div>
+			<!--<a href="/nba2k14tournament-learnmore.php"><img src="/images/learnmore.png" style="width:80px;"></a>-->
+		</div>				
 	</div>
+</div>
+
+
+<div id="container2" style="position:relative; height:80px">
+		<div id="button1" style="position:absolute;left:286px;top:30px;">
+			<a href="http://beta.nba2k.ph/nba2k14tournament-tournament.php"><img src="/images/nba2k14_tournament_mechanics.png" style="width:200px;"></a>
+		</div>
+		
+		<div id="button2" style="position:absolute;left:515px;top:30px;">
+			<a href="http://beta.nba2k.ph/nba2k14tournament-learnmore.php"><img src="/images/nba2k14_workshop_mechanics.png" style="width:200px;"></a>
+		</div>
 </div>
 
 

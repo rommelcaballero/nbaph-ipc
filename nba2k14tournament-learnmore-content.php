@@ -30,7 +30,7 @@ Event Day: Hip-Hop Dance Workshop (September 12, 2014)
 <br><br>
 Participants must be present at the area 1 hour before the start of the workshop.
 <br>
-<ul>
+<ul style="font-size: 14px; color: #444;font-family:arial,helvetica;">
 <li>Adults Workshop starts at 1:30 PM. Call time for the participants is at 12:30 PM.</li>
 <li>Teens Workshop starts at 5:00 PM. Call time for the participants is at 4:00 PM.</li>  
 </ul>
@@ -49,7 +49,7 @@ Selected people from the 40 participants will also get a chance to win exciting 
 <br><br>
 The top 2 winners of the dance battles will win the following: 
 <br>
-<ul>
+<ul style="font-size: 14px; color: #444;font-family:arial,helvetica;">
 <li>1st place Hip-Hop Dancer: Acer Tablet, 5,000 worth of GC’s and Meet & Greet with NBA player plus photo opportunity.</li>
 <li>2nd place Hip-Hop Dancer: 2,500 worth of GC's and Meet & Greet with NBA player plus photo opportunity.</li> 
 </ul>
@@ -60,4 +60,4 @@ NOTE: REGISTRATION MECHANICS AND PRIZES ARE SUBJECT TO CHANGE WITHOUT PRIOR NOTI
 <br><br>
 </div>
 <br><br>
-<div style="margin: 0 auto;display:table;"><button>Register now</button></div>
+<!--<div style="margin: 0 auto;display:table;"><button>Register now</button></div>-->

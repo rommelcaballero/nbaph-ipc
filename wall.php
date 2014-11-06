@@ -114,6 +114,7 @@
 					},
 					beforeClose: function(event, ui) {								
 					  	$("body").removeClass("stop-scrolling");
+						
 					}
 				});
 		  	
@@ -123,18 +124,17 @@
 		checkCookie("wall-<?php echo $wall_videos[0]['date_created']; ?>");
 	});
 </script>
-<?php elseif($wall_type == 'swf'): ?>
-
+<?php  elseif($wall_type == 'swf'): ?>
+<?php /* elseif($wall_videos[0]['wall_type'] == 'swf'):*/ ?>
+<?php /* elseif($wall_videos[0]['wall_type'] == 'swf' && $_GET['test-wall'] == 1): */ ?>
 <?php
 //call to make impressions
 if($up == '1'){
-include('wall-add.php');
+//include('wall-add.php');
 $up = '';
 }
 ?>
 
-<?php /*elseif($wall_videos[0]['wall_type'] == 'swf'):*/ ?>
-<?php /* elseif($wall_videos[0]['wall_type'] == 'swf' && $_GET['test-wall'] == 1): */ ?>
 <style>
 	.ui-dialog{background: transparent; border: none;}
 	.ui-dialog-titlebar{background: transparent; border: none; padding:0 !important;}	
@@ -148,6 +148,7 @@ $up = '';
 	.ui-dialog-titlebar-close{width:32px !important; height:32px !important; }
 	/*.*/
 </style>
+
 <div class='dialog' style="display:none; ">	
 	<embed id='wall-video' src="<?php echo $base; ?>ftp-web/wall/<?php echo $wall_filename; ?>" width="<?php echo $wall_width; ?>" height="<?php echo $wall_height; ?>" wmode="transparent" />
 </div>
@@ -205,7 +206,8 @@ $up = '';
 					if(wallcookie == ""){
 						<?php //$up='1';?>
 						setCookie(c_name,"wall",1);
-					}			
+					}		
+					//window.location = "http://beta.nba2k.ph?www=ph";	
 				}
 			});
 		

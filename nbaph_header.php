@@ -21,7 +21,6 @@
    <a id="nbaph_header_mobilemenu_btn" href="#">&nbsp;</a>
 
 
-   <!-- menu nav -->
    <div id="nbaph_header_nav" style="max-width:100%">
 
       <!-- mobile menu nav -->

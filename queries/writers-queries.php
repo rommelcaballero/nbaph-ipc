@@ -1,5 +1,5 @@
 <?php
-include('sqli.php');
+include('sqli2.php');
 
    $results = mysqli_query($connect, "SELECT AdsDesc, Content FROM ads_list WHERE (AdsDesc='nba_writers_top_leaderboard' or AdsDesc='nba_writers_top_medallion' or AdsDesc='nba_writers_bottom_leaderboard') AND Status='s' ");
 
@@ -9,14 +9,17 @@ include('sqli.php');
       $ads_list[$row['AdsDesc']]['Content'] = $row['Content'];
    }
 
-   $results = mysqli_query($connect, "select * from personalitiesorder left join personalities using (Blogger) where DisplayOn <= NOW() order by Position asc,DatePosted desc limit 0, 1000");
+   $results2 = mysqli_query($connect,"select * from personalitiesorder left join personalities using (Blogger) where DisplayOn <= NOW() order by Position asc,DatePosted desc limit 0, 1000");
 
    $i = 0;
    $blog_array = array();
-   $count = mysqli_num_rows($results);
+//   $count2 = mysqli_num_rows($results2);
+//	if(!$count2){
+//	$count2='nothing';
+//	}
    $last_blogger = "";
 
-   while($row = mysqli_fetch_array($results)) {
+   while($row = mysqli_fetch_array($results2)) {
       if ($last_blogger != $row['Blogger']) {
          $blog_array[$i]['Blogger'] = $row['Blogger'];
          $blog_array[$i]['BlogAffiliation'] = $row['BlogAffiliation'];
@@ -31,8 +34,8 @@ include('sqli.php');
       }
    }
 
-   $results = mysqli_query($connect, "select * from ads where Dimensions = '300x100' order by RAND() limit 0, 1");
-   $row = mysqli_fetch_array($results);
+   $results3 = mysqli_query($connect, "select * from ads where Dimensions = '300x100' order by RAND() limit 0, 1");
+   $row = mysqli_fetch_array($results3);
 
    $ad = array("Link" => $row['Link'], "Image" => $row['Image']);
 

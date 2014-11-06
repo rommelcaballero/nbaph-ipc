@@ -18,9 +18,14 @@
     		$remote_addr = $_SERVER['REMOTE_ADDR'];
 	}
 	$geo_data = unserialize(file_get_contents("http://www.geoplugin.net/php.gp?ip={$remote_addr}"));
-	
-	$geoLocBlocked = ($geo_data['geoplugin_countryCode'] != 'PH');
-	
+		$ip = get_IP_address();
+	$details = json_decode(file_get_contents("http://ipinfo.io/{$ip}"));	
+	$city = $details->city;
+	$country = $details->country;
+	$location = $details->loc;
+
+	//$geoLocBlocked = ($geo_data['geoplugin_countryCode'] != 'PH');
+	$geoLocBlocked = ($country != 'PH');
 	$bypass_geoblock = isset($_GET['bypass-geoblock'])?$_GET['bypass-geoblock']:'000';
 	?>
 	<title>NBA Philippines | Videos</title>
@@ -126,12 +131,12 @@
 							</script>
 						</div-->							
 						<div class="player-box" style="width:630px; height:360px;" data-engine="flash">
-							<?php //if(($geoLocBlocked == true) && ($bypass_geoblock != '123')): ?>	
-							<!--
+							<?php if(($geoLocBlocked == true) && ($bypass_geoblock != '123')): ?>	
+							
 								<div style="width:100%; height:100%; background:#000;">
 									<span style='display:block; width:60%; padding-top:150px; margin:0 auto; color:#fff; text-transform:uppercase; text-align:center;'>The video you were trying to watch cannot be viewed from your current country or location</span>
 								</div> -->
-							<?php //else: ?>
+							<?php else: ?>
 								<video id='contentElement' width="630" height="360" controls>
 									<source type="video/quicktime" src="/ftp-web/<?php echo $current_video['filename'].".".strtolower($current_video['format']); ?>"></source>								
 									<source type="video/mp4" src="/ftp-web/<?php echo $current_video['filename'].".".strtolower($current_video['format']); ?>"></source>								
@@ -142,7 +147,7 @@
 									left: 0px;
 									width: 630px;				
 									height: 360px;'></div>								
-							<?php //endif; ?>								
+							<?php endif; ?>								
 						</div>		
 						<?php else: ?>
 						<div class='player-vid' id='player-vid' style="width: 630px; height: 360px"></div>												
@@ -643,7 +648,29 @@
 		});	
 		</script>
 
-<?php include('google_dfp.php'); ?>		
+<?php include('google_dfp.php'); 
+function get_IP_address()
+{
+    foreach (array('HTTP_CLIENT_IP',
+                   'HTTP_X_FORWARDED_FOR',
+                   'HTTP_X_FORWARDED',
+                   'HTTP_X_CLUSTER_CLIENT_IP',
+                   'HTTP_FORWARDED_FOR',
+                   'HTTP_FORWARDED',
+                   'REMOTE_ADDR') as $key){
+        if (array_key_exists($key, $_SERVER) === true){
+            foreach (explode(',', $_SERVER[$key]) as $IPaddress){
+                $IPaddress = trim($IPaddress); // Just to be safe
+
+                if (filter_var($IPaddress,FILTER_VALIDATE_IP,FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE) !== false) {
+
+                    return $IPaddress;
+                }
+            }
+        }
+    }
+}
+?>		
 	</body>
 
 </html>

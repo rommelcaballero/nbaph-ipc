@@ -93,9 +93,14 @@ include('queries/news_article-queries.php');
 								$test_geoip_none_ph = isset($_GET['test-geoip'])?true:false;
 								$geo_data = unserialize(file_get_contents("http://www.geoplugin.net/php.gp?ip={$remote_addr}"));
 								$geoLocBlocked = ($geo_data['geoplugin_countryCode'] != 'PH' || $test_geoip_none_ph);
-								
+								$ip = get_IP_address();
+							$details = json_decode(file_get_contents("http://ipinfo.io/{$ip}"));	
+							$city = $details->city;
+							$country = $details->country;
+							$location = $details->loc;
+							$geoLocBlocked = ($country != 'PH' || $test_geoip_none_ph);
 								$content = stripslashes($article['Body']);
-								/*
+							
 								if($geoLocBlocked){
 									$reg = '/^\r+|\n+/';
 									$out = "";
@@ -107,7 +112,7 @@ include('queries/news_article-queries.php');
 										</div>";	
 									$content = preg_replace($reg, $out, $content);							
 								}
-								*/
+							
 								echo $content; 							   
 								?>
                           </div>
@@ -199,7 +204,27 @@ console.log("<?php var_export($geo_data,1); ?>");
 <?php
 include("layouts/background_ads.php");
 include('google_dfp.php');
+function get_IP_address()
+{
+    foreach (array('HTTP_CLIENT_IP',
+                   'HTTP_X_FORWARDED_FOR',
+                   'HTTP_X_FORWARDED',
+                   'HTTP_X_CLUSTER_CLIENT_IP',
+                   'HTTP_FORWARDED_FOR',
+                   'HTTP_FORWARDED',
+                   'REMOTE_ADDR') as $key){
+        if (array_key_exists($key, $_SERVER) === true){
+            foreach (explode(',', $_SERVER[$key]) as $IPaddress){
+                $IPaddress = trim($IPaddress); // Just to be safe
 
+                if (filter_var($IPaddress,FILTER_VALIDATE_IP,FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE) !== false) {
+
+                    return $IPaddress;
+                }
+            }
+        }
+    }
+}
 ?>
 
 	

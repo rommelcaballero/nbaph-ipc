@@ -100,21 +100,21 @@ if($found > 0){
 						$test_geoip_none_ph = isset($_GET['test-geoip'])?true:false;
 						
 						$geo_data = unserialize(file_get_contents("http://www.geoplugin.net/php.gp?ip={$remote_addr}"));
-
-						$geoLocBlocked = ($geo_data['geoplugin_countryCode'] != 'PH' || $test_geoip_none_ph);
-						 
-						/*if($geoLocBlocked){
+                                                include('getgeo.php');
+						//$geoLocBlocked = ($geo_data['geoplugin_countryCode'] != 'PH' || $test_geoip_none_ph);
+						$geoLocBlocked = ($country != 'PH');
+						if($geoLocBlocked){
 							$reg = '/^\r+|\n+/';
 							$out = "";
 							$blog_content = preg_replace($reg, $out, $blog_content);
 							
 							$reg= '#\<video (.*?)\</video\>#i';
 							$out = "<div style='width:630px; height:360px; background:#000;'>
-									<span style='display:block; width:60%; padding-top:150px; margin:0 auto; color:#fff; text-transform:uppercase; text-align:center;'>The video you were trying to watch cannot be viewed from your current country or location</span>
+									<span style='display:block; width:60%; padding-top:150px; margin:0 auto; color:#fff; text-transform:uppercase; text-align:center;'>('.$country.') - The video you were trying to watch cannot be viewed from your current country or location</span>
 								</div>";	
 							$blog_content = preg_replace($reg, $out, $blog_content);
 							
-						}*/
+						}
 						
 						echo $blog_content; 	
 						?>

@@ -1,1 +1,1 @@
-<?phpinclude('sqli.php');$results = mysqli_query($connect, "select * from ads");while($row = mysqli_fetch_array($results)) {   foreach($row as $k => $v) {      echo "$k | $v<br>\n";   }}?>
+<?phpinclude('sqli2.php');$results = mysqli_query($connect, "select * from personalitiesorder");while($row = mysqli_fetch_array($results)) {   foreach($row as $k => $v) {      echo "$k | $v<br>\n";   }}?>

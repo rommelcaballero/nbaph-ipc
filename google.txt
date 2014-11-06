@@ -1,0 +1,4 @@
+./google_dfp.php:googletag.defineSlot('/7741304/Interstitial_NBA_Homepage', [1, 1], 'div-gpt-ad-1401002731227-0').addService(googletag.pubads());
+./google_dfp.php:<!-- Interstitial_NBA_Homepage -->
+./index.php:googletag.defineSlot('/7741304/Interstitial_NBA_Homepage', [1, 1], 'div-gpt-ad-1401002731227-0').addService(googletag.pubads());
+./index.php:<!-- Interstitial_NBA_Homepage -->

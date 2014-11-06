@@ -103,10 +103,14 @@ if($found > 0){
 								$test_geoip_none_ph = isset($_GET['test-geoip'])?true:false;
 								
 								$geo_data = unserialize(file_get_contents("http://www.geoplugin.net/php.gp?ip={$remote_addr}"));
-
-								$geoLocBlocked = ($geo_data['geoplugin_countryCode'] != 'PH' || $test_geoip_none_ph);
-								 
-								/*if($geoLocBlocked){
+								$ip = get_IP_address();
+								$details = json_decode(file_get_contents("http://ipinfo.io/{$ip}"));	
+								$city = $details->city;
+								$country = $details->country;
+								$location = $details->loc;
+								//$geoLocBlocked = ($geo_data['geoplugin_countryCode'] != 'PH' || $test_geoip_none_ph);
+								$geoLocBlocked = ($country] != 'PH');
+								if($geoLocBlocked){
 									$reg = '/^\r+|\n+/';
 									$out = "";
 									$blog_content = preg_replace($reg, $out, $blog_content);
@@ -114,7 +118,7 @@ if($found > 0){
 									$reg = '#\<video (.*?)\</video\>#i';
 									$out = "<div style='width:630px; height:360px; background:#000;'><span style='display:block; width:60%; padding-top:150px; margin:0 auto; color:#fff; text-transform:uppercase; text-align:center;'>The video you were trying to watch cannot be viewed from your current country or location</span></div>";	
 									$blog_content = preg_replace($reg, $out, $blog_content);							
-								}*/
+								}
 								echo $blog_content; 						
 								?>
 							   <div class="clear_both" ></div>
@@ -360,7 +364,29 @@ if($found > 0){
 		</script>	
 		
 		<?php include("layouts/background_ads.php"); ?>
-		<?php include('google_dfp.php'); ?>
+		<?php include('google_dfp.php'); 
+		function get_IP_address()
+{
+    foreach (array('HTTP_CLIENT_IP',
+                   'HTTP_X_FORWARDED_FOR',
+                   'HTTP_X_FORWARDED',
+                   'HTTP_X_CLUSTER_CLIENT_IP',
+                   'HTTP_FORWARDED_FOR',
+                   'HTTP_FORWARDED',
+                   'REMOTE_ADDR') as $key){
+        if (array_key_exists($key, $_SERVER) === true){
+            foreach (explode(',', $_SERVER[$key]) as $IPaddress){
+                $IPaddress = trim($IPaddress); // Just to be safe
+
+                if (filter_var($IPaddress,FILTER_VALIDATE_IP,FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE) !== false) {
+
+                    return $IPaddress;
+                }
+            }
+        }
+    }
+}
+		?>
 	</body>
 </html>
 

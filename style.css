@@ -22,7 +22,7 @@ img{border:none;}
 #header_ul{list-style-type:none; padding:0;margin:1px 0 0;}#header_ul li{color:#fff;text-align:left;position:relative;float:left;list-style-type:none;font-weight:bold;font-family:Arial,Helvetica,sans-serif;font-size-adjust:none;font-stretch:normal;}
 #header_nav_leaguepass{background:url('/media/2.0/nav_league_pass.jpg') 0 0;width:100px;height:30px;}
 #header_nav_leaguepass:hover{background:url('/media/2.0/nav_league_pass.jpg')0 30px;width:100px;height:30px;}
-.header_nav_link{padding:0 2px;margin:0px;color:#fff; font-size: 12px; display:block;z-index:10;font-family: arial;font-weight: bold;}
+.header_nav_link{padding:0 2px;margin:0px;color:#fff; font-size: 12px; display:none;z-index:10;font-family: arial;font-weight: bold;}
 
 .header_nav_section{padding:8px 3px;margin:0px;color:#fff;text-align:left;font-size:9pt;/*text-transform:uppercase;*/}
 .header_nav_section-image{margin:0px;color:#fff;text-align:left;font-size:9pt;/*text-transform:uppercase;*/}

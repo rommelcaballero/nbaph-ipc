@@ -320,6 +320,7 @@ elseif($parts[0] == "news_archives") {
 	}
 	else {
 	   $start_date = array(@date("Y"), @date("m"), @date("d") - @date("w"));
+	//	$start_date = date('Y-m-d');
 	}
  	
 	 
@@ -481,8 +482,7 @@ elseif($parts[0] == "nba-features") {
    
 	if(isset($parts[1]) && (trim($parts[1])) && (is_numeric($parts[1])))
 	 {
-		 $current_page = trim($parts[1]); 
-		
+		 $current_page = trim($parts[1]); 		
 	 }
 	else
 	 {
