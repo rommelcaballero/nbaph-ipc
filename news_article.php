@@ -98,7 +98,7 @@ include('queries/news_article-queries.php');
 							$city = $details->city;
 							$country = $details->country;
 							$location = $details->loc;
-							$geoLocBlocked = ($country != 'PH' || $test_geoip_none_ph);
+							$geoLocBlocked = ($country != 'PH');
 								$content = stripslashes($article['Body']);
 							
 								if($geoLocBlocked){
