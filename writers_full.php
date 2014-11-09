@@ -109,7 +109,7 @@ if($found > 0){
 								$country = $details->country;
 								$location = $details->loc;
 								//$geoLocBlocked = ($geo_data['geoplugin_countryCode'] != 'PH' || $test_geoip_none_ph);
-								$geoLocBlocked = ($country] != 'PH');
+								$geoLocBlocked = ($country != 'PH');
 								if($geoLocBlocked){
 									$reg = '/^\r+|\n+/';
 									$out = "";
