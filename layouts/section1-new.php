@@ -142,8 +142,8 @@
 			<?php
 			//$pictures = array("/ads/nbacafemanila1.jpg", "/ads/nbacafemanila2.jpg", "/ads/nbacafemanila3.jpg");
 			
-			//$pictures = array("/images/mangtomas1.jpg");
-			$pictures = array("ads/banner.jpg");
+			$pictures = array("/images/mangtomas1.jpg");
+			//$pictures = array("ads/banner.jpg");
 			shuffle($pictures);
 			?>
 
