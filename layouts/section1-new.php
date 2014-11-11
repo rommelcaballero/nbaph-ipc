@@ -141,14 +141,17 @@
 			<?php //if ($ads_array[0]['Link']): ?> 
 			<?php
 			//$pictures = array("/ads/nbacafemanila1.jpg", "/ads/nbacafemanila2.jpg", "/ads/nbacafemanila3.jpg");
-			$pictures = array("/images/mangtomas1.jpg");
+			
+			//$pictures = array("/images/mangtomas1.jpg");
+			$pictures = array("ads/banner.jpg");
 			shuffle($pictures);
 			?>
 
 			<div style="width: 300px; height: 100px; position: relative">
 			<?php 
 			//echo '<a href="http://on.fb.me/1xLPSyh"><img src="'.$pictures[array_rand($pictures)].'" /></a>'; 
-			echo '<a href="http://on.fb.me/10YZjMg"><img src="'.$pictures[array_rand($pictures)].'" /></a>';
+			//echo '<a href="http://on.fb.me/10YZjMg"><img src="'.$pictures[array_rand($pictures)].'" /></a>';
+			echo '<a href="http://ph.nba.com/starting-five"><img src="'.$pictures[array_rand($pictures)].'" /></a>';
 				date_default_timezone_set('Asia/Manila');
 				$datetoday1 = date('Y-m-d H:i:s');
 				$datetoday = strtotime($datetoday1);
