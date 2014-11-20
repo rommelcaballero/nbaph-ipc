@@ -102,6 +102,7 @@ if($found > 0){
 						$geo_data = unserialize(file_get_contents("http://www.geoplugin.net/php.gp?ip={$remote_addr}"));
                                                 include('getgeo.php');
 						//$geoLocBlocked = ($geo_data['geoplugin_countryCode'] != 'PH' || $test_geoip_none_ph);
+                                                $country = file_get_contents("http://api.hostip.info/country.php?ip=".$ip."");
 						$geoLocBlocked = ($country != 'PH');
 						if($geoLocBlocked){
 							$reg = '/^\r+|\n+/';

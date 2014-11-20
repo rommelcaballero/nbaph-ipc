@@ -5,7 +5,9 @@ $ip = get_IP_address();
 	$city = $details->city;
 	$country = $details->country;
 	$location = $details->loc;
-echo $ip;
+echo $ip.'<br>';
+echo $country.'<br>';
+echo $city;
 function get_IP_address()
 {
     foreach (array('HTTP_CLIENT_IP',
