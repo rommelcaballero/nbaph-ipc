@@ -18,13 +18,17 @@
     		$remote_addr = $_SERVER['REMOTE_ADDR'];
 	}
 	$geo_data = unserialize(file_get_contents("http://www.geoplugin.net/php.gp?ip={$remote_addr}"));
-		$ip = get_IP_address();
+	$ip = get_IP_address();
 	$details = json_decode(file_get_contents("http://ipinfo.io/{$ip}"));	
 	$city = $details->city;
-	$country = $details->country;
+	//$country = $details->country;
 	$location = $details->loc;
+        //$country = file_get_contents("http://api.hostip.info/country.php?ip=".$ip."");
+	//echo $country;
+        //$geoLocBlocked = ($geo_data['geoplugin_countryCode'] != 'PH');
+        $visitor = @unserialize(file_get_contents('http://ip-api.com/php/'.$ip));
+        $country = $visitor['countryCode'];
 
-	//$geoLocBlocked = ($geo_data['geoplugin_countryCode'] != 'PH');
 	$geoLocBlocked = ($country != 'PH');
 	$bypass_geoblock = isset($_GET['bypass-geoblock'])?$_GET['bypass-geoblock']:'000';
 	?>
@@ -46,6 +50,8 @@
 	<link rel="stylesheet" type="text/css" href="/css/style.css">	
 	<link rel="stylesheet" type="text/css" href="/css/style-new.css">
 	<link rel="stylesheet" type="text/css" href="/css/videos.css">
+	<script src="http://jwpsrv.com/library/+yiMUGlLEeSjbRLddj37mA.js"></script>
+    <script>jwplayer.key="CCv3FVMMAQbvNrYlxToPwOHEgiPTdmEalpGAkw==";</script>
 	<!--[if IE]>
 	<link rel="stylesheet" type="text/css" href="/css/ie_style.css">
 	<![endif]-->
@@ -130,14 +136,38 @@
 								</div>
 							</script>
 						</div-->							
-						<div class="player-box" style="width:630px; height:360px;" data-engine="flash">
-							<?php if(($geoLocBlocked == true) && ($bypass_geoblock != '123')): ?>	
+						<div id="player-box" class="player-box" style="width:630px; height:360px;" data-engine="flash">
+							<?php if($country != 'PH'): ?>	
 							
 								<div style="width:100%; height:100%; background:#000;">
 									<span style='display:block; width:60%; padding-top:150px; margin:0 auto; color:#fff; text-transform:uppercase; text-align:center;'>The video you were trying to watch cannot be viewed from your current country or location</span>
-								</div> -->
+								</div> 
 							<?php else: ?>
-								<video id='contentElement' width="630" height="360" controls>
+
+							     <?php if($current_video['jwkey']==''): ?>
+							         <video id='contentElement' width="630" height="360" controls>
+									<source type="video/quicktime" src="/ftp-web/<?php echo $current_video['filename'].".".strtolower($current_video['format']); ?>"></source>								
+									<source type="video/mp4" src="/ftp-web/<?php echo $current_video['filename'].".".strtolower($current_video['format']); ?>"></source>								
+								</video>
+						
+						         <?php else: ?>
+                                    <script type="text/javascript">
+                                            jwplayer("player-box").setup({
+		                                    offset: 10,
+                                            file: "http://content.jwplatform.com/videos/3Ct1uj7u.mp4",		
+                                            width: 630,
+                                            height: 360
+
+                                            });
+	                                        jwplayer().onComplete(function() { jwplayer().load({
+											repeat: false,
+		                                    file:"http://content.jwplatform.com/videos/<?php echo $current_video['jwkey']; ?>.mp4"});	
+		                                    jwplayer().play() });
+                                     </script>
+                                     
+                                 <?php endif; ?>
+
+								<!--<video id='contentElement' width="630" height="360" controls>
 									<source type="video/quicktime" src="/ftp-web/<?php echo $current_video['filename'].".".strtolower($current_video['format']); ?>"></source>								
 									<source type="video/mp4" src="/ftp-web/<?php echo $current_video['filename'].".".strtolower($current_video['format']); ?>"></source>								
 								</video>									
@@ -146,7 +176,7 @@
 									top: 0px;
 									left: 0px;
 									width: 630px;				
-									height: 360px;'></div>								
+									height: 360px;'></div>-->								
 							<?php endif; ?>								
 						</div>		
 						<?php else: ?>
@@ -674,3 +704,4 @@ function get_IP_address()
 	</body>
 
 </html>
+
