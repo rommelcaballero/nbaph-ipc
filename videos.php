@@ -147,7 +147,7 @@
 							</script>
 						</div-->							
 						<div id="player-box" class="player-box" style="width:630px; height:360px;" data-engine="flash">
-							<?php if($country != 'PH' && $geoblockedtest=='123'): ?>	
+							<?php if($country != 'PH'): ?>	
 							
 								<div style="width:100%; height:100%; background:#000;">
 									<span style='display:block; width:60%; padding-top:150px; margin:0 auto; color:#fff; text-transform:uppercase; text-align:center;'>The video you were trying to watch cannot be viewed from your current country or location</span>
