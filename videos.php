@@ -52,6 +52,16 @@
 	<link rel="stylesheet" type="text/css" href="/css/videos.css">
 	<script src="http://jwpsrv.com/library/+yiMUGlLEeSjbRLddj37mA.js"></script>
     <script>jwplayer.key="CCv3FVMMAQbvNrYlxToPwOHEgiPTdmEalpGAkw==";</script>
+	<script type="text/javascript" src="paotest.js"></script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js'%2c'ga');
+  ga('create', 'UA-31591663-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
 	<!--[if IE]>
 	<link rel="stylesheet" type="text/css" href="/css/ie_style.css">
 	<![endif]-->
@@ -137,7 +147,7 @@
 							</script>
 						</div-->							
 						<div id="player-box" class="player-box" style="width:630px; height:360px;" data-engine="flash">
-							<?php if($country != 'PH'): ?>	
+							<?php if($country != 'PH' && $geoblockedtest=='123'): ?>	
 							
 								<div style="width:100%; height:100%; background:#000;">
 									<span style='display:block; width:60%; padding-top:150px; margin:0 auto; color:#fff; text-transform:uppercase; text-align:center;'>The video you were trying to watch cannot be viewed from your current country or location</span>
@@ -145,27 +155,23 @@
 							<?php else: ?>
 
 							     <?php if($current_video['jwkey']==''): ?>
-							         <video id='contentElement' width="630" height="360" controls>
-									<source type="video/quicktime" src="/ftp-web/<?php echo $current_video['filename'].".".strtolower($current_video['format']); ?>"></source>								
-									<source type="video/mp4" src="/ftp-web/<?php echo $current_video['filename'].".".strtolower($current_video['format']); ?>"></source>								
-								</video>
-						
-						         <?php else: ?>
-                                    <script type="text/javascript">
-                                            jwplayer("player-box").setup({
-		                                    offset: 10,
-                                            file: "http://content.jwplatform.com/videos/3Ct1uj7u.mp4",		
-                                            width: 630,
-                                            height: 360
 
+                                                                <script>
+                                           jwplayer("player-box").setup({
+                                           file: "/ftp-web/<?php echo $current_video['filename'].".".strtolower($current_video['format']); ?>",
+	                                       autostart: true,
+                                           width: 630,
+                                           height: 360,
+                                           primary: 'flash',
+					   sharing: {},
+                                           ga: {}
                                             });
-	                                        jwplayer().onComplete(function() { jwplayer().load({
-											repeat: false,
-		                                    file:"http://content.jwplatform.com/videos/<?php echo $current_video['jwkey']; ?>.mp4"});	
-		                                    jwplayer().play() });
-                                     </script>
-                                     
-                                 <?php endif; ?>
+                                    </script> 
+						         <?php else: ?>
+
+                                                              <script type="text/javascript" src="http://content.jwplatform.com/players/<?php echo $current_video['jwkey']; ?>-e4fji2rZ.js"></script>
+
+                                                         <?php endif; ?>
 
 								<!--<video id='contentElement' width="630" height="360" controls>
 									<source type="video/quicktime" src="/ftp-web/<?php echo $current_video['filename'].".".strtolower($current_video['format']); ?>"></source>								

@@ -55,8 +55,11 @@ $exclude_id=$firstinfo['StartingfiveID'];
 		<span style="color: #2b75c2; font-weight: bold; font-size: 16px;">#<?php echo $firstinfo['PlayerNumber'];?></span><br>
 	</div>
 	<!-- IFRAME content -->
+	
 	<div style="width: 220px; height: 130px; float: left;">
-		<iframe src="<?php echo $firstinfo['Stats'];?>" align="center" frameborder="0" width="220" height="130" scrolling="no" marginwidth="0" marginheight="0" style="text-align:center; align: center; margin: 0; padding: 0; marginwidth:0">
+		<!--<iframe src="<?php echo $firstinfo['Stats'];?>" align="center" frameborder="0" width="220" height="130" scrolling="no" marginwidth="0" marginheight="0" style="text-align:center; align: center; margin: 0; padding: 0; marginwidth:0">
+		</iframe>-->
+		<iframe src="/playerstats.php?fullname=<?php echo $firstinfo['PlayerName'];?>" align="center" frameborder="0" width="220" height="130" scrolling="no" marginwidth="0" marginheight="0" style="text-align:center; align: center; margin: 0; padding: 0; marginwidth:0">
 		</iframe>
 	</div>
 	<!-- END IFRAME content -->
