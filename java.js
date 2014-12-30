@@ -40,3 +40,15 @@ $(function(){
 	});
 
 });
+
+$(document).ready(function() {
+      $('body').click(function(evt) { 
+        if(evt.target == this){  //only if user clicks the background skin
+          //console.log("background skin click");
+          //window.open("http://bit.ly/1xCdGA9","_target");
+          window.open("http://bit.ly/1uHGLHl","_target");
+        }else{
+          //console.log("somewhere else");
+        }
+      });   
+    });

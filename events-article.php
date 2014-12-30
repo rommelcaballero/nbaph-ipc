@@ -13,6 +13,9 @@ if ($_GET['id'] == "") {
 include('head.php');
 ?>
 <link rel="stylesheet" href="news.css" />
+<?php
+include('article_mrec.php');
+?>
 </head>
 
 <body>
@@ -49,7 +52,7 @@ $row = $results->fetch_array();
          </div>
 
          <div style="margin: 15px 0">
-            <?php echo stripslashes($row['Description']); ?>
+            <?php echo str_replace("<ads>", $art_rep, stripslashes($row['Description'])); ?>
          </div>
       </div>
    </div>

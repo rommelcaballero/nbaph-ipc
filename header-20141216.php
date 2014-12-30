@@ -117,9 +117,6 @@
    googletag.defineSlot('/7741304/NBA_Mobile_320x50', [320, 50], 'div-gpt-ad-1410750169317-1').addService(googletag.pubads());
    googletag.defineSlot('/7741304/NBA_Mobile_300x250', [300, 250], 'div-gpt-ad-1410756752515-0').addService(googletag.pubads());
    googletag.defineSlot('/7741304/NBA_Mobile_300x250', [300, 250], 'div-gpt-ad-1410756752515-1').addService(googletag.pubads());
-   googletag.defineSlot('/7741304/NBA_Mobile_300x250', [300, 250], 'div-gpt-ad-1410756752515-2').addService(googletag.pubads());
-   googletag.defineSlot('/7741304/NBA_Mobile_300x250', [300, 250], 'div-gpt-ad-1410756752515-3').addService(googletag.pubads());
-   googletag.defineSlot('/7741304/NBA_Mobile_300x250', [300, 250], 'div-gpt-ad-1410756752515-4').addService(googletag.pubads());
    googletag.pubads().enableSingleRequest();
    googletag.enableServices();
    });

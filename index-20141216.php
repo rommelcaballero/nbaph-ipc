@@ -15,18 +15,6 @@ http://ph.global.nba.com/articles/licensee_widget_all_iframes.html
 <?php
 include('head.php');
 ?>
-<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js"></script>
-<script type="text/javascript">
-  GS_googleAddAdSenseService("ca-pub-7046465195803313");
-  GS_googleEnableAllServices();
-</script>
-<script type="text/javascript">
-  GA_googleAddSlot("ca-pub-7046465195803313", "NBA_Mobile_300x250_1");
-  GA_googleAddSlot("ca-pub-7046465195803313", "NBA_Mobile_300x250_2");
-</script>
-<script type="text/javascript">
-  GA_googleFetchAds();
-</script>
 </head>
 
 <body>
@@ -81,13 +69,11 @@ include('article_wide.php');
    <div class="nbaph_margin nbaph_standard_only">&nbsp;</div>
 <?php
 $spec_id = "nbaph_standard_only";
-include('article_stream2.php');
-//include('mrecnew.php');
+include('article_stream.php');
 ?>
    <div class="nbaph_margin nbaph_standard_only">&nbsp;</div>
 <?php
 include('article_events.php');
-include('article_standard.php');
 ?>
    <div class="clear nbaph_standard_only"></div>
 <?php
@@ -101,8 +87,7 @@ include('article_features.php');
    <div class="nbaph_margin nbaph_standard_only">&nbsp;</div>
 <?php
 $spec_id = "nbaph_mobile_only";
-//include('article_stream.php');
-//include('article_standard.php');
+include('article_stream.php');
 
 include('article_bench.php');
 ?>
@@ -112,7 +97,7 @@ include('article_around.php');
 ?>
    <div class="clear"></div>
 <?php
-//include('article_standard.php');
+include('article_standard.php');
 ?>
    <div class="nbaph_margin nbaph_standard_only">&nbsp;</div>
 
@@ -122,46 +107,9 @@ include('article_around.php');
 
    <div class="nbaph_margin nbaph_standard_only">&nbsp;</div>
 
-   <!--<div class="nbaph_ads_mobile_only">
-      <div class="nbaph_mrec" style='width:300px; height:250px; margin: 0 auto'>
-         <script type='text/javascript'>
-            GA_googleFillSlot("NBA_Mobile_300x250_2");
-         </script>
-      </div>
-   </div>-->
-
    <div class="nbaph_article_standard">
       <iframe src="http://ph.global.nba.com/articles/licensee_widget_standings.html" frameBorder="0" style="width: 100%; height: 650px" scrolling="no" > </iframe>
    </div>
-
-   <?php
-$spec_id = "nbaph_standard_only";
-include('article_stream.php');
-?>
-   <div class="nbaph_margin nbaph_standard_only">&nbsp;</div>
-<?php
-include('article_events.php');
-?>
-   <div class="clear nbaph_standard_only"></div>
-<?php
-//include('article_bench.php');
-?>
-   <div class="nbaph_margin">&nbsp;</div>
-<?php
-//include('article_features.php');
-?>
-   <div class="clear nbaph_mobile_only"></div>
-   <div class="nbaph_margin nbaph_standard_only">&nbsp;</div>
-<?php
-$spec_id = "nbaph_mobile_only";
-include('article_stream.php');
-
-include('article_bench.php');
-?>
-   <div class="nbaph_margin nbaph_mobile_only">&nbsp;</div>
-<?php
-//include('article_around.php');
-?>
 
    <div class="clear"></div>
 </div>

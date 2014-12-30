@@ -9,6 +9,9 @@ include('sql.php');
 include('head.php');
 ?>
 <link rel="stylesheet" href="news.css" />
+<?php
+include('article_mrec.php');
+?>
 </head>
 
 <body>
@@ -44,7 +47,7 @@ $row = $results->fetch_array();
             <img src="<?php echo $row['Photo']; ?>" alt="<?php echo stripslashes($row['Title']); ?>" />
          </div>
 
-         <?php echo stripslashes($row['Body']); ?>
+         <?php echo str_replace("<ads>", $art_rep, stripslashes($row['Body'])); ?>
       </div>
    </div>
 <?php
