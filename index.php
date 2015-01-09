@@ -15,7 +15,7 @@
 <html>
 <head>
 	<title>NBA Philippines</title>
-	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" /> 	
+	<meta charset="UTF-8">
 	
 	<META http-equiv="X-UA-Compatible" content="IE=9" />
 	<meta http-equiv="Cache-control" content="public">

@@ -35,7 +35,8 @@ include('queries/news_article-queries.php');
 	<!-- 3. flowplayer -->
 	<script src="//releases.flowplayer.org/5.4.4/flowplayer.min.js"></script>
 
-
+<script src="http://jwpsrv.com/library/+yiMUGlLEeSjbRLddj37mA.js"></script>
+    <script>jwplayer.key="CCv3FVMMAQbvNrYlxToPwOHEgiPTdmEalpGAkw==";</script>
 <!--<script type="text/javascript" src="/jquery-1.7.1.min.js"></script>-->
 <script type="text/javascript" src="/jquery.tools.min.js"></script>
 <script type="text/javascript" src="/jquery.imgpreload.js"></script>

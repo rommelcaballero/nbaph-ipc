@@ -147,7 +147,7 @@
 							</script>
 						</div-->							
 						<div id="player-box" class="player-box" style="width:630px; height:360px;" data-engine="flash">
-							<?php if($country != 'PH'): ?>	
+							<?php if($country != 'PH' && $geoblockedtest=='123'): ?>	
 							
 								<div style="width:100%; height:100%; background:#000;">
 									<span style='display:block; width:60%; padding-top:150px; margin:0 auto; color:#fff; text-transform:uppercase; text-align:center;'>The video you were trying to watch cannot be viewed from your current country or location</span>
@@ -164,7 +164,11 @@
                                            height: 360,
                                            primary: 'flash',
 					   sharing: {},
-                                           ga: {}
+                                           ga: {},
+                                           advertising: {
+                                                 client: "vast",
+                                                 tag: ["http://pubads.g.doubleclick.net/gampad/ads?sz=630x360&iu=/7741304/Video_630x360&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=http://ph.nba.com/?gr=www&correlator=[timestamp]", "http://pubads.g.doubleclick.net/gampad/ads?sz=630x360&iu=/7741304/Video_630x360&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=http://ph.nba.com/?gr=www&correlator=[timestamp]", "http://pubads.g.doubleclick.net/gampad/ads?sz=630x360&iu=/7741304/Video_630x360&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=http://ph.nba.com/?gr=www&correlator=[timestamp]"]
+                                           }
                                             });
                                     </script> 
 						         <?php else: ?>

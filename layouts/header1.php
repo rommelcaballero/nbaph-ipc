@@ -293,7 +293,7 @@
       <img src="https://s3-ap-southeast-1.amazonaws.com/nbaphfiles/sib2/images/header_nba_store.png" style="margin-top: 3px" alt="NBA Store Link" />
    </a>
 
-   <a href="https://www.2k.com/games/nba-2k15" class="nbaph_mobile_img_link">
+   <a href="http://xplay.com.ph/article/?t=NBA%26reg%3B+2K15+Season+Tips-Off+Today" class="nbaph_mobile_img_link">
       <img src="https://s3-ap-southeast-1.amazonaws.com/nbaphfiles/sib2/images/header_nba_2k15.png" style="margin-top: 7px" alt="NBA2k15" />
    </a>
 </div>
