@@ -140,7 +140,7 @@ include('article_stream.php');
 ?>
    <div class="nbaph_margin nbaph_standard_only">&nbsp;</div>
 <?php
-include('article_events.php');
+//include('article_events.php');
 ?>
    <div class="clear nbaph_standard_only"></div>
 <?php
@@ -156,7 +156,7 @@ include('article_events.php');
 $spec_id = "nbaph_mobile_only";
 include('article_stream.php');
 
-include('article_bench.php');
+//include('article_bench.php');
 ?>
    <div class="nbaph_margin nbaph_mobile_only">&nbsp;</div>
 <?php

@@ -12,14 +12,20 @@
   GS_googleEnableAllServices();
 </script>
 <script type="text/javascript">
-  GA_googleAddSlot("ca-pub-7046465195803313", "NBA_Mobile_300x250_1");
+  GA_googleAddSlot("ca-pub-7046465195803313", "NBA_Mobile_300x250");
 </script>
 <script type="text/javascript">
   GA_googleFetchAds();
 </script>
+
+
 <script type="text/javascript">
-      GA_googleFillSlot("NBA_Mobile_300x250_1");
+      GA_googleFillSlot("NBA_Mobile_300x250");
 </script>
+   
+
+   
+
       </div>
 
       <!--<iframe src="http://our.glossip.nl/ad2/5188c18f17de85ad47000000" height="250" width="300" id="breakingburner-iframe" frameborder="no" scrolling="no"></iframe>-->

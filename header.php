@@ -231,8 +231,8 @@
             <a href="#" class="mobilenav">Social Links</a>
 
             <ul class="nbaph_submenu_mobile">
-               <li><a href="http://www.facebook.com/philsnba?ref=hl">Facebook</a></li>
-               <li><a href="https://twitter.com/NBA_Philippines">Twitter</a></li>
+               <li><a href="http://www.facebook.com/philsnba?ref=hl"></a></li>
+               <li><a href="https://twitter.com/NBA_Philippines"></a></li>
             </ul>
          </li>
          <li> <a href="photos.php" class="mobilenav" datasolo="true">Photos</a> </li>
@@ -321,8 +321,8 @@
             <a href="#"> Social Links <img src="imagesph/header_link_arrow.png" class="nbaph_header_nav_arrow" alt="link arrow" /> </a>
 
             <ul class="nbaph_submenu">
-               <li><a href="http://www.facebook.com/philsnba?ref=hl">Facebook</a></li>
-               <li><a href="https://twitter.com/NBA_Philippines">Twitter</a></li>
+               <li><a href="http://www.facebook.com/philsnba?ref=hl"></a></li>
+               <li><a href="https://twitter.com/NBA_Philippines"></a></li>
             </ul>
          </li>
 
@@ -352,8 +352,8 @@
 
    <!-- social media -->
    <!-- a href="#" id="login">LOGIN</a -->
-   <a href="https://twitter.com/NBA_Philippines" id="twitter" class="nba_sm">Twitter</a>
-   <a href="http://www.facebook.com/philsnba?ref=hl" id="facebook" class="nba_sm">Facebook</a>
+   <a href="https://twitter.com/NBA_Philippines" id="twitter" class="nba_sm"></a>
+   <a href="http://www.facebook.com/philsnba?ref=hl" id="facebook" class="nba_sm"></a>
    <span class='clear'></span>
 
 </div>
@@ -364,10 +364,10 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1410750169317-1');
 </script>
 </div>
 
-<div id="nbaph_mobile_img_links">
-   <a href="http://nba.com/global/storelinkhandler.html" class="nbaph_mobile_img_link">
+ <div id="nbaph_mobile_img_links">
+   <!--<a href="http://nba.com/global/storelinkhandler.html" class="nbaph_mobile_img_link">
       <img src="imagesph/header_nba_store.png" style="margin-top: 3px" alt="NBA Store Link" />
-   </a>
+   </a>-->
 
    <a href="https://www.2k.com/games/nba-2k15" class="nbaph_mobile_img_link">
       <img src="imagesph/header_nba_2k15.png" style="margin-top: 7px" alt="NBA2k15" />
