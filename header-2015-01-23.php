@@ -2,22 +2,13 @@
   <div class="hidden-sm" id="global-nav" >
     <div id="edition_wrapper">
       <div id="edition" class="edition_open">
-         <form name="editionForm" class="hidden-sm">
-            <div class="rule"></div>
-            <span class="choose-edition">Please select your default edition</span>
-            <span class='controls'>
-               <input type="radio" name="edition" value="us" onClick="set_HP_default('us');">US
-               <input type="radio" name="edition" value="ph" onClick="set_HP_default('ph');">Philippines
-            </span>
-         </form>
-         <div id="edition-mobile" class="visible-sm">
-            <span class="edition-label">Set default: </span>
-            <select id="edition-select" value="us" name="us">
-               <option value="us" selected="selected">US</option>
-               <option value="ph">Philippines</option>
-            </select>
-            <div class="edition-go" onClick="setEdition()">Go</div>
-         </div>
+        <form name="editionForm">
+          <div class="rule"></div>
+          <span class="choose-edition">Please select your default edition</span>
+          <span class='controls'>
+            <INPUT TYPE="radio" NAME="edition" VALUE="us" onClick="set_HP_default('us');">US</input>
+          </span>
+        </form>
       </div>
       <div id="edition_message" class="edition_closed">
         <span class="edition-message">Your default site has been set for 7 days</span>
@@ -330,8 +321,8 @@
             <a href="#"> Social Links <img src="imagesph/header_link_arrow.png" class="nbaph_header_nav_arrow" alt="link arrow" /> </a>
 
             <ul class="nbaph_submenu">
-               <li><a href="http://www.facebook.com/philsnba?ref=hl">Facebook</a></li>
-               <li><a href="https://twitter.com/NBA_Philippines">Twitter</a></li>
+               <li><a href="http://www.facebook.com/philsnba?ref=hl"></a></li>
+               <li><a href="https://twitter.com/NBA_Philippines"></a></li>
             </ul>
          </li>
 

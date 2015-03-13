@@ -38,7 +38,8 @@
          </script>
       </div>-->
 
-      <a href="https://www.2k.com/games/nba-2k15" target="_blank"><img src="imagesph/mrec_nba_2k15.jpg" style="width: 100%; margin: 10px 0"></a>
+      <!--<a href="https://www.2k.com/games/nba-2k15" target="_blank"><img src="imagesph/mrec_nba_2k15.jpg" style="width: 100%; margin: 10px 0"></a>-->
+	  <a href="http://bit.ly/1vMVa5J" target="_blank"><img src="ads/01092014_Friday_PhilStar_300x100_1.jpg" style="width: 100%; margin: 10px 0"></a>
    </div>
 <div>
 <!--<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">

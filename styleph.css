@@ -20,6 +20,8 @@ ul, li{ list-style: none; }
 
 body {
 min-width: 320px;
+/*background: #fff url('http://mobile.nba2k.ph/ads/skinning-nba3.jpg') no-repeat fixed center 0 !important;*/
+/*cursor: pointer;*/
 }
 
 div {
@@ -908,7 +910,8 @@ width: 100%;
 @media only screen and (max-width: 765px){
 
 	/* hide other elems*/
-	#nbaph_header_img_links,#nbaph_header_ul,#nbaph_topheader,#banner_ads{ display: none; }
+	/*#nbaph_header_img_links,#nbaph_header_ul,#nbaph_topheader,#banner_ads{ display: none; }*/
+	#nbaph_header_img_links,#nbaph_header_ul,#banner_ads{ display: none; }
 
 	/*show mobile menu btn*/
 	#nbaph_header_mobilemenu_btn{ display: block; }

@@ -11,7 +11,6 @@ var IframeResizeListener = {
 
   listen :  function() {
     //bind current values with closure
-
     var topic = IframeResizeListener.topic;
     var id = IframeResizeListener.iframeId;
     var path = IframeResizeListener.iframePath;
@@ -21,7 +20,8 @@ var IframeResizeListener = {
 
     function resizeElements(event){
       if(IframeResizeListener.debug) {console.log("IframeResizeListener::resize message received"); }
-
+      console.log('aligning scoreboard.....');
+      $(".sib-scoreboard > .scoreboard > .page > .game.post > .team > .score").css('padding-top','9px');
       var windowOrigin = window.location.protocol + "//" + window.location.host;
       var eventDomain = event.origin.replace(/.*?:\/\//g, "");
       var authorized = false;

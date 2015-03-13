@@ -1,5 +1,6 @@
 <?php
 include('sql.php');
+include('queries/video-queries.php');
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
@@ -11,6 +12,9 @@ include('head.php');
 <link rel="stylesheet" href="videos.css" />
 <link rel="stylesheet" href="//releases.flowplayer.org/5.5.0/skin/minimalist.css">
 <script type="text/javascript" src="//releases.flowplayer.org/5.5.0/flowplayer.min.js"></script>
+	<script src="http://jwpsrv.com/library/+yiMUGlLEeSjbRLddj37mA.js"></script>
+    <script>jwplayer.key="CCv3FVMMAQbvNrYlxToPwOHEgiPTdmEalpGAkw==";</script>
+
 </head>
 
 <body>
@@ -30,16 +34,78 @@ else {
 
 $results = $connect->query($q);
 $row = $results->fetch_array();
+
+// query selected video
+	$id = isset($_GET['id'])?filter_var($_GET['id'],FILTER_VALIDATE_INT):0;
+	if($id > 0){
+		$result = mysqli_query($connect, "SELECT id,filename,description,title,media_game_date,duration,player,large_image,format,jwkey FROM new_videos WHERE id=". $id);
+		while($row = mysqli_fetch_array($result)){			
+			if($row['large_image']==''){
+				$row['large_image']="default2.jpg";
+				}
+			$current_video = array(
+				'id' => $row['id'],
+				'filename' => $row['filename'],
+				'description' => $row['description'],
+				'title' => $row['title'],
+				'media_game_date' => $row['media_game_date'],
+				'duration' => $row['duration'],
+				'player' => $row['player'],
+				'large_image' => $row['large_image'],
+				'format' => $row['format'],
+				'jwkey' => $row['jwkey']
+				);
+		}
+	}else{
+		$result = mysqli_query($connect, "SELECT id,filename,description,title,media_game_date,duration,player,large_image,format,jwkey FROM new_videos Order by date_created desc limit 1");
+		while($row = mysqli_fetch_array($result)){
+			if($row['large_image']==''){
+				$row['large_image']="default2.jpg";
+			}
+			$current_video = array(
+				'id' => $row['id'],
+				'filename' => $row['filename'],
+				'description' => $row['description'],
+				'title' => $row['title'],
+				'media_game_date' => $row['media_game_date'],
+				'duration' => $row['duration'],
+				'player' => $row['player'],
+				'large_image' => $row['large_image'],
+				'format' => $row['format'],
+				'jwkey' => $row['jwkey']
+				);
+		}
+		//$current_video = false;
+	}	
+
 ?>
       <div id="nbaph_video_headliner">
          <div class="nbaph_video_top_padding">
             <div id="nbaph_video_headliner_preview" class="flowplayer">
                <!-- a href="#"><img src="http://ph.nba.com/ftp-web/<?php echo $row['large_image']; ?>" alt="<?php echo $row['title']; ?>" /></a -->
                <!-- video id='contentElement' width="630" height="360" controls -->
-               <video id='contentElement' style="width: 100%; height: 100%" controls>
+               <!--<video id='contentElement' style="width: 100%; height: 100%" controls>
                   <source type="video/quicktime" src="/ftp-web/<?php echo $row['filename']; ?>.mov">
                   <source type="video/mp4" src="/ftp-web/<?php echo $row['filename']; ?>.mov">
-               </video>
+               </video>-->
+
+               <!--<script>
+                                           jwplayer("player-box").setup({
+                                           file: "/ftp-web/<?php echo $current_video['filename'].".".strtolower($current_video['format']); ?>",
+	                                       autostart: true,
+                                           width: 630,
+                                           height: 360,
+                                           primary: 'flash',
+					                       sharing: {},
+                                           ga: {},
+                                           advertising: {
+                                                 client: "vast",
+                                                 tag: ["http://pubads.g.doubleclick.net/gampad/ads?sz=630x360&iu=/7741304/Video_630x360&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=http://ph.nba.com/?gr=www&correlator=[timestamp]", "http://pubads.g.doubleclick.net/gampad/ads?sz=630x360&iu=/7741304/Video_630x360&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=http://ph.nba.com/?gr=www&correlator=[timestamp]", "http://pubads.g.doubleclick.net/gampad/ads?sz=630x360&iu=/7741304/Video_630x360&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=http://ph.nba.com/?gr=www&correlator=[timestamp]"]
+                                           }
+                                            });
+                                    </script> -->
+									<script type="text/javascript" src="http://content.jwplatform.com/players/<?php echo $current_video['jwkey']; ?>-e4fji2rZ.js"></script>
+
             </div>
 
             <div id="nbaph_video_headliner_description">

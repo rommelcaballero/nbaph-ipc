@@ -5,7 +5,7 @@ headerRemoveMobile=function(){
 
 
 $(function(){
-
+$(".sib-scoreboard > .scoreboard > .page > .game.post > .team > .score").css('padding-top','9px');
 	$(window).resize(function(){
 		var windowWidth = $(window).width();
 		if(windowWidth>=765)headerRemoveMobile();
@@ -47,6 +47,7 @@ $(document).ready(function() {
           //console.log("background skin click");
           //window.open("http://bit.ly/1xCdGA9","_target");
          //window.open("http://bit.ly/1uHGLHl","_target");
+           //window.open("http://bit.ly/1vMVa5J","_target");
         }else{
           //console.log("somewhere else");
         }

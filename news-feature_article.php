@@ -29,7 +29,7 @@ $row = $results->fetch_array();
    </div>
 
    <div style="padding: 5px">
-      <div class="addthis_toolbox addthis_default_style ">
+      <div class="addthis_toolbox addthis_default_style " style="-ms-transform: scale(2,3); /* IE 9 */ -webkit-transform: scale(.2,.3); /* Safari */ transform: scale(1,1.7);">
          <a class="addthis_button_preferred_1"></a>
          <a class="addthis_button_preferred_2"></a>
          <a class="addthis_button_preferred_3"></a>
